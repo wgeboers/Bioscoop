@@ -18,9 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Extensions\" />
-    <Folder Include="Repositories\Contracts\" />
+    <ProjectReference Include="..\Bioscoop.Models\Bioscoop.Models.csproj" />
   </ItemGroup>
 
 </Project>

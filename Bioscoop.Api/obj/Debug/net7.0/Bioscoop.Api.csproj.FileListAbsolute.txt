@@ -74,3 +74,5 @@ F:\Projecten\Bioscoop\Bioscoop.Api\obj\Debug\net7.0\refint\Bioscoop.Api.dll
 F:\Projecten\Bioscoop\Bioscoop.Api\obj\Debug\net7.0\Bioscoop.Api.pdb
 F:\Projecten\Bioscoop\Bioscoop.Api\obj\Debug\net7.0\Bioscoop.Api.genruntimeconfig.cache
 F:\Projecten\Bioscoop\Bioscoop.Api\obj\Debug\net7.0\ref\Bioscoop.Api.dll
+F:\Projecten\Bioscoop\Bioscoop.Api\bin\Debug\net7.0\Bioscoop.Models.dll
+F:\Projecten\Bioscoop\Bioscoop.Api\bin\Debug\net7.0\Bioscoop.Models.pdb

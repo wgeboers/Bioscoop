@@ -1,4 +1,6 @@
 using Bioscoop.Api.Data;
+using Bioscoop.Api.Repositories;
+using Bioscoop.Api.Repositories.Contracts;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +15,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContextPool<BioscoopDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("BioscoopConnection"))
 );
+
+builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 
 var app = builder.Build();
 
