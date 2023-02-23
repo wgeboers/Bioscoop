@@ -14,9 +14,10 @@ namespace Bioscoop.Api.Repositories
             this.bioscoopDbContext = bioscoopDbContext;
         }
 
-        public Task<Movie> GetMovie(int id)
+        public async Task<Movie> GetMovie(int id)
         {
-            throw new NotImplementedException();
+            var movie = await bioscoopDbContext.Movies.FindAsync(id);
+            return movie;
         }
 
         public async Task<IEnumerable<Movie>> GetMovies()

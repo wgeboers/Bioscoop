@@ -40,5 +40,29 @@ namespace Bioscoop.Api.Controllers
                     "Error retrieving data from the database");
             }
         }
+
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<MovieDto>> GetMovie(int id)
+        {
+            try
+            {
+                var movie = await this.movieRepository.GetMovie(id);
+
+                if (movie == null)
+                {
+                    return BadRequest();
+                }
+                else
+                {
+                    var movieDto = movie.ConvertToDto();
+                    return Ok(movieDto);
+                }
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error retrieving data from the database");
+            }
+        }
     }
 }

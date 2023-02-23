@@ -15,8 +15,21 @@ namespace Bioscoop.Api.Extensions
                         Description = movie.Description,
                         ImageURL = movie.ImageURL,
                         PlayTime = movie.PlayTime,
-                        MinimumAge = movie.MinimumAge,
+                        MinimumAge = movie.MinimumAge
                     }).ToList();
+        }
+
+        public static MovieDto ConvertToDto(this Movie movie)
+        {
+            return new MovieDto
+            {
+                Id = movie.Id,
+                Title = movie.Title,
+                Description = movie.Description,
+                ImageURL = movie.ImageURL,
+                PlayTime = movie.PlayTime,
+                MinimumAge = movie.MinimumAge
+            };
         }
     }
 }
