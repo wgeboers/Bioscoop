@@ -2,10 +2,6 @@
 
 namespace Bioscoop.Models
 {
-    /*
-     * TODO: 
-     * CREATE UNIT TEST
-     */
     public class Hall
     {
 
@@ -25,42 +21,45 @@ namespace Bioscoop.Models
 
         /*
          * TO (MAYBE) DO:
-         * -Create UnitTest
          * -Find a way to match a sublist of an amount of seats to the overall seatplan
-         * !!!IF ALLOCATION REMOVAL IS USED THE ABOVE TODO MUST BE IMPLEMENTED!!!
+         * !!!IF ALLOCATION REMOVAL/PICKING IS USED THE ABOVE TODO MUST BE IMPLEMENTED!!!
          * 
          * Adds seats to the seatplan sequentially
          */
-        public void AddSeatsToSeatPlan(int amount)
+        public bool AddSeatsToSeatPlan(int amount)
         {
-           if ((Capacity - SeatPlan.Count) >= amount)
+           if (CheckCurrentCapacity() >= amount)
            {
                 for (int i = 0; i < amount; i++)
                 {
                     SeatPlan!.Add(true);
                 }
-            }
+                return true;
+           }
+            return false;
         }
 
         /*
          * To be used for adding seat allocations based on a location picked... (Sprint 2/3)
          */
-        public void AddSeatAllocation(int seatIndex, int amount = 0)
+        public bool AddSeatAllocation(int seatIndex, int amount = 0)
         {
-            if (amount > 0 && Capacity - SeatPlan.Count > amount)
-            {
-                for (int i = 0; i <= amount; i++)
-                {
-                    SeatPlan[seatIndex] = true;
-                }
-            }
-            else
+            if (CheckCurrentCapacity() >= amount)
             {
                 if (amount == 0)
                 {
                     SeatPlan![seatIndex] = true;
                 }
+                else if (amount > 0)
+                {
+                    for (int i = 0; i <= amount; i++)
+                    {
+                        SeatPlan![seatIndex] = true;
+                    }
+                }
+                return true;
             }
+            return false;
         }
 
         /*
@@ -68,8 +67,13 @@ namespace Bioscoop.Models
          */
         public void RemoveSeatAllocation(int seatNumber)
         {
-            SeatPlan.RemoveAt(seatNumber - 1);
+            SeatPlan!.RemoveAt(seatNumber - 1);
 
+        }
+
+        public int CheckCurrentCapacity()
+        {
+            return Capacity - SeatPlan.Count;
         }
     }
 }
