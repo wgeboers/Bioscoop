@@ -128,10 +128,42 @@ namespace Bioscoop.Api.Data
                 RoomId = 2,
                 StartDateTime = DateTime.Now
             });
+
+            //Add Tickets
+            modelBuilder.Entity<Ticket>().HasData(new Ticket
+            {
+                Id = 1,
+                Code = 000001,
+                ShowId = 1,
+                RowNumber = 1,
+                SeatNumber = 1,
+                Price = 9.00
+            });
+
+            modelBuilder.Entity<Ticket>().HasData(new Ticket
+            {
+                Id = 2,
+                Code = 000002,
+                ShowId = 1,
+                RowNumber = 1,
+                SeatNumber = 2,
+                Price = 9.00
+            });
+
+            modelBuilder.Entity<Ticket>().HasData(new Ticket
+            {
+                Id = 3,
+                Code = 000003,
+                ShowId = 1,
+                RowNumber = 1,
+                SeatNumber = 3,
+                Price = 9.00
+            });
         }
 
         public DbSet<Movie> Movies { get; set;}
         public DbSet<Room> Rooms { get; set;}
         public DbSet<Show> Shows { get; set;}
+        public DbSet<Ticket> Tickets { get; set; }
     }
 }

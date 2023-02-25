@@ -79,5 +79,32 @@ namespace Bioscoop.Api.Extensions
                 StartDateTime = show.StartDateTime,
             };
         }
+
+        public static IEnumerable<TicketDto> ConvertToDto(this IEnumerable<Ticket> tickets)
+        {
+            return (from ticket in tickets
+                    select new TicketDto
+                    {
+                        Id = ticket.Id,
+                        Code = ticket.Code,
+                        ShowId = ticket.ShowId,
+                        RowNumber = ticket.RowNumber,
+                        SeatNumber = ticket.SeatNumber,
+                        Price = ticket.Price,
+                    }).ToList();
+        }
+
+        public static TicketDto ConvertToDto(this Ticket ticket)
+        {
+            return new TicketDto
+            {
+                Id = ticket.Id,
+                Code = ticket.Code,
+                ShowId = ticket.ShowId,
+                RowNumber = ticket.RowNumber,
+                SeatNumber = ticket.SeatNumber,
+                Price = ticket.Price,
+            };
+        }
     }
 }
