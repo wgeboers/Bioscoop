@@ -6,9 +6,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Bioscoop.Api.Repositories
 {
-    //Bij post nog code genereren.
-    //Bij post controle of er al een ticket bestaat voor de zelfde show op de zelfde rij en stoel
-
     public class TicketRepository : ITicketRepository
     {
         private readonly BioscoopDbContext bioscoopDbContext;
@@ -37,15 +34,31 @@ namespace Bioscoop.Api.Repositories
                                                                  c.SeatNumber == seatNumber);
         }
 
+        private async Task<int> TicketCodeGenerator()
+        {
+            int code;
+
+            while (true)
+            {
+                code = new Random().Next(0, 999999);
+                var alreadyExists = await this.bioscoopDbContext.Tickets.AnyAsync(c => c.Code == code);
+                if (!alreadyExists) break;
+            }
+
+            return code;
+        }
+
         public async Task<Ticket> AddTicket(TicketToAddDto ticketToAddDto)
         {
             if (await TicketExists(ticketToAddDto.ShowId, ticketToAddDto.RowNumber, ticketToAddDto.SeatNumber) == false)
             {
+                var code = await TicketCodeGenerator();
                 var ticket = await (from show in this.bioscoopDbContext.Shows
                                     where show.Id == ticketToAddDto.ShowId
                                     select new Ticket
                                     {
                                         ShowId = show.Id,
+                                        Code = code,
                                         RowNumber = ticketToAddDto.RowNumber,
                                         SeatNumber = ticketToAddDto.SeatNumber,
                                         Price = ticketToAddDto.Price,
