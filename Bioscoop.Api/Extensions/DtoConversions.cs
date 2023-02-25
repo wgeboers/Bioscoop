@@ -56,5 +56,28 @@ namespace Bioscoop.Api.Extensions
                 WheelchairFriendly = room.WheelchairFriendly,
             };
         }
+
+        public static IEnumerable<ShowDto> ConvertToDto(this IEnumerable<Show> shows)
+        {
+            return (from show in shows
+                    select new ShowDto
+                    {
+                        Id = show.Id,
+                        MovieId = show.MovieId,
+                        RoomId = show.RoomId,
+                        StartDateTime = show.StartDateTime,
+                    }).ToList();
+        }
+
+        public static ShowDto ConvertToDto(this Show show)
+        {
+            return new ShowDto
+            {
+                Id = show.Id,
+                MovieId = show.MovieId,
+                RoomId = show.RoomId,
+                StartDateTime = show.StartDateTime,
+            };
+        }
     }
 }

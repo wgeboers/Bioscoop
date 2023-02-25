@@ -18,6 +18,7 @@ builder.Services.AddDbContextPool<BioscoopDbContext>(options =>
 
 builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 builder.Services.AddScoped<IRoomRepository, RoomRepository>();
+builder.Services.AddScoped<IShowRepository, ShowRepository>();
 
 var app = builder.Build();
 
