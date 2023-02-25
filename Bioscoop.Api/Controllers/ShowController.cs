@@ -1,4 +1,5 @@
-﻿using Bioscoop.Api.Extensions;
+﻿using Bioscoop.Api.Entities;
+using Bioscoop.Api.Extensions;
 using Bioscoop.Api.Repositories.Contracts;
 using Bioscoop.Models.Dtos;
 using Microsoft.AspNetCore.Http;
@@ -62,6 +63,49 @@ namespace Bioscoop.Api.Controllers
             {
                 return StatusCode(StatusCodes.Status500InternalServerError,
                     "Error retrieving data from the database");
+            }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<ShowDto>> PostShow([FromBody] ShowToAddDto showToAddDto)
+        {
+            try
+            {
+                var newShow = await this.showRepository.AddShow(showToAddDto);
+
+                if (newShow == null)
+                {
+                    return NoContent();
+                }
+
+                var newShowDto = newShow.ConvertToDto();
+
+                return CreatedAtAction(nameof(GetShow), new { id = newShowDto.Id }, newShowDto);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error retrieving data from the database");
+            }
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult<Show>> DeleteShow(int id)
+        {
+            try
+            {
+                var show = await this.showRepository.DeleteShow(id);
+                if (show == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(show);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                                    "Error retrieving data from the database");
             }
         }
     }
