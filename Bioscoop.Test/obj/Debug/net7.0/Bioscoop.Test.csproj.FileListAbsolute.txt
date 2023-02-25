@@ -1,0 +1,5 @@
+F:\Projecten\Bioscoop\Bioscoop.Test\obj\Debug\net7.0\Bioscoop.Test.csproj.AssemblyReference.cache
+F:\Projecten\Bioscoop\Bioscoop.Test\obj\Debug\net7.0\Bioscoop.Test.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projecten\Bioscoop\Bioscoop.Test\obj\Debug\net7.0\Bioscoop.Test.AssemblyInfoInputs.cache
+F:\Projecten\Bioscoop\Bioscoop.Test\obj\Debug\net7.0\Bioscoop.Test.AssemblyInfo.cs
+F:\Projecten\Bioscoop\Bioscoop.Test\obj\Debug\net7.0\Bioscoop.Test.csproj.CoreCompileInputs.cache

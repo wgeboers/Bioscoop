@@ -64,8 +64,74 @@ namespace Bioscoop.Api.Data
                 PlayTime = 117,
                 MinimumAge = 12
             });
+
+            //Add Rooms
+            modelBuilder.Entity<Room>().HasData(new Room
+            {
+                Id = 1,
+                Name = "Zaal 1",
+                Seats = 120,
+                Rows = 8,
+                WheelchairFriendly = true
+            });
+
+            modelBuilder.Entity<Room>().HasData(new Room
+            {
+                Id = 2,
+                Name = "Zaal 2",
+                Seats = 120,
+                Rows = 8,
+                WheelchairFriendly = true
+            });
+
+            modelBuilder.Entity<Room>().HasData(new Room
+            {
+                Id = 3,
+                Name = "Zaal 3",
+                Seats = 120,
+                Rows = 8,
+                WheelchairFriendly = true
+            });
+
+            modelBuilder.Entity<Room>().HasData(new Room
+            {
+                Id = 4,
+                Name = "Zaal 4",
+                Seats = 60,
+                Rows = 6,
+                WheelchairFriendly = true
+            });
+
+            modelBuilder.Entity<Room>().HasData(new Room
+            {
+                Id = 5,
+                Name = "Zaal 5",
+                Seats = 50,
+                Rows = 4,
+                WheelchairFriendly = false
+            });
+
+            modelBuilder.Entity<Room>().HasData(new Room
+            {
+                Id = 6,
+                Name = "Zaal 6",
+                Seats = 50,
+                Rows = 4,
+                WheelchairFriendly = false
+            });
+
+            //Add Shows
+            modelBuilder.Entity<Show>().HasData(new Show
+            {
+                Id = 1,
+                MovieId = 3,
+                RoomId = 2,
+                StartDateTime = DateTime.Now
+            });
         }
 
         public DbSet<Movie> Movies { get; set;}
+        public DbSet<Room> Rooms { get; set;}
+        public DbSet<Show> Shows { get; set;}
     }
 }

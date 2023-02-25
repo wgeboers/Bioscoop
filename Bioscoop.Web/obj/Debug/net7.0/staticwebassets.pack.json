@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\Bioscoop.Web.styles.css"
     },
     {
+      "Id": "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\AvatarTheWayOfTheWater.jpg",
+      "PackagePath": "staticwebassets\\Images\\AvatarTheWayOfTheWater.jpg"
+    },
+    {
+      "Id": "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Babylon.jpg",
+      "PackagePath": "staticwebassets\\Images\\Babylon.jpg"
+    },
+    {
+      "Id": "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\PussInBootsTwo.jpg",
+      "PackagePath": "staticwebassets\\Images\\PussInBootsTwo.jpg"
+    },
+    {
+      "Id": "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\TheWhale.jpg",
+      "PackagePath": "staticwebassets\\Images\\TheWhale.jpg"
+    },
+    {
+      "Id": "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\ant-man.jpg",
+      "PackagePath": "staticwebassets\\Images\\ant-man.jpg"
+    },
+    {
       "Id": "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },

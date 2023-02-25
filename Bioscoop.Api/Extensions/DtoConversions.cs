@@ -31,5 +31,30 @@ namespace Bioscoop.Api.Extensions
                 MinimumAge = movie.MinimumAge
             };
         }
+
+        public static IEnumerable<RoomDto> ConvertToDto(this IEnumerable<Room> rooms)
+        {
+            return (from room in rooms
+                    select new RoomDto
+                    {
+                        Id = room.Id,
+                        Name = room.Name,
+                        Seats = room.Seats,
+                        Rows = room.Rows,
+                        WheelchairFriendly = room.WheelchairFriendly,
+                    }).ToList();
+        }
+
+        public static RoomDto ConvertToDto(this Room room)
+        {
+            return new RoomDto
+            {
+                Id = room.Id,
+                Name = room.Name,
+                Seats = room.Seats,
+                Rows = room.Rows,
+                WheelchairFriendly = room.WheelchairFriendly,
+            };
+        }
     }
 }
