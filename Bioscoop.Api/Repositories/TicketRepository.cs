@@ -6,6 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Bioscoop.Api.Repositories
 {
+    //Bij post nog code genereren.
+    //Bij post controle of er al een ticket bestaat voor de zelfde show op de zelfde rij en stoel
+
     public class TicketRepository : ITicketRepository
     {
         private readonly BioscoopDbContext bioscoopDbContext;
@@ -27,24 +30,33 @@ namespace Bioscoop.Api.Repositories
             return tickets;
         }
 
+        private async Task<bool> TicketExists(int showId, int rowNumber, int seatNumber)
+        {
+            return await this.bioscoopDbContext.Tickets.AnyAsync(c => c.ShowId == showId &&
+                                                                 c.RowNumber == rowNumber &&
+                                                                 c.SeatNumber == seatNumber);
+        }
+
         public async Task<Ticket> AddTicket(TicketToAddDto ticketToAddDto)
         {
-            var ticket = await (from show in this.bioscoopDbContext.Shows
-                                where show.Id == ticketToAddDto.ShowId
-                                select new Ticket
-                                {
-                                    ShowId = show.Id,
-                                    RowNumber = ticketToAddDto.RowNumber,
-                                    SeatNumber = ticketToAddDto.SeatNumber,
-                                    Price = ticketToAddDto.Price,
-                                }).SingleOrDefaultAsync();
-            if(ticket != null)
+            if (await TicketExists(ticketToAddDto.ShowId, ticketToAddDto.RowNumber, ticketToAddDto.SeatNumber) == false)
             {
-                var result = await this.bioscoopDbContext.Tickets.AddAsync(ticket);
-                await this.bioscoopDbContext.SaveChangesAsync();
-                return result.Entity;
+                var ticket = await (from show in this.bioscoopDbContext.Shows
+                                    where show.Id == ticketToAddDto.ShowId
+                                    select new Ticket
+                                    {
+                                        ShowId = show.Id,
+                                        RowNumber = ticketToAddDto.RowNumber,
+                                        SeatNumber = ticketToAddDto.SeatNumber,
+                                        Price = ticketToAddDto.Price,
+                                    }).SingleOrDefaultAsync();
+                if (ticket != null)
+                {
+                    var result = await this.bioscoopDbContext.Tickets.AddAsync(ticket);
+                    await this.bioscoopDbContext.SaveChangesAsync();
+                    return result.Entity;
+                }
             }
-
             return null;
         }
 
