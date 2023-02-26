@@ -25,6 +25,22 @@ namespace Bioscoop.Api.Controllers
         {
             try
             {
+                //var tickets = await this.ticketRepository.GetTickets();
+
+                //if (tickets == null)
+                //{
+                //    return NoContent();
+                //}
+
+                //var shows = await this.showRepository.GetShows();
+
+                //if (shows == null)
+                //{
+                //    throw new Exception("No shows exist in the system?")
+                //}
+
+                //var ticketsDto = tickets.ConvertToDto(shows);
+
                 var tickets = await this.ticketRepository.GetTickets();
 
                 if (tickets == null)

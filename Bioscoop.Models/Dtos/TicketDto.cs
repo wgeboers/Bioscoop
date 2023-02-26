@@ -11,6 +11,7 @@ namespace Bioscoop.Models.Dtos
         public int Id { get; set; }
         public int Code { get; set; }
         public int ShowId { get; set; }
+        //public DateTime ShowStartDateTime { get; set; }
         public int RowNumber { get; set; }
         public int SeatNumber { get; set; }
         public double Price { get; set; }

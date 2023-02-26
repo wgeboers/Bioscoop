@@ -6,6 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Bioscoop.Api.Repositories
 {
+
+    //Ticket moet meer info terug geven van de show, film en zaal
+
     public class TicketRepository : ITicketRepository
     {
         private readonly BioscoopDbContext bioscoopDbContext;
@@ -23,8 +26,21 @@ namespace Bioscoop.Api.Repositories
 
         public async Task<IEnumerable<Ticket>> GetTickets()
         {
-            var tickets = await bioscoopDbContext.Tickets.ToListAsync();
-            return tickets;
+            return await (from show in this.bioscoopDbContext.Shows
+                          join ticket in this.bioscoopDbContext.Tickets
+                          on show.Id equals ticket.ShowId
+                          select new Ticket
+                          {
+                              Id = ticket.Id,
+                              Code = ticket.Code,
+                              ShowId = ticket.ShowId,
+                              RowNumber = ticket.RowNumber,
+                              SeatNumber = ticket.SeatNumber,
+                              Price = ticket.Price,
+                          }).ToListAsync();
+
+            //var tickets = await bioscoopDbContext.Tickets.ToListAsync();
+            //return tickets;
         }
 
         private async Task<bool> TicketExists(int showId, int rowNumber, int seatNumber)
