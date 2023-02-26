@@ -1,0 +1,1664 @@
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Bioscoop.Web.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Bioscoop.Web.pdb
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.2.hb8cv1u9bu.js
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\icudt.dat
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.CSharp.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Options.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.NonGeneric.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Specialized.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Annotations.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Configuration.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Console.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Core.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Data.Common.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Data.DataSetExtensions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Data.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Contracts.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Debug.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Process.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tools.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tracing.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Dynamic.Runtime.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Asn1.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Tar.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Calendars.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Extensions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.Brotli.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.IsolatedStorage.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipelines.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Linq.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Expressions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Parallel.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Queryable.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Memory.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.Json.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.HttpListener.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Mail.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.NameResolution.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.NetworkInformation.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Ping.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Quic.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Requests.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Security.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.ServicePoint.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Sockets.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebClient.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebProxy.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.Client.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.Vectors.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.CoreLib.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.DataContractSerialization.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.Uri.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.Linq.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Extensions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Reader.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Resources.ResourceManager.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Writer.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Extensions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Handles.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.JavaScript.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Intrinsics.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Numerics.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.AccessControl.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Claims.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.Windows.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ServiceModel.Web.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ServiceProcess.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encodings.Web.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Json.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.RegularExpressions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Channels.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Overlapped.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Thread.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.ThreadPool.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Timer.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ValueTuple.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Web.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Web.HttpUtility.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Windows.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Linq.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.ReaderWriter.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Serialization.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlDocument.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\icudt.dat.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Quic.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipelines.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.Brotli.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Core.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Mail.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Bioscoop.Web.pdb.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Numerics.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tools.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Timer.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Primitives.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.2.hb8cv1u9bu.js.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebClient.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Memory.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Parallel.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.Client.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Configuration.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Security.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Json.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Calendars.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Specialized.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Writer.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.ReaderWriter.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Primitives.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ServiceProcess.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Extensions.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Tar.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Overlapped.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Expressions.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Contracts.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Queryable.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encodings.Web.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.Vectors.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Extensions.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registry.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.JavaScript.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.HttpListener.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Dynamic.Runtime.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Process.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Linq.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Thread.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebProxy.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Web.HttpUtility.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.IsolatedStorage.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Reader.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tracing.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Bioscoop.Web.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Channels.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.AccessControl.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Requests.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Primitives.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Sockets.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ServiceModel.Web.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.Windows.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.NameResolution.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.CoreLib.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Web.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Console.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Handles.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Ping.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Asn1.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Primitives.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Windows.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Data.Common.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Linq.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Debug.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.NetworkInformation.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.Linq.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Extensions.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Intrinsics.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Claims.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.Json.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ValueTuple.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.Uri.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Data.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Serialization.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Resources.ResourceManager.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Bioscoop.Web.staticwebassets.runtime.json
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Bioscoop.Web.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Bioscoop.Web.pdb
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Json.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Physical.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.FileSystemGlobbing.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.JSInterop.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.JSInterop.WebAssembly.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.Pipelines.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.CSharp.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.VisualBasic.Core.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.VisualBasic.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Win32.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Win32.Registry.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.AppContext.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Buffers.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Collections.Concurrent.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Collections.Immutable.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Collections.NonGeneric.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Collections.Specialized.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Collections.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ComponentModel.Annotations.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ComponentModel.DataAnnotations.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ComponentModel.EventBasedAsync.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ComponentModel.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ComponentModel.TypeConverter.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ComponentModel.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Configuration.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Console.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Core.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Data.Common.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Data.DataSetExtensions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Data.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.Contracts.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.Debug.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.FileVersionInfo.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.Process.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.StackTrace.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.TextWriterTraceListener.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.Tools.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.TraceSource.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.Tracing.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Drawing.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Drawing.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Dynamic.Runtime.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Formats.Asn1.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Formats.Tar.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Globalization.Calendars.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Globalization.Extensions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Globalization.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.Compression.Brotli.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.Compression.FileSystem.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.Compression.ZipFile.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.Compression.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.FileSystem.AccessControl.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.FileSystem.DriveInfo.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.FileSystem.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.FileSystem.Watcher.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.FileSystem.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.IsolatedStorage.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.MemoryMappedFiles.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.Pipes.AccessControl.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.Pipes.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.UnmanagedMemoryStream.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Linq.Expressions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Linq.Parallel.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Linq.Queryable.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Linq.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Memory.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Http.Json.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Http.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.HttpListener.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Mail.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.NameResolution.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.NetworkInformation.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Ping.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Quic.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Requests.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Security.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.ServicePoint.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Sockets.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.WebClient.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.WebHeaderCollection.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.WebProxy.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.WebSockets.Client.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.WebSockets.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Numerics.Vectors.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Numerics.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ObjectModel.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Private.DataContractSerialization.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Private.Uri.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Private.Xml.Linq.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Private.Xml.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.DispatchProxy.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.Emit.ILGeneration.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.Emit.Lightweight.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.Emit.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.Extensions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.Metadata.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.TypeExtensions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Resources.Reader.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Resources.ResourceManager.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Resources.Writer.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.CompilerServices.Unsafe.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.CompilerServices.VisualC.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Extensions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Handles.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.InteropServices.JavaScript.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.InteropServices.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Intrinsics.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Loader.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Numerics.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Serialization.Formatters.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Serialization.Json.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Serialization.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Serialization.Xml.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Serialization.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.AccessControl.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Claims.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Cryptography.Algorithms.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Cryptography.Cng.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Cryptography.Csp.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Cryptography.Encoding.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Cryptography.OpenSsl.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Cryptography.Primitives.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Cryptography.X509Certificates.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Cryptography.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Principal.Windows.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Principal.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.SecureString.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ServiceModel.Web.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ServiceProcess.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Text.Encoding.CodePages.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Text.Encoding.Extensions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Text.Encoding.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Text.Json.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Text.RegularExpressions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.Channels.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.Overlapped.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.Tasks.Dataflow.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.Tasks.Extensions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.Tasks.Parallel.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.Tasks.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.Thread.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.ThreadPool.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.Timer.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Transactions.Local.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Transactions.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ValueTuple.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Web.HttpUtility.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Web.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Windows.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.Linq.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.ReaderWriter.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.Serialization.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.XDocument.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.XPath.XDocument.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.XPath.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.XmlDocument.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.XmlSerializer.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\WindowsBase.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\mscorlib.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\netstandard.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Private.CoreLib.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\dotnet.js
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\dotnet.timezones.blat
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\dotnet.wasm
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\icudt.dat
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\icudt_CJK.dat
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\icudt_EFIGS.dat
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\icudt_no_CJK.dat
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.csproj.AssemblyReference.cache
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.AssemblyInfoInputs.cache
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.AssemblyInfo.cs
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.csproj.CoreCompileInputs.cache
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.MvcApplicationPartsAssemblyInfo.cache
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\tLEYEAGn.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\JK9tvHrR.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\BUgFjbb+.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\xJkqOFVl.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\UlNenFrW.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\XUnZg5Si.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\absgC2Vz.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\cCDaZN11.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\7cycR+4k.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\BaBbVvgi.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\wKrU40Xa.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\PZHqXZYk.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ZxWJuJrS.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Vv0rqEIG.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\5gaJorEk.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\xqpjfEJG.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\T34IXhS4.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\CBWgCuxf.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\zcYE77UE.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\xxGUzCTA.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\BABIO8jm.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\+uAx1n5L.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\+Rm38g02.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\I7BHbgjK.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\YM7adrUP.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\tPaFCtTi.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\3AlZ+6nK.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\jikYsVoW.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\FJ17Mgjc.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\wLBTArc8.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\GjlOfKrE.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\roiEDPpU.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\vkO+AjKS.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\dDnU0SVh.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\nEedVzmr.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\RzMGzOJo.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\jshLiCl+.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\XcwQeeSr.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\VoPsNvBL.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Y9IE+oVC.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\XHKEoKKn.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\B+DUY0pI.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\UQ5bvrKD.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\0tZoPu+9.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\wKvZq4Rd.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\b+Qi0Zs2.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Zhx3Rm+Y.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Iv2eeqC4.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\XJ6kfUNm.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\3UCa9kkd.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\OWHPa9oW.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\loO27Sf1.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\YChOXy4l.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\vyWKBK26.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\4SsHnEbZ.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\1UQGleXU.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ODCoQHvB.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\EEr+cWLo.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\WkDtFhZz.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\kbWDo+gW.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\vNOfZAC+.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\F6DYjTB4.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\cZ+23IJR.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\XxZKNulj.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Ke9+zhnw.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\0PSH1A1L.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\zFZM2rC2.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\XTq9mPnn.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\+VyhEptf.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\wW++9uKi.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Go3ujCaI.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\gMjOpwLX.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\67bkHsvn.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\l38sXmLv.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\NQ6Ufehb.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\y+JvfZyL.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\uC4uURjB.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\QnKgu1uO.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\55iU7XkD.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\FLNmgl1g.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Iu53GgOg.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Ab7kH3zQ.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\iVWKz7IW.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\XH7SeE+C.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\9bFdgiiY.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\yNpv6JvK.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\r7Afx3Ih.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\JKxLs4+4.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\1na7OWi0.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\TIqAkUUv.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\XMKCobO7.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\vL+Zd5Sc.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\77B1RuqV.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\+DxN6zM1.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\p0jENZ1Q.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\c7bVz1W3.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\+fAkGCyG.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\prrhc+Zq.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\8yZvIwt1.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\TKH52DDg.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\my+xQLoc.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\abEJDXW4.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\9w1JIu96.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\8Id4w1sW.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\J0V+cbJG.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\R+ASJPbb.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Tr9VWXt2.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\StxfFS6n.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\yUmubFdW.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\XRho5YNA.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\7srJ8Mgu.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\7Ej4f2zy.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\OmB+hVT3.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\F3tJN5LA.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\RTQeAHGQ.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ES6RbGcj.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\iw6e1Qmv.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\pEKIn2TW.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\8H4aeKAi.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\p+ohVT+G.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\O5yjJTRm.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\zzlq8vnM.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\DnvDWfyU.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\+uN6JZzO.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\XiyjHQJK.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\JaqLixd3.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ut+IMMMz.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\JIpTzh2q.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\X746M05f.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Streigli.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\xZY2aMp2.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\dgwAUYDD.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\2oXI3cLC.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\JZJc3x+Y.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\I6g9XLeD.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\mmj2aLDj.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\AbL8qMhs.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\GX32fDhi.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\fNIcOjfj.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\opDjB5vS.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Y1Ybb9Xd.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\hIG6GZgp.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\KggCyYxd.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\b5cmh8uq.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\4hfz49Wf.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\wV76UQQy.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\GJ+Qdgju.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\F0hjPThi.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\kglXUhXg.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\R9Exo6co.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\P7Thz2YH.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\8TamYFv+.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\tNYbqcQq.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\pTDNWOCX.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\eggEXiY7.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\DbzOER34.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\2ff+2APs.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\HH7iiKbV.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\IX9yq3KX.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\CDd6ztK+.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\77Yi1blO.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ooFY8bFE.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\gDz3sHeW.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\wCXs8yYF.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\JdFWIXwm.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\P5qNmW61.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\eHBn7Ig2.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ML2Uscph.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\5LMy+eUB.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\6733zBI8.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\2NGKwPML.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\2xvT+ATK.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\4i4HpWeO.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\YR26qn47.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Npo9k6XI.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ubBJUlxq.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\vx7srwvQ.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\lyWbz4ZB.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\e22Eg3+V.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ZuUEw+Od.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\D5whFp7i.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\343wv8vv.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\6onY9Bkh.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\84Ua2UeK.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\WgBzzDO+.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\kCjsDjqH.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ZScLeV3f.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\KcM0ZDmH.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\TjDJEQmu.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\efgrRg20.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\TnCSv1j3.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\8KydLS3Q.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\MdC5635o.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\cf7LG6GW.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\+AvKdHQL.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\1e8X3VJe.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Zaiq+F9w.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\dTeLR7u7.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\OetmLzwD.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\2N4QsZ+f.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\5N8ZyCZx.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\blazor.boot.json
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\staticwebassets\msbuild.Bioscoop.Web.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\staticwebassets\msbuild.build.Bioscoop.Web.props
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Bioscoop.Web.props
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Bioscoop.Web.props
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\staticwebassets.pack.json
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\staticwebassets.build.json
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\staticwebassets.development.json
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\bundle\Bioscoop.Web.styles.css
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\projectbundle\Bioscoop.Web.bundle.scp.css
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.csproj.CopyComplete
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\refint\Bioscoop.Web.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.pdb
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\ref\Bioscoop.Web.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\icudt.dat
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.CSharp.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Options.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.NonGeneric.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Specialized.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Annotations.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Configuration.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Console.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Core.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Data.Common.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Data.DataSetExtensions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Data.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Contracts.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Debug.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Process.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tools.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tracing.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Dynamic.Runtime.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Asn1.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Tar.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Calendars.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Extensions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.Brotli.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.IsolatedStorage.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipelines.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Linq.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Expressions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Parallel.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Queryable.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Memory.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.Json.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.HttpListener.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Mail.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.NameResolution.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.NetworkInformation.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Ping.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Quic.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Requests.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Security.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.ServicePoint.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Sockets.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebClient.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebProxy.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.Client.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.Vectors.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.CoreLib.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.DataContractSerialization.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.Uri.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.Linq.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Extensions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Reader.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Resources.ResourceManager.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Writer.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Extensions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Handles.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.JavaScript.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Intrinsics.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Numerics.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.AccessControl.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Claims.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.Windows.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ServiceModel.Web.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ServiceProcess.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encodings.Web.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Json.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.RegularExpressions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Channels.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Overlapped.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Thread.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.ThreadPool.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Timer.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ValueTuple.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Web.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Web.HttpUtility.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Windows.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Linq.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.ReaderWriter.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Serialization.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlDocument.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Bioscoop.Models.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Bioscoop.Models.pdb
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Bioscoop.Web.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Bioscoop.Web.pdb
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.3.9qefmkgg1a.js
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\icudt.dat.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Writer.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tools.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Console.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Bioscoop.Web.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Contracts.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.Vectors.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Specialized.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.NameResolution.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Extensions.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Thread.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Bioscoop.Models.pdb.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Tar.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.HttpListener.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Web.HttpUtility.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Calendars.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Data.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Bioscoop.Models.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Expressions.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.AccessControl.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Core.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Resources.ResourceManager.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encodings.Web.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Asn1.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Queryable.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.NetworkInformation.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Web.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.IsolatedStorage.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Linq.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Handles.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Dynamic.Runtime.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Claims.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Debug.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Overlapped.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Channels.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tracing.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Extensions.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ServiceModel.Web.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Data.Common.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Primitives.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Extensions.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Primitives.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Collections.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Requests.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Parallel.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.Uri.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Json.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.ReaderWriter.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Serialization.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ValueTuple.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Ping.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.Brotli.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Primitives.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.3.9qefmkgg1a.js.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.Linq.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Intrinsics.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registry.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebProxy.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Security.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.Client.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Xml.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.Json.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ServiceProcess.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Process.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Memory.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Bioscoop.Web.pdb.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Sockets.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Linq.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebClient.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Windows.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Primitives.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Numerics.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Configuration.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.Windows.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.CoreLib.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Reader.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Mail.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Quic.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipelines.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Timer.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.JavaScript.dll.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Bioscoop.Web.staticwebassets.runtime.json
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Bioscoop.Web.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Bioscoop.Web.pdb
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.JSInterop.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.Pipelines.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.CSharp.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.VisualBasic.Core.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.VisualBasic.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Win32.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.Win32.Registry.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.AppContext.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Buffers.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Collections.Concurrent.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Collections.Immutable.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Collections.NonGeneric.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Collections.Specialized.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Collections.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ComponentModel.Annotations.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ComponentModel.DataAnnotations.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ComponentModel.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ComponentModel.TypeConverter.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ComponentModel.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Configuration.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Console.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Core.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Data.Common.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Data.DataSetExtensions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Data.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.Contracts.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.Debug.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.Process.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.StackTrace.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.Tools.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.TraceSource.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Diagnostics.Tracing.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Drawing.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Drawing.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Dynamic.Runtime.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Formats.Asn1.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Formats.Tar.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Globalization.Calendars.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Globalization.Extensions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Globalization.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.Compression.Brotli.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.Compression.FileSystem.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.Compression.ZipFile.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.Compression.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.FileSystem.AccessControl.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.FileSystem.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.FileSystem.Watcher.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.FileSystem.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.IsolatedStorage.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.MemoryMappedFiles.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.Pipes.AccessControl.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.Pipes.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.IO.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Linq.Expressions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Linq.Parallel.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Linq.Queryable.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Linq.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Memory.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Http.Json.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Http.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.HttpListener.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Mail.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.NameResolution.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.NetworkInformation.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Ping.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Quic.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Requests.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Security.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.ServicePoint.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.Sockets.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.WebClient.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.WebHeaderCollection.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.WebProxy.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.WebSockets.Client.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.WebSockets.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Net.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Numerics.Vectors.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Numerics.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ObjectModel.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Private.DataContractSerialization.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Private.Uri.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Private.Xml.Linq.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Private.Xml.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.DispatchProxy.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.Emit.ILGeneration.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.Emit.Lightweight.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.Emit.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.Extensions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.Metadata.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.TypeExtensions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Reflection.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Resources.Reader.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Resources.ResourceManager.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Resources.Writer.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Extensions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Handles.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.InteropServices.JavaScript.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.InteropServices.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Intrinsics.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Loader.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Numerics.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Serialization.Formatters.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Serialization.Json.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Serialization.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Serialization.Xml.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.Serialization.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Runtime.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.AccessControl.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Claims.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Cryptography.Algorithms.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Cryptography.Cng.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Cryptography.Csp.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Cryptography.Encoding.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Cryptography.OpenSsl.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Cryptography.Primitives.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Cryptography.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Principal.Windows.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.Principal.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.SecureString.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Security.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ServiceModel.Web.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ServiceProcess.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Text.Encoding.CodePages.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Text.Encoding.Extensions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Text.Encoding.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Text.Json.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Text.RegularExpressions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.Channels.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.Overlapped.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.Tasks.Dataflow.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.Tasks.Extensions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.Tasks.Parallel.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.Tasks.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.Thread.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.ThreadPool.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.Timer.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Threading.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Transactions.Local.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Transactions.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.ValueTuple.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Web.HttpUtility.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Web.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Windows.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.Linq.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.ReaderWriter.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.Serialization.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.XDocument.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.XPath.XDocument.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.XPath.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.XmlDocument.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.XmlSerializer.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Xml.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\WindowsBase.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\mscorlib.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\netstandard.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\System.Private.CoreLib.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\dotnet.js
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\dotnet.timezones.blat
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\dotnet.wasm
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\icudt.dat
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\icudt_CJK.dat
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\icudt_EFIGS.dat
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\icudt_no_CJK.dat
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Bioscoop.Models.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Bioscoop.Models.pdb
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.csproj.AssemblyReference.cache
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.AssemblyInfoInputs.cache
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.AssemblyInfo.cs
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.csproj.CoreCompileInputs.cache
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Qn+8SVuv.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ukWiwSC9.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\8JNMTBn4.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\InJA0We5.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\vqgjMTMg.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\RLDpNkca.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\miBiFSAH.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\bS+69rLH.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\H3vvmNoA.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\iXCAixdD.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\i4lZpVVm.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\wVsI024L.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\xFwpXBy8.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\dotNCo9B.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\IdZ+STtV.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\FQIGIC0D.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\8zKGr1g2.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Aeo+PVl2.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\1NG7fEOR.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\KxPNsUcx.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\GzOYAVpC.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\KJWR4XmH.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ZMwEdkXr.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\RcXmyDWu.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\SFsPT917.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\HJONcYif.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\I44TjL6N.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\SyxX0iHg.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\AMeQr0N8.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\b7ZPIXIu.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\bVei6YT4.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\f+BA6z80.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\DG4+iJfg.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\8eELj1cX.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\NhNu8yi0.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\3KK+9+58.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\YdgYehbT.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\zpJEqmbG.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\xonwov26.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\SGbXYhtd.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\FU6yiNvN.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Yf0jeNGo.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\76Vk7iV6.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ERWqJaf9.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\KWc9I8m6.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\PtHabuGI.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\cZnCon1N.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\8CmMCYsi.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\hRRUwnQd.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\qG6PdS2k.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\MM+lXBFk.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Wf24HfUD.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\2qm7XL1+.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\9netnGVe.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\4mNAg9DE.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\WVNbk3Yp.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\K5A2btUk.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\RM4fNQH0.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\FH50Cb1K.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\hglNlcfc.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\FFi+WDpd.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\BKAGWVgI.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\cd+ozCxh.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Kj6dl8db.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ng764kxI.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\RIugAnLa.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ksU+Xo0t.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\bHb7vrGF.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\YSIe3jTX.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\nO0Xivjf.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\puuJnliN.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\72Iat+wF.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\XSiPwzqv.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\arFGidFe.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\G6WruWcV.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Jghku4Iu.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\wLEjpvOK.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\zOQnXJ88.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\o2bfAQ0b.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\6D4cQi+q.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\E6qnDKNa.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\pizbBZEN.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\FGFTA2gC.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\xDo5Nt31.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\wsjTWxNi.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\vKpflq5d.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\9FfJZuUk.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\bzwEfEvX.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Zk9q7iKv.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\8eJJ690d.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\fs+pnRoc.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\qZy3AYQW.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\LV7D9UuL.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ZLxpBjcZ.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\oZKVUL+G.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\uEg8BRK1.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\AatNF2Gf.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\wWzWLVrF.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\xJxtHkaj.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\aPEDcxnb.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\TIJ05mU6.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\UoCMZ7+2.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\S15F1YJH.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\QwpGi6fz.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\8dvz7TqS.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\R040ipAy.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\oGG235PQ.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ZvLHSRHr.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\pXeZavVy.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\S56V4fYY.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\p6f2EdE2.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\TIYGlVhH.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\YNbu8ozW.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\8zE+Nse2.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\K1ES715k.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\MquXtHEB.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\xUeSqdY+.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\NhClXdQb.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\I0hzpCLj.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\js0BzJrY.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\YTrjeRl3.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\eRYNq1RW.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\3sQiY5qG.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\zKn216Sy.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\sFqxHh0o.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\AKf5fDD1.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\HDbz9HDp.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ZY5D+Lle.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Gqak7DJC.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\8fpglsA6.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Se+ZNgwG.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\SL3C6KmK.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Y8O1Lhg+.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\OVeUkHLi.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\1zFXYB4q.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\gM+qAxTB.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\1k0MkglQ.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\CfOYu1pU.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\M7vS12Vg.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\e718gwTm.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\HP5+TQC0.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\SFIk7Jwm.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\fZcyhKfQ.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\tuKUkeEk.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\8aKVggCK.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\YaS5k4Pj.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\r+4P432W.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\legVGYRi.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\yOViPrj0.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\yg9454KV.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\T9LQvQRU.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\37ckpEEb.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ohdNq7Cn.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ksPHwr8f.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\wCgtm5l9.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\24WjNT+A.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\IKgMjDnr.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\A2CyxLYs.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\fEwKFnBp.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\qERPsvU5.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\0SweTsRh.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\JwusZ+C8.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\IZCBSt+S.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\3+mKKrsv.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\fuFg8u4c.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\RRpktdGb.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\i1DMa9WS.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\bAojsgje.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\nyJTJSWy.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\ZO5brbqj.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\0jUKLXlw.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\VAg8ERim.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\vNv6DvBV.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Qv0n7ijh.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\c7Pl72vI.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\fX7jKdgI.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\xNVRTNea.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\gY8efBrk.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\qoQMRmno.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\QqsUTt41.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\loMUturD.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\MUtvPtac.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\evSzgoql.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\aHagakFT.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Dvz7of66.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\UQ+R7BPX.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\4NadBMnf.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\sea46vUi.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\GxJJNO+6.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\9De66V32.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\Yo+4kbGF.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\rQQXocIK.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\5wgehnbk.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\5JBtq232.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\+D1W4pk7.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\5YpI7SfQ.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\uNYJzcIt.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\zcphcTdr.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\DPz5i+m1.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\bAtFXStX.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\8azBDISw.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\WtXS4ytV.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\SQNanXEv.gz
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\blazor.boot.json
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\staticwebassets\msbuild.Bioscoop.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\staticwebassets\msbuild.build.Bioscoop.Web.props
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Bioscoop.Web.props
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Bioscoop.Web.props
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\bundle\Bioscoop.Web.styles.css
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\projectbundle\Bioscoop.Web.bundle.scp.css
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.csproj.CopyComplete
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\refint\Bioscoop.Web.dll
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.pdb
+C:\Users\Thomas daane\Documents\C#-Projects\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\ref\Bioscoop.Web.dll

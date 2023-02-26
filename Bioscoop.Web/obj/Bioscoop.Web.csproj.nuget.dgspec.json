@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj": {}
+    "C:\\Users\\Thomas daane\\Documents\\C#-Projects\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj": {}
   },
   "projects": {
-    "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj": {
+    "C:\\Users\\Thomas daane\\Documents\\C#-Projects\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj",
-        "projectName": "Bioscoop.Web",
-        "projectPath": "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj",
-        "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
-        "outputPath": "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\obj\\",
+        "projectUniqueName": "C:\\Users\\Thomas daane\\Documents\\C#-Projects\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
+        "projectName": "Bioscoop.Models",
+        "projectPath": "C:\\Users\\Thomas daane\\Documents\\C#-Projects\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
+        "packagesPath": "C:\\Users\\Thomas daane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thomas daane\\Documents\\C#-Projects\\Bioscoop\\Bioscoop.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\wesle\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Thomas daane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,13 +22,71 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Thomas daane\\Documents\\C#-Projects\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Thomas daane\\Documents\\C#-Projects\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj",
+        "projectName": "Bioscoop.Web",
+        "projectPath": "C:\\Users\\Thomas daane\\Documents\\C#-Projects\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj",
+        "packagesPath": "C:\\Users\\Thomas daane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thomas daane\\Documents\\C#-Projects\\Bioscoop\\Bioscoop.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Thomas daane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Thomas daane\\Documents\\C#-Projects\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {
+                "projectPath": "C:\\Users\\Thomas daane\\Documents\\C#-Projects\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -69,7 +123,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[7.0.2, 7.0.2]"
+              "version": "[7.0.3, 7.0.3]"
             }
           ],
           "frameworkReferences": {
@@ -77,7 +131,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
