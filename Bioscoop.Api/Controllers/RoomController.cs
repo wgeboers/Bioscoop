@@ -1,4 +1,5 @@
-﻿using Bioscoop.Api.Extensions;
+﻿using Bioscoop.Api.Entities;
+using Bioscoop.Api.Extensions;
 using Bioscoop.Api.Repositories.Contracts;
 using Bioscoop.Models.Dtos;
 using Microsoft.AspNetCore.Http;
@@ -63,6 +64,48 @@ namespace Bioscoop.Api.Controllers
             {
                 return StatusCode(StatusCodes.Status500InternalServerError,
                     "Error retrieving data from the database");
+            }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<RoomDto>> PostRoom([FromBody] RoomToAddDto roomToAddDto)
+        {
+            try
+            {
+                var newRoom = await this.roomRepository.AddRoom(roomToAddDto);
+                if (newRoom == null)
+                {
+                    return NoContent();
+                }
+
+                var newRoomDto = newRoom.ConvertToDto();
+
+                return CreatedAtAction(nameof(GetRoom), new { id = newRoomDto.Id }, newRoomDto);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error retrieving data from the database");
+            }
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult<Room>> DeleteRoom(int id)
+        {
+            try
+            {
+                var room = await this.roomRepository.DeleteRoom(id);
+                if (room == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(room);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                                   "Error retrieving data from the database");
             }
         }
     }
