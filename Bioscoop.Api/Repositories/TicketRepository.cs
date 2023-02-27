@@ -38,9 +38,6 @@ namespace Bioscoop.Api.Repositories
                               SeatNumber = ticket.SeatNumber,
                               Price = ticket.Price,
                           }).ToListAsync();
-
-            //var tickets = await bioscoopDbContext.Tickets.ToListAsync();
-            //return tickets;
         }
 
         private async Task<bool> TicketExists(int showId, int rowNumber, int seatNumber)

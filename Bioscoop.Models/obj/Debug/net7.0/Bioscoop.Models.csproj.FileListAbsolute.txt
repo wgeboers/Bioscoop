@@ -10,3 +10,15 @@ F:\Projecten\Bioscoop\Bioscoop.Models\obj\Debug\net7.0\Bioscoop.Models.dll
 F:\Projecten\Bioscoop\Bioscoop.Models\obj\Debug\net7.0\refint\Bioscoop.Models.dll
 F:\Projecten\Bioscoop\Bioscoop.Models\obj\Debug\net7.0\Bioscoop.Models.pdb
 F:\Projecten\Bioscoop\Bioscoop.Models\obj\Debug\net7.0\ref\Bioscoop.Models.dll
+D:\Werk\Projecten\Bioscoop\Bioscoop.Models\bin\Debug\net7.0\Bioscoop.Models.deps.json
+D:\Werk\Projecten\Bioscoop\Bioscoop.Models\bin\Debug\net7.0\Bioscoop.Models.dll
+D:\Werk\Projecten\Bioscoop\Bioscoop.Models\bin\Debug\net7.0\Bioscoop.Models.pdb
+D:\Werk\Projecten\Bioscoop\Bioscoop.Models\obj\Debug\net7.0\Bioscoop.Models.csproj.AssemblyReference.cache
+D:\Werk\Projecten\Bioscoop\Bioscoop.Models\obj\Debug\net7.0\Bioscoop.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Werk\Projecten\Bioscoop\Bioscoop.Models\obj\Debug\net7.0\Bioscoop.Models.AssemblyInfoInputs.cache
+D:\Werk\Projecten\Bioscoop\Bioscoop.Models\obj\Debug\net7.0\Bioscoop.Models.AssemblyInfo.cs
+D:\Werk\Projecten\Bioscoop\Bioscoop.Models\obj\Debug\net7.0\Bioscoop.Models.csproj.CoreCompileInputs.cache
+D:\Werk\Projecten\Bioscoop\Bioscoop.Models\obj\Debug\net7.0\Bioscoop.Models.dll
+D:\Werk\Projecten\Bioscoop\Bioscoop.Models\obj\Debug\net7.0\refint\Bioscoop.Models.dll
+D:\Werk\Projecten\Bioscoop\Bioscoop.Models\obj\Debug\net7.0\Bioscoop.Models.pdb
+D:\Werk\Projecten\Bioscoop\Bioscoop.Models\obj\Debug\net7.0\ref\Bioscoop.Models.dll
