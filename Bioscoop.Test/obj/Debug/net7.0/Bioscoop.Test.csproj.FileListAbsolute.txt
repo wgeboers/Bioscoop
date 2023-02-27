@@ -307,3 +307,5 @@ D:\Werk\Projecten\Bioscoop\Bioscoop.Test\obj\Debug\net7.0\refint\Bioscoop.Test.d
 D:\Werk\Projecten\Bioscoop\Bioscoop.Test\obj\Debug\net7.0\Bioscoop.Test.pdb
 D:\Werk\Projecten\Bioscoop\Bioscoop.Test\obj\Debug\net7.0\Bioscoop.Test.genruntimeconfig.cache
 D:\Werk\Projecten\Bioscoop\Bioscoop.Test\obj\Debug\net7.0\ref\Bioscoop.Test.dll
+D:\Werk\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Werk\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll

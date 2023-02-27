@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pRUJzw1bdA1aCIAyiK/70U/a0A5dc00z44mDyjC/bDw=",
+  "Hash": "WdQg24ypm8YTdnpYAkEMMj5ogKlfPSQO0dbPyWzNhtk=",
   "Source": "Bioscoop.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -7206,6 +7206,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\PussInBootsTwo.jpg"
+    },
+    {
+      "Identity": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Shrek.jpg",
+      "SourceId": "Bioscoop.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Web\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/Shrek.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Shrek.jpg"
     },
     {
       "Identity": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\TheWhale.jpg",

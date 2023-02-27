@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\Images\\PussInBootsTwo.jpg"
     },
     {
+      "Id": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Shrek.jpg",
+      "PackagePath": "staticwebassets\\Images\\Shrek.jpg"
+    },
+    {
       "Id": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\TheWhale.jpg",
       "PackagePath": "staticwebassets\\Images\\TheWhale.jpg"
     },
