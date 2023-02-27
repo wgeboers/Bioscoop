@@ -1,8 +1,10 @@
-﻿using Bioscoop.Api.Extensions;
+﻿using Bioscoop.Api.Entities;
+using Bioscoop.Api.Extensions;
 using Bioscoop.Api.Repositories.Contracts;
 using Bioscoop.Models.Dtos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Sockets;
 
 namespace Bioscoop.Api.Controllers
 {
@@ -62,6 +64,48 @@ namespace Bioscoop.Api.Controllers
             {
                 return StatusCode(StatusCodes.Status500InternalServerError,
                     "Error retrieving data from the database");
+            }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<MovieDto>> PostMovie([FromBody] MovieToAddDto movieToAddDto)
+        {
+            try
+            {
+                var newMovie = await this.movieRepository.AddMovie(movieToAddDto);
+                if (newMovie == null)
+                {
+                    return NoContent();
+                }
+
+                var newMovieDto = newMovie.ConvertToDto();
+
+                return CreatedAtAction(nameof(GetMovie), new { id = newMovieDto.Id }, newMovieDto);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error retrieving data from the database");
+            }
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult<Movie>> DeleteMovie(int id)
+        {
+            try
+            {
+                var movie = await this.movieRepository.DeleteMovie(id);
+                if (movie == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(movie);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                                   "Error retrieving data from the database");
             }
         }
     }
