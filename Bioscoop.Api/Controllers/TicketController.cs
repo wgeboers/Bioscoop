@@ -107,6 +107,46 @@ namespace Bioscoop.Api.Controllers
             }
         }
 
+        [HttpGet("code/{code:int}")]
+        public async Task<ActionResult<TicketDto>> GetTicketByCode(int code)
+        {
+            try
+            {
+                var ticket = await this.ticketRepository.GetTicketByCode(code);
+                if (ticket == null)
+                {
+                    return NotFound();
+                }
+
+                var show = await this.showRepository.GetShow(ticket.ShowId);
+                if (show == null)
+                {
+                    return NotFound();
+                }
+
+                var movie = await this.movieRepository.GetMovie(show.MovieId);
+                if (movie == null)
+                {
+                    return NotFound();
+                }
+
+                var room = await this.roomRepository.GetRoom(show.RoomId);
+                if (room == null)
+                {
+                    return NotFound();
+                }
+
+                var ticketDto = ticket.ConvertToDto(show, movie, room);
+
+                return Ok(ticketDto);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error retrieving data from the database");
+            }
+        }
+
         [HttpPost]
         public async Task<ActionResult<TicketDto>> PostTicket([FromBody] TicketToAddDto ticketToAddDto)
         {

@@ -22,7 +22,7 @@ namespace Bioscoop.Test.Api.Ticket
                     new Bioscoop.Api.Entities.Ticket()
                     {
                         Id = 1,
-                        Code = 477310,
+                        Code = 1,
                         ShowId = 1,
                         RowNumber = 5,
                         SeatNumber = 12,
@@ -44,6 +44,22 @@ namespace Bioscoop.Test.Api.Ticket
 
             //Act
             var result = ticketRepository.GetTicket(id);
+
+            //
+            result.Should().NotBeNull();
+            result.Result.Should().BeOfType<Bioscoop.Api.Entities.Ticket>();
+        }
+
+        [Fact]
+        public async void TicketRepository_GetTicketByCode_ReturnsTicket()
+        {
+            //Arrange
+            var code = 1;
+            var dbContext = await GetDatabaseContext();
+            var ticketRepository = new TicketRepository(dbContext);
+
+            //Act
+            var result = ticketRepository.GetTicketByCode(code);
 
             //
             result.Should().NotBeNull();

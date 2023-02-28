@@ -24,6 +24,12 @@ namespace Bioscoop.Api.Repositories
             return ticket;
         }
 
+        public async Task<Ticket> GetTicketByCode(int code)
+        {
+            var ticket = await bioscoopDbContext.Tickets.FirstOrDefaultAsync(x => x.Code == code);
+            return ticket;
+        }
+
         public async Task<IEnumerable<Ticket>> GetTickets()
         {
             return await (from show in this.bioscoopDbContext.Shows
