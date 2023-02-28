@@ -1,0 +1,111 @@
+﻿@using Syncfusion.Pdf
+@using Syncfusion.Pdf.Grid;
+@using Syncfusion.Drawing;
+@using Syncfusion.Pdf.Graphics;
+@inject Microsoft.JSInterop.IJSRuntime JS
+@using System.IO;
+@page "/TicketDetails"
+@page "/TicketDetails/{Id:int}"
+@inherits TicketDetailsBase
+
+
+@if (Ticket == null && ErrorMessage == null)
+{
+    <h3>Loading ticket details</h3>
+}
+else if (ErrorMessage != null)
+{
+    <h3 class="text-danger">@ErrorMessage</h3>
+}
+else
+{
+    <h3>Succes, ticket found:</h3>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Movie</th>
+                <th>Price</th>
+                <td>Room</td>
+                <th>Row</th>
+                <th>Seat</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                <td>@Ticket.ShowStartDateTime</td>
+                <td>@Ticket.MovieTitle</td>
+                <td>@Ticket.Price</td>
+                <td>@Ticket.RoomName</td>
+                <td>@Ticket.RowNumber</td>
+                <td>@Ticket.SeatNumber</td>
+                </tr>    
+        </tbody>
+        <button class="btn btn-primary" @onclick="@ExportToPdf">Export to PDF</button>
+
+    </table>
+    ticketDetails += Ticket.ShowStartDateTime + "\n"
+                        + Ticket.MovieTitle + "\n"
+                        + "Price: " + Ticket.Price + "\n"
+                        + Ticket.RoomName + "\n"
+                        + "Row: " + Ticket.RowNumber + "\n"
+                        + "Seat: " + Ticket.SeatNumber + "\n"
+             + "Code: " + Ticket.Code + "\n";
+}
+
+@code {
+    //[Parameter]
+    //public int? Id { get; set; }
+    public string ticketDetails;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+      //  Id = Id ?? null;
+    }
+}
+
+@functions {
+    void ExportToPdf()
+    {
+        int paragraphAfterSpacing = 8;
+        int cellMargin = 8;
+        //Create a new PDF document.
+        PdfDocument pdfDocument = new PdfDocument();
+        //Add Page to the PDF document.
+        PdfPage page = pdfDocument.Pages.Add();
+
+        //Create a new font.
+        PdfStandardFont font = new PdfStandardFont(PdfFontFamily.TimesRoman, 16);
+        //Create a text element to draw a text in PDF page.
+        PdfTextElement title = new PdfTextElement("Ticket", font, PdfBrushes.Black);
+        PdfLayoutResult result = title.Draw(page, new PointF(0, 0));
+        PdfStandardFont contentFont = new PdfStandardFont(PdfFontFamily.TimesRoman, 12);
+        //Create text element.
+        PdfTextElement content = new PdfTextElement(ticketDetails, contentFont, PdfBrushes.Black);
+        PdfLayoutFormat format = new PdfLayoutFormat();
+        format.Layout = PdfLayoutType.Paginate;
+        //Draw a text to the PDF document.
+        result = content.Draw(page, new RectangleF(0, result.Bounds.Bottom + paragraphAfterSpacing, page.GetClientSize().Width, page.GetClientSize().Height), format);
+
+        //Create a PdfGrid.
+        PdfGrid pdfGrid = new PdfGrid();
+        pdfGrid.Style.CellPadding.Left = cellMargin;
+        pdfGrid.Style.CellPadding.Right = cellMargin;
+        //Applying built-in style to the PDF grid
+        pdfGrid.ApplyBuiltinStyle(PdfGridBuiltinStyle.GridTable4Accent1);
+        //Assign data source.
+        pdfGrid.DataSource = Ticket;
+        pdfGrid.Style.Font = contentFont;
+        //Draw PDF grid into the PDF page.
+        pdfGrid.Draw(page, new Syncfusion.Drawing.PointF(0, result.Bounds.Bottom + paragraphAfterSpacing));
+
+        //Create memory stream.
+        MemoryStream memoryStream = new MemoryStream();
+        //Save the PDF document.
+        pdfDocument.Save(memoryStream);
+        //Download the PDF document
+        JS.SaveAs("Ticket.pdf", memoryStream.ToArray());
+    }
+}

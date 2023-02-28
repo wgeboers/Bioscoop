@@ -80,30 +80,52 @@ namespace Bioscoop.Api.Extensions
             };
         }
 
-        public static IEnumerable<TicketDto> ConvertToDto(this IEnumerable<Ticket> tickets)
+
+        public static IEnumerable<TicketDto> ConvertToDto(this IEnumerable<Ticket> tickets,
+                                                               IEnumerable<Show> shows,
+                                                               IEnumerable<Movie> movies,
+                                                               IEnumerable<Room> rooms)
         {
             return (from ticket in tickets
+                    join show in shows on ticket.ShowId equals show.Id
+                    join movie in movies on show.MovieId equals movie.Id
+                    join room in rooms on show.RoomId equals room.Id
                     select new TicketDto
                     {
                         Id = ticket.Id,
                         Code = ticket.Code,
                         ShowId = ticket.ShowId,
+                        ShowStartDateTime = show.StartDateTime,
+                        MovieId = show.MovieId,
+                        MovieTitle = movie.Title,
+                        MoviePlayTime = movie.PlayTime,
+                        RoomId = show.RoomId,
+                        RoomName = room.Name,
                         RowNumber = ticket.RowNumber,
                         SeatNumber = ticket.SeatNumber,
-                        Price = ticket.Price,
+                        Price = ticket.Price
                     }).ToList();
         }
 
-        public static TicketDto ConvertToDto(this Ticket ticket)
+        public static TicketDto ConvertToDto(this Ticket ticket,
+                                                  Show show,
+                                                  Movie movie,
+                                                  Room room)
         {
             return new TicketDto
             {
                 Id = ticket.Id,
                 Code = ticket.Code,
                 ShowId = ticket.ShowId,
+                ShowStartDateTime = show.StartDateTime,
+                MovieId = show.MovieId,
+                MovieTitle = movie.Title,
+                MoviePlayTime = movie.PlayTime,
+                RoomId = show.RoomId,
+                RoomName = room.Name,
                 RowNumber = ticket.RowNumber,
                 SeatNumber = ticket.SeatNumber,
-                Price = ticket.Price,
+                Price = ticket.Price
             };
         }
     }

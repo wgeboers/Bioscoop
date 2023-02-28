@@ -3936,23 +3936,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wesle\\.nuget\\packages\\": {},
+    "C:\\Users\\MForm\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projecten\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj",
+      "projectUniqueName": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj",
       "projectName": "Bioscoop.Api",
-      "projectPath": "F:\\Projecten\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj",
-      "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
-      "outputPath": "F:\\Projecten\\Bioscoop\\Bioscoop.Api\\obj\\",
+      "projectPath": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj",
+      "packagesPath": "C:\\Users\\MForm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\wesle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MForm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3968,8 +3968,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "F:\\Projecten\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {
-              "projectPath": "F:\\Projecten\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj"
+            "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {
+              "projectPath": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj"
             }
           }
         }
@@ -4026,7 +4026,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

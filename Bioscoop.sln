@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bioscoop.Api", "Bioscoop.Ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bioscoop.Models", "Bioscoop.Models\Bioscoop.Models.csproj", "{457E915F-ACA8-4BEA-8C85-BC2F3D006C10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bioscoop.Test", "Bioscoop.Test\Bioscoop.Test.csproj", "{59322A52-3A5D-43D6-A5A2-D07C9AEA5614}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bioscoop.Test", "Bioscoop.Test\Bioscoop.Test.csproj", "{59322A52-3A5D-43D6-A5A2-D07C9AEA5614}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
