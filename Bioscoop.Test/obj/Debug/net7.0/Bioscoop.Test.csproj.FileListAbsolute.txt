@@ -22,7 +22,6 @@ F:\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Azure.Core.dll
 F:\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Azure.Identity.dll
 F:\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Castle.Core.dll
 F:\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\FakeItEasy.dll
-F:\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 F:\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 F:\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 F:\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
@@ -309,3 +308,8 @@ D:\Werk\Projecten\Bioscoop\Bioscoop.Test\obj\Debug\net7.0\Bioscoop.Test.genrunti
 D:\Werk\Projecten\Bioscoop\Bioscoop.Test\obj\Debug\net7.0\ref\Bioscoop.Test.dll
 D:\Werk\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
 D:\Werk\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
+F:\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\FluentAssertions.dll
+F:\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\AutoMapper.dll
+F:\Projecten\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll

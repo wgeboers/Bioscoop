@@ -15,7 +15,6 @@ F:\Projecten\Bioscoop\Bioscoop.Api\bin\Debug\net7.0\Bioscoop.Api.pdb
 F:\Projecten\Bioscoop\Bioscoop.Api\bin\Debug\net7.0\Azure.Core.dll
 F:\Projecten\Bioscoop\Bioscoop.Api\bin\Debug\net7.0\Azure.Identity.dll
 F:\Projecten\Bioscoop\Bioscoop.Api\bin\Debug\net7.0\Humanizer.dll
-F:\Projecten\Bioscoop\Bioscoop.Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 F:\Projecten\Bioscoop\Bioscoop.Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 F:\Projecten\Bioscoop\Bioscoop.Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 F:\Projecten\Bioscoop\Bioscoop.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll

@@ -8,25 +8,23 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\wgeboers\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\wesle\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
+      "projectUniqueName": "F:\\Projecten\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
       "projectName": "Bioscoop.Models",
-      "projectPath": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
-      "packagesPath": "C:\\Users\\wgeboers\\.nuget\\packages\\",
-      "outputPath": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Models\\obj\\",
+      "projectPath": "F:\\Projecten\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
+      "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
+      "outputPath": "F:\\Projecten\\Bioscoop\\Bioscoop.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\wgeboers\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\wesle\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
