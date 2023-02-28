@@ -4,7 +4,7 @@ namespace Bioscoop.Web.Services.Contracts
 {
     public interface IBiglistService
     {
-        Task<IEnumerable<MovieDto>> GetMovies();
+        Task<IEnumerable<ShowDto>> GetMovies();
         
     }
 }

@@ -13,12 +13,12 @@ namespace Bioscoop.Web.Services
             this.httpClient = httpClient;
             
         }
-        public async Task <IEnumerable<MovieDto>> GetMovies()
+        public async Task <IEnumerable<ShowDto>> GetMovies(IEnumerable<ShowDto>? movies)
         {
             try
             {
-                var Movies = await this.httpClient.GetFromJsonAsync<IEnumerable<MovieDto>>("api/Movie");
-                return Movies;
+                var Movies = await this.httpClient.GetFromJsonAsync<IEnumerable<ShowDto>>("api/Show");
+                return movies;
             }
             catch (Exception){
                 throw;

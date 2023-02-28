@@ -8,13 +8,23 @@ namespace Bioscoop.Web.pages
     public class BiglistBase:ComponentBase
     {
         [Inject]
-        public IBiglistService BiglistService { get; set; } 
+        public IBiglistService BiglistService { get; set; }
 
-        public IEnumerable<MovieDto> Movies { get; set; }
+        private IEnumerable<ShowDto>? movies;
+
+        public IEnumerable<ShowDto> GetMovies()
+        {
+            return movies;
+        }
+
+        public void SetMovies(IEnumerable<ShowDto> value)
+        {
+            movies = value;
+        }
 
         protected override async Task OnInitializedAsync()
         {
-            Movies = await BiglistService.GetMovies();
+            SetMovies(await BiglistService.GetMovies(Movies));
         }
     }
 }
