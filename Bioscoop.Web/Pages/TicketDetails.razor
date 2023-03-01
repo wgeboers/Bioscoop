@@ -5,9 +5,8 @@
 @inject Microsoft.JSInterop.IJSRuntime JS
 @using System.IO;
 @page "/TicketDetails"
-@page "/TicketDetails/{Id:int}"
+@page "/TicketDetails/{id:int}"
 @inherits TicketDetailsBase
-
 
 @if (Ticket == null && ErrorMessage == null)
 {
@@ -51,7 +50,7 @@ else
                         + Ticket.RoomName + "\n"
                         + "Row: " + Ticket.RowNumber + "\n"
                         + "Seat: " + Ticket.SeatNumber + "\n"
-             + "Code: " + Ticket.Code + "\n";
+                        + "Code: " + Ticket.Code + "\n";
 }
 
 @code {
@@ -62,7 +61,7 @@ else
     protected override void OnInitialized()
     {
         base.OnInitialized();
-      //  Id = Id ?? null;
+       // id = id ?? 0;
     }
 }
 
@@ -88,18 +87,6 @@ else
         format.Layout = PdfLayoutType.Paginate;
         //Draw a text to the PDF document.
         result = content.Draw(page, new RectangleF(0, result.Bounds.Bottom + paragraphAfterSpacing, page.GetClientSize().Width, page.GetClientSize().Height), format);
-
-        //Create a PdfGrid.
-        PdfGrid pdfGrid = new PdfGrid();
-        pdfGrid.Style.CellPadding.Left = cellMargin;
-        pdfGrid.Style.CellPadding.Right = cellMargin;
-        //Applying built-in style to the PDF grid
-        pdfGrid.ApplyBuiltinStyle(PdfGridBuiltinStyle.GridTable4Accent1);
-        //Assign data source.
-        pdfGrid.DataSource = Ticket;
-        pdfGrid.Style.Font = contentFont;
-        //Draw PDF grid into the PDF page.
-        pdfGrid.Draw(page, new Syncfusion.Drawing.PointF(0, result.Bounds.Bottom + paragraphAfterSpacing));
 
         //Create memory stream.
         MemoryStream memoryStream = new MemoryStream();
