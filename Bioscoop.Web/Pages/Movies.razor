@@ -1,0 +1,33 @@
+﻿@page "/"
+@inherits MoviesBase
+
+@if(Movies == null)
+{
+    <DisplaySpinner/>
+}
+else
+{
+    <h3 class="mb-5">Movies</h3>
+
+    var movieCount = Movies.Count();
+
+    @if (movieCount > 0)
+    {
+        const int moviesPerRow = 4;
+        var movieRowList = new List<MovieDto>();
+
+        @for (int i = 0; i < movieCount; i++)
+        {
+            movieRowList = Movies.Skip(i * moviesPerRow).Take(moviesPerRow).ToList();
+
+            <div class=" row mt-3">
+
+                <DisplayMovies Movies = "@movieRowList"></DisplayMovies>
+
+            </div>
+
+
+        }
+    }
+
+}

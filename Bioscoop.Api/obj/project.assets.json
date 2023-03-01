@@ -3896,25 +3896,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wgeboers\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Gebruiker\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj",
       "projectName": "Bioscoop.Api",
-      "projectPath": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj",
-      "packagesPath": "C:\\Users\\wgeboers\\.nuget\\packages\\",
-      "outputPath": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Api\\obj\\",
+      "projectPath": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj",
+      "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\wgeboers\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3930,8 +3928,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {
-              "projectPath": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj"
+            "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {
+              "projectPath": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj"
             }
           }
         }
@@ -3984,7 +3982,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
