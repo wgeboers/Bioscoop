@@ -308,3 +308,6 @@ C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Test\obj\Debug\net7.0
 C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Test\obj\Debug\net7.0\Bioscoop.Test.pdb
 C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Test\obj\Debug\net7.0\Bioscoop.Test.genruntimeconfig.cache
 C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Test\obj\Debug\net7.0\ref\Bioscoop.Test.dll
+C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\MailKit.dll
+C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\MimeKit.dll
+C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\BouncyCastle.Crypto.dll

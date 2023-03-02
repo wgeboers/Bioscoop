@@ -154,3 +154,6 @@ C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Api\obj\Debug\net7.0\
 C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Api\obj\Debug\net7.0\Bioscoop.Api.pdb
 C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Api\obj\Debug\net7.0\Bioscoop.Api.genruntimeconfig.cache
 C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Api\obj\Debug\net7.0\ref\Bioscoop.Api.dll
+C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Api\bin\Debug\net7.0\MailKit.dll
+C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Api\bin\Debug\net7.0\MimeKit.dll
+C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Api\bin\Debug\net7.0\BouncyCastle.Crypto.dll
