@@ -2492,3 +2492,4 @@ C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\
 C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\fpRA301T.gz
 C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\pLVcO1Zy.gz
 C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\DisplaySpinner.razor.rz.scp.css
+C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\DisplayShows.razor.rz.scp.css
