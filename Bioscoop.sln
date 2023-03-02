@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bioscoop.Api", "Bioscoop.Ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bioscoop.Models", "Bioscoop.Models\Bioscoop.Models.csproj", "{457E915F-ACA8-4BEA-8C85-BC2F3D006C10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{4C5070B3-1844-4400-B829-3451154E8BC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bioscoop.Test", "Bioscoop.Test\Bioscoop.Test.csproj", "{59322A52-3A5D-43D6-A5A2-D07C9AEA5614}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{457E915F-ACA8-4BEA-8C85-BC2F3D006C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{457E915F-ACA8-4BEA-8C85-BC2F3D006C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{457E915F-ACA8-4BEA-8C85-BC2F3D006C10}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4C5070B3-1844-4400-B829-3451154E8BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4C5070B3-1844-4400-B829-3451154E8BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4C5070B3-1844-4400-B829-3451154E8BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4C5070B3-1844-4400-B829-3451154E8BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59322A52-3A5D-43D6-A5A2-D07C9AEA5614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59322A52-3A5D-43D6-A5A2-D07C9AEA5614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59322A52-3A5D-43D6-A5A2-D07C9AEA5614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59322A52-3A5D-43D6-A5A2-D07C9AEA5614}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
