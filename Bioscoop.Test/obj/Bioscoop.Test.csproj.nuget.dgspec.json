@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Test\\Bioscoop.Test.csproj": {}
+    "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Test\\Bioscoop.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj": {
+    "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj",
+        "projectUniqueName": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj",
         "projectName": "Bioscoop.Api",
-        "projectPath": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj",
-        "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\obj\\",
+        "projectPath": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj",
+        "packagesPath": "C:\\Users\\thijs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thijs\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {
-                "projectPath": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj"
+              "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {
+                "projectPath": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj"
               }
             }
           }
@@ -87,24 +87,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {
+    "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
+        "projectUniqueName": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
         "projectName": "Bioscoop.Models",
-        "projectPath": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
-        "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\obj\\",
+        "projectPath": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
+        "packagesPath": "C:\\Users\\thijs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thijs\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -147,24 +147,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Test\\Bioscoop.Test.csproj": {
+    "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Test\\Bioscoop.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Test\\Bioscoop.Test.csproj",
+        "projectUniqueName": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Test\\Bioscoop.Test.csproj",
         "projectName": "Bioscoop.Test",
-        "projectPath": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Test\\Bioscoop.Test.csproj",
-        "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Test\\obj\\",
+        "projectPath": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Test\\Bioscoop.Test.csproj",
+        "packagesPath": "C:\\Users\\thijs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thijs\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -180,8 +180,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj": {
-                "projectPath": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj"
+              "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj": {
+                "projectPath": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj"
               }
             }
           }
@@ -241,7 +241,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

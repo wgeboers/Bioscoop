@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {}
+    "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {
+    "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
+        "projectUniqueName": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
         "projectName": "Bioscoop.Models",
-        "projectPath": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
-        "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\obj\\",
+        "projectPath": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
+        "packagesPath": "C:\\Users\\thijs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thijs\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
