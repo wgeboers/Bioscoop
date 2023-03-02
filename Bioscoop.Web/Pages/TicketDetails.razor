@@ -3,9 +3,10 @@
 @using Syncfusion.Drawing;
 @using Syncfusion.Pdf.Graphics;
 @inject Microsoft.JSInterop.IJSRuntime JS
+@inject IJSRuntime JSRuntime;
 @using System.IO;
 @page "/TicketDetails"
-@page "/TicketDetails/{id:int}"
+@page "/TicketDetails/{id:int?}"
 @inherits TicketDetailsBase
 
 @if (Ticket == null && ErrorMessage == null)
@@ -53,15 +54,24 @@ else
                         + "Code: " + Ticket.Code + "\n";
 }
 
+            <input type="text" @bind-value="@ticketID" />
+
+<button @onclick="(() => openPage(ticketID))">Add</button>
+
+
 @code {
-    //[Parameter]
-    //public int? Id { get; set; }
     public string ticketDetails;
+    public string ticketID;
 
     protected override void OnInitialized()
     {
         base.OnInitialized();
-       // id = id ?? 0;
+    }
+
+    public void openPage(string ticketID)
+    {
+        string url = "/TicketDetails/" + ticketID;
+        JSRuntime.InvokeVoidAsync("open", url, "_self");
     }
 }
 
