@@ -42,9 +42,13 @@ else
                 <td>@Ticket.SeatNumber</td>
                 </tr>    
         </tbody>
+        <br/>
+        <br/>
         <button class="btn btn-primary" @onclick="@ExportToPdf">Export to PDF</button>
 
     </table>
+
+    @*Format ticket for generating pdf*@
     ticketDetails += Ticket.ShowStartDateTime + "\n"
                         + Ticket.MovieTitle + "\n"
                         + "Price: " + Ticket.Price + "\n"
@@ -54,9 +58,11 @@ else
                         + "Code: " + Ticket.Code + "\n";
 }
 
-            <input type="text" @bind-value="@ticketID" />
-
-<button @onclick="(() => openPage(ticketID))">Add</button>
+@*Search box for ticket*@
+<hr/>
+<h4>Search on ticket-ID:</h4>
+<input type="text" @bind-value="@ticketID" />
+<button @onclick="(() => openPage(ticketID))">Search</button>
 
 
 @code {
