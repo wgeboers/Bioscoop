@@ -12,7 +12,7 @@ namespace Bioscoop.Web.Pages
 
         [Inject]
         public ITicketService TicketService { get; set; }
-
+        [Inject]
         public IMailService MailService { get; set; }
         public TicketDto Ticket { get; set; }
 

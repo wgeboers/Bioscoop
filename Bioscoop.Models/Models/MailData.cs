@@ -3,10 +3,10 @@
 public class MailData
 {
     // Receiver
-    public List<string> To { get; }
-    public List<string> Bcc { get; }
+    public List<string> To { get; set; }
+    public List<string> Bcc { get; set;}
 
-    public List<string> Cc { get; }
+    public List<string> Cc { get; set; }
 
     // Sender
     public string? From { get; }
@@ -18,7 +18,7 @@ public class MailData
     public string? ReplyToName { get; }
 
     // Content
-    public string Subject { get; }
+    public string Subject { get; set; }
 
     public string? Body { get; }
 

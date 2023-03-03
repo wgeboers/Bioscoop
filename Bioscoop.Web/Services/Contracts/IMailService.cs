@@ -4,6 +4,7 @@ namespace Bioscoop.Web.Services.Contracts
 {
     public interface IMailService
     {
-        Task<String> EmailTicket(MailData mailData);
+        Task<string> EmailTicket(MailData mailData);
+        void Nothing();
     }
 }

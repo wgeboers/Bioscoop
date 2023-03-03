@@ -15,7 +15,7 @@ namespace Bioscoop.Web.Services
 
         public async Task<String> EmailTicket(MailData mailData)
         {
-            try
+           try
             {
                 var response = await httpClient.PostAsJsonAsync("api/Mail/sendmail", mailData);
 
@@ -33,6 +33,11 @@ namespace Bioscoop.Web.Services
 
                 throw;
             }
+        }
+
+        public async void Nothing()
+        {
+
         }
     }
 }
