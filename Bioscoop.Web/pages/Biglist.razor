@@ -5,7 +5,7 @@
 @if(Shows == null)
 {
     <h3>Loading Movies...</h3>
-    <DisplaySpinner />
+    <DisplaySpinner></DisplaySpinner>
 }
 else
 {
@@ -26,8 +26,7 @@ else
 
             <div class=" col mb-2">
                     <div class="card">
-                        <@showRowListing>
-                        </>
+                     <DisplayShows ShowsList = "@showCount"></DisplayShows>
                     </div>
             </div>
         }

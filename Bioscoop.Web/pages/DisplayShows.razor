@@ -1,0 +1,22 @@
+@inherits DisplayshowListBase
+
+
+
+@foreach(var show in Shows)
+{
+    <div class="card">
+        <img class="img-thumbnail" src="@show.MovieImageURL">
+        <div class="card-body">
+            <h5 class="card-title mb-3">
+                @show.MovieTitle
+            </h5>
+            <h7 class="card-text">
+                <b>Room number: @show.RoomName</b>
+                <br>
+                <b>Wheelchair friendly: @show.RoomWheelchairFriendly</b>
+                <br>
+                <b>Age: @show.MovieMinimumAge</b>
+            </h7>
+        </div>
+    </div>
+}

@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bioscoop.Web", "Bioscoop.Web\Bioscoop.Web.csproj", "{B7086D94-3BB9-4922-A8E7-36DF8E5D52B1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E3357869-7671-4137-AEDC-8617645CC2B1} = {E3357869-7671-4137-AEDC-8617645CC2B1}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bioscoop.Api", "Bioscoop.Api\Bioscoop.Api.csproj", "{E3357869-7671-4137-AEDC-8617645CC2B1}"
 EndProject
