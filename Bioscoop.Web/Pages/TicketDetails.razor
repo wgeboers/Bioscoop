@@ -46,12 +46,24 @@ else
                 <td>@Ticket.SeatNumber</td>
                 </tr>    
         </tbody>
-        <br/>
-        <br/>
-        <button class="btn btn-primary" @onclick="@ExportToPdf">Print ticket</button>
-        <button class="btn btn-primary" @onclick="(() => EmailTicket())">E-mail ticket</button>
-
     </table>
+        <br/>
+        <br/>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <button class="btn btn-primary" @onclick="@ExportToPdf">Print ticket</button>
+                    </div>
+                    <div class="col-md-2">
+                        <input type="email" class="form-control" @bind-value="@emailAdres" />
+                        </div
+                <div class="col-md-3">
+                        <button class="btn btn-primary" @onclick="(() => EmailTicket())">E-mail ticket</button>
+                    </div>
+                 </div>
+             </div>
+
+
 
     @*Format ticket for generating pdf*@
     ticketDetails += Ticket.ShowStartDateTime + "\n"
@@ -72,6 +84,7 @@ else
 @code {
     public string ticketDetails;
     public string ticketID;
+    public string emailAdres;
 
     protected override void OnInitialized()
     {
@@ -81,9 +94,7 @@ else
     public void openPage(string ticketID)
     {
         string url = "/TicketDetails/" + ticketID;
-        // JSRuntime.InvokeVoidAsync("open", url, "_self");
-        // JSRuntime.InvokeVoidAsync("open","api/Mail/sendmail/", "_blank");
-
+        JSRuntime.InvokeVoidAsync("open", url, "_self");
     }
 
     public void EmailTicket()
@@ -93,7 +104,8 @@ else
         //Create a new PDF document.
         PdfDocument pdfDocument = new PdfDocument();
         //Add Page to the PDF document.
-        PdfPage page = pdfDocument.Pages.Add();
+        PdfPage page = new PdfPage();
+        page = pdfDocument.Pages.Add();
 
         //Create a new font.
         PdfStandardFont font = new PdfStandardFont(PdfFontFamily.TimesRoman, 16);
@@ -115,9 +127,14 @@ else
 
         MailService.EmailTicketByte(new MailDataWithAttachmentByte(
         new List<string> { "marcelforman@forman.nl" },
-        "Onderwerp",
-        memoryStream.ToArray()
+        "Ticket for " + Ticket.MovieTitle + " | Time: " + Ticket.ShowStartDateTime,        
+        memoryStream.ToArray(),
+        "Dear costumer, <br/><br/> Enjoy the Movie!<br/><br/> Greetings, Bioscoop"
         ));
+
+        pdfDocument.Close();
+        memoryStream.Close();
+       
     }
 }
 
