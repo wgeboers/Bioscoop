@@ -44,5 +44,20 @@ namespace Bioscoop.Api.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occured. The Mail with attachment could not be sent.");
             }
         }
+
+        [HttpPost("sendemailwithattachmentbyte")]
+        public async Task<IActionResult> SendMailWithAttachmentByte(MailDataWithAttachmentByte mailData)
+        {
+            bool result = await _mail.SendWithAttachmentByteAsync(mailData, new CancellationToken());
+
+            if (result)
+            {
+                return StatusCode(StatusCodes.Status200OK, "Mail with attachment has successfully been sent.");
+            }
+            else
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "An error occured. The Mail with attachment could not be sent.");
+            }
+        }
     }
 }

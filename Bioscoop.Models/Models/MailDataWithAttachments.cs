@@ -25,5 +25,8 @@ namespace Bioscoop.Models.Models
         public string? Subject { get; set; }
         public string? Body { get; set; }
         public IFormFileCollection? Attachments { get; set; }
+        public byte[] Attachment { get; set; }  
+
+
     }
 }

@@ -6,5 +6,6 @@ namespace Bioscoop.Web.Services.Contracts
     {
         Task<string> EmailTicket(MailData mailData);
         void Nothing();
+        Task<string> EmailTicketByte(MailDataWithAttachmentByte mailData);
     }
 }

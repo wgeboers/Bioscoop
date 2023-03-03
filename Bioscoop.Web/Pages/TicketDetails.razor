@@ -88,9 +88,36 @@ else
 
     public void EmailTicket()
     {
-        MailService.EmailTicket(new MailData(
+        int paragraphAfterSpacing = 8;
+        int cellMargin = 8;
+        //Create a new PDF document.
+        PdfDocument pdfDocument = new PdfDocument();
+        //Add Page to the PDF document.
+        PdfPage page = pdfDocument.Pages.Add();
+
+        //Create a new font.
+        PdfStandardFont font = new PdfStandardFont(PdfFontFamily.TimesRoman, 16);
+        //Create a text element to draw a text in PDF page.
+        PdfTextElement title = new PdfTextElement("Ticket", font, PdfBrushes.Black);
+        PdfLayoutResult result = title.Draw(page, new PointF(0, 0));
+        PdfStandardFont contentFont = new PdfStandardFont(PdfFontFamily.TimesRoman, 12);
+        //Create text element.
+        PdfTextElement content = new PdfTextElement(ticketDetails, contentFont, PdfBrushes.Black);
+        PdfLayoutFormat format = new PdfLayoutFormat();
+        format.Layout = PdfLayoutType.Paginate;
+        //Draw a text to the PDF document.
+        result = content.Draw(page, new RectangleF(0, result.Bounds.Bottom + paragraphAfterSpacing, page.GetClientSize().Width, page.GetClientSize().Height), format);
+
+        //Create memory stream.
+        MemoryStream memoryStream = new MemoryStream();
+        //Save the PDF document.
+        pdfDocument.Save(memoryStream);
+
+        MailService.EmailTicketByte(new MailDataWithAttachmentByte(
         new List<string> { "marcelforman@forman.nl" },
-        "Onderwerp"));
+        "Onderwerp",
+        memoryStream.ToArray()
+        ));
     }
 }
 
@@ -125,17 +152,4 @@ else
         JS.SaveAs("Ticket.pdf", memoryStream.ToArray());
 
     }
-}
-@functions {
-    /*void EmailTicket()
-    {
-       MailData mailData2 = new MailData(
-                new List<string>{ "marcelforman@forman.nl" },             
-                "Onderwerp"
-        );
-        MailService.EmailTicket(new MailData(
-                new List<string>{ "marcelforman@forman.nl" },             
-                "Onderwerp"));
-
-    }*/
 }

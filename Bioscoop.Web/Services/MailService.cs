@@ -35,6 +35,27 @@ namespace Bioscoop.Web.Services
             }
         }
 
+        public async Task<String> EmailTicketByte(MailDataWithAttachmentByte mailData)
+        {
+            try
+            {
+                var response = await httpClient.PostAsJsonAsync("api/Mail/sendemailwithattachmentbyte", mailData);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    return "Mail succesfully send";
+
+                }
+
+                return "Failure sending e-mail, print the ticket instead.";
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
         public async void Nothing()
         {
 
