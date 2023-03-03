@@ -12,6 +12,7 @@
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-9hS0lH\/KHwdR5UrpgTsTuXn3Q25Lo5YfMdkNS9eU2gk=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-UZqIo7mXzs725Ue0bwmQCHGFmUbf9ISmmgJcPmK4G5c=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-O+b5Wry0nfi1jJsRcx5gMTmufddRxDTcFS+QUtACR9k=",
+      "Microsoft.AspNetCore.Http.Features.dll": "sha256-nhDtQDkvXQUWiexwW5atxrEm6abFLbvzeVCl\/Gb5kvI=",
       "Microsoft.AspNetCore.Metadata.dll": "sha256-yKXiy5bHeZc3n7OK1T+dXnCaUgdD\/oucHL4X86LFzww=",
       "Microsoft.Extensions.Configuration.dll": "sha256-PqQvp77oZ4+uuy2ElXk8AU9I6RfZSf18UGTrd4rulOo=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-CnS3b9EMFQmETBUVEgtcron4DBsfFdcVt3zfCP6Uflg=",
@@ -201,15 +202,15 @@
       "mscorlib.dll": "sha256-kgowZLZGyceaJo4bHvVY1kmm1GJuawa5rPO1RCfNYWc=",
       "netstandard.dll": "sha256-2\/SuexPFW8hizUgbgPcchYHfG\/zmGzzMN6ESSyefPRQ=",
       "System.Private.CoreLib.dll": "sha256-mcywrbK0VZXiOvZ4dxU1ocaPZFplCRSIPQ\/wFikcrus=",
-      "Bioscoop.Models.dll": "sha256-5h\/3n7f1nbYmV9LUQ1g5ReCbwwT79k+oa26003q4BMc=",
-      "Bioscoop.Web.dll": "sha256-\/CVmjgWmk+4GExHF19VHnECgcmAp7MB2Fl9NPIQlmWg="
+      "Bioscoop.Models.dll": "sha256-Mazpvc6LKZnKGG8luGrnrkd32Xwn4vMY1G8byzwNql8=",
+      "Bioscoop.Web.dll": "sha256-uvhNgUwUwK6CTdoxvzx32r7JpxY436ymSt5OepTZv8I="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Bioscoop.Models.pdb": "sha256-qZAASTwmBhMyRti54V6dV+5uotYCIrJSU4YmMLvAd8k=",
-      "Bioscoop.Web.pdb": "sha256-1dMX9fHkKCDLnFa5clxaNkY+zTi0X+RWcjgChoDpWmg="
+      "Bioscoop.Models.pdb": "sha256-mTzfoVW\/eKnewroA1ZjmYHgIc0cXdtqFa8V5zKwc2SE=",
+      "Bioscoop.Web.pdb": "sha256-xwn7JgE5lFc\/4qrjCSiGvWlUYDw4JWz2QPUkHkC09EY="
     },
     "runtime": {
       "dotnet.7.0.3.g6m5rzf234.js": "sha256-DxGvmbtUa6hGJpk3VyMEbkPZ653qWbQkh8X4ZVM9TWM=",

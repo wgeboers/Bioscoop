@@ -1,5 +1,5 @@
-﻿using Bioscoop.Api.Models;
-using Bioscoop.Api.Services;
+﻿using Bioscoop.Api.Services;
+using Bioscoop.Models.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Bioscoop.Api.Controllers
@@ -27,6 +27,21 @@ namespace Bioscoop.Api.Controllers
             else
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occured. The Mail could not be sent.");
+            }
+        }
+
+        [HttpPost("sendemailwithattachment")]
+        public async Task<IActionResult> SendMailWithAttachment([FromForm] MailDataWithAttachments mailData)
+        {
+            bool result = await _mail.SendWithAttachmentsAsync(mailData, new CancellationToken());
+
+            if (result)
+            {
+                return StatusCode(StatusCodes.Status200OK, "Mail with attachment has successfully been sent.");
+            }
+            else
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "An error occured. The Mail with attachment could not be sent.");
             }
         }
     }
