@@ -7,26 +7,26 @@
     <h3>Loading Movies...</h3>
     <DisplaySpinner></DisplaySpinner>
 }
-else
+else if (Shows.Count() >0)
 {
-    <h3 class="mb-lg-2">Show Overview</h3>
+    <h3 class="mb-lg-2">Shows for today @DateOnly.FromDateTime(DateTime.Now)</h3>
 
     var showCount = Shows.Count();
 
 
     @if (showCount > 0)
     {
-        const int itemsPerRow = 6;
+        
         var showListing = new List<ShowDto>();
 
 
         @for (int i = 0; i < showCount; i++)
         {
-            showRowListing = Shows.Skip(i * itemsPerRow).Take(itemsPerRow).ToList();
+           
 
             <div class=" col mb-2">
                     <div class="card">
-                     <DisplayShows ShowsList = "@showCount"></DisplayShows>
+                     <DisplayShows showListing = "@showCount"></DisplayShows>
                     </div>
             </div>
         }

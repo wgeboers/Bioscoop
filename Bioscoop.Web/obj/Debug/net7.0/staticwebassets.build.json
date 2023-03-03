@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YzhgalBUEm6vFaVaNDr6sabFQzrNZAvTE6gQw8qpp2o=",
+  "Hash": "wdU/FY+eCqOaDhIfOtQ9KTQvKROXrQIZz+2b4A1OXoM=",
   "Source": "Bioscoop.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -7223,23 +7223,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\Users\\Thomas daane\\Documents\\C#-Projects\\Bioscoop\\Bioscoop.Web\\wwwroot\\sample-data\\weather.json",
-      "SourceId": "Bioscoop.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thomas daane\\Documents\\C#-Projects\\Bioscoop\\Bioscoop.Web\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
     }
   ]
 }
