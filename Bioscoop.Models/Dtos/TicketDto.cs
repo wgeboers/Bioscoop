@@ -19,6 +19,6 @@ namespace Bioscoop.Models.Dtos
         public required string RoomName { get; set; }
         public int RowNumber { get; set; }
         public int SeatNumber { get; set; }
-        public double Price { get; set; }
+        public decimal Price { get; set; }
     }
 }
