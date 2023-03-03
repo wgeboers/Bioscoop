@@ -2,39 +2,33 @@
 @inherits BiglistBase
 
 
-@if(GetMovies() == null)
+@if(Shows == null)
 {
     <h3>Loading Movies...</h3>
+    <DisplaySpinner />
 }
 else
 {
-    <h3 class="mb-lg-2">Movies</h3>
+    <h3 class="mb-lg-2">Show Overview</h3>
 
     var showCount = Shows.Count();
+
 
     @if (showCount > 0)
     {
         const int itemsPerRow = 6;
-        var movies = new List<ShowDto>();
+        var showListing = new List<ShowDto>();
+
 
         @for (int i = 0; i < showCount; i++)
         {
-            showRowList = GetMovies().Skip(i * itemsPerRow).Take(itemsPerRow).ToList();
+            showRowListing = Shows.Skip(i * itemsPerRow).Take(itemsPerRow).ToList();
 
-            <div class="row mt-md-3">
-                <a href="#">
-                    <div class="showList">
-                        <h5 class="show-title mb-3">
-                            @item.MovieId
-                        </h5>
-                        <h5 class="show-room mb-3">
-                            @item.RoomId
-                        </h5>
-                        <p class="show-time">
-                            <b>@item.StartDateTime</b>l
-                        </p>
+            <div class=" col mb-2">
+                    <div class="card">
+                        <@showRowListing>
+                        </>
                     </div>
-                </a>
             </div>
         }
     }

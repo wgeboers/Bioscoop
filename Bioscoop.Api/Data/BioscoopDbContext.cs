@@ -129,6 +129,38 @@ namespace Bioscoop.Api.Data
                 StartDateTime = DateTime.Now
             });
 
+            modelBuilder.Entity<Show>().HasData(new Show
+            {
+                Id = 2,
+                MovieId = 3,
+                RoomId = 2,
+                StartDateTime = DateTime.Now
+            });
+
+            modelBuilder.Entity<Show>().HasData(new Show
+            {
+                Id = 3,
+                MovieId = 3,
+                RoomId = 2,
+                StartDateTime = DateTime.Now
+            });
+
+            modelBuilder.Entity<Show>().HasData(new Show
+            {
+                Id = 4,
+                MovieId = 3,
+                RoomId = 2,
+                StartDateTime = DateTime.Now
+            });
+
+            modelBuilder.Entity<Show>().HasData(new Show
+            {
+                Id = 5,
+                MovieId = 3,
+                RoomId = 2,
+                StartDateTime = DateTime.Now
+            });
+
             //Add Tickets
             modelBuilder.Entity<Ticket>().HasData(new Ticket
             {
@@ -137,7 +169,7 @@ namespace Bioscoop.Api.Data
                 ShowId = 1,
                 RowNumber = 1,
                 SeatNumber = 1,
-                Price = 9.00
+                Price = 9.00m
             });
 
             modelBuilder.Entity<Ticket>().HasData(new Ticket
@@ -147,7 +179,7 @@ namespace Bioscoop.Api.Data
                 ShowId = 1,
                 RowNumber = 1,
                 SeatNumber = 2,
-                Price = 9.00
+                Price = 9.00m
             });
 
             modelBuilder.Entity<Ticket>().HasData(new Ticket
@@ -157,7 +189,7 @@ namespace Bioscoop.Api.Data
                 ShowId = 1,
                 RowNumber = 1,
                 SeatNumber = 3,
-                Price = 9.00
+                Price = 8.50m
             });
         }
 

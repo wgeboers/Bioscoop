@@ -6,6 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Bioscoop.Api.Repositories
 {
+
+    //Show moet meer info terug geven van de film en zaal
+
     public class ShowRepository : IShowRepository
     {
         private readonly BioscoopDbContext bioscoopDbContext;

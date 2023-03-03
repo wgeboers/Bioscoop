@@ -203,7 +203,7 @@ namespace Bioscoop.Api.Migrations
                             Id = 1,
                             MovieId = 3,
                             RoomId = 2,
-                            StartDateTime = new DateTime(2023, 2, 25, 19, 59, 15, 723, DateTimeKind.Local).AddTicks(6031)
+                            StartDateTime = new DateTime(2023, 3, 3, 10, 6, 27, 96, DateTimeKind.Local).AddTicks(7736)
                         });
                 });
 
@@ -218,8 +218,8 @@ namespace Bioscoop.Api.Migrations
                     b.Property<int>("Code")
                         .HasColumnType("int");
 
-                    b.Property<double>("Price")
-                        .HasColumnType("float");
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("RowNumber")
                         .HasColumnType("int");
@@ -239,7 +239,7 @@ namespace Bioscoop.Api.Migrations
                         {
                             Id = 1,
                             Code = 1,
-                            Price = 9.0,
+                            Price = 9.00m,
                             RowNumber = 1,
                             SeatNumber = 1,
                             ShowId = 1
@@ -248,7 +248,7 @@ namespace Bioscoop.Api.Migrations
                         {
                             Id = 2,
                             Code = 2,
-                            Price = 9.0,
+                            Price = 9.00m,
                             RowNumber = 1,
                             SeatNumber = 2,
                             ShowId = 1
@@ -257,7 +257,7 @@ namespace Bioscoop.Api.Migrations
                         {
                             Id = 3,
                             Code = 3,
-                            Price = 9.0,
+                            Price = 8.50m,
                             RowNumber = 1,
                             SeatNumber = 3,
                             ShowId = 1

@@ -24,6 +24,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = cGFnZXNcQmlnbGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Thomas daane/Documents/C\#-Projects/Bioscoop/Bioscoop.Web/pages/DisplayShows.razor]
+build_metadata.AdditionalFiles.TargetPath = cGFnZXNcRGlzcGxheVNob3dzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Thomas daane/Documents/C\#-Projects/Bioscoop/Bioscoop.Web/pages/DisplaySpinner.razor]
+build_metadata.AdditionalFiles.TargetPath = cGFnZXNcRGlzcGxheVNwaW5uZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Thomas daane/Documents/C\#-Projects/Bioscoop/Bioscoop.Web/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

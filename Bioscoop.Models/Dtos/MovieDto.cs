@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bioscoop.Models.Dtos
 {
-    public class ShowDto
+    public class MovieDto
     {
         public int Id { get; set; }
         public required string Title { get; set; }

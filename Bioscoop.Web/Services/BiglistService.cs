@@ -13,12 +13,26 @@ namespace Bioscoop.Web.Services
             this.httpClient = httpClient;
             
         }
-        public async Task <IEnumerable<ShowDto>> GetMovies(IEnumerable<ShowDto>? movies)
+        public async Task <ShowDto> GetShow(int id)
         {
             try
             {
-                var Movies = await this.httpClient.GetFromJsonAsync<IEnumerable<ShowDto>>("api/Show");
-                return movies;
+                var showlist = await this.httpClient.GetAsync($"api/Show/{id}");
+
+                if (showlist.IsSuccessStatusCode)
+                {
+                    if (showlist.StatusCode == System.Net.HttpStatusCode.NoContent)
+                    {
+                        return default(ShowDto);
+                    }
+
+                    return await showlist.Content.ReadFromJsonAsync<ShowDto>();
+                }
+                else
+                {
+                    var message = await showlist.Content.ReadAsStringAsync();
+                    throw new Exception(message);
+                }
             }
             catch (Exception){
                 throw;
@@ -26,5 +40,30 @@ namespace Bioscoop.Web.Services
         }
 
         
+        public async Task<IEnumerable<ShowDto>> GetShows()
+        {
+            try
+            {
+                var showlist = await this.httpClient.GetAsync("api/Show");
+
+                if (showlist.IsSuccessStatusCode)
+                {
+                    if (showlist.StatusCode == System.Net.HttpStatusCode.NoContent)
+                    {
+                        return Enumerable.Empty<ShowDto>(); 
+                    }
+                    return await showlist.Content.ReadFromJsonAsync<IEnumerable<ShowDto>>();
+                }
+                else
+                {
+                    var message = await showlist.Content.ReadAsStringAsync();
+                    throw new Exception(message);   
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }

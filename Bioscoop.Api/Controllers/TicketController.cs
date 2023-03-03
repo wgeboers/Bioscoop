@@ -13,11 +13,18 @@ namespace Bioscoop.Api.Controllers
     {
         private readonly ITicketRepository ticketRepository;
         private readonly IShowRepository showRepository;
+        private readonly IMovieRepository movieRepository;
+        private readonly IRoomRepository roomRepository;
 
-        public TicketController(ITicketRepository ticketRepository, IShowRepository showRepository)
+        public TicketController(ITicketRepository ticketRepository, 
+                                IShowRepository showRepository,
+                                IMovieRepository movieRepository,
+                                IRoomRepository roomRepository)
         {
             this.ticketRepository = ticketRepository;
             this.showRepository = showRepository;
+            this.movieRepository = movieRepository;
+            this.roomRepository = roomRepository;
         }
 
         [HttpGet]
@@ -26,16 +33,32 @@ namespace Bioscoop.Api.Controllers
             try
             {
                 var tickets = await this.ticketRepository.GetTickets();
-
                 if (tickets == null)
                 {
-                    return NotFound();
+                    return NoContent();
                 }
-                else
+
+                var shows = await this.showRepository.GetShows();
+                if (shows == null)
                 {
-                    var ticketsDtos = tickets.ConvertToDto();
-                    return Ok(ticketsDtos);
+                    throw new Exception("No shows exist in the system?");
                 }
+
+                var movies = await this.movieRepository.GetMovies();
+                if (movies == null)
+                {
+                    throw new Exception("No movies exist in the system?");
+                }
+
+                var rooms = await this.roomRepository.GetRooms();
+                if (rooms == null)
+                {
+                    throw new Exception("No rooms exist in the system?");
+                }
+
+                var ticketsDto = tickets.ConvertToDto(shows, movies, rooms);
+
+                return Ok(ticketsDto);
             }
             catch (Exception)
             {
@@ -50,16 +73,72 @@ namespace Bioscoop.Api.Controllers
             try
             {
                 var ticket = await this.ticketRepository.GetTicket(id);
-
                 if (ticket == null)
                 {
-                    return BadRequest();
+                    return NotFound();
                 }
-                else
+
+                var show = await this.showRepository.GetShow(ticket.ShowId);
+                if (show == null)
                 {
-                    var ticketDto = ticket.ConvertToDto();
-                    return Ok(ticketDto);
+                    return NotFound();
                 }
+
+                var movie = await this.movieRepository.GetMovie(show.MovieId);
+                if (movie == null)
+                {
+                    return NotFound();
+                }
+
+                var room = await this.roomRepository.GetRoom(show.RoomId);
+                if (room == null)
+                {
+                    return NotFound();
+                }
+
+                var ticketDto = ticket.ConvertToDto(show, movie, room);
+
+                return Ok(ticketDto);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error retrieving data from the database");
+            }
+        }
+
+        [HttpGet("code/{code:int}")]
+        public async Task<ActionResult<TicketDto>> GetTicketByCode(int code)
+        {
+            try
+            {
+                var ticket = await this.ticketRepository.GetTicketByCode(code);
+                if (ticket == null)
+                {
+                    return NotFound();
+                }
+
+                var show = await this.showRepository.GetShow(ticket.ShowId);
+                if (show == null)
+                {
+                    return NotFound();
+                }
+
+                var movie = await this.movieRepository.GetMovie(show.MovieId);
+                if (movie == null)
+                {
+                    return NotFound();
+                }
+
+                var room = await this.roomRepository.GetRoom(show.RoomId);
+                if (room == null)
+                {
+                    return NotFound();
+                }
+
+                var ticketDto = ticket.ConvertToDto(show, movie, room);
+
+                return Ok(ticketDto);
             }
             catch (Exception)
             {
@@ -74,13 +153,30 @@ namespace Bioscoop.Api.Controllers
             try
             {
                 var newTicket = await this.ticketRepository.AddTicket(ticketToAddDto);
-
                 if (newTicket == null)
                 {
                     return NoContent();
                 }
 
-                var newTicketDto = newTicket.ConvertToDto();
+                var show = await showRepository.GetShow(newTicket.ShowId);
+                if (show == null)
+                {
+                    throw new Exception($"Something went wrong when attempting to retrieve show (showId:({newTicket.ShowId})");
+                }
+
+                var movie = await movieRepository.GetMovie(show.MovieId);
+                if (movie == null)
+                {
+                    throw new Exception($"Something went wrong when attempting to retrieve movie (movieId:({show.MovieId})");
+                }
+
+                var room = await roomRepository.GetRoom(show.RoomId);
+                if (room == null)
+                {
+                    throw new Exception($"Something went wrong when attempting to retrieve room (roomId:({show.RoomId})");
+                }
+
+                var newTicketDto = newTicket.ConvertToDto(show, movie, room);
 
                 return CreatedAtAction(nameof(GetTicket), new { id = newTicketDto.Id }, newTicketDto);
             }
