@@ -2,9 +2,12 @@
 @using Syncfusion.Pdf.Grid;
 @using Syncfusion.Drawing;
 @using Syncfusion.Pdf.Graphics;
+@using System.Text.Json;
+@using System.IO;
+
 @inject Microsoft.JSInterop.IJSRuntime JS
 @inject IJSRuntime JSRuntime;
-@using System.IO;
+
 @page "/TicketDetails"
 @page "/TicketDetails/{id:int?}"
 @inherits TicketDetailsBase
@@ -44,7 +47,8 @@ else
         </tbody>
         <br/>
         <br/>
-        <button class="btn btn-primary" @onclick="@ExportToPdf">Export to PDF</button>
+        <button class="btn btn-primary" @onclick="@ExportToPdf">Print ticket</button>
+        <button class="btn btn-primary" @onclick="@EmailTicket">E-mail ticket</button>
 
     </table>
 
@@ -64,7 +68,6 @@ else
 <input type="text" @bind-value="@ticketID" />
 <button @onclick="(() => openPage(ticketID))">Search</button>
 
-
 @code {
     public string ticketDetails;
     public string ticketID;
@@ -77,7 +80,8 @@ else
     public void openPage(string ticketID)
     {
         string url = "/TicketDetails/" + ticketID;
-        JSRuntime.InvokeVoidAsync("open", url, "_self");
+       // JSRuntime.InvokeVoidAsync("open", url, "_self");
+        // JSRuntime.InvokeVoidAsync("open","api/Mail/sendmail/", "_blank");
     }
 }
 
@@ -110,5 +114,11 @@ else
         pdfDocument.Save(memoryStream);
         //Download the PDF document
         JS.SaveAs("Ticket.pdf", memoryStream.ToArray());
+
+    }
+
+    void EmailTicket()
+    {
+        
     }
 }
