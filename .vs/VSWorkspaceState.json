@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Bioscoop.Test",
+    "\\Bioscoop.Test\\Api",
+    "\\Bioscoop.Test\\Api\\Ticket"
   ],
-  "SelectedNode": "\\Bioscoop.sln",
   "PreviewInSolutionExplorer": false
 }

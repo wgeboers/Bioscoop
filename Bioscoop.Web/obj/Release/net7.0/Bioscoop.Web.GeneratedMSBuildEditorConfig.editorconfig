@@ -16,54 +16,54 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/App.razor]
+[C:/Users/Gebruiker/source/repos/wgeboers/Bioscoop/Bioscoop.Web/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/DisplayError.razor]
+[C:/Users/Gebruiker/source/repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/DisplayError.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheUVycm9yLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/MovieDetails.razor]
+[C:/Users/Gebruiker/source/repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/MovieDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVEZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/Movies.razor]
+[C:/Users/Gebruiker/source/repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/Movies.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/ShowDetails.razor]
+[C:/Users/Gebruiker/source/repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/ShowDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd0RldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/Shows.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd3MucmF6b3I=
+[C:/Users/Gebruiker/source/repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/ShowsAll.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd3NBbGwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/Shared/SurveyPrompt.razor]
+[C:/Users/Gebruiker/source/repos/wgeboers/Bioscoop/Bioscoop.Web/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/_Imports.razor]
+[C:/Users/Gebruiker/source/repos/wgeboers/Bioscoop/Bioscoop.Web/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/DisplayMovies.razor]
+[C:/Users/Gebruiker/source/repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/DisplayMovies.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheU1vdmllcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-c8pbdu3qki
 
-[C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/DisplayShows.razor]
+[C:/Users/Gebruiker/source/repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/DisplayShows.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheVNob3dzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-rdldtw3w2r
 
-[C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/DisplaySpinner.razor]
+[C:/Users/Gebruiker/source/repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/DisplaySpinner.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheVNwaW5uZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-djnsdi6z89
 
-[C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/Shared/MainLayout.razor]
+[C:/Users/Gebruiker/source/repos/wgeboers/Bioscoop/Bioscoop.Web/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-mne6olkcqv
 
-[C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/Shared/NavMenu.razor]
+[C:/Users/Gebruiker/source/repos/wgeboers/Bioscoop/Bioscoop.Web/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-y1pdihn0ax

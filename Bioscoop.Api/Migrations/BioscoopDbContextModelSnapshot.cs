@@ -201,9 +201,317 @@ namespace Bioscoop.Api.Migrations
                         new
                         {
                             Id = 1,
-                            MovieId = 3,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 6, 12, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 6, 16, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 3,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 6, 20, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 4,
+                            MovieId = 2,
                             RoomId = 2,
-                            StartDateTime = new DateTime(2023, 3, 3, 10, 6, 27, 96, DateTimeKind.Local).AddTicks(7736)
+                            StartDateTime = new DateTime(2023, 3, 6, 13, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 5,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 3, 6, 17, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 6,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 3, 6, 20, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 7,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 6, 14, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 8,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 6, 18, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 9,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 6, 22, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 10,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 6, 15, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 11,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 6, 19, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 12,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 6, 23, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 13,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 6, 11, 30, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 14,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 6, 15, 30, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 15,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 6, 19, 30, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 16,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 7, 12, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 17,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 3, 7, 16, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 18,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 7, 20, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 19,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 7, 13, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 20,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 7, 17, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 21,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 8, 20, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 22,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 3, 8, 14, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 23,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 8, 18, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 24,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 8, 22, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 25,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 8, 15, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 26,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 9, 19, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 27,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 3, 9, 23, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 28,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 9, 11, 30, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 29,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 9, 15, 30, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 30,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 9, 19, 30, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 31,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 10, 19, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 32,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 3, 10, 23, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 33,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 10, 11, 30, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 34,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 10, 15, 30, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 35,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 10, 19, 30, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 36,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 4, 19, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 37,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 3, 4, 23, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 38,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 4, 11, 30, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 39,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 4, 15, 30, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 40,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 4, 19, 30, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 41,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 5, 19, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 42,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 3, 5, 23, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 43,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 5, 11, 30, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 44,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 5, 15, 30, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 45,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 5, 19, 30, 0, 0, DateTimeKind.Local)
                         });
                 });
 

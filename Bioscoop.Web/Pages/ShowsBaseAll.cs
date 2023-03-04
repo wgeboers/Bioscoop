@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Components;
 
 namespace Bioscoop.Web.Pages
 {
-    public class ShowsBase : ComponentBase
+    public class ShowsBaseAll : ComponentBase
     {
         [Inject]
         public IShowService ShowService { get; set; }
