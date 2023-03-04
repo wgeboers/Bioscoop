@@ -1654,3 +1654,12 @@ D:\Werk\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.dll
 D:\Werk\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\refint\Bioscoop.Web.dll
 D:\Werk\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.pdb
 D:\Werk\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\ref\Bioscoop.Web.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Bioscoop.Models.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Bioscoop.Models.pdb
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Bioscoop.Models.dll.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Bioscoop.Models.pdb.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Bioscoop.Models.dll
+F:\Projecten\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Bioscoop.Models.pdb
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\3p5dFDBe.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\5VB8vAvF.gz
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\DisplayMovies.razor.rz.scp.css

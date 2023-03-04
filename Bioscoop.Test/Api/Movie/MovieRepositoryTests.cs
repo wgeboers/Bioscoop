@@ -24,9 +24,12 @@ namespace Bioscoop.Test.Api.Movie
                         Id = 1,
                         Title = "Shrek",
                         Description = "Groen ventje",
+                        Genre = "Comedy",
+                        Type = "2D",
                         ImageURL = "/Images/Shrek.jpg",
                         PlayTime = 95,
-                        MinimumAge = 9
+                        MinimumAge = 9,
+                        special = false
                     });
                     await databaseContext.SaveChangesAsync();
                 }

@@ -12,6 +12,7 @@ namespace Bioscoop.Models.Dtos
         public int Code { get; set; }
         public int ShowId { get; set; }
         public DateTime ShowStartDateTime { get; set; }
+        public required string ShowType { get; set; }
         public int MovieId { get; set; }
         public required string MovieTitle { get; set; }
         public int MoviePlayTime { get; set; }

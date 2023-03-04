@@ -1,0 +1,30 @@
+﻿@inherits DisplayMoviesBase
+
+@foreach (var movie in Movies)
+{
+    <div class="col-md-3 mb-2">
+        <a href="#">
+            <img class="img-thumbnail" src="@movie.MovieImageURL">
+            <div class="card-body">
+                <h5 class="card-title mb-3">
+                    @movie.MovieTitle
+                </h5>
+                <p>
+                    @movie.MovieGenre
+                </p>
+                    <p>
+                    @movie.Type
+                </p>
+                <p>
+                    @movie.MovieMinimumAge
+                </p>
+                <p>
+                    @movie.MovieSpecial
+                </p>
+                <p>
+                    @movie.StartDateTime
+                </p>
+            </div>
+        </a>
+    </div>
+}

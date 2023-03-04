@@ -2,6 +2,7 @@ using Bioscoop.Api.Data;
 using Bioscoop.Api.Repositories;
 using Bioscoop.Api.Repositories.Contracts;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Net.Http.Headers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +30,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors(policy =>
+    policy.WithOrigins("http://localhost:7235", "https://localhost:7235")
+    .AllowAnyMethod()
+    .WithHeaders(HeaderNames.ContentType)
+);
 
 app.UseHttpsRedirection();
 

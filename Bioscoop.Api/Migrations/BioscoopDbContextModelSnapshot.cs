@@ -34,6 +34,10 @@ namespace Bioscoop.Api.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Genre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ImageURL")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -48,6 +52,9 @@ namespace Bioscoop.Api.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("special")
+                        .HasColumnType("bit");
+
                     b.HasKey("Id");
 
                     b.ToTable("Movies");
@@ -57,46 +64,56 @@ namespace Bioscoop.Api.Migrations
                         {
                             Id = 1,
                             Description = "In Ant-Man and the Wasp: Quantumania keren superheldenpartners Scott Lang (Paul Rudd) en Hope van Dyne (Evangeline Lilly) terug op het grote doek om hun avonturen als Ant-Man en The Wasp voort te zetten.\r\n\r\nSamen met Hope’s ouders Hank Pym (Michael Douglas) en Janet van Dyne (Michelle Pfeiffer) verkennen ze de Quantum Realm, waarbij er vreemde nieuwe wezens op hun pad komen. Zo beginnen ze aan een avontuur dat ze voorbij de grenzen zal brengen van wat ze voor mogelijk hielden. In Ant-Man and the Wasp: Quantumania is Jonathan Majors te zien als Kang. De film wordt geregisseerd door Peyton Reed; Kevin Feige en Stephen Broussard zijn de producenten.",
+                            Genre = "Action",
                             ImageURL = "/Images/Movies/ant-man.jpg",
                             MinimumAge = 12,
                             PlayTime = 124,
-                            Title = "Ant-Man and the Wasp: Quantumania"
+                            Title = "Ant-Man and the Wasp: Quantumania",
+                            special = false
                         },
                         new
                         {
                             Id = 2,
                             Description = "Babylon, geschreven en geregisseerd door Damien Chazelle met Brad Pitt, Margot Robbie en Diego Calva in de hoofdrol, is een origineel verhaal dat zich afspeelt in het Los Angeles van de jaren 1920.\r\n\r\nOok o.a. Jovan Adepo, Li Jun Li en Jean Smart spelen in deze film over de opkomst en ondergang van diverse personages in een tijdperk van decadentie in het vroege Hollywood.",
+                            Genre = "Drama",
                             ImageURL = "/Images/Movies/Babylon.jpg",
                             MinimumAge = 16,
                             PlayTime = 188,
-                            Title = "Babylon"
+                            Title = "Babylon",
+                            special = false
                         },
                         new
                         {
                             Id = 3,
                             Description = "Dit najaar keert onze geliefde, melk drinkende, roekeloze, onbevreesde katachtige terug. Voor het eerst in ruim tien jaar presenteert DreamWorks Animation weer een nieuw avontuur in het Shrek-universum.\r\n\r\nBeleef dit jaar elk avontuur alsof het je laatste is. Voor het eerst in ruim tien jaar presenteert DreamWorks Animation weer een nieuw avontuur in het Shrek-universum met de terugkeer van onze geliefde, melk drinkende, roekeloze, onbevreesde katachtige in Puss in Boots: The Last Wish. In de originele versie zullen Antonio Banderas en Salma Hayek terugkeren in de rol van Puss in Boots en Kitty Soft Pawas.",
+                            Genre = "Comedy",
                             ImageURL = "/Images/Movies/PussInBootsTwo.jpg",
                             MinimumAge = 6,
                             PlayTime = 105,
-                            Title = "Puss in boots: The last wish"
+                            Title = "Puss in boots: The last wish",
+                            special = false
                         },
                         new
                         {
                             Id = 4,
                             Description = "Avatar: The Way of Water vertelt het verhaal van de familie Sully (Jake, Neytiri en hun kinderen) en de problemen waar ze tegenaan lopen, de moeite die ze doen om elkaar te beschermen, de gevechten die ze moeten aangaan om in leven te blijven en de tragedies die ze te verduren krijgen.",
+                            Genre = "Action",
                             ImageURL = "/Images/Movies/AvatarTheWayOfTheWater.jpg",
                             MinimumAge = 12,
                             PlayTime = 192,
-                            Title = "Avatar: The way of water"
+                            Title = "Avatar: The way of water",
+                            special = false
                         },
                         new
                         {
                             Id = 5,
                             Description = "The Whale is een aangrijpend drama met een fenomenale comeback van acteur Brendan Fraser (The Mummy Trilogy, Crash) als vader, die probeert opnieuw contact te maken met zijn vervreemde tienerdochter, gespeeld door rising star Sadie Sink (Stranger Things).",
+                            Genre = "Action",
                             ImageURL = "/Images/Movies/TheWhale.jpg",
                             MinimumAge = 12,
                             PlayTime = 117,
-                            Title = "The Whale"
+                            Title = "The Whale",
+                            special = false
                         });
                 });
 
@@ -193,6 +210,10 @@ namespace Bioscoop.Api.Migrations
                     b.Property<DateTime>("StartDateTime")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Shows");
@@ -203,7 +224,8 @@ namespace Bioscoop.Api.Migrations
                             Id = 1,
                             MovieId = 3,
                             RoomId = 2,
-                            StartDateTime = new DateTime(2023, 3, 3, 10, 6, 27, 96, DateTimeKind.Local).AddTicks(7736)
+                            StartDateTime = new DateTime(2023, 3, 3, 21, 37, 28, 166, DateTimeKind.Local).AddTicks(8964),
+                            Type = "2D"
                         });
                 });
 

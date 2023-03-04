@@ -198,16 +198,18 @@
       "mscorlib.dll": "sha256-T52Qf1cS\/UysEoWOoE2ptEJEXfGpanQX5KNLyDiLv1E=",
       "netstandard.dll": "sha256-p32h5P3QmHJ\/FGoeE6m7f5g\/8ng2PSPGZktHyMadvIs=",
       "System.Private.CoreLib.dll": "sha256-6MwQcyKbqBsoZYOcD9fQJ4iKcn1qMmWRWVEkU2LLCb0=",
-      "Bioscoop.Web.dll": "sha256-u8pe7Wj+U91VLRRytmsaKa3c\/zzgLEJe3PSmy1lsUMM="
+      "Bioscoop.Models.dll": "sha256-UqX4Qx9NjVwJksN\/P8X00jDWNVKCr4f\/9n61Sqh8CSQ=",
+      "Bioscoop.Web.dll": "sha256-ftKLWl7B3SCvbe65F68Qjmuxqv6I4+wfr0k\/KG5e5k8="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Bioscoop.Web.pdb": "sha256-pPg2\/2CsdwXWEMu2jq5j0d6+I7atj3BON5vMt+MdyLk="
+      "Bioscoop.Models.pdb": "sha256-swJtRlR1FKack1F\/bFi\/hhKdCPPNfGMhuSeOGDfs1FM=",
+      "Bioscoop.Web.pdb": "sha256-Edh+s+ZKtzU80Cj0CJnVRIDinRCoN9i\/DwWTk8xgGr0="
     },
     "runtime": {
-      "dotnet.7.0.2.07e808u8c0.js": "sha256-4mh03qTse0uNR+dQ6ydExm4jJXph0RE8zGNCtF0jiNA=",
+      "dotnet.7.0.2.hb8cv1u9bu.js": "sha256-4mh03qTse0uNR+dQ6ydExm4jJXph0RE8zGNCtF0jiNA=",
       "dotnet.timezones.blat": "sha256-ics+RIevvtH3z9plMxv4\/GSMK9+LKYd9sy3FRRI5qTI=",
       "dotnet.wasm": "sha256-U4Yv0mEAN9gesUDNM9s6uB3RdekdPqtggt1OsytNIQM=",
       "icudt.dat": "sha256-DXO3tJHXDOV4qgW\/w8ooggAgZdAVpa5ZllYYAQWpYIk=",
