@@ -475,6 +475,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "Bioscoop.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Bioscoop.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bioscoop.Models.dll": {}
+        }
       }
     },
     "net7.0/browser-wasm": {
@@ -944,6 +954,16 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "Bioscoop.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Bioscoop.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bioscoop.Models.dll": {}
         }
       }
     }
@@ -1792,34 +1812,38 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Bioscoop.Models/1.0.0": {
+      "type": "project",
+      "path": "../Bioscoop.Models/Bioscoop.Models.csproj",
+      "msbuildProject": "../Bioscoop.Models/Bioscoop.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Bioscoop.Models >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 7.0.2",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 7.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wgeboers\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\thijs\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj",
+      "projectUniqueName": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj",
       "projectName": "Bioscoop.Web",
-      "projectPath": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj",
-      "packagesPath": "C:\\Users\\wgeboers\\.nuget\\packages\\",
-      "outputPath": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Web\\obj\\",
+      "projectPath": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj",
+      "packagesPath": "C:\\Users\\thijs\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\wgeboers\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thijs\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1834,7 +1858,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {
+              "projectPath": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

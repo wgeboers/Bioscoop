@@ -9256,25 +9256,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wgeboers\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\thijs\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Test\\Bioscoop.Test.csproj",
+      "projectUniqueName": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Test\\Bioscoop.Test.csproj",
       "projectName": "Bioscoop.Test",
-      "projectPath": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Test\\Bioscoop.Test.csproj",
-      "packagesPath": "C:\\Users\\wgeboers\\.nuget\\packages\\",
-      "outputPath": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Test\\obj\\",
+      "projectPath": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Test\\Bioscoop.Test.csproj",
+      "packagesPath": "C:\\Users\\thijs\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\wgeboers\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thijs\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9290,8 +9288,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj": {
-              "projectPath": "D:\\Werk\\Projecten\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj"
+            "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj": {
+              "projectPath": "C:\\Users\\thijs\\Source\\Repos\\wgeboers\\Bioscoop\\Bioscoop.Api\\Bioscoop.Api.csproj"
             }
           }
         }
