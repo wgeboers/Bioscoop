@@ -1,5 +1,4 @@
-﻿@page "/"
-@using Bioscoop.Models.Dtos;
+﻿@page "/Movies"
 @inherits MoviesBase
 
 @if(Movies == null)
@@ -8,28 +7,31 @@
 }
 else
 {
-    <h3 class="mb-5">Movies</h3>
+    <h1 class="mb-5">Movies</h1>
 
     <input @oninput="Search" placeholder="Search..." class="p-3" />
 
     var movieCount = Movies.Count();
 
-    if (movieCount > 0)
+    @if (movieCount > 0)
     {
         const int moviesPerRow = 4;
-        var movieRowList = new List<ShowDto>();
+        var movieRowList = new List<MovieDto>();
 
-        for (int i = 0; i < movieCount; i++)
+        @for (int i = 0; i < movieCount; i++)
         {
             movieRowList = Movies.Skip(i * moviesPerRow).Take(moviesPerRow).ToList();
 
-            <div class = "row mt-3">
-               <DisplayMovies Movies = "@movieRowList"></DisplayMovies>
+            <div class=" row mt-3">
+
+                <DisplayMovies Movies = "@movieRowList"></DisplayMovies>
+
             </div>
+
+
         }
     }
 }
-
 @code {
     private void Search(Microsoft.AspNetCore.Components.ChangeEventArgs args)
     {
@@ -37,4 +39,5 @@ else
         Movies = Movies.Where(x => x.MovieTitle.Contains(searchTerm));
         StateHasChanged();
     }
+    <DisplaySpinner/>
 }

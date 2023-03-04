@@ -4,6 +4,7 @@ namespace Bioscoop.Web.Services.Contracts
 {
     public interface IMovieService
     {
-        Task<IEnumerable<ShowDto>> GetShows();
+        Task<IEnumerable<MovieDto>> GetMovies();
+        Task<MovieDto> GetMovie(int id);
     }
 }

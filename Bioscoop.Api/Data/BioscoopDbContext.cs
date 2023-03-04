@@ -140,6 +140,38 @@ namespace Bioscoop.Api.Data
                 Type = "2D"
             });
 
+            modelBuilder.Entity<Show>().HasData(new Show
+            {
+                Id = 2,
+                MovieId = 3,
+                RoomId = 2,
+                StartDateTime = DateTime.Now
+            });
+
+            modelBuilder.Entity<Show>().HasData(new Show
+            {
+                Id = 3,
+                MovieId = 3,
+                RoomId = 2,
+                StartDateTime = DateTime.Now
+            });
+
+            modelBuilder.Entity<Show>().HasData(new Show
+            {
+                Id = 4,
+                MovieId = 3,
+                RoomId = 2,
+                StartDateTime = DateTime.Now
+            });
+
+            modelBuilder.Entity<Show>().HasData(new Show
+            {
+                Id = 5,
+                MovieId = 3,
+                RoomId = 2,
+                StartDateTime = DateTime.Now
+            });
+
             //Add Tickets
             modelBuilder.Entity<Ticket>().HasData(new Ticket
             {
