@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd3NBbGwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/ShowsToday.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd3NUb2RheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -55,6 +59,10 @@ build_metadata.AdditionalFiles.CssScope = b-c8pbdu3qki
 [C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/DisplayShows.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheVNob3dzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-rdldtw3w2r
+
+[C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/DisplayShowsToday.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheVNob3dzVG9kYXkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-g9xf50szz9
 
 [C:/Users/Gebruiker/Source/Repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/DisplaySpinner.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheVNwaW5uZXIucmF6b3I=

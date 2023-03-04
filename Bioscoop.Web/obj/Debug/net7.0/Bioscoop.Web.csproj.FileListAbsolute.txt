@@ -3332,3 +3332,4 @@ C:\Users\thijs\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bios
 C:\Users\thijs\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\refint\Bioscoop.Web.dll
 C:\Users\thijs\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.pdb
 C:\Users\thijs\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\ref\Bioscoop.Web.dll
+C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\DisplayShowsToday.razor.rz.scp.css

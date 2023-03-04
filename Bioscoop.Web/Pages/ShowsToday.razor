@@ -1,0 +1,51 @@
+﻿@page "/"
+@inherits ShowsTodayBase
+
+@if (Shows == null && ErrorMessage == null)
+{
+    <DisplaySpinner />
+}
+else if (ErrorMessage != null)
+{
+    <h3 class="text-danger">@ErrorMessage</h3>
+}
+else
+{
+    <h1 class="mb-5">Shows today</h1>
+    <a href="/ShowsAll">
+        <button class="btn btn-success">
+            <b>Shows this week</b>
+        </button>
+    </a>
+    // filter voor shows van vandaag
+    var endOfDay = DateTime.Now.Date.AddDays(1).AddTicks(-1);
+    var showListToday = new List<ShowDto>();
+
+    @foreach (var show in Shows)
+    {
+        @if (show.StartDateTime < endOfDay)
+        {
+            showListToday.Add(show);
+        }
+    }
+
+    var showCount = showListToday.Count();
+
+    @if (showCount > 0)
+    {
+        const int showsPerRow = 4;
+        var showRowList = new List<ShowDto>();
+
+        @for (int i = 0; i < showCount; i++)
+        {
+            showRowList = showListToday.Skip(i * showsPerRow).Take(showsPerRow).ToList();
+
+            <div class=" row mt-3">
+
+                <DisplayShowsToday Shows="@showRowList"></DisplayShowsToday>
+
+            </div>
+        }
+    }
+
+}

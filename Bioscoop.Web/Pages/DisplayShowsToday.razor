@@ -1,0 +1,25 @@
+﻿@inherits DisplayShowsTodayBase
+
+@foreach (var show in Shows)
+{
+    <div class=" col-md-3 mb-2">
+        <a href="/ShowDetails/@show.Id">
+            <div class="card">
+                <img class="img-thumbnail" src="@show.MovieImageURL">
+                <div class="card-body">
+                    <h5 class="card-title mb-3">
+                        @show.MovieTitle
+                    </h5>
+                    <p class="card-text">
+                        <b>Start time: @show.StartDateTime</b>
+                        <br>
+                        <b>Playtime: @show.MoviePlayTime minutes</b>
+                        <br>
+                        <b>Hall: @show.RoomName - Wheelchair friendly: @show.RoomWheelchairFriendly</b>
+
+                    </p>
+                </div>
+            </div>
+        </a>
+    </div>
+}
