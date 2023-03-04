@@ -9,5 +9,6 @@ namespace Bioscoop.Api.Repositories.Contracts
         Task<Ticket> DeleteTicket(int id);
         Task<IEnumerable<Ticket>> GetTickets();
         Task<Ticket> GetTicket(int id);
+        Task<Ticket> GetTicketByCode(int code);
     }
 }
