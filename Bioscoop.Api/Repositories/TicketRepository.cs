@@ -53,7 +53,7 @@ namespace Bioscoop.Api.Repositories
                                                                  c.SeatNumber == seatNumber);
         }
 
-        private async Task<IEnumerable<Ticket>> GetTicketsByShow(int showId)
+        public async Task<IEnumerable<Ticket>> GetTicketsByShowId(int showId)
         {
             return await (from show in this.bioscoopDbContext.Shows
                           join ticket in this.bioscoopDbContext.Tickets
@@ -84,13 +84,13 @@ namespace Bioscoop.Api.Repositories
             return code;
         }
 
-        private async Task<bool> TicketAvailable(int showId)
+        public async Task<bool> TicketAvailable(int showId)
         {
-            var tickets = await GetTicketsByShow(showId);
+            var tickets = await GetTicketsByShowId(showId);
             var room = await this.bioscoopDbContext.Rooms.FindAsync(showId);
             foreach (var ticket in tickets) {
                 var availability = tickets.OrderByDescending(i => i.SeatNumber).FirstOrDefault();
-                if(room.Seats > availability.SeatNumber) {
+                if(availability.SeatNumber < room.Seats) {
                     return true;
                 } else
                 {

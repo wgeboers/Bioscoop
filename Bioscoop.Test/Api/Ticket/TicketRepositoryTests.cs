@@ -25,7 +25,7 @@ namespace Bioscoop.Test.Api.Ticket
                         Code = 1,
                         ShowId = 1,
                         RowNumber = 5,
-                        SeatNumber = 12,
+                        SeatNumber = 120,
                         Price = 8.50M
                     });
                     await databaseContext.SaveChangesAsync();
@@ -64,6 +64,36 @@ namespace Bioscoop.Test.Api.Ticket
             //
             result.Should().NotBeNull();
             result.Result.Should().BeOfType<Bioscoop.Api.Entities.Ticket>();
+        }
+
+        [Fact]
+        public async void TicketRepository_GetTicketByShow_ReturnsTicket()
+        {
+           //arrange
+           var code = 1;
+           var dbContext = await GetDatabaseContext();
+           var ticketRepository = new TicketRepository(dbContext);
+
+            //Act
+            var result = ticketRepository.GetTicketsByShowId(1);
+
+            result.Should().NotBeNull();
+            result.Result.Should().BeOfType<List<Bioscoop.Api.Entities.Ticket>>();
+        }
+
+        [Fact]
+        public async void TicketRepository_TicketAvailability_ReturnsTrue()
+        {
+            //arrange code
+            var code = 1;
+            var dbContext = await GetDatabaseContext();
+            var ticketRepository = new TicketRepository(dbContext);
+
+            //Act
+            var result = ticketRepository.TicketAvailable(1);
+
+            result.Should().NotBeNull();
+            result.Result.Should().BeTrue();
         }
     }
 }
