@@ -16,3 +16,10 @@
 *.dll
 *.pdb
 Bioscoop.Test/bin/Debug/net7.0/CoverletSourceRootsMapping
+Bioscoop.Api/obj/
+Bioscoop.Models/obj/
+Bioscoop.Test/bin/Debug/
+Bioscoop.Test/obj/
+Bioscoop.Web/obj/
+.vs/
+
