@@ -1,10 +1,11 @@
 ﻿using Bioscoop.Models.Dtos;
+using Bioscoop.Web.Services;
 using Bioscoop.Web.Services.Contracts;
 using Microsoft.AspNetCore.Components;
 
 namespace Bioscoop.Web.Pages
 {
-    public class ShowsBase : ComponentBase
+    public class ShowsTodayBase : ComponentBase
     {
         [Inject]
         public IShowService ShowService { get; set; }
