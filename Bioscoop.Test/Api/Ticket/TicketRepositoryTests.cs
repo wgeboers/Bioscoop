@@ -25,8 +25,8 @@ namespace Bioscoop.Test.Api.Ticket
                         Code = 1,
                         ShowId = 1,
                         RowNumber = 5,
-                        SeatNumber = 12,
-                        Price = 8
+                        SeatNumber = 120,
+                        Price = 8.50M
                     });
                     await databaseContext.SaveChangesAsync();
                 }
