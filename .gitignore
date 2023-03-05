@@ -16,3 +16,9 @@
 *.dll
 *.pdb
 Bioscoop.Test/bin/Debug/net7.0/CoverletSourceRootsMapping
+/Bioscoop.Web/obj/Debug/net7.0/Bioscoop.Web.csproj.AssemblyReference.cache
+/.gitignore
+/.gitignore
+/.vs/Bioscoop/v17/.suo
+/Bioscoop.Web/obj/Debug/net7.0/project.razor.vs.json
+/.gitignore
