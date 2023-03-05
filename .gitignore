@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Bioscoop.Test/obj/Debug/net7.0/Bioscoop.Test.GeneratedMSBuildEditorConfig.editorconfig
+/Bioscoop.Test/obj/Debug/net7.0/Bioscoop.Test.csproj.AssemblyReference.cache
+/Bioscoop.Test/obj/Debug/net7.0/Bioscoop.Test.assets.cache
+/Bioscoop.Test/bin/Debug/net7.0/CoverletSourceRootsMapping
+/Bioscoop.Api/obj/Debug/net7.0/Bioscoop.Api.csproj.AssemblyReference.cache
+/Bioscoop.Api/obj/Debug/net7.0/Bioscoop.Api.assets.cache
