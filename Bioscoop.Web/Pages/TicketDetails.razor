@@ -63,7 +63,7 @@ else
     </table>
              <div class="row">
                  <div class="col-md-2">
-                     <button class="btn btn-primary" @onclick="@ExportToPdf">Print ticket</button>
+                     <button class="btn btn-primary" @onclick="(() => ExportToPdf())">Print ticket</button>
                  </div>
              </div>
              <hr/>
@@ -78,7 +78,7 @@ else
                  </div>        
                  </div>
                  <br/>
-                <input type="submit" class="btn-primary" value="Mail ticket" @onclick="(() => EmailTicket())" />
+                <input type="submit" class="btn-primary" value="Mail ticket" @onclick="(() => ExportToPdf(true))" />
              </EditForm>
 
 
@@ -116,47 +116,10 @@ else
         string url = "/TicketDetails/" + ticketID;
         JSRuntime.InvokeVoidAsync("open", url, "_self");
     }
-
-    public void EmailTicket()
-    {
-        int paragraphAfterSpacing = 8;
-        int cellMargin = 8;
-        //Create a new PDF document.
-        PdfDocument pdfDocument = new PdfDocument();
-        //Add Page to the PDF document.
-        PdfPage page = new PdfPage();
-        page = pdfDocument.Pages.Add();
-
-        //Create a new font.
-        PdfStandardFont font = new PdfStandardFont(PdfFontFamily.TimesRoman, 16);
-        //Create a text element to draw a text in PDF page.
-        PdfTextElement title = new PdfTextElement("Ticket", font, PdfBrushes.Black);
-        PdfLayoutResult result = title.Draw(page, new PointF(0, 0));
-        PdfStandardFont contentFont = new PdfStandardFont(PdfFontFamily.TimesRoman, 12);
-        //Create text element.
-        PdfTextElement content = new PdfTextElement(ticketDetails, contentFont, PdfBrushes.Black);
-        PdfLayoutFormat format = new PdfLayoutFormat();
-        format.Layout = PdfLayoutType.Paginate;
-        //Draw a text to the PDF document.
-        result = content.Draw(page, new RectangleF(0, result.Bounds.Bottom + paragraphAfterSpacing, page.GetClientSize().Width, page.GetClientSize().Height), format);
-
-        //Create memory stream.
-        MemoryStream memoryStream = new MemoryStream();
-        //Save the PDF document.
-        pdfDocument.Save(memoryStream);
-
-        MailService.EmailTicketByte(new MailDataWithAttachmentByte(
-        new List<string> { Mailadres.mailadres },
-        "Ticket for " + Ticket.MovieTitle + " | Time: " + Ticket.ShowStartDateTime,        
-        memoryStream.ToArray(),
-        "Dear costumer, <br/><br/> Enjoy the Movie!<br/><br/> Greetings, Bioscoop"
-        ));
-        openPage("-1");
-    }
 }
 
 @functions {
-    void ExportToPdf()
+    void ExportToPdf(bool mail = false)
     {
         int paragraphAfterSpacing = 8;
         int cellMargin = 8;
@@ -183,7 +146,20 @@ else
         //Save the PDF document.
         pdfDocument.Save(memoryStream);
         //Download the PDF document
-        JS.SaveAs("Ticket.pdf", memoryStream.ToArray());
+        if (mail)
+        {
+            MailService.EmailTicketByte(new MailDataWithAttachmentByte(
+                new List<string> { Mailadres.mailadres },
+                "Ticket for " + Ticket.MovieTitle + " | Time: " + Ticket.ShowStartDateTime,
+                memoryStream.ToArray(),
+                "Dear costumer, <br/><br/> Enjoy the Movie!<br/><br/> Greetings, Bioscoop"
+                ));
+            openPage("-1");
+        }
+        else
+        {
+            JS.SaveAs("Ticket.pdf", memoryStream.ToArray());
+        }
 
     }
 }
