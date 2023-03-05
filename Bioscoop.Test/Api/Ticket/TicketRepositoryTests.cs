@@ -70,7 +70,6 @@ namespace Bioscoop.Test.Api.Ticket
         public async void TicketRepository_GetTicketByShow_ReturnsTicket()
         {
            //arrange
-           var code = 1;
            var dbContext = await GetDatabaseContext();
            var ticketRepository = new TicketRepository(dbContext);
 
@@ -85,7 +84,6 @@ namespace Bioscoop.Test.Api.Ticket
         public async void TicketRepository_TicketAvailability_ReturnsTrue()
         {
             //arrange code
-            var code = 1;
             var dbContext = await GetDatabaseContext();
             var ticketRepository = new TicketRepository(dbContext);
 

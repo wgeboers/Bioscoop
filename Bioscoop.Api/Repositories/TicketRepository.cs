@@ -84,20 +84,20 @@ namespace Bioscoop.Api.Repositories
             return code;
         }
 
+        /*
+         * 
+         */
         public async Task<bool> TicketAvailable(int showId)
         {
             var tickets = await GetTicketsByShowId(showId);
             var room = await this.bioscoopDbContext.Rooms.FindAsync(showId);
-            foreach (var ticket in tickets) {
-                var availability = tickets.OrderByDescending(i => i.SeatNumber).FirstOrDefault();
-                if(availability.SeatNumber < room.Seats) {
+            var availability = tickets.Count();
+                if(availability < room.Seats) {
                     return true;
                 } else
                 {
                     return false;
                 }
-            }
-            return false;
         }
 
         public async Task<Ticket> AddTicket(TicketToAddDto ticketToAddDto)
