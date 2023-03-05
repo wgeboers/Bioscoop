@@ -1,0 +1,21 @@
+﻿@page "/"
+@using Microsoft.JSInterop;
+@inject IJSRuntime JSRuntime;
+
+<style>
+
+</style>
+<h1>Display Google Map</h1>
+<div id="map" style="height:90vh;width:50%;">
+
+</div>
+
+@code{
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("initialize", null); 
+        }
+    }
+}
