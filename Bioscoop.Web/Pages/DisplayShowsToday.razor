@@ -11,7 +11,9 @@
                         @show.MovieTitle
                     </h5>
                     <p class="card-text">
-                        <b>Start time: @show.StartDateTime</b>
+                        <b>Date: @show.StartDateTime.ToString("MM-dd-yyyy")</b>
+                        <br>
+                        <b>Start time: @show.StartDateTime.ToString("HH:mm")</b>
                         <br>
                         <b>Playtime: @show.MoviePlayTime minutes</b>
                         <br>

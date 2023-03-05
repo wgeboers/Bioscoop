@@ -10,13 +10,16 @@ else if (ErrorMessage != null)
     <h3 class="text-danger">@ErrorMessage</h3>
 }
 else
-{
+{ // button to ShowsToday page
     <h1 class="mb-5">Shows this week</h1>
     <a href="/">
     <button class="btn btn-success">
         <b>Shows today</b>
     </button>
     </a>
+
+    // sort list on StartDateTime
+    var showListSorted = Shows.OrderBy(x => x.StartDateTime);
 
     var showCount = Shows.Count();
 
@@ -27,10 +30,11 @@ else
 
         @for (int i = 0; i < showCount; i++)
         {
-            showRowList = Shows.Skip(i * showsPerRow).Take(showsPerRow).ToList();
+            showRowList = showListSorted.Skip(i * showsPerRow).Take(showsPerRow).ToList();
 
+            // gets info from DisplayShows.razor
             <div class=" row mt-3">
-
+                
                 <DisplayShows Shows="@showRowList"></DisplayShows>
 
             </div>

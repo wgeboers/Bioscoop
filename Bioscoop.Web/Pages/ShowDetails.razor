@@ -21,7 +21,9 @@ else
             <p class="mb-4">@Show.MovieDescription</p>
             <p class="mb-4">
                 <b>
-                    <b>Start time: @Show.StartDateTime</b>
+                    <b>Date: @Show.StartDateTime.ToString("MM-dd-yyyy")</b>
+                    <br>
+                    <b>Start time: @Show.StartDateTime.ToString("HH:mm")</b>
                     <br>
                     <b>Playtime: @Show.MoviePlayTime minutes</b>
                     <br>
@@ -30,6 +32,7 @@ else
                     <b>Hall: @Show.RoomName - Wheelchair friendly: @Show.RoomWheelchairFriendly</b>
                 </b>
             </p>
+            
             <div>
                 <button class="btn btn-success">
 

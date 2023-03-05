@@ -199,14 +199,14 @@
       "netstandard.dll": "sha256-2\/SuexPFW8hizUgbgPcchYHfG\/zmGzzMN6ESSyefPRQ=",
       "System.Private.CoreLib.dll": "sha256-mcywrbK0VZXiOvZ4dxU1ocaPZFplCRSIPQ\/wFikcrus=",
       "Bioscoop.Models.dll": "sha256-Jd7GZK3CGMrXpjkVlTG1A2MhL52vX9z7exBMS+u1GJg=",
-      "Bioscoop.Web.dll": "sha256-emrmkxE5NlaWnomoJjqlugHCldnePQ4M\/Qa5bGh6020="
+      "Bioscoop.Web.dll": "sha256-M3xLnx+sMHQHRqi0T54KZo7Ln3f7Ah+3NEn\/3S5DTYg="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "Bioscoop.Models.pdb": "sha256-4u8+HFSNkm\/qEy62R\/bY2l9J1ufqMdfwtHyiiXehAJo=",
-      "Bioscoop.Web.pdb": "sha256-Qui4hUI6Qc0iub6YyvvluZM5LiHQkjWrImE8RQVP+98="
+      "Bioscoop.Web.pdb": "sha256-pjPiX9fcjUFSgK0rGPE+KqJfe2UCINxm03GOVqD82Po="
     },
     "runtime": {
       "dotnet.7.0.3.cl3c6dm7s1.js": "sha256-DxGvmbtUa6hGJpk3VyMEbkPZ653qWbQkh8X4ZVM9TWM=",

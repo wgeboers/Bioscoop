@@ -10,24 +10,29 @@ else if (ErrorMessage != null)
     <h3 class="text-danger">@ErrorMessage</h3>
 }
 else
-{
+{ // button to ShowsAll page
     <h1 class="mb-5">Shows today</h1>
     <a href="/ShowsAll">
         <button class="btn btn-success">
             <b>Shows this week</b>
         </button>
     </a>
-    // filter voor shows van vandaag
+
+    // filter for shows of today
+    var startOfDay = DateTime.Now.Date;
     var endOfDay = DateTime.Now.Date.AddDays(1).AddTicks(-1);
     var showListToday = new List<ShowDto>();
 
     @foreach (var show in Shows)
     {
-        @if (show.StartDateTime < endOfDay)
+        @if (show.StartDateTime < endOfDay && show.StartDateTime > startOfDay)
         {
             showListToday.Add(show);
         }
     }
+
+    // sort list on StartDateTime
+    var showListTodaySorted = showListToday.OrderBy(x => x.StartDateTime);
 
     var showCount = showListToday.Count();
 
@@ -38,8 +43,9 @@ else
 
         @for (int i = 0; i < showCount; i++)
         {
-            showRowList = showListToday.Skip(i * showsPerRow).Take(showsPerRow).ToList();
+            showRowList = showListTodaySorted.Skip(i * showsPerRow).Take(showsPerRow).ToList();
 
+            // gets info from DisplayShowsToday.razor
             <div class=" row mt-3">
 
                 <DisplayShowsToday Shows="@showRowList"></DisplayShowsToday>
