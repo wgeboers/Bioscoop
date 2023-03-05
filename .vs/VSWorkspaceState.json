@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Bioscoop.Api",
+    "\\Bioscoop.Api\\Migrations",
+    "\\Bioscoop.Test",
+    "\\Bioscoop.Test\\Api",
+    "\\Bioscoop.Test\\Api\\Ticket"
   ],
+  "SelectedNode": "\\Bioscoop.Api\\Migrations\\20230225185915_AddTicket.cs",
   "PreviewInSolutionExplorer": false
 }
