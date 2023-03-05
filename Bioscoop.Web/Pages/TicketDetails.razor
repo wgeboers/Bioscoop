@@ -10,10 +10,24 @@
 @inject IJSRuntime JSRuntime;
 
 @page "/TicketDetails"
-@page "/TicketDetails/{id:int?}"
+@page "/TicketDetails/{Id:int?}"
 @inherits TicketDetailsBase
 
-@if (Ticket == null && ErrorMessage == null)
+@if (Id == 0){
+    <h3>Ticket not found.</h3>
+    @*Search box for ticket
+    <hr />
+    <h4>Search on ticket-ID:</h4>
+    <input type="text" @bind-value="@ticketID" />
+    <button @onclick="(() => openPage(ticketID))">Search</button>
+    *@
+
+}
+else if (Id == -1)
+{
+    <h3>Ticket mailed.</h3>   
+}
+else if (Ticket == null && ErrorMessage == null)
 {
     <h3>Loading ticket details</h3>
 }
@@ -47,26 +61,31 @@ else
                 </tr>    
         </tbody>
     </table>
-        <br/>
-        <br/>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-                    <button class="btn btn-primary" @onclick="@ExportToPdf">Print ticket</button>
-                    </div>
-                    <div class="col-md-2">
-                        <input type="email" class="form-control" @bind-value="@emailAdres" />
-                        </div
-                <div class="col-md-3">
-                        <button class="btn btn-primary" @onclick="(() => EmailTicket())">E-mail ticket</button>
-                    </div>
+             <div class="row">
+                 <div class="col-md-2">
+                     <button class="btn btn-primary" @onclick="@ExportToPdf">Print ticket</button>
                  </div>
              </div>
+             <hr/>
+             <EditForm Model="@Mailadres">
+                <DataAnnotationsValidator />
+                <ValidationSummary /> 
+                <div class="col-md-3">
+                 <div class="form-group">
+                     <label for="Mailadres">Mailadres:</label>
+                     <InputText @bind-Value=Mailadres.mailadres class="form-control" id="Mailadres"/>                 
+                     <ValidationMessage For=@(() => Mailadres.mailadres) />
+                 </div>        
+                 </div>
+                 <br/>
+                <input type="submit" class="btn-primary" value="Mail ticket" @onclick="(() => EmailTicket())" />
+             </EditForm>
+
 
 
 
     @*Format ticket for generating pdf*@
-    ticketDetails += Ticket.ShowStartDateTime + "\n"
+    ticketDetails = Ticket.ShowStartDateTime + "\n"
                         + Ticket.MovieTitle + "\n"
                         + "Price: " + Ticket.Price + "\n"
                         + Ticket.RoomName + "\n"
@@ -85,10 +104,11 @@ else
     public string ticketDetails;
     public string ticketID;
     public string emailAdres;
+    Mailadres Mailadres = new Mailadres();
 
     protected override void OnInitialized()
     {
-        base.OnInitialized();
+        Id = Id ?? 0; 
     }
 
     public void openPage(string ticketID)
@@ -126,15 +146,12 @@ else
         pdfDocument.Save(memoryStream);
 
         MailService.EmailTicketByte(new MailDataWithAttachmentByte(
-        new List<string> { "marcelforman@forman.nl" },
+        new List<string> { Mailadres.mailadres },
         "Ticket for " + Ticket.MovieTitle + " | Time: " + Ticket.ShowStartDateTime,        
         memoryStream.ToArray(),
         "Dear costumer, <br/><br/> Enjoy the Movie!<br/><br/> Greetings, Bioscoop"
         ));
-
-        pdfDocument.Close();
-        memoryStream.Close();
-       
+        openPage("-1");
     }
 }
 

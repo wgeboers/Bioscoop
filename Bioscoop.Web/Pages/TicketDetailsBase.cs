@@ -8,7 +8,7 @@ namespace Bioscoop.Web.Pages
     public class TicketDetailsBase : ComponentBase 
     {
         [Parameter]
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         [Inject]
         public ITicketService TicketService { get; set; }
@@ -22,14 +22,17 @@ namespace Bioscoop.Web.Pages
 
         protected override async Task OnInitializedAsync()
         {
-            try
+            if (Id != 0)
             {
-                Ticket = await TicketService.GetTicket(Id);
-            }
-            catch (Exception ex)
-            {
+                try
+                {
+                    Ticket = await TicketService.GetTicket((int)Id);
+                }
+                catch (Exception ex)
+                {
 
-                ErrorMessage = ex.Message;
+                    ErrorMessage = ex.Message;
+                }
             }
         }
 

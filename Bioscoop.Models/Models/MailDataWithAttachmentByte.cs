@@ -32,7 +32,7 @@ namespace Bioscoop.Models.Models
             string? displayName = null, string? replyTo = null, string? replyToName = null, 
             List<string>? bcc = null, List<string>? cc = null)
         {
-            // Receiver
+            // Receiver            
             To = to;
             Bcc = bcc ?? new List<string>();
             Cc = cc ?? new List<string>();
