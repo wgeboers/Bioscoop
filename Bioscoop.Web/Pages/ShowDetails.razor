@@ -33,10 +33,15 @@ else
                 </b>
             </p>
             
-            <div>
-                <button class="btn btn-success">
-
-                    <b>Add to Cart (doet nog niks)</b>
+            <div> <!-- RowNumber and SeatNumber still to fill -->
+                <button class="btn btn-success"
+                    @onclick ="() => (AddTicket_ForShow(new TicketToAddDto{
+                        ShowId = Show.Id,
+                        RowNumber = 1,
+                        SeatNumber = 1,
+                        Price = 9
+                    }))">
+                    <b>Get ticket!</b>
                 </button>
             </div>
         </div>

@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Gebruiker/source/repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/SecretMovieDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VjcmV0TW92aWVEZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Gebruiker/source/repos/wgeboers/Bioscoop/Bioscoop.Web/Pages/ShowDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd0RldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

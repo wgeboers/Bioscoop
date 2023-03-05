@@ -2489,8 +2489,6 @@ C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\
 C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.csproj.CopyComplete
 C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\ref\Bioscoop.Web.dll
 C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\DisplayMovies.razor.rz.scp.css
-C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\fpRA301T.gz
-C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\pLVcO1Zy.gz
 C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\DisplaySpinner.razor.rz.scp.css
 C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\DisplayShows.razor.rz.scp.css
 C:\Users\thijs\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
@@ -3333,3 +3331,5 @@ C:\Users\thijs\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\refi
 C:\Users\thijs\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\Bioscoop.Web.pdb
 C:\Users\thijs\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\ref\Bioscoop.Web.dll
 C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\DisplayShowsToday.razor.rz.scp.css
+C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\fpRA301T.gz
+C:\Users\Gebruiker\Source\Repos\wgeboers\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\pLVcO1Zy.gz
