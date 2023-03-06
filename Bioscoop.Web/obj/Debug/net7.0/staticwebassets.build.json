@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hvokTmtIQiUgTuJdZAI/qh40L5CPyfyqyr8rPVvY4DY=",
+  "Hash": "wI8QiJMw8xCq2htUu4oeJkV1QFKCqcRvSZbqm5gN5tM=",
   "Source": "Bioscoop.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -7257,6 +7257,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Movies\\Babylon.jpg"
+    },
+    {
+      "Identity": "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Movies\\FastX.jpg",
+      "SourceId": "Bioscoop.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/Movies/FastX.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Movies\\FastX.jpg"
     },
     {
       "Identity": "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Movies\\PussInBootsTwo.jpg",

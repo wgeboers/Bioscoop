@@ -145,7 +145,8 @@ namespace Bioscoop.Api.Data
                 Id = 2,
                 MovieId = 3,
                 RoomId = 2,
-                StartDateTime = DateTime.Now
+                StartDateTime = DateTime.Now,
+                Type = "3D"
             });
 
             modelBuilder.Entity<Show>().HasData(new Show
@@ -153,7 +154,8 @@ namespace Bioscoop.Api.Data
                 Id = 3,
                 MovieId = 3,
                 RoomId = 2,
-                StartDateTime = DateTime.Now
+                StartDateTime = DateTime.Now,
+                Type = "3D-HFR"
             });
 
             modelBuilder.Entity<Show>().HasData(new Show
@@ -161,7 +163,8 @@ namespace Bioscoop.Api.Data
                 Id = 4,
                 MovieId = 3,
                 RoomId = 2,
-                StartDateTime = DateTime.Now
+                StartDateTime = DateTime.Now,
+                Type = "IMAX"
             });
 
             modelBuilder.Entity<Show>().HasData(new Show
@@ -169,7 +172,8 @@ namespace Bioscoop.Api.Data
                 Id = 5,
                 MovieId = 3,
                 RoomId = 2,
-                StartDateTime = DateTime.Now
+                StartDateTime = DateTime.Now,
+                Type = "2D"
             });
 
             //Add Tickets

@@ -3,13 +3,11 @@
 
 @if(Movies == null)
 {
-    <h3>Loading movies...</h3>
+    <DisplaySpinner />
 }
 else
 {
     <h1 class="mb-5">Movies</h1>
-
-    <input @oninput="Search" placeholder="Search..." class="p-3" />
 
     var movieCount = Movies.Count();
 
@@ -27,17 +25,6 @@ else
                 <DisplayMovies Movies = "@movieRowList"></DisplayMovies>
 
             </div>
-
-
         }
     }
-}
-@code {
-    private void Search(Microsoft.AspNetCore.Components.ChangeEventArgs args)
-    {
-        var searchTerm = (string)args.Value;
-        Movies = Movies.Where(x => x.MovieTitle.Contains(searchTerm));
-        StateHasChanged();
-    }
-    <DisplaySpinner/>
 }

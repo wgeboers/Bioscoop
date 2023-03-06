@@ -6,6 +6,6 @@ namespace Bioscoop.Web.Pages
     public class DisplayMoviesBase:ComponentBase
     {
         [Parameter]
-        public IEnumerable<ShowDto> Movies { get; set; }
+        public IEnumerable<MovieDto> Movies { get; set; }
     }
 }
