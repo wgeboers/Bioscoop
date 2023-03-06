@@ -135,5 +135,11 @@ namespace Bioscoop.Api.Repositories
 
             return ticket;
         }
+
+        public async Task<Option> GetOption(int id)
+        {
+            var option = await bioscoopDbContext.Options.FindAsync(id);
+            return option;
+        }
     }
 }
