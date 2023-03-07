@@ -53,6 +53,23 @@ namespace Bioscoop.Api.Repositories
                                                                  c.SeatNumber == seatNumber);
         }
 
+        public async Task<IEnumerable<Ticket>> GetTicketsByShowId(int showId)
+        {
+            return await (from show in this.bioscoopDbContext.Shows
+                          join ticket in this.bioscoopDbContext.Tickets
+                          on show.Id equals ticket.ShowId
+                          where show.Id == showId
+                          select new Ticket
+                          {
+                              Id = ticket.Id,
+                              Code = ticket.Code,
+                              ShowId = ticket.ShowId,
+                              RowNumber = ticket.RowNumber,
+                              SeatNumber = ticket.SeatNumber,
+                              Price = ticket.Price,
+                          }).ToListAsync();    
+        }
+
         private async Task<int> TicketCodeGenerator()
         {
             int code;
@@ -65,6 +82,20 @@ namespace Bioscoop.Api.Repositories
             }
 
             return code;
+        }
+
+        public async Task<bool> TicketAvailable(int showId)
+        {
+            var tickets = await GetTicketsByShowId(showId);
+            var room = await this.bioscoopDbContext.Rooms.FindAsync(showId);
+            var availability = tickets.Count();
+
+            if(availability < room.Seats) {
+                return true;
+            } else
+            {
+                return false;
+            }
         }
 
         public async Task<Ticket> AddTicket(TicketToAddDto ticketToAddDto)

@@ -222,7 +222,28 @@ namespace Bioscoop.Api.Migrations
                         new
                         {
                             Id = 1,
-                            MovieId = 3,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 6, 12, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 6, 16, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 3,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 6, 20, 0, 0, 0, DateTimeKind.Local)
+                        },
+                        new
+                        {
+                            Id = 4,
+                            MovieId = 2,
                             RoomId = 2,
                             StartDateTime = new DateTime(2023, 3, 3, 21, 37, 28, 166, DateTimeKind.Local).AddTicks(8964),
                             Type = "2D"

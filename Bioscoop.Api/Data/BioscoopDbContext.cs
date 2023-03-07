@@ -1,4 +1,5 @@
 ﻿using Bioscoop.Api.Entities;
+using Bioscoop.Api.Extensions;
 using Microsoft.EntityFrameworkCore;
 
 namespace Bioscoop.Api.Data
@@ -9,6 +10,8 @@ namespace Bioscoop.Api.Data
         {
 
         }
+
+        private static DateTime today = DateTime.Now;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

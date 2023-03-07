@@ -23,7 +23,7 @@ namespace Bioscoop.Api.Migrations
                     ShowId = table.Column<int>(type: "int", nullable: false),
                     RowNumber = table.Column<int>(type: "int", nullable: false),
                     SeatNumber = table.Column<int>(type: "int", nullable: false),
-                    Price = table.Column<double>(type: "float", nullable: false)
+                    Price = table.Column<decimal>(type: "float", nullable: false)
                 },
                 constraints: table =>
                 {
