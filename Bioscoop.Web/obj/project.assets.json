@@ -455,7 +455,7 @@
         "runtime": {
           "lib/net7.0/Syncfusion.Compression.Portable.dll": {
             "related": ".xml"
-          }
+        }
         }
       },
       "Syncfusion.Licensing/20.4.0.52": {
@@ -2160,6 +2160,7 @@
     "net7.0": [
       "Bioscoop.Models >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 7.0.2",
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 7.0.2"
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 7.0.2",
       "Syncfusion.Pdf.Net.Core >= 20.4.0.52"
     ]

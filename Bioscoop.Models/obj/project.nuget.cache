@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "HpJi5JidUcpMytXqdKwYTuLo7mZhN80qxk2vseHQF/pLk/51QWse3vtycQhvuSjQdwGQQ8Bg1e9gSNckgo1BsA==",
   "success": true,
   "projectFilePath": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
@@ -8,5 +9,11 @@
     "C:\\Users\\MForm\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
     "C:\\Users\\MForm\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "ihMI++P5aqcpwPc5SocY9DeOQjNkY0c71EmIh+4ayfF58ALGeBHrnqoY8ItYqmareuofLOWR4y3ySwyg69cnIg==",
+  "success": true,
+  "projectFilePath": "F:\\Projecten\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> a0b58ff1e63710325ddebdac3ad840c59543c0d6
   "logs": []
 }
