@@ -1665,4 +1665,5 @@ F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\5VB8vAvF.gz
 F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\DisplayMovies.razor.rz.scp.css
 F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\DisplayShows.razor.rz.scp.css
 F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\DisplaySpinner.razor.rz.scp.css
-F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\Shows.razor.rz.scp.css
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\DisplayShowsToday.razor.rz.scp.css
+F:\Projecten\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\ShowsAll.razor.rz.scp.css

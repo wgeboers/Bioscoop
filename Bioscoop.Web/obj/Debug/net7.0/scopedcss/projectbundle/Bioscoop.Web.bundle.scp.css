@@ -44,6 +44,29 @@ a:hover img[b-rdldtw3w2r] {
 img[b-rdldtw3w2r] {
     transition: 0.5s ease-in-out;
 }
+/* /Pages/DisplayShowsToday.razor.rz.scp.css */
+a[b-g9xf50szz9] {
+    text-decoration: none;
+}
+
+    a:hover .card[b-g9xf50szz9] {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+.card[b-g9xf50szz9] {
+    transition: box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+a:hover img[b-g9xf50szz9] {
+    transform: scale(1.07);
+    transition: 0.5s ease-in-out;
+}
+
+img[b-g9xf50szz9] {
+    transition: 0.5s ease-in-out;
+}
 /* /Pages/DisplaySpinner.razor.rz.scp.css */
 
 .lds-spinner[b-djnsdi6z89] {
@@ -140,12 +163,12 @@ img[b-rdldtw3w2r] {
         opacity: 0;
     }
 }
-/* /Pages/Shows.razor.rz.scp.css */
-.filter-item[b-02cjb79yx3] {
+/* /Pages/ShowsAll.razor.rz.scp.css */
+.filter-item[b-5yvnpe8tjp] {
     display: inline-block;
 }
 
-input[type="text"][b-02cjb79yx3] {
+input[type="text"][b-5yvnpe8tjp] {
     font-size: 16px;
     border-style: solid;
     border-radius: 5px;
@@ -154,17 +177,17 @@ input[type="text"][b-02cjb79yx3] {
     font-size: 16px;
 }
 
-input[type="text"]:focus[b-02cjb79yx3] {
+input[type="text"]:focus[b-5yvnpe8tjp] {
     box-shadow: 0 0 10px rgba(58, 6, 71, 1);
     border: 2px solid rgba(58, 6, 71, 0.5);
 
 }
 
-input[b-02cjb79yx3]::placeholder {
+input[b-5yvnpe8tjp]::placeholder {
     color: #95a5a6;
 }
 
-select[b-02cjb79yx3] {
+select[b-5yvnpe8tjp] {
     font-size: 16px;
     border-style: solid;
     border-radius: 5px;
@@ -173,12 +196,12 @@ select[b-02cjb79yx3] {
     color: #95a5a6;
 }
 
-select:focus[b-02cjb79yx3] {
+select:focus[b-5yvnpe8tjp] {
     box-shadow: 0 0 10px rgba(58, 6, 71, 1);
     border: 2px solid rgba(58, 6, 71, 0.5);
 }
 
-input[type="date"][b-02cjb79yx3] {
+input[type="date"][b-5yvnpe8tjp] {
     appearance: none;
     -webkit-appearance: none;
     font-size: 16px;
@@ -192,13 +215,13 @@ input[type="date"][b-02cjb79yx3] {
     color: #95a5a6;
 }
 
-input[type="date"]:focus[b-02cjb79yx3] {
+input[type="date"]:focus[b-5yvnpe8tjp] {
     box-shadow: 0 0 10px rgba(58, 6, 71, 1);
     border: 2px solid rgba(58, 6, 71, 0.5);
     outline: none;
 }
 
-.button[b-02cjb79yx3] {
+.button[b-5yvnpe8tjp] {
     align-items: center;
     appearance: none;
     background-color: rgba(17, 32, 96, 0.5);
@@ -232,42 +255,42 @@ input[type="date"]:focus[b-02cjb79yx3] {
     z-index: 0;
 }
 
-.button:hover[b-02cjb79yx3] {
+.button:hover[b-5yvnpe8tjp] {
     background: rgba(58, 6, 71, 0.5);
     color: white;
 }
 
-.button:active[b-02cjb79yx3] {
+.button:active[b-5yvnpe8tjp] {
     box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
     outline: none;
 }
 
-.button:focus[b-02cjb79yx3] {
+.button:focus[b-5yvnpe8tjp] {
     outline: none;
     border: 2px solid #4285f4;
 }
 
-.button:not(:disabled)[b-02cjb79yx3] {
+.button:not(:disabled)[b-5yvnpe8tjp] {
     box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
 
-.button:not(:disabled):hover[b-02cjb79yx3] {
+.button:not(:disabled):hover[b-5yvnpe8tjp] {
     box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
 }
 
-.button:not(:disabled):focus[b-02cjb79yx3] {
+.button:not(:disabled):focus[b-5yvnpe8tjp] {
     box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
 
-.button:not(:disabled):active[b-02cjb79yx3] {
+.button:not(:disabled):active[b-5yvnpe8tjp] {
     box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
 }
 
-.button:disabled[b-02cjb79yx3] {
+.button:disabled[b-5yvnpe8tjp] {
     box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
 
-.button-clear[b-02cjb79yx3] {
+.button-clear[b-5yvnpe8tjp] {
     align-items: center;
     appearance: none;
     background-color: rgba(58, 6, 71, 0.5);
@@ -301,38 +324,38 @@ input[type="date"]:focus[b-02cjb79yx3] {
     z-index: 0;
 }
 
-    .button-clear:hover[b-02cjb79yx3] {
+    .button-clear:hover[b-5yvnpe8tjp] {
         background: rgba(17, 32, 96, 0.5);
         color: white;
     }
 
-    .button-clear:active[b-02cjb79yx3] {
+    .button-clear:active[b-5yvnpe8tjp] {
         box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
         outline: none;
     }
 
-    .button-clear:focus[b-02cjb79yx3] {
+    .button-clear:focus[b-5yvnpe8tjp] {
         outline: none;
         border: 2px solid #4285f4;
     }
 
-    .button-clear:not(:disabled)[b-02cjb79yx3] {
+    .button-clear:not(:disabled)[b-5yvnpe8tjp] {
         box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
     }
 
-        .button-clear:not(:disabled):hover[b-02cjb79yx3] {
+        .button-clear:not(:disabled):hover[b-5yvnpe8tjp] {
             box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
         }
 
-        .button-clear:not(:disabled):focus[b-02cjb79yx3] {
+        .button-clear:not(:disabled):focus[b-5yvnpe8tjp] {
             box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
         }
 
-        .button-clear:not(:disabled):active[b-02cjb79yx3] {
+        .button-clear:not(:disabled):active[b-5yvnpe8tjp] {
             box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
         }
 
-    .button-clear:disabled[b-02cjb79yx3] {
+    .button-clear:disabled[b-5yvnpe8tjp] {
         box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
     }
 /* /Shared/MainLayout.razor.rz.scp.css */
