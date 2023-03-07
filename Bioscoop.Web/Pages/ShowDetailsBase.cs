@@ -12,6 +12,7 @@ namespace Bioscoop.Web.Pages
         [Inject]
         public IShowService ShowService { get; set; }
         public ShowDto Show { get; set; }
+        public TicketDto Option { get; set; }
 
         public string ErrorMessage { get; set; }
 
@@ -20,6 +21,8 @@ namespace Bioscoop.Web.Pages
             try
             {
                 Show = await ShowService.GetShow(Id);
+
+                Option = await ShowService.GetOption(Id);
             }
             catch (Exception ex)
             {
