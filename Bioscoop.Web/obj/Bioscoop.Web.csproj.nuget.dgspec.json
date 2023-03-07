@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj": {}
   },
   "projects": {
@@ -13,29 +12,12 @@
         "projectPath": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
         "packagesPath": "C:\\Users\\MForm\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Models\\obj\\",
-=======
-    "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj": {}
-  },
-  "projects": {
-    "F:\\Projecten\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "F:\\Projecten\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
-        "projectName": "Bioscoop.Models",
-        "projectPath": "F:\\Projecten\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
-        "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
-        "outputPath": "F:\\Projecten\\Bioscoop\\Bioscoop.Models\\obj\\",
->>>>>>> a0b58ff1e63710325ddebdac3ad840c59543c0d6
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\MForm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\wesle\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> a0b58ff1e63710325ddebdac3ad840c59543c0d6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -62,15 +44,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-<<<<<<< HEAD
           "dependencies": {
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.17, )"
             }
           },
-=======
->>>>>>> a0b58ff1e63710325ddebdac3ad840c59543c0d6
           "imports": [
             "net461",
             "net462",
@@ -87,7 +66,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
@@ -100,30 +78,12 @@
         "projectPath": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj",
         "packagesPath": "C:\\Users\\MForm\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\obj\\",
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj",
-        "projectName": "Bioscoop.Web",
-        "projectPath": "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\Bioscoop.Web.csproj",
-        "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
-        "outputPath": "F:\\Projecten\\Bioscoop\\Bioscoop.Web\\obj\\",
->>>>>>> a0b58ff1e63710325ddebdac3ad840c59543c0d6
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\MForm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\wesle\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> a0b58ff1e63710325ddebdac3ad840c59543c0d6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -139,13 +99,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {
                 "projectPath": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj"
-=======
-              "F:\\Projecten\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj": {
-                "projectPath": "F:\\Projecten\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj"
->>>>>>> a0b58ff1e63710325ddebdac3ad840c59543c0d6
               }
             }
           }
@@ -168,13 +123,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.2, )"
-<<<<<<< HEAD
             },
             "Syncfusion.Pdf.Net.Core": {
               "target": "Package",
               "version": "[20.4.0.52, )"
-=======
->>>>>>> a0b58ff1e63710325ddebdac3ad840c59543c0d6
             }
           },
           "imports": [
@@ -191,11 +143,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-<<<<<<< HEAD
               "version": "[7.0.3, 7.0.3]"
-=======
-              "version": "[7.0.2, 7.0.2]"
->>>>>>> a0b58ff1e63710325ddebdac3ad840c59543c0d6
             }
           ],
           "frameworkReferences": {
@@ -203,11 +151,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
->>>>>>> a0b58ff1e63710325ddebdac3ad840c59543c0d6
         }
       },
       "runtimes": {
