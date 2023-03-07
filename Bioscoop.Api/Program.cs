@@ -1,6 +1,9 @@
+using Bioscoop.Api.Configuration;
+using Bioscoop.Api.Services;
 using Bioscoop.Api.Data;
 using Bioscoop.Api.Repositories;
 using Bioscoop.Api.Repositories.Contracts;
+using MailKit;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Net.Http.Headers;
 
@@ -22,6 +25,10 @@ builder.Services.AddScoped<IRoomRepository, RoomRepository>();
 builder.Services.AddScoped<IShowRepository, ShowRepository>();
 builder.Services.AddScoped<ITicketRepository, TicketRepository>();
 
+//Pick up mailsettings
+builder.Services.Configure<MailSettings>(builder.Configuration.GetSection(nameof(MailSettings)));
+builder.Services.AddTransient<Bioscoop.Api.Services.IMailService, Bioscoop.Api.Services.MailService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -32,10 +39,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors(policy =>
-    policy.WithOrigins("http://localhost:7235", "https://localhost:7235")
-    .AllowAnyMethod()
-    .WithHeaders(HeaderNames.ContentType)
-);
+           policy.WithOrigins("https://localhost:7027", "https://localhost:7235")
+           .AllowAnyMethod()
+           .WithHeaders(HeaderNames.ContentType)
+           );
 
 app.UseHttpsRedirection();
 

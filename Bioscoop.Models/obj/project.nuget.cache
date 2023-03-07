@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "HpJi5JidUcpMytXqdKwYTuLo7mZhN80qxk2vseHQF/pLk/51QWse3vtycQhvuSjQdwGQQ8Bg1e9gSNckgo1BsA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Models\\Bioscoop.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MForm\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\MForm\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\MForm\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
