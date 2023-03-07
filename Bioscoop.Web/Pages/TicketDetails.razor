@@ -146,7 +146,7 @@ else
         //Save the PDF document.
         pdfDocument.Save(memoryStream);
         //Download the PDF document
-        if (mail)
+        if (mail && Mailadres.mailadres != null)
         {
             MailService.EmailTicketByte(new MailDataWithAttachmentByte(
                 new List<string> { Mailadres.mailadres },
@@ -156,7 +156,7 @@ else
                 ));
             openPage("-1");
         }
-        else
+        else if (mail == false)
         {
             JS.SaveAs("Ticket.pdf", memoryStream.ToArray());
         }
