@@ -22,20 +22,19 @@ else
         <div class="filter-item">
             <select name="genreFilter" class="form-select" @bind="genreFilter">
                 <option value="" disabled selected>Genre</option>
-                <option value="Action">Action</option>
-                <option value="Comedy">Comedy</option>
-                <option value="Drama">Drama</option>
+                @foreach(var genre in Genres.OrderBy(g => g))
+                {
+                    <option value="@genre">@genre</option>
+                }
             </select>
         </div>
         <div class="filter-item">
             <select name="ageFilter" class="form-select" @bind="ageFilter">
                 <option value="" disabled selected>Kijkwijzer</option>
-                <option value="6">6</option>
-                <option value="9">9</option>
-                <option value="12">12</option>
-                <option value="14">14</option>
-                <option value="16">16</option>
-                <option value="18">18</option>
+                @foreach (var age in Ages.OrderBy(a => a))
+                {
+                    <option value="@age">@age</option>
+                }
             </select>
         </div>
         <div class="filter-item">
@@ -49,11 +48,11 @@ else
             <input type="date" id="date" name="date"
                 @bind="dateFilter"/>
         </div>
-        <button type="button" class="btn btn-primary mr-sm-2 mb-2"
+        <button type="button" class="button"
             @onclick="Filter">
             Filter
         </button>
-        <button type="button" class="btn btn-danger mb-2"
+        <button type="button" class="button-clear"
             @onclick="Clear">
             Clear
         </button>
