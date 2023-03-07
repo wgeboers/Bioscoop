@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jh1Ybv5/Ho4Sc9jocQTvY2W3EKBvpT5G/757p+3TnhA=",
+  "Hash": "U/D0HoAEoEoM1BWJlYOgY9P0/B60y5OZCPzARNPjaJg=",
   "Source": "Bioscoop.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -7344,12 +7344,12 @@
       "OriginalItemSpec": "wwwroot\\icon-192.png"
     },
     {
-      "Identity": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\ant-man.jpg",
+      "Identity": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Movies\\ant-man.jpg",
       "SourceId": "Bioscoop.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "Images/ant-man.jpg",
+      "RelativePath": "Images/Movies/ant-man.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7358,15 +7358,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\ant-man.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Movies\\ant-man.jpg"
     },
     {
-      "Identity": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\AvatarTheWayOfTheWater.jpg",
+      "Identity": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Movies\\AvatarTheWayOfTheWater.jpg",
       "SourceId": "Bioscoop.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "Images/AvatarTheWayOfTheWater.jpg",
+      "RelativePath": "Images/Movies/AvatarTheWayOfTheWater.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7375,15 +7375,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\AvatarTheWayOfTheWater.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Movies\\AvatarTheWayOfTheWater.jpg"
     },
     {
-      "Identity": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Babylon.jpg",
+      "Identity": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Movies\\Babylon.jpg",
       "SourceId": "Bioscoop.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "Images/Babylon.jpg",
+      "RelativePath": "Images/Movies/Babylon.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7392,15 +7392,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Babylon.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Movies\\Babylon.jpg"
     },
     {
-      "Identity": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\PussInBootsTwo.jpg",
+      "Identity": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Movies\\PussInBootsTwo.jpg",
       "SourceId": "Bioscoop.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "Images/PussInBootsTwo.jpg",
+      "RelativePath": "Images/Movies/PussInBootsTwo.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7409,15 +7409,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\PussInBootsTwo.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Movies\\PussInBootsTwo.jpg"
     },
     {
-      "Identity": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\TheWhale.jpg",
+      "Identity": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Movies\\Shrek.jpg",
       "SourceId": "Bioscoop.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "Images/TheWhale.jpg",
+      "RelativePath": "Images/Movies/Shrek.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7426,7 +7426,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\TheWhale.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Movies\\Shrek.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Movies\\TheWhale.jpg",
+      "SourceId": "Bioscoop.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/Movies/TheWhale.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Movies\\TheWhale.jpg"
     },
     {
       "Identity": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\index.html",

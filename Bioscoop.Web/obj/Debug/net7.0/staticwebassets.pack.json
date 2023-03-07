@@ -13,24 +13,28 @@
       "PackagePath": "staticwebassets\\Bioscoop.Web.styles.css"
     },
     {
-      "Id": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\AvatarTheWayOfTheWater.jpg",
-      "PackagePath": "staticwebassets\\Images\\AvatarTheWayOfTheWater.jpg"
+      "Id": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Movies\\AvatarTheWayOfTheWater.jpg",
+      "PackagePath": "staticwebassets\\Images\\Movies\\AvatarTheWayOfTheWater.jpg"
     },
     {
-      "Id": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Babylon.jpg",
-      "PackagePath": "staticwebassets\\Images\\Babylon.jpg"
+      "Id": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Movies\\Babylon.jpg",
+      "PackagePath": "staticwebassets\\Images\\Movies\\Babylon.jpg"
     },
     {
-      "Id": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\PussInBootsTwo.jpg",
-      "PackagePath": "staticwebassets\\Images\\PussInBootsTwo.jpg"
+      "Id": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Movies\\PussInBootsTwo.jpg",
+      "PackagePath": "staticwebassets\\Images\\Movies\\PussInBootsTwo.jpg"
     },
     {
-      "Id": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\TheWhale.jpg",
-      "PackagePath": "staticwebassets\\Images\\TheWhale.jpg"
+      "Id": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Movies\\Shrek.jpg",
+      "PackagePath": "staticwebassets\\Images\\Movies\\Shrek.jpg"
     },
     {
-      "Id": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\ant-man.jpg",
-      "PackagePath": "staticwebassets\\Images\\ant-man.jpg"
+      "Id": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Movies\\TheWhale.jpg",
+      "PackagePath": "staticwebassets\\Images\\Movies\\TheWhale.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\Images\\Movies\\ant-man.jpg",
+      "PackagePath": "staticwebassets\\Images\\Movies\\ant-man.jpg"
     },
     {
       "Id": "C:\\Users\\MForm\\OneDrive\\Documents\\GitHub\\Bioscoop\\Bioscoop.Web\\wwwroot\\css\\app.css",

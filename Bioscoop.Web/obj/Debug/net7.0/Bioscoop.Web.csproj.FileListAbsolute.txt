@@ -1678,3 +1678,7 @@ C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\
 C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Http.Features.dll.gz
 C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\build-gz\EgKAU1EZ.gz
+C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\DisplayMovies.razor.rz.scp.css
+C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\DisplayShows.razor.rz.scp.css
+C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\DisplayShowsToday.razor.rz.scp.css
+C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Web\obj\Debug\net7.0\scopedcss\Pages\DisplaySpinner.razor.rz.scp.css
