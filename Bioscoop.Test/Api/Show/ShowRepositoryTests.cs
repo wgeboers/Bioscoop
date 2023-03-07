@@ -25,6 +25,7 @@ namespace Bioscoop.Test.Api.Show
                         MovieId = 1,
                         RoomId = 1,
                         StartDateTime = DateTime.Now,
+                        Type = "3D"
                     });
                     await databaseContext.SaveChangesAsync();
                 }

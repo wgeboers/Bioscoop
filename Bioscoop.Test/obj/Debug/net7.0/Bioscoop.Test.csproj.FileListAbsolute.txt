@@ -311,8 +311,3 @@ C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Test\obj\Debug\net7.0
 C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\MailKit.dll
 C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\MimeKit.dll
 C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\BouncyCastle.Crypto.dll
-C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\AutoMapper.dll
-C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\FluentAssertions.dll
-C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
-C:\Users\MForm\OneDrive\Documents\GitHub\Bioscoop\Bioscoop.Test\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll

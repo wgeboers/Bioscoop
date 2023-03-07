@@ -36,10 +36,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd0RldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MForm/OneDrive/Documents/GitHub/Bioscoop/Bioscoop.Web/Pages/ShowsAll.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd3NBbGwucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/MForm/OneDrive/Documents/GitHub/Bioscoop/Bioscoop.Web/Pages/ShowsToday.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd3NUb2RheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -71,6 +67,10 @@ build_metadata.AdditionalFiles.CssScope = b-g9xf50szz9
 [C:/Users/MForm/OneDrive/Documents/GitHub/Bioscoop/Bioscoop.Web/Pages/DisplaySpinner.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheVNwaW5uZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-djnsdi6z89
+
+[C:/Users/MForm/OneDrive/Documents/GitHub/Bioscoop/Bioscoop.Web/Pages/ShowsAll.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd3NBbGwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-5yvnpe8tjp
 
 [C:/Users/MForm/OneDrive/Documents/GitHub/Bioscoop/Bioscoop.Web/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
