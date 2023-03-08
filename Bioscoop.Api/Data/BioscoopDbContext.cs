@@ -251,14 +251,14 @@ namespace Bioscoop.Api.Data
             modelBuilder.Entity<Option>().HasData(new Option
             {
                 Id = 1,
-                Price = 4.00m
+                Pricepop = 4.00m
             });
         }
 
         public DbSet<Movie> Movies { get; set;}
         public DbSet<Room> Rooms { get; set;}
         public DbSet<Show> Shows { get; set;}
-        public DbSet<Ticket> Tickets { get; set;}
+        public DbSet<Ticket> Tickets { get; set; }
         public DbSet<Option> Options { get; set;}
     }
 }

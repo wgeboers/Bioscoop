@@ -6,7 +6,5 @@ namespace Bioscoop.Web.Services.Contracts
     {
         Task<IEnumerable<ShowDto>> GetShows();
         Task<ShowDto> GetShow(int id);
-        Task<TicketDto> GetOption(int id);
-       
     }
 }

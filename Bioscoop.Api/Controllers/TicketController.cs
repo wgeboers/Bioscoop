@@ -56,13 +56,7 @@ namespace Bioscoop.Api.Controllers
                     throw new Exception("No rooms exist in the system?");
                 }
 
-                var option = await this.ticketRepository.GetOption();
-                if (option == null)
-                {
-                    throw new Exception("No options exist in the system");
-                }
-
-                var ticketsDto = tickets.ConvertToDto(shows, movies, rooms, option);
+                var ticketsDto = tickets.ConvertToDto(shows, movies, rooms);
 
                 return Ok(ticketsDto);
             }

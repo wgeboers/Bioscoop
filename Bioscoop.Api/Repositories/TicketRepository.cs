@@ -23,6 +23,11 @@ namespace Bioscoop.Api.Repositories
             var ticket = await bioscoopDbContext.Tickets.FindAsync(id);
             return ticket;
         }
+        public async Task<Option> GetOption(int id)
+        {
+            var option = await bioscoopDbContext.Options.FindAsync(id);
+            return option;
+        }
 
         public async Task<Ticket> GetTicketByCode(int code)
         {
@@ -67,7 +72,8 @@ namespace Bioscoop.Api.Repositories
                               RowNumber = ticket.RowNumber,
                               SeatNumber = ticket.SeatNumber,
                               Price = ticket.Price,
-                          }).ToListAsync();    
+                          }).ToListAsync();
+            
         }
 
         private async Task<int> TicketCodeGenerator()
@@ -134,12 +140,6 @@ namespace Bioscoop.Api.Repositories
             }
 
             return ticket;
-        }
-
-        public async Task<Option> GetOption(int id)
-        {
-            var option = await bioscoopDbContext.Options.FindAsync(id);
-            return option;
         }
     }
 }

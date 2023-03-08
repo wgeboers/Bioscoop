@@ -68,33 +68,5 @@ namespace Bioscoop.Web.Services
                 throw;
             }
         }
-
-        public async Task<TicketDto> GetOption(int id)
-        {
-            try
-            {
-                var response = await httpClient.GetAsync($"api/Show/{id}");
-
-                if (response.IsSuccessStatusCode)
-                {
-                    if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
-                    {
-                        return default(TicketDto);
-                    }
-
-                    return await response.Content.ReadFromJsonAsync<TicketDto>();
-                }
-                else
-                {
-                    var message = await response.Content.ReadAsStringAsync();
-                    throw new Exception($"Http status code: {response.StatusCode} message: {message}");
-                }
-            }
-            catch (Exception)
-            {
-                //Log exception
-                throw;
-            }
-        }
     }
 }
