@@ -38,7 +38,9 @@ namespace Bioscoop.Api.Repositories
                 await this.bioscoopDbContext.SaveChangesAsync();
                 return result.Entity;
             }
+#pragma warning disable CS8603 // Possible null reference return.
             return null;
+#pragma warning restore CS8603 // Possible null reference return.
         }
 
         public async Task<Show> DeleteShow(int id)
@@ -51,13 +53,17 @@ namespace Bioscoop.Api.Repositories
                 await this.bioscoopDbContext.SaveChangesAsync();
             }
 
+#pragma warning disable CS8603 // Possible null reference return.
             return show;
+#pragma warning restore CS8603 // Possible null reference return.
         }
 
         public async Task<Show> GetShow(int id)
         {
             var show = await bioscoopDbContext.Shows.FindAsync(id);
+#pragma warning disable CS8603 // Possible null reference return.
             return show;
+#pragma warning restore CS8603 // Possible null reference return.
         }
 
         public async Task<IEnumerable<Show>> GetShows()

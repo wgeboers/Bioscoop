@@ -5,6 +5,7 @@
 @using Syncfusion.Pdf.Graphics;
 @using System.Text.Json;
 @using System.IO;
+@using Microsoft.Extensions.Options
 
 @inject Microsoft.JSInterop.IJSRuntime JS
 @inject IJSRuntime JSRuntime;
@@ -59,7 +60,7 @@ else
                 <td>@Ticket.RoomName</td>
                 <td>@Ticket.RowNumber</td>
                 <td>@Ticket.SeatNumber</td>
-                <td>@Ticket.Pricepop</td>
+                <td>@Ticket.PricePop</td>
                 </tr>    
         </tbody>
     </table>
@@ -89,11 +90,11 @@ else
     @*Format ticket for generating pdf*@
     ticketDetails = Ticket.ShowStartDateTime + "\n"
                         + Ticket.MovieTitle + "\n"
-                        + "Price: " + Ticket.Price + "\n"
+                        + "Price: " + Ticket.Price + Ticket.PricePop + "\n"
                         + Ticket.RoomName + "\n"
                         + "Row: " + Ticket.RowNumber + "\n"
                         + "Seat: " + Ticket.SeatNumber + "\n"
-                        + "Code: " + Ticket.Code + "\n";
+                        + "Code: " + Ticket.Code + "\n";}
 }
 
 @*Search box for ticket*@

@@ -21,18 +21,22 @@ namespace Bioscoop.Api.Repositories
         public async Task<Ticket> GetTicket(int id)
         {
             var ticket = await bioscoopDbContext.Tickets.FindAsync(id);
+#pragma warning disable CS8603 // Possible null reference return.
             return ticket;
+#pragma warning restore CS8603 // Possible null reference return.
         }
-        public async Task<Option> GetOption(int id)
+        public async Task<PopPrice> GetPopPrice()
         {
-            var option = await bioscoopDbContext.Options.FindAsync(id);
-            return option;
+            var popPrice = await bioscoopDbContext.PopPrice.FirstOrDefaultAsync(x => x.Id == 1);
+            return popPrice;
         }
 
         public async Task<Ticket> GetTicketByCode(int code)
         {
             var ticket = await bioscoopDbContext.Tickets.FirstOrDefaultAsync(x => x.Code == code);
+#pragma warning disable CS8603 // Possible null reference return.
             return ticket;
+#pragma warning restore CS8603 // Possible null reference return.
         }
 
         public async Task<IEnumerable<Ticket>> GetTickets()
@@ -96,9 +100,11 @@ namespace Bioscoop.Api.Repositories
             var room = await this.bioscoopDbContext.Rooms.FindAsync(showId);
             var availability = tickets.Count();
 
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
             if(availability < room.Seats) {
                 return true;
             } else
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
             {
                 return false;
             }
@@ -126,7 +132,9 @@ namespace Bioscoop.Api.Repositories
                     return result.Entity;
                 }
             }
+#pragma warning disable CS8603 // Possible null reference return.
             return null;
+#pragma warning restore CS8603 // Possible null reference return.
         }
 
         public async Task<Ticket> DeleteTicket(int id)
@@ -139,7 +147,9 @@ namespace Bioscoop.Api.Repositories
                 await this.bioscoopDbContext.SaveChangesAsync();
             }
 
+#pragma warning disable CS8603 // Possible null reference return.
             return ticket;
+#pragma warning restore CS8603 // Possible null reference return.
         }
     }
 }

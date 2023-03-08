@@ -18,7 +18,9 @@ namespace Bioscoop.Api.Repositories
         public async Task<Movie> GetMovie(int id)
         {
             var movie = await bioscoopDbContext.Movies.FindAsync(id);
+#pragma warning disable CS8603 // Possible null reference return.
             return movie;
+#pragma warning restore CS8603 // Possible null reference return.
         }
 
         public async Task<IEnumerable<Movie>> GetMovies()
@@ -52,7 +54,9 @@ namespace Bioscoop.Api.Repositories
                 await this.bioscoopDbContext.SaveChangesAsync();
             }
 
+#pragma warning disable CS8603 // Possible null reference return.
             return movie;
+#pragma warning restore CS8603 // Possible null reference return.
         }
     }
 }

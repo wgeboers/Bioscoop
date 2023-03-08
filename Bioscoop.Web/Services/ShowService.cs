@@ -23,10 +23,14 @@ namespace Bioscoop.Web.Services
                 {
                     if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
                     {
+#pragma warning disable CS8603 // Possible null reference return.
                         return default(ShowDto);
+#pragma warning restore CS8603 // Possible null reference return.
                     }
 
+#pragma warning disable CS8603 // Possible null reference return.
                     return await response.Content.ReadFromJsonAsync<ShowDto>();
+#pragma warning restore CS8603 // Possible null reference return.
                 }
                 else
                 {
@@ -54,7 +58,9 @@ namespace Bioscoop.Web.Services
                         return Enumerable.Empty<ShowDto>();
                     }
 
+#pragma warning disable CS8603 // Possible null reference return.
                     return await response.Content.ReadFromJsonAsync<IEnumerable<ShowDto>>();
+#pragma warning restore CS8603 // Possible null reference return.
                 }
                 else
                 {

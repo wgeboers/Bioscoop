@@ -1,8 +1,8 @@
 ﻿namespace Bioscoop.Api.Entities
 {
-    public class Option
+    public class PopPrice
     {
         public int Id { get; set; }
-        public decimal Pricepop { get; set; }
+        public decimal Price { get; set; }
     }
 }

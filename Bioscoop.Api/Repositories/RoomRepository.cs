@@ -18,7 +18,9 @@ namespace Bioscoop.Api.Repositories
         public async Task<Room> GetRoom(int id)
         {
             var room = await bioscoopDbContext.Rooms.FindAsync(id);
+#pragma warning disable CS8603 // Possible null reference return.
             return room;
+#pragma warning restore CS8603 // Possible null reference return.
         }
 
         public async Task<IEnumerable<Room>> GetRooms()
@@ -51,7 +53,9 @@ namespace Bioscoop.Api.Repositories
                 await this.bioscoopDbContext.SaveChangesAsync();
             }
 
+#pragma warning disable CS8603 // Possible null reference return.
             return room;
+#pragma warning restore CS8603 // Possible null reference return.
         }
     }
 }

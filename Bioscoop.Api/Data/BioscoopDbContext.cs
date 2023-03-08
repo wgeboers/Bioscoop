@@ -247,18 +247,18 @@ namespace Bioscoop.Api.Data
                 Price = 8.50m
             });
 
-            //Add Options
-            modelBuilder.Entity<Option>().HasData(new Option
+            //Add PopPrice
+            modelBuilder.Entity<PopPrice>().HasData(new PopPrice
             {
                 Id = 1,
-                Pricepop = 4.00m
+                Price = 4.00m
             });
         }
 
         public DbSet<Movie> Movies { get; set;}
         public DbSet<Room> Rooms { get; set;}
         public DbSet<Show> Shows { get; set;}
-        public DbSet<Ticket> Tickets { get; set; }
-        public DbSet<Option> Options { get; set;}
+        public DbSet<Ticket> Tickets { get; set;}
+        public DbSet<PopPrice> PopPrice { get; set;}
     }
 }
