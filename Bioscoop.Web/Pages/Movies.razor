@@ -1,9 +1,9 @@
 ﻿@page "/Movies"
-@inherits MoviesBase
+@inherits Bioscoop.Web.Pages.MoviesBase
 
 @if(Movies == null)
 {
-    <DisplaySpinner/>
+    <DisplaySpinner />
 }
 else
 {
@@ -25,9 +25,6 @@ else
                 <DisplayMovies Movies = "@movieRowList"></DisplayMovies>
 
             </div>
-
-
         }
     }
-
 }

@@ -22,14 +22,10 @@ namespace Bioscoop.Web.Services
 				{
 					if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
 					{
-
 						return default(TicketDto);
-
 					}
 
-
 					return await response.Content.ReadFromJsonAsync<TicketDto>();
-
 				}
 				else
 				{

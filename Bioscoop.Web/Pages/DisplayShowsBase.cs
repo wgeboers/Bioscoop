@@ -6,6 +6,6 @@ namespace Bioscoop.Web.Pages
     public class DisplayShowsBase : ComponentBase
     {
         [Parameter]
-       public IEnumerable<ShowDto> Shows { get; set; }
+        public IEnumerable<ShowDto> Shows { get; set; }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using Bioscoop.Models.Dtos;
-using Bioscoop.Web.Services;
 using Bioscoop.Web.Services.Contracts;
 using Microsoft.AspNetCore.Components;
 
@@ -11,16 +10,10 @@ namespace Bioscoop.Web.Pages
         public int Id { get; set; }
 
         [Inject]
-
         public IShowService ShowService { get; set; }
-
         public ShowDto Show { get; set; }
-        public TicketDto? PopPriceTicketDto { get; set; }
-
-
 
         public string ErrorMessage { get; set; }
-
 
         protected override async Task OnInitializedAsync()
         {

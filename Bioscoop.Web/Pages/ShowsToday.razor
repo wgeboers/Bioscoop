@@ -1,5 +1,5 @@
 ﻿@page "/"
-@inherits ShowsTodayBase
+@inherits Bioscoop.Web.Pages.ShowsTodayBase
 
 @if (Shows == null && ErrorMessage == null)
 {
@@ -12,12 +12,11 @@ else if (ErrorMessage != null)
 else
 { // button to ShowsAll page
     <h1 class="mb-5">Shows today</h1>
-	<button class="btn btn-success">
-		    <a href="/ShowsAll">
-		    <b>Shows this week</b>
-            </a>
-	    </button>
-    
+    <a href="/ShowsAll">
+        <button class="btn btn-success">
+            <b>Shows this week</b>
+        </button>
+    </a>
 
     // filter for shows of today
     var startOfDay = DateTime.Now.Date;

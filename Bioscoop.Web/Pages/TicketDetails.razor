@@ -5,14 +5,14 @@
 @using Syncfusion.Pdf.Graphics;
 @using System.Text.Json;
 @using System.IO;
-@using Microsoft.Extensions.Options
+@using Bioscoop.Web.Pages
 
 @inject Microsoft.JSInterop.IJSRuntime JS
 @inject IJSRuntime JSRuntime;
 
 @page "/TicketDetails"
 @page "/TicketDetails/{Id:int?}"
-@inherits TicketDetailsBase
+@inherits Bioscoop.Web.Pages.TicketDetailsBase
 
 @if (Id == 0){
     <h3>Ticket not found.</h3>
@@ -49,7 +49,6 @@ else
                 <td>Room</td>
                 <th>Row</th>
                 <th>Seat</th>
-                <th>Options</th>
             </tr>
         </thead>
         <tbody>
@@ -60,7 +59,6 @@ else
                 <td>@Ticket.RoomName</td>
                 <td>@Ticket.RowNumber</td>
                 <td>@Ticket.SeatNumber</td>
-                <td>@Ticket.PricePop</td>
                 </tr>    
         </tbody>
     </table>
@@ -90,11 +88,11 @@ else
     @*Format ticket for generating pdf*@
     ticketDetails = Ticket.ShowStartDateTime + "\n"
                         + Ticket.MovieTitle + "\n"
-                        + "Price: " + Ticket.Price + Ticket.PricePop + "\n"
+                        + "Price: " + Ticket.Price + "\n"
                         + Ticket.RoomName + "\n"
                         + "Row: " + Ticket.RowNumber + "\n"
                         + "Seat: " + Ticket.SeatNumber + "\n"
-                        + "Code: " + Ticket.Code + "\n";}
+                        + "Code: " + Ticket.Code + "\n";
 }
 
 @*Search box for ticket*@
