@@ -22,14 +22,14 @@ namespace Bioscoop.Web.Services
 				{
 					if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
 					{
-#pragma warning disable CS8603 // Possible null reference return.
+
 						return default(TicketDto);
-#pragma warning restore CS8603 // Possible null reference return.
+
 					}
 
-#pragma warning disable CS8603 // Possible null reference return.
+
 					return await response.Content.ReadFromJsonAsync<TicketDto>();
-#pragma warning restore CS8603 // Possible null reference return.
+
 				}
 				else
 				{
