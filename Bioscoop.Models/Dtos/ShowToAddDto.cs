@@ -11,5 +11,6 @@ namespace Bioscoop.Models.Dtos
         public int MovieId { get; set; }
         public int RoomId { get; set; }
         public DateTime StartDateTime { get; set; }
+        public required string Type { get; set; }
     }
 }

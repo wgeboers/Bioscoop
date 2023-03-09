@@ -4,6 +4,7 @@ using Bioscoop.Api.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bioscoop.Api.Migrations
 {
     [DbContext(typeof(BioscoopDbContext))]
-    partial class BioscoopDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230303202132_MovieEntityAdditions")]
+    partial class MovieEntityAdditions
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -52,6 +55,10 @@ namespace Bioscoop.Api.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("special")
                         .HasColumnType("bit");
 
@@ -69,6 +76,7 @@ namespace Bioscoop.Api.Migrations
                             MinimumAge = 12,
                             PlayTime = 124,
                             Title = "Ant-Man and the Wasp: Quantumania",
+                            Type = "3D",
                             special = false
                         },
                         new
@@ -80,6 +88,7 @@ namespace Bioscoop.Api.Migrations
                             MinimumAge = 16,
                             PlayTime = 188,
                             Title = "Babylon",
+                            Type = "Imax",
                             special = false
                         },
                         new
@@ -91,6 +100,7 @@ namespace Bioscoop.Api.Migrations
                             MinimumAge = 6,
                             PlayTime = 105,
                             Title = "Puss in boots: The last wish",
+                            Type = "2D",
                             special = false
                         },
                         new
@@ -102,6 +112,7 @@ namespace Bioscoop.Api.Migrations
                             MinimumAge = 12,
                             PlayTime = 192,
                             Title = "Avatar: The way of water",
+                            Type = "3D-HFR",
                             special = false
                         },
                         new
@@ -113,6 +124,7 @@ namespace Bioscoop.Api.Migrations
                             MinimumAge = 12,
                             PlayTime = 117,
                             Title = "The Whale",
+                            Type = "2D",
                             special = false
                         });
                 });
@@ -210,10 +222,6 @@ namespace Bioscoop.Api.Migrations
                     b.Property<DateTime>("StartDateTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Type")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("Id");
 
                     b.ToTable("Shows");
@@ -222,31 +230,9 @@ namespace Bioscoop.Api.Migrations
                         new
                         {
                             Id = 1,
-                            MovieId = 1,
-                            RoomId = 1,
-                            StartDateTime = new DateTime(2023, 3, 6, 12, 0, 0, 0, DateTimeKind.Local)
-                        },
-                        new
-                        {
-                            Id = 2,
-                            MovieId = 1,
-                            RoomId = 1,
-                            StartDateTime = new DateTime(2023, 3, 6, 16, 0, 0, 0, DateTimeKind.Local)
-                        },
-                        new
-                        {
-                            Id = 3,
-                            MovieId = 1,
-                            RoomId = 1,
-                            StartDateTime = new DateTime(2023, 3, 6, 20, 0, 0, 0, DateTimeKind.Local)
-                        },
-                        new
-                        {
-                            Id = 4,
-                            MovieId = 2,
+                            MovieId = 3,
                             RoomId = 2,
-                            StartDateTime = new DateTime(2023, 3, 3, 21, 37, 28, 166, DateTimeKind.Local).AddTicks(8964),
-                            Type = "2D"
+                            StartDateTime = new DateTime(2023, 3, 3, 21, 21, 32, 501, DateTimeKind.Local).AddTicks(7004)
                         });
                 });
 

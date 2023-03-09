@@ -21,6 +21,51 @@ else
     // sort list on StartDateTime
     var showListSorted = Shows.OrderBy(x => x.StartDateTime);
 
+    <form class="filter-form">
+        <div class="filter-item">
+            <input type="text" class="form-control"
+                @bind="titleFilter"
+                placeholder="Titel" />
+        </div>
+        <div class="filter-item">
+            <select name="genreFilter" class="form-select" @bind="genreFilter">
+                <option value="" disabled selected>Genre</option>
+                @foreach(var genre in Genres.OrderBy(g => g))
+                {
+                    <option value="@genre">@genre</option>
+                }
+            </select>
+        </div>
+        <div class="filter-item">
+            <select name="ageFilter" class="form-select" @bind="ageFilter">
+                <option value="" disabled selected>Kijkwijzer</option>
+                @foreach (var age in Ages.OrderBy(a => a))
+                {
+                    <option value="@age">@age</option>
+                }
+            </select>
+        </div>
+        <div class="filter-item">
+            <select name="special" class="form-select" @bind="specialFilter">
+                <option value="" disabled selected>Special</option>
+                <option value="Ja">Ja</option>
+                <option value="Nee">Nee</option>
+            </select>
+        </div>
+        <div class="filter-item">
+            <input type="date" id="date" name="date"
+                @bind="dateFilter"/>
+        </div>
+        <button type="button" class="button"
+            @onclick="Filter">
+            Filter
+        </button>
+        <button type="button" class="button-clear"
+            @onclick="Clear">
+            Clear
+        </button>
+    </form>
+
     var showCount = Shows.Count();
 
     @if (showCount > 0)
@@ -34,11 +79,161 @@ else
 
             // gets info from DisplayShows.razor
             <div class=" row mt-3">
-                
                 <DisplayShows Shows="@showRowList"></DisplayShows>
-
             </div>
         }
     }
+}
 
+@code {
+    @inject NavigationManager navigationManager;
+
+    private string titleFilter = string.Empty;
+    private string genreFilter = string.Empty;
+    private string ageFilter = string.Empty;
+    private string specialFilter = string.Empty;
+    private DateTime? dateFilter = null;
+
+    private async Task Filter()
+    {
+        if (ageFilter != "")
+        {
+            if (dateFilter != null)
+            {
+                if (specialFilter == "Ja")
+                {
+                    Shows = Shows.Where(x =>
+                        x.MovieTitle.Contains(titleFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieMinimumAge.Equals(int.Parse(ageFilter)) &&
+                        x.StartDateTime.Date.Equals(dateFilter) &&
+                        x.MovieSpecial.Equals(true)
+                    );
+                }
+                else if (specialFilter == "Nee")
+                {
+                    Shows = Shows.Where(x =>
+                        x.MovieTitle.Contains(titleFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieMinimumAge.Equals(int.Parse(ageFilter)) &&
+                        x.StartDateTime.Date.Equals(dateFilter) &&
+                        x.MovieSpecial.Equals(false)
+                    );
+                }
+                else
+                {
+                    Shows = Shows.Where(x =>
+                        x.MovieTitle.Contains(titleFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieMinimumAge.Equals(int.Parse(ageFilter)) &&
+                        x.StartDateTime.Date.Equals(dateFilter)
+                    );
+                }
+            }
+            else
+            {
+                if (specialFilter == "Ja")
+                {
+                    Shows = Shows.Where(x =>
+                        x.MovieTitle.Contains(titleFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieMinimumAge.Equals(int.Parse(ageFilter)) &&
+                        x.MovieSpecial.Equals(true)
+                    );
+                }
+                else if (specialFilter == "Nee")
+                {
+                    Shows = Shows.Where(x =>
+                        x.MovieTitle.Contains(titleFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieMinimumAge.Equals(int.Parse(ageFilter)) &&
+                        x.MovieSpecial.Equals(false)
+                    );
+                }
+                else
+                {
+                    Shows = Shows.Where(x =>
+                        x.MovieTitle.Contains(titleFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieMinimumAge.Equals(int.Parse(ageFilter))
+                    );
+                }
+
+                
+            }
+        }
+        else
+        {
+            if (dateFilter != null)
+            {
+                if (specialFilter == "Ja")
+                {
+                    Shows = Shows.Where(x =>
+                        x.MovieTitle.Contains(titleFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieMinimumAge >= (0) && x.MovieMinimumAge <= (100) &&
+                        x.StartDateTime.Date.Equals(dateFilter) &&
+                        x.MovieSpecial.Equals(true)
+                    );
+                }
+                else if (specialFilter == "Nee")
+                {
+                    Shows = Shows.Where(x =>
+                        x.MovieTitle.Contains(titleFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieMinimumAge >= (0) && x.MovieMinimumAge <= (100) &&
+                        x.StartDateTime.Date.Equals(dateFilter) &&
+                        x.MovieSpecial.Equals(false)
+                    );
+                }
+                else
+                {
+                    Shows = Shows.Where(x =>
+                        x.MovieTitle.Contains(titleFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieMinimumAge >= (0) && x.MovieMinimumAge <= (100) &&
+                        x.StartDateTime.Date.Equals(dateFilter)
+                    );
+                }
+            }
+            else
+            {
+                if (specialFilter == "Ja")
+                {
+                    Shows = Shows.Where(x =>
+                       x.MovieTitle.Contains(titleFilter) &&
+                       x.MovieGenre.Contains(genreFilter) &&
+                       x.MovieMinimumAge >= (0) && x.MovieMinimumAge <= (100) &&
+                       x.MovieSpecial.Equals(true)
+                    );
+                }
+                else if (specialFilter == "Nee")
+                {
+                    Shows = Shows.Where(x =>
+                       x.MovieTitle.Contains(titleFilter) &&
+                       x.MovieGenre.Contains(genreFilter) &&
+                       x.MovieMinimumAge >= (0) && x.MovieMinimumAge <= (100) &&
+                       x.MovieSpecial.Equals(false)
+                    );
+                }
+                else
+                {
+                    Shows = Shows.Where(x =>
+                        x.MovieTitle.Contains(titleFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieMinimumAge >= (0) && x.MovieMinimumAge <= (100)
+                    );
+                }
+            }
+        }
+    }
+
+    private async Task Clear()
+    {
+        titleFilter = string.Empty;
+        genreFilter = string.Empty;
+        ageFilter = string.Empty;
+        specialFilter = string.Empty;
+        navigationManager.NavigateTo("/ShowsAll", true);
+    }
 }

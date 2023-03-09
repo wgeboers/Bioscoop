@@ -1,4 +1,4 @@
-﻿using Bioscoop.Models.Dtos;
+using Bioscoop.Models.Dtos;
 using Bioscoop.Web.Services.Contracts;
 using Microsoft.AspNetCore.Components;
 

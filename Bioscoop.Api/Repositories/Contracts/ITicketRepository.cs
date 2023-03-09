@@ -10,5 +10,6 @@ namespace Bioscoop.Api.Repositories.Contracts
         Task<IEnumerable<Ticket>> GetTickets();
         Task<Ticket> GetTicket(int id);
         Task<Ticket> GetTicketByCode(int code);
+        Task<IEnumerable<Ticket>> GetTicketsByShowId(int showId);
     }
 }

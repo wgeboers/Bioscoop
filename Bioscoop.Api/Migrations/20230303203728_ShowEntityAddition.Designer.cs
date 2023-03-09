@@ -4,6 +4,7 @@ using Bioscoop.Api.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bioscoop.Api.Migrations
 {
     [DbContext(typeof(BioscoopDbContext))]
-    partial class BioscoopDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230303203728_ShowEntityAddition")]
+    partial class ShowEntityAddition
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -222,28 +225,7 @@ namespace Bioscoop.Api.Migrations
                         new
                         {
                             Id = 1,
-                            MovieId = 1,
-                            RoomId = 1,
-                            StartDateTime = new DateTime(2023, 3, 6, 12, 0, 0, 0, DateTimeKind.Local)
-                        },
-                        new
-                        {
-                            Id = 2,
-                            MovieId = 1,
-                            RoomId = 1,
-                            StartDateTime = new DateTime(2023, 3, 6, 16, 0, 0, 0, DateTimeKind.Local)
-                        },
-                        new
-                        {
-                            Id = 3,
-                            MovieId = 1,
-                            RoomId = 1,
-                            StartDateTime = new DateTime(2023, 3, 6, 20, 0, 0, 0, DateTimeKind.Local)
-                        },
-                        new
-                        {
-                            Id = 4,
-                            MovieId = 2,
+                            MovieId = 3,
                             RoomId = 2,
                             StartDateTime = new DateTime(2023, 3, 3, 21, 37, 28, 166, DateTimeKind.Local).AddTicks(8964),
                             Type = "2D"

@@ -7,7 +7,5 @@ namespace Bioscoop.Web.Pages
     {
         [Parameter]
         public IEnumerable<MovieDto> Movies { get; set; }
-
-
     }
 }

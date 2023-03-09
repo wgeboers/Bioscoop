@@ -9,13 +9,15 @@ namespace Bioscoop.Web.Pages
         [Inject]
         public IShowService ShowService { get; set; }
         public IEnumerable<ShowDto> Shows { get; set; }
-
+        public IEnumerable<string> Genres { get; set; }
+        public IEnumerable<int> Ages { get; set; }
         public string ErrorMessage { get; set; }
-
 
         protected override async Task OnInitializedAsync()
         {
             Shows = await ShowService.GetShows();
+            Genres = Shows.Select(x => x.MovieGenre).Distinct();
+            Ages = Shows.Select(x => x.MovieMinimumAge).Distinct();
         }
     }
 }
