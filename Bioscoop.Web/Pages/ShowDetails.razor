@@ -34,10 +34,6 @@ else
             </p>
 
 	        <div> <!-- Button to get a ticket -->
-
-		        @{
-			        object onclick;
-		        }
 		        <button class="btn btn-success"
 		                @onclick ="() => (AddTicket_ForShow(new TicketToAddDto{
                         ShowId = Show.Id,

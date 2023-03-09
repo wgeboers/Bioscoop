@@ -27,5 +27,7 @@ namespace Bioscoop.Web.Pages
                 ErrorMessage = ex.Message;
             }
         }
+
+        
     }
 }
