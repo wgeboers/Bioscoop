@@ -130,7 +130,7 @@ namespace Bioscoop.Api.Extensions
                         RowNumber = ticket.RowNumber,
                         SeatNumber = ticket.SeatNumber,
                         Price = ticket.Price,
-                        PricePop = option.Price,
+                        PopPrice = option.Price,
                             
                     }).ToList();
         }
@@ -138,7 +138,8 @@ namespace Bioscoop.Api.Extensions
         public static TicketDto ConvertToDto(this Ticket ticket,
                                                   Show show,
                                                   Movie movie,
-                                                  Room room)
+                                                  Room room,
+                                                  PopPrice option)
         {
             return new TicketDto
             {
@@ -153,7 +154,8 @@ namespace Bioscoop.Api.Extensions
                 RoomName = room.Name,
                 RowNumber = ticket.RowNumber,
                 SeatNumber = ticket.SeatNumber,
-                Price = ticket.Price
+                Price = ticket.Price,
+                PopPrice = option.Price,
             };
         }
     }

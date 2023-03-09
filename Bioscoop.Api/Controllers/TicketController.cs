@@ -101,8 +101,13 @@ namespace Bioscoop.Api.Controllers
                 {
                     return NotFound();
                 }
+                var popPrice = await this.ticketRepository.GetPopPrice();
+                if (popPrice == null)
+                {
+                    throw new Exception("no options");
+                }
 
-                var ticketDto = ticket.ConvertToDto(show, movie, room);
+                var ticketDto = ticket.ConvertToDto(show, movie, room, popPrice);
 
                 return Ok(ticketDto);
             }
@@ -141,8 +146,13 @@ namespace Bioscoop.Api.Controllers
                 {
                     return NotFound();
                 }
+                var popPrice = await this.ticketRepository.GetPopPrice();
+                if (popPrice == null)
+                {
+                    throw new Exception("no options");
+                }
 
-                var ticketDto = ticket.ConvertToDto(show, movie, room);
+                var ticketDto = ticket.ConvertToDto(show, movie, room, popPrice);
 
                 return Ok(ticketDto);
             }
@@ -182,7 +192,13 @@ namespace Bioscoop.Api.Controllers
                     throw new Exception($"Something went wrong when attempting to retrieve room (roomId:({show.RoomId})");
                 }
 
-                var newTicketDto = newTicket.ConvertToDto(show, movie, room);
+                var popPrice = await this.ticketRepository.GetPopPrice();
+                if (popPrice == null)
+                {
+                    throw new Exception("no options");
+                }
+
+                var newTicketDto = newTicket.ConvertToDto(show, movie, room, popPrice);
 
                 return CreatedAtAction(nameof(GetTicket), new { id = newTicketDto.Id }, newTicketDto);
             }
