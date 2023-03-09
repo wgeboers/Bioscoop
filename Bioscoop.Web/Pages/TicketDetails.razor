@@ -11,17 +11,11 @@
 
 @page "/TicketDetails"
 @page "/TicketDetails/{Id:int?}"
+@page "/TicketDetails/{Text}"
 @inherits TicketDetailsBase
 
 @if (Id == 0){
     <h3>Ticket not found.</h3>
-    @*Search box for ticket
-    <hr />
-    <h4>Search on ticket-ID:</h4>
-    <input type="text" @bind-value="@ticketID" />
-    <button @onclick="(() => openPage(ticketID))">Search</button>
-    *@
-
 }
 else if (Id == -1)
 {
@@ -81,9 +75,6 @@ else
                 <input type="submit" class="btn-primary" value="Mail ticket" @onclick="(() => ExportToPdf(true))" />
              </EditForm>
 
-
-
-
     @*Format ticket for generating pdf*@
     ticketDetails = Ticket.ShowStartDateTime + "\n"
                         + Ticket.MovieTitle + "\n"
@@ -96,8 +87,8 @@ else
 
 @*Search box for ticket*@
 <hr/>
-<h4>Search on ticket-ID:</h4>
-<input type="text" @bind-value="@ticketID" />
+<h4>Search on ticket-Code:</h4>
+<input type="number" @bind-value="@ticketID" />
 <button @onclick="(() => openPage(ticketID))">Search</button>
 
 @code {
@@ -111,9 +102,20 @@ else
         Id = Id ?? 0; 
     }
 
-    public void openPage(string ticketID)
+    public async Task openPage(string ticketID)
     {
-        string url = "/TicketDetails/" + ticketID;
+        TicketDto ticketdto = default(TicketDto);
+
+        try 
+        {
+
+            ticketdto = await TicketService.GetTicketByCode(int.Parse(ticketID));
+
+        } catch (Exception ex)
+        {
+            JSRuntime.InvokeVoidAsync("open", "/TicketDetails/0", "_self");
+        }
+        string url = "/TicketDetails/" + ticketdto.Id;
         JSRuntime.InvokeVoidAsync("open", url, "_self");
     }
 }

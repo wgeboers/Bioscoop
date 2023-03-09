@@ -9,6 +9,8 @@ namespace Bioscoop.Web.Pages
     {
         [Parameter]
         public int? Id { get; set; }
+        [Parameter]
+        public string? Text { get; set; }
 
         [Inject]
         public ITicketService TicketService { get; set; }
