@@ -3,6 +3,7 @@ using Bioscoop.Api.Entities;
 using Bioscoop.Api.Repositories.Contracts;
 using Bioscoop.Models.Dtos;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 
 namespace Bioscoop.Api.Repositories
 {
@@ -103,9 +104,17 @@ namespace Bioscoop.Api.Repositories
         private async Task<TicketToAddDto> CalculateSeatAndRowNumber(TicketToAddDto ticketToAddDto)
         {
             var ticketsOfShow = await GetTicketsByShowId(ticketToAddDto.ShowId);
+            bool isEmpty = !ticketsOfShow.Any();
+            if (isEmpty)
+            {
+                ticketToAddDto.SeatNumber = 1;
+            }
+            else
+            {
+                int highestSeatNumber = ticketsOfShow.Max(x => x.SeatNumber);
+                ticketToAddDto.SeatNumber = highestSeatNumber + 1;
+            }
 
-            int highestSeatNumber = ticketsOfShow.Max(x => x.SeatNumber);
-            ticketToAddDto.SeatNumber = highestSeatNumber + 1;
             int calculateRowNumber = (int)(ticketToAddDto.SeatNumber / 15);
             ticketToAddDto.RowNumber = calculateRowNumber + 1;
            
