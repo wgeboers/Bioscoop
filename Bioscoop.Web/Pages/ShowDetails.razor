@@ -33,6 +33,7 @@ else
                 </b>
             </p>
             
+<<<<<<< Updated upstream
 	        <div>
 		        <button class="btn btn-success">
 
@@ -44,6 +45,25 @@ else
 			        
 			        <b>Add Popcorn as well!</b>
 
+=======
+	        <div> <!-- Button to get a ticket -->
+		        <button class="btn btn-success"
+		                @onclick ="() => (AddTicket_ForShow(new TicketToAddDto{
+                        ShowId = Show.Id,
+                        Price = 9
+                    }))">
+			        <b>Get ticket!</b>
+		        </button>
+	        </div>
+            
+	        <div> <!-- Button to get a ticket -->
+		        <button class="btn btn-success"
+		                @onclick ="() => (AddTicket_ForShow(new TicketToAddDto{
+                        ShowId = Show.Id,
+                        Price = 12
+                    }))">
+			        <b>Get ticket and Popcorn!</b>
+>>>>>>> Stashed changes
 		        </button>
 	        </div>
         </div>
