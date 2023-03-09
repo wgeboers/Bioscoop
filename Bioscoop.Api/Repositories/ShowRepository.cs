@@ -30,7 +30,8 @@ namespace Bioscoop.Api.Repositories
                               {
                                   MovieId = movie.Id,
                                   RoomId = room.Id,
-                                  StartDateTime = showToAddDto.StartDateTime
+                                  StartDateTime = showToAddDto.StartDateTime,
+                                  Type = showToAddDto.Type
                               }).SingleOrDefaultAsync();
             if (show != null)
             {

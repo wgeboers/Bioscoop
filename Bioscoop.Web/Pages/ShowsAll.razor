@@ -86,7 +86,7 @@ else
 }
 
 @code {
-    //@inject NavigationManager navigationManager;
+    @inject NavigationManager navigationManager;
 
     private string titleFilter = string.Empty;
     private string genreFilter = string.Empty;
@@ -104,27 +104,27 @@ else
                 {
                     Shows = Shows.Where(x =>
                         x.MovieTitle.Contains(titleFilter) &&
-                        //x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
                         x.MovieMinimumAge.Equals(int.Parse(ageFilter)) &&
-                        x.StartDateTime.Date.Equals(dateFilter)
-                        //x.MovieSpecial.Equals(true)
+                        x.StartDateTime.Date.Equals(dateFilter) &&
+                        x.MovieSpecial.Equals(true)
                     );
                 }
                 else if (specialFilter == "Nee")
                 {
                     Shows = Shows.Where(x =>
                         x.MovieTitle.Contains(titleFilter) &&
-                        //x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
                         x.MovieMinimumAge.Equals(int.Parse(ageFilter)) &&
-                        x.StartDateTime.Date.Equals(dateFilter)
-                        //x.MovieSpecial.Equals(false)
+                        x.StartDateTime.Date.Equals(dateFilter) &&
+                        x.MovieSpecial.Equals(false)
                     );
                 }
                 else
                 {
                     Shows = Shows.Where(x =>
                         x.MovieTitle.Contains(titleFilter) &&
-                       // x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
                         x.MovieMinimumAge.Equals(int.Parse(ageFilter)) &&
                         x.StartDateTime.Date.Equals(dateFilter)
                     );
@@ -136,25 +136,25 @@ else
                 {
                     Shows = Shows.Where(x =>
                         x.MovieTitle.Contains(titleFilter) &&
-                       // x.MovieGenre.Contains(genreFilter) &&
-                        x.MovieMinimumAge.Equals(int.Parse(ageFilter))
-                       // x.MovieSpecial.Equals(true)
+                        x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieMinimumAge.Equals(int.Parse(ageFilter)) &&
+                        x.MovieSpecial.Equals(true)
                     );
                 }
                 else if (specialFilter == "Nee")
                 {
                     Shows = Shows.Where(x =>
                         x.MovieTitle.Contains(titleFilter) &&
-                       // x.MovieGenre.Contains(genreFilter) &&
-                        x.MovieMinimumAge.Equals(int.Parse(ageFilter))
-                       // x.MovieSpecial.Equals(false)
+                        x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieMinimumAge.Equals(int.Parse(ageFilter)) &&
+                        x.MovieSpecial.Equals(false)
                     );
                 }
                 else
                 {
                     Shows = Shows.Where(x =>
                         x.MovieTitle.Contains(titleFilter) &&
-                       // x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
                         x.MovieMinimumAge.Equals(int.Parse(ageFilter))
                     );
                 }
@@ -170,27 +170,27 @@ else
                 {
                     Shows = Shows.Where(x =>
                         x.MovieTitle.Contains(titleFilter) &&
-                       // x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
                         x.MovieMinimumAge >= (0) && x.MovieMinimumAge <= (100) &&
-                        x.StartDateTime.Date.Equals(dateFilter)
-                       // x.MovieSpecial.Equals(true)
+                        x.StartDateTime.Date.Equals(dateFilter) &&
+                        x.MovieSpecial.Equals(true)
                     );
                 }
                 else if (specialFilter == "Nee")
                 {
                     Shows = Shows.Where(x =>
                         x.MovieTitle.Contains(titleFilter) &&
-                       // x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
                         x.MovieMinimumAge >= (0) && x.MovieMinimumAge <= (100) &&
-                        x.StartDateTime.Date.Equals(dateFilter)
-                       // x.MovieSpecial.Equals(false)
+                        x.StartDateTime.Date.Equals(dateFilter) &&
+                        x.MovieSpecial.Equals(false)
                     );
                 }
                 else
                 {
                     Shows = Shows.Where(x =>
                         x.MovieTitle.Contains(titleFilter) &&
-                       // x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
                         x.MovieMinimumAge >= (0) && x.MovieMinimumAge <= (100) &&
                         x.StartDateTime.Date.Equals(dateFilter)
                     );
@@ -202,25 +202,25 @@ else
                 {
                     Shows = Shows.Where(x =>
                        x.MovieTitle.Contains(titleFilter) &&
-                      // x.MovieGenre.Contains(genreFilter) &&
-                       x.MovieMinimumAge >= (0) && x.MovieMinimumAge <= (100)
-                     //  x.MovieSpecial.Equals(true)
+                       x.MovieGenre.Contains(genreFilter) &&
+                       x.MovieMinimumAge >= (0) && x.MovieMinimumAge <= (100) &&
+                       x.MovieSpecial.Equals(true)
                     );
                 }
                 else if (specialFilter == "Nee")
                 {
                     Shows = Shows.Where(x =>
                        x.MovieTitle.Contains(titleFilter) &&
-                      // x.MovieGenre.Contains(genreFilter) &&
-                       x.MovieMinimumAge >= (0) && x.MovieMinimumAge <= (100)
-                       //x.MovieSpecial.Equals(false)
+                       x.MovieGenre.Contains(genreFilter) &&
+                       x.MovieMinimumAge >= (0) && x.MovieMinimumAge <= (100) &&
+                       x.MovieSpecial.Equals(false)
                     );
                 }
                 else
                 {
                     Shows = Shows.Where(x =>
                         x.MovieTitle.Contains(titleFilter) &&
-                       // x.MovieGenre.Contains(genreFilter) &&
+                        x.MovieGenre.Contains(genreFilter) &&
                         x.MovieMinimumAge >= (0) && x.MovieMinimumAge <= (100)
                     );
                 }
@@ -234,6 +234,6 @@ else
         genreFilter = string.Empty;
         ageFilter = string.Empty;
         specialFilter = string.Empty;
-        //navigationManager.NavigateTo("/ShowsAll", true);
+        navigationManager.NavigateTo("/ShowsAll", true);
     }
 }

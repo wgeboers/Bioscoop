@@ -11,7 +11,15 @@ namespace Bioscoop.Web.Pages
 
         [Inject]
         public IShowService ShowService { get; set; }
+
+        [Inject]
+        public ITicketService TicketService { get; set; }
+
+        [Inject]
+        public NavigationManager NavigationManager { get; set; }
         public ShowDto Show { get; set; }
+
+        private List<TicketDto> Tickets { get; set; }
 
         public string ErrorMessage { get; set; }
 
@@ -28,6 +36,20 @@ namespace Bioscoop.Web.Pages
             }
         }
 
-        
+        protected async Task AddTicket_ForShow(TicketToAddDto ticketToAddDto)
+        {
+            try
+            {
+                var ticketDto = await TicketService.AddTicket(ticketToAddDto);
+                var ticketid = ticketDto.Id;
+
+                NavigationManager.NavigateTo($"/TicketDetails/{ticketid}");
+            }
+            catch (Exception)
+            {
+
+                //Log Exception
+            }
+        }
     }
 }

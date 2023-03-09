@@ -13,9 +13,11 @@ namespace Bioscoop.Api.Extensions
                         Id = movie.Id,
                         Title = movie.Title,
                         Description = movie.Description,
+                        Genre = movie.Genre,
                         ImageURL = movie.ImageURL,
                         PlayTime = movie.PlayTime,
-                        MinimumAge = movie.MinimumAge
+                        MinimumAge = movie.MinimumAge,
+                        special = movie.special
                     }).ToList();
         }
 
@@ -26,9 +28,11 @@ namespace Bioscoop.Api.Extensions
                 Id = movie.Id,
                 Title = movie.Title,
                 Description = movie.Description,
+                Genre = movie.Genre,
                 ImageURL = movie.ImageURL,
                 PlayTime = movie.PlayTime,
-                MinimumAge = movie.MinimumAge
+                MinimumAge = movie.MinimumAge,
+                special = movie.special
             };
         }
 
@@ -70,15 +74,18 @@ namespace Bioscoop.Api.Extensions
                         MovieId = show.MovieId,
                         MovieTitle = movie.Title,
                         MovieDescription = movie.Description,
+                        MovieGenre = movie.Genre,
                         MovieImageURL = movie.ImageURL,
                         MoviePlayTime = movie.PlayTime,
                         MovieMinimumAge = movie.MinimumAge,
+                        MovieSpecial = movie.special,
                         RoomId = show.RoomId,
                         RoomName = room.Name,
                         RoomSeats = room.Seats,
                         RoomRows = room.Rows,
                         RoomWheelchairFriendly = room.WheelchairFriendly,
-                        StartDateTime = show.StartDateTime
+                        StartDateTime = show.StartDateTime,
+                        Type = show.Type,
                     }).ToList();
         }
 
@@ -92,15 +99,18 @@ namespace Bioscoop.Api.Extensions
                 MovieId = show.MovieId,
                 MovieTitle = movie.Title,
                 MovieDescription = movie.Description,
+                MovieGenre = movie.Genre,
                 MovieImageURL = movie.ImageURL,
                 MoviePlayTime = movie.PlayTime,
                 MovieMinimumAge = movie.MinimumAge,
+                MovieSpecial = movie.special,
                 RoomId = show.RoomId,
                 RoomName = room.Name,
                 RoomSeats = room.Seats,
                 RoomRows = room.Rows,
                 RoomWheelchairFriendly = room.WheelchairFriendly,
-                StartDateTime = show.StartDateTime
+                StartDateTime = show.StartDateTime,
+                Type = show.Type,
             };
         }
 
@@ -122,6 +132,7 @@ namespace Bioscoop.Api.Extensions
                         Code = ticket.Code,
                         ShowId = ticket.ShowId,
                         ShowStartDateTime = show.StartDateTime,
+                        ShowType = show.Type,
                         MovieId = show.MovieId,
                         MovieTitle = movie.Title,
                         MoviePlayTime = movie.PlayTime,
@@ -147,6 +158,7 @@ namespace Bioscoop.Api.Extensions
                 Code = ticket.Code,
                 ShowId = ticket.ShowId,
                 ShowStartDateTime = show.StartDateTime,
+                ShowType = show.Type,
                 MovieId = show.MovieId,
                 MovieTitle = movie.Title,
                 MoviePlayTime = movie.PlayTime,

@@ -16,7 +16,7 @@ namespace Bioscoop.Web.Pages
         protected override async Task OnInitializedAsync()
         {
             Shows = await ShowService.GetShows();
-            /*Genres = Shows.Select(x => x.MovieGenre).Distinct();*/
+            Genres = Shows.Select(x => x.MovieGenre).Distinct();
             Ages = Shows.Select(x => x.MovieMinimumAge).Distinct();
         }
     }

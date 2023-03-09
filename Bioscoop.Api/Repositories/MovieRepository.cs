@@ -36,9 +36,11 @@ namespace Bioscoop.Api.Repositories
                                                                      {
                                                                          Title = movieToAddDto.Title,
                                                                          Description = movieToAddDto.Description,
+                                                                         Genre = movieToAddDto.Genre,
                                                                          ImageURL = movieToAddDto.ImageURL,
                                                                          PlayTime = movieToAddDto.PlayTime,
                                                                          MinimumAge = movieToAddDto.MinimumAge,
+                                                                         special = movieToAddDto.special
                                                                      });
             await this.bioscoopDbContext.SaveChangesAsync();
             return result.Entity;
