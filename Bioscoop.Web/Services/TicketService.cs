@@ -16,7 +16,7 @@ namespace Bioscoop.Web.Services.Contracts
         {
             try
             {
-                var response = await httpClient.GetAsync("api/Ticket/{id}");
+                var response = await httpClient.GetAsync($"api/Ticket/{id}");
 
                 if (response.IsSuccessStatusCode)
                 {
