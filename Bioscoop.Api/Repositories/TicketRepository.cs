@@ -98,11 +98,26 @@ namespace Bioscoop.Api.Repositories
             }
         }
 
+
+
+        private async Task<TicketToAddDto> CalculateSeatAndRowNumber(TicketToAddDto ticketToAddDto)
+        {
+            var ticketsOfShow = await GetTicketsByShowId(ticketToAddDto.ShowId);
+
+            int highestSeatNumber = ticketsOfShow.Max(x => x.SeatNumber);
+            ticketToAddDto.SeatNumber = highestSeatNumber + 1;
+            int calculateRowNumber = (int)(ticketToAddDto.SeatNumber / 15);
+            ticketToAddDto.RowNumber = calculateRowNumber + 1;
+           
+            return ticketToAddDto;
+        }
+
         public async Task<Ticket> AddTicket(TicketToAddDto ticketToAddDto)
         {
             if (await TicketExists(ticketToAddDto.ShowId, ticketToAddDto.RowNumber, ticketToAddDto.SeatNumber) == false)
             {
                 var code = await TicketCodeGenerator();
+                var seatAndRowNumber = await CalculateSeatAndRowNumber(ticketToAddDto);
                 var ticket = await (from show in this.bioscoopDbContext.Shows
                                     where show.Id == ticketToAddDto.ShowId
                                     select new Ticket

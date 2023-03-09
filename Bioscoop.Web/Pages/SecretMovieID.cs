@@ -1,4 +1,4 @@
-//aanpassing  IShowService
+/* aanpassing  IShowService
 
 
     //get alle shows
@@ -75,4 +75,4 @@ int showId = GetAllShows()
 @page
 @model LeastAvailableSeatsModel
 
-<h1>Show ID with the least available seats: @Model.ShowId</h1>
+<h1>Show ID with the least available seats: @Model.ShowId</h1> */
