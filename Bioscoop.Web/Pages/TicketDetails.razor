@@ -49,6 +49,7 @@ else
                 <td>Room</td>
                 <th>Row</th>
 	            <th>Seat</th>
+	            <th>Popcorn</th>
                 
             </tr>
         </thead>
@@ -60,7 +61,8 @@ else
                 <td>@Ticket.RoomName</td>
                 <td>@Ticket.RowNumber</td>
                 <td>@Ticket.SeatNumber</td>
-                </tr>    
+	                <td>@Ticket.PopPrice</td>
+	                </tr>    
         </tbody>
     </table>
              <div class="row">
@@ -90,6 +92,7 @@ else
     ticketDetails = Ticket.ShowStartDateTime + "\n"
                         + Ticket.MovieTitle + "\n"
                         + "Price: " + Ticket.Price + "\n"
+						+ "Popcorn " + Ticket.PopPrice + "\n"
                         + Ticket.RoomName + "\n"
                         + "Row: " + Ticket.RowNumber + "\n"
                         + "Seat: " + Ticket.SeatNumber + "\n"

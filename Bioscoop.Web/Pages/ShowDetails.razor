@@ -32,21 +32,12 @@ else
                     <b>Hall: @Show.RoomName - Wheelchair friendly: @Show.RoomWheelchairFriendly</b>
                 </b>
             </p>
-            
-<<<<<<< Updated upstream
-	        <div>
-		        <button class="btn btn-success">
 
-			        <b>Add to Cart (doet nog niks)</b>
-		        </button>
-	        </div>
-	        <div>
-		        <button class="button btn-check">
-			        
-			        <b>Add Popcorn as well!</b>
-
-=======
 	        <div> <!-- Button to get a ticket -->
+
+		        @{
+			        object onclick;
+		        }
 		        <button class="btn btn-success"
 		                @onclick ="() => (AddTicket_ForShow(new TicketToAddDto{
                         ShowId = Show.Id,
@@ -56,14 +47,14 @@ else
 		        </button>
 	        </div>
             
-	        <div> <!-- Button to get a ticket -->
+	        <div> <!-- Button to get popcorn + ticket -->
 		        <button class="btn btn-success"
 		                @onclick ="() => (AddTicket_ForShow(new TicketToAddDto{
                         ShowId = Show.Id,
                         Price = 12
                     }))">
-			        <b>Get ticket and Popcorn!</b>
->>>>>>> Stashed changes
+			        <b>Get ticket and popcorn!</b>
+
 		        </button>
 	        </div>
         </div>

@@ -124,6 +124,7 @@ namespace Bioscoop.Api.Repositories
                                         RowNumber = ticketToAddDto.RowNumber,
                                         SeatNumber = ticketToAddDto.SeatNumber,
                                         Price = ticketToAddDto.Price,
+                                        PopPrice = ticketToAddDto.PopPrice
                                     }).SingleOrDefaultAsync();
                 if (ticket != null)
                 {
