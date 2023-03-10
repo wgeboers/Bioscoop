@@ -5,25 +5,19 @@
 @using Syncfusion.Pdf.Graphics;
 @using System.Text.Json;
 @using System.IO;
+@using Microsoft.AspNetCore.WebUtilities;
 
 @inject Microsoft.JSInterop.IJSRuntime JS
 @inject IJSRuntime JSRuntime;
+@inject NavigationManager NavManager;
 
 @page "/TicketDetails"
 @page "/TicketDetails/{Id:int?}"
-@page "/TicketDetails/{Text}"
 @inherits TicketDetailsBase
 
-@if (Id == 0){
-    <h3>Ticket not found.</h3>
-}
-else if (Id == -1)
+@if (showMessage != null)
 {
-    <h3>Ticket mailed.</h3>
-}
-else if (Id == -2 )
-{
-    
+    <h3>@showMessage</h3>
 }
 else if (Ticket == null && ErrorMessage == null)
 {
@@ -103,7 +97,17 @@ else
 
     protected override void OnInitialized()
     {
-        Id = Id ?? -2; 
+        if (Id == null)
+        {
+            showMessage = " ";
+        }
+        //string? showMessage;
+
+        var uri = NavManager.ToAbsoluteUri(NavManager.Uri);
+        if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("message", out var message))
+        {
+            showMessage = Convert.ToString(message);
+        }
     }
 
     public async Task openPage(string ticketID)
@@ -119,12 +123,17 @@ else
         catch (Exception ex)
         {
 
-            JSRuntime.InvokeVoidAsync("open", "/TicketDetails/0", "_self");
+            JSRuntime.InvokeVoidAsync("open", "/TicketDetails?message=Ticket not found, please try again.", "_self");
 
         }
 
         string url = "/TicketDetails/" + ticketdto.Id;
         JSRuntime.InvokeVoidAsync("open", url, "_self");
+    }
+
+    public void showMessageOnPage(string message)
+    {
+        JSRuntime.InvokeVoidAsync("open", $"/TicketDetails?message={message}", "_self");
     }
 }
 
@@ -164,7 +173,7 @@ else
                 memoryStream.ToArray(),
                 "Dear costumer, <br/><br/> Enjoy the Movie!<br/><br/> Greetings, Bioscoop"
                 ));
-            openPage("-1");
+            showMessageOnPage("E-mail sent, please check your inbox.");
         }
         else if (mail == false)
         {

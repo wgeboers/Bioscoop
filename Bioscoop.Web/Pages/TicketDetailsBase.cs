@@ -10,8 +10,6 @@ namespace Bioscoop.Web.Pages
     {
         [Parameter]
         public int? Id { get; set; }
-        [Parameter]
-        public string? Text { get; set; }
 
         [Inject]
         public ITicketService TicketService { get; set; }
@@ -22,6 +20,7 @@ namespace Bioscoop.Web.Pages
         public MailData mailData { get; set; }
 
         public string ErrorMessage { get; set; }
+        public string showMessage { get; set; }
 
         protected override async Task OnInitializedAsync()
         {
