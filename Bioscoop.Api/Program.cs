@@ -24,7 +24,7 @@ builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 builder.Services.AddScoped<IRoomRepository, RoomRepository>();
 builder.Services.AddScoped<IShowRepository, ShowRepository>();
 builder.Services.AddScoped<ITicketRepository, TicketRepository>();
-
+builder.Services.AddScoped<IPaymentService, PaymentService>();
 //Pick up mailsettings
 builder.Services.Configure<MailSettings>(builder.Configuration.GetSection(nameof(MailSettings)));
 builder.Services.AddTransient<Bioscoop.Api.Services.IMailService, Bioscoop.Api.Services.MailService>();

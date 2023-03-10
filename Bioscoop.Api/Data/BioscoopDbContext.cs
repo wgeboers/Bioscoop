@@ -187,7 +187,8 @@ namespace Bioscoop.Api.Data
                 ShowId = 1,
                 RowNumber = 1,
                 SeatNumber = 1,
-                Price = 9.00m
+                Price = 9.00m,
+                PaymentID = "1"
             });
 
             modelBuilder.Entity<Ticket>().HasData(new Ticket
@@ -197,7 +198,8 @@ namespace Bioscoop.Api.Data
                 ShowId = 1,
                 RowNumber = 1,
                 SeatNumber = 2,
-                Price = 9.00m
+                Price = 9.00m,
+                PaymentID = "2"
             });
 
             modelBuilder.Entity<Ticket>().HasData(new Ticket
@@ -207,7 +209,8 @@ namespace Bioscoop.Api.Data
                 ShowId = 1,
                 RowNumber = 1,
                 SeatNumber = 3,
-                Price = 8.50m
+                Price = 8.50m,
+                PaymentID = "3"
             });
         }
 
