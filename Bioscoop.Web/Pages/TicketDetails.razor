@@ -19,7 +19,11 @@
 }
 else if (Id == -1)
 {
-    <h3>Ticket mailed.</h3>   
+    <h3>Ticket mailed.</h3>
+}
+else if (Id == -2 )
+{
+    
 }
 else if (Ticket == null && ErrorMessage == null)
 {
@@ -99,7 +103,7 @@ else
 
     protected override void OnInitialized()
     {
-        Id = Id ?? 0; 
+        Id = Id ?? -2; 
     }
 
     public async Task openPage(string ticketID)
@@ -111,10 +115,14 @@ else
 
             ticketdto = await TicketService.GetTicketByCode(int.Parse(ticketID));
 
-        } catch (Exception ex)
+        } 
+        catch (Exception ex)
         {
+
             JSRuntime.InvokeVoidAsync("open", "/TicketDetails/0", "_self");
+
         }
+
         string url = "/TicketDetails/" + ticketdto.Id;
         JSRuntime.InvokeVoidAsync("open", url, "_self");
     }

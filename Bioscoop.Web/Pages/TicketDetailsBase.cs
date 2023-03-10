@@ -2,6 +2,7 @@
 using Bioscoop.Models.Models;
 using Bioscoop.Web.Services.Contracts;
 using Microsoft.AspNetCore.Components;
+using Microsoft.JSInterop;
 
 namespace Bioscoop.Web.Pages
 {
@@ -37,6 +38,5 @@ namespace Bioscoop.Web.Pages
                 }
             }
         }
-
     }
 }
