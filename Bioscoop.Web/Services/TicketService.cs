@@ -71,11 +71,11 @@ namespace Bioscoop.Web.Services.Contracts
             }
         }
 
-        public async Task<IEnumerable<TicketDto>> GetTickets(int ticketId)
+        public async Task<IEnumerable<TicketDto>> GetTicketsByShow(int id)
         {
             try
             {
-                var response = await httpClient.GetAsync("api/{ticketId}/GetTickets");
+                var response = await this.httpClient.GetAsync($"api/Ticket/TicketsByShow/{id}");
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -89,13 +89,11 @@ namespace Bioscoop.Web.Services.Contracts
                 else
                 {
                     var message = await response.Content.ReadAsStringAsync();
-                    throw new Exception($"Http status:{response.StatusCode} Message -{message}");
+                    throw new Exception(message);
                 }
-
             }
             catch (Exception)
             {
-
                 throw;
             }
         }

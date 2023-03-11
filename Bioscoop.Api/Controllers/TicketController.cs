@@ -16,7 +16,7 @@ namespace Bioscoop.Api.Controllers
         private readonly IMovieRepository movieRepository;
         private readonly IRoomRepository roomRepository;
 
-        public TicketController(ITicketRepository ticketRepository, 
+        public TicketController(ITicketRepository ticketRepository,
                                 IShowRepository showRepository,
                                 IMovieRepository movieRepository,
                                 IRoomRepository roomRepository)
@@ -146,6 +146,47 @@ namespace Bioscoop.Api.Controllers
                     "Error retrieving data from the database");
             }
         }
+
+        [HttpGet("TicketsByShow/{code:int}")]
+        public async Task<ActionResult<IEnumerable<TicketDto>>> GetTicketsByShow(int code)
+        {
+            try
+            {
+                var ticket = await this.ticketRepository.GetTicketsByShowId(code);
+                if (ticket == null)
+                {
+                    return NotFound();
+                }
+
+                var shows = await this.showRepository.GetShows();
+                if (shows == null)
+                {
+                    throw new Exception("No shows exist in the system?");
+                }
+
+                var movies = await this.movieRepository.GetMovies();
+                if (movies == null)
+                {
+                    throw new Exception("No movies exist in the system?");
+                }
+
+                var rooms = await this.roomRepository.GetRooms();
+                if (rooms == null)
+                {
+                    throw new Exception("No rooms exist in the system?");
+                }
+
+                var ticketDto = ticket.ConvertToDto(shows, movies, rooms);
+
+                return Ok(ticketDto);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error retrieving data from the database");
+            }
+        }
+
 
         [HttpPost]
         public async Task<ActionResult<TicketDto>> PostTicket([FromBody] TicketToAddDto ticketToAddDto)
