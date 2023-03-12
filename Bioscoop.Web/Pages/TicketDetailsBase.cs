@@ -15,11 +15,18 @@ namespace Bioscoop.Web.Pages
         public ITicketService TicketService { get; set; }
         [Inject]
         public IMailService MailService { get; set; }
+
+        [Inject]
+        public IPaymentService PaymentService { get; set; } 
         public TicketDto Ticket { get; set; }
+
+        public PaymentDto Payment { get; set; }
 
         public MailData mailData { get; set; }
 
         public string ErrorMessage { get; set; }
+
+        public string ErrorMessagePayment { get; set; }
         public string showMessage { get; set; }
 
         protected override async Task OnInitializedAsync()
@@ -32,10 +39,22 @@ namespace Bioscoop.Web.Pages
                 }
                 catch (Exception ex)
                 {
-
                     ErrorMessage = ex.Message;
                 }
             }
+
+            try
+            {
+ 
+                    Payment = await PaymentService.GetPaymentLink(Ticket.PaymentID);
+ 
+            }
+            catch (Exception ex)
+            {
+               ErrorMessagePayment = ex.Message;
+                Payment = default(PaymentDto);
+            }
+            
         }
     }
 }

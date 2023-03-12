@@ -1,10 +1,10 @@
 ﻿using Bioscoop.Models.Dtos;
 
-namespace Bioscoop.Api.Services
+namespace Bioscoop.Web.Services.Contracts
 {
     public interface IPaymentService
     {
+        Task<PaymentDto> GetPaymentLink(string paymentID);
         Task<PaymentDto> MakePayment(decimal amount, TicketDto ticket);
-        Task<PaymentDto> GetPaymentInfo(string paymentId);
     }
 }
