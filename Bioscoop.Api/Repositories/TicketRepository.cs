@@ -68,6 +68,7 @@ namespace Bioscoop.Api.Repositories
                               RowNumber = ticket.RowNumber,
                               SeatNumber = ticket.SeatNumber,
                               Price = ticket.Price,
+                              Secret = ticket.Secret,
                           }).ToListAsync();    
         }
 
@@ -136,6 +137,34 @@ namespace Bioscoop.Api.Repositories
                                         RowNumber = ticketToAddDto.RowNumber,
                                         SeatNumber = ticketToAddDto.SeatNumber,
                                         Price = ticketToAddDto.Price,
+                                        Secret = false,
+                                    }).SingleOrDefaultAsync();
+                if (ticket != null)
+                {
+                    var result = await this.bioscoopDbContext.Tickets.AddAsync(ticket);
+                    await this.bioscoopDbContext.SaveChangesAsync();
+                    return result.Entity;
+                }
+            }
+            return null;
+        }
+
+        public async Task<Ticket> AddSecretTicket(TicketToAddDto ticketToAddDto)
+        {
+            if (await TicketExists(ticketToAddDto.ShowId, ticketToAddDto.RowNumber, ticketToAddDto.SeatNumber) == false)
+            {
+                var code = await TicketCodeGenerator();
+                var seatAndRowNumber = await CalculateSeatAndRowNumber(ticketToAddDto);
+                var ticket = await (from show in this.bioscoopDbContext.Shows
+                                    where show.Id == ticketToAddDto.ShowId
+                                    select new Ticket
+                                    {
+                                        ShowId = show.Id,
+                                        Code = code,
+                                        RowNumber = ticketToAddDto.RowNumber,
+                                        SeatNumber = ticketToAddDto.SeatNumber,
+                                        Price = ticketToAddDto.Price,
+                                        Secret = true,
                                     }).SingleOrDefaultAsync();
                 if (ticket != null)
                 {

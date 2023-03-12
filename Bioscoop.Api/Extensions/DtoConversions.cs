@@ -137,7 +137,8 @@ namespace Bioscoop.Api.Extensions
                         RoomName = room.Name,
                         RowNumber = ticket.RowNumber,
                         SeatNumber = ticket.SeatNumber,
-                        Price = ticket.Price
+                        Price = ticket.Price,
+                        Secret = (bool)ticket.Secret
                     }).ToList();
         }
 
@@ -160,7 +161,8 @@ namespace Bioscoop.Api.Extensions
                 RoomName = room.Name,
                 RowNumber = ticket.RowNumber,
                 SeatNumber = ticket.SeatNumber,
-                Price = ticket.Price
+                Price = ticket.Price,
+                Secret = (bool)ticket.Secret
             };
         }
     }

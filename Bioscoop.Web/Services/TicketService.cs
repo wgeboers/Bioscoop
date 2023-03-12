@@ -1,4 +1,5 @@
 ﻿using Bioscoop.Models.Dtos;
+using Syncfusion.Pdf.Graphics;
 using System.Net.Http.Json;
 
 namespace Bioscoop.Web.Services.Contracts
@@ -46,6 +47,36 @@ namespace Bioscoop.Web.Services.Contracts
             try
             {
                 var response = await httpClient.PostAsJsonAsync<TicketToAddDto>("api/Ticket", ticketToAddDto);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
+                    {
+                        return default(TicketDto);
+                    }
+
+                    return await response.Content.ReadFromJsonAsync<TicketDto>();
+
+                }
+                else
+                {
+                    var message = await response.Content.ReadAsStringAsync();
+                    throw new Exception($"Http status:{response.StatusCode} Message -{message}");
+                }
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        public async Task<TicketDto> AddSecretTicket(TicketToAddDto ticketToAddDto)
+        {
+            try
+            {
+                var response = await httpClient.PostAsJsonAsync<TicketToAddDto>("api/Ticket/secret", ticketToAddDto);
 
                 if (response.IsSuccessStatusCode)
                 {
