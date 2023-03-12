@@ -72,6 +72,7 @@ namespace Bioscoop.Api.Repositories
                           }).ToListAsync();    
         }
 
+        
         private async Task<int> TicketCodeGenerator()
         {
             int code;
@@ -151,15 +152,18 @@ namespace Bioscoop.Api.Repositories
 
         public async Task<Ticket> AddSecretTicket(TicketToAddDto ticketToAddDto)
         {
-            if (await TicketExists(ticketToAddDto.ShowId, ticketToAddDto.RowNumber, ticketToAddDto.SeatNumber) == false)
+            int showId = await CheckLowestSeats();
+
+            if (await TicketExists(showId, ticketToAddDto.RowNumber, ticketToAddDto.SeatNumber) == false)
             {
                 var code = await TicketCodeGenerator();
+                
                 var seatAndRowNumber = await CalculateSeatAndRowNumber(ticketToAddDto);
                 var ticket = await (from show in this.bioscoopDbContext.Shows
                                     where show.Id == ticketToAddDto.ShowId
                                     select new Ticket
                                     {
-                                        ShowId = show.Id,
+                                        ShowId = showId,
                                         Code = code,
                                         RowNumber = ticketToAddDto.RowNumber,
                                         SeatNumber = ticketToAddDto.SeatNumber,
@@ -187,6 +191,28 @@ namespace Bioscoop.Api.Repositories
             }
 
             return ticket;
+        }
+
+        public async Task<int> CheckLowestSeats()
+        {
+            var shows = await this.bioscoopDbContext.Shows.ToListAsync();
+            int? amount = null;
+            int? showId = null;
+
+            foreach (var show in shows)
+            {
+                int? newAmount = GetTicketsByShowId(show.Id).Result.Count();
+                if(newAmount == null || newAmount == 0)
+                {
+                    return show.Id;
+                }
+                else if(newAmount < amount)
+                {
+                    amount = newAmount;
+                    showId = show.Id;
+                }
+            }
+            return (int)showId;
         }
     }
 }

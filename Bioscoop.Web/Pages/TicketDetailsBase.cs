@@ -26,9 +26,10 @@ namespace Bioscoop.Web.Pages
             {
                 try
                 {
-                    Ticket = await TicketService.GetTicket(7);
-                    if (Ticket.Secret == false)
+                    Ticket = await TicketService.GetTicket((int)Id);
+                    if (Ticket.Secret == true)
                     {
+                        //Add check for language to change secret....
                         Ticket.Price -= 2.50m;
                         Ticket.MovieTitle = "Secret";
                     }

@@ -2,6 +2,7 @@
 using Bioscoop.Api.Repositories;
 using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
+using Org.BouncyCastle.Utilities;
 
 namespace Bioscoop.Test.Api.Ticket
 {
@@ -92,6 +93,18 @@ namespace Bioscoop.Test.Api.Ticket
 
             result.Should().NotBeNull();
             result.Result.Should().BeTrue();
+        }
+
+        [Fact]
+        public async void TicketRepository_CheckLowestSeats_ReturnsTrue()
+        {
+            var dbContext = await GetDatabaseContext();
+            var ticketRepository = new TicketRepository(dbContext);
+
+            var result = ticketRepository.CheckLowestSeats();
+
+            result.Should().NotBeNull();
+            result.Result.Should().BeGreaterThan(0);
         }
     }
 }
