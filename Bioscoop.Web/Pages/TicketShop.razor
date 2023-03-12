@@ -41,19 +41,15 @@ else
                         @r
                         @for (int s = 1; s <= seatsPerRow; s++)
                         {
-                            <div class="seat">@s</div>
-
-                            @*foreach (var ticket in Tickets)
-                {
-                if (r != ticket.RowNumber && s != ticket.SeatNumber)
-                {
-                <div class="seat"></div>
-                }
-                else
-                {
-                <div class="seat occupied"></div>
-                }
-                }*@
+                            bool trueInList = Tickets.Any(t => t.RowNumber == r && t.SeatNumber == s);
+                            if (trueInList)
+                            {
+                                <div class="seat occupied">@s</div>
+                            }
+                            else
+                            {
+                                <div class="seat">@s</div>
+                            }
                         }
                     </div>
                 }
@@ -63,10 +59,36 @@ else
         <div class="info-container">
             <img class="img-thumbnail" src="@Show.MovieImageURL">
             <h5>@Show.MovieTitle</h5>
+            <form class="ticket-form">
+                <div class="filter-item">
+                    <select name="ticketTypeFilter" class="form-select" @bind="ticketTypeFilter">
+                        <option value="" disabled selected>Kaartje</option>
+                        <option value="Normaal">Normaal € 8,50</option>
+                        <option value="Kinder">Kind tot en met 11 jaar € 7,00</option>
+                        <option value="Studenten">Studenten € 7,00</option>
+                        <option value="65+">65+ € 7,00</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <select name="popcornFilter" class="form-select" @bind="popcornFilter">
+                        <option value="" disabled selected>Popcorn-arrangement</option>
+                        <option value="Ja">Ja € 3,00</option>
+                        <option value="Nee">Nee</option>
+                    </select>
+                </div>
+                <button type="button" class="button"
+                    @onclick ="() => (AddTicket_ForShow(new TicketToAddDto{
+                        ShowId = Show.Id,
+                        Price = 9
+                    }))">
+                    Bestellen
+                </button>
+            </form>
         </div>
     </div>
 }
 
 @code {
-    
+    private string ticketTypeFilter = string.Empty;
+    private string popcornFilter = string.Empty;
 }
