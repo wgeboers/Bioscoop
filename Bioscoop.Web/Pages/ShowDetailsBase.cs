@@ -51,5 +51,19 @@ namespace Bioscoop.Web.Pages
                 //Log Exception
             }
         }
+
+        protected async Task AddSecretTicket_ForShow(TicketToAddDto ticketToAddDto)
+        {
+            try
+            {
+                var ticketDto = await TicketService.AddSecretTicket(ticketToAddDto);
+                var ticketid = ticketDto.Id;
+
+                NavigationManager.NavigateTo($"/TicketDetails/{ticketid}");
+            } catch (Exception)
+            {
+
+            }
+        }
     }
 }

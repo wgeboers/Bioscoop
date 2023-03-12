@@ -160,7 +160,7 @@ namespace Bioscoop.Api.Repositories
                 
                 var seatAndRowNumber = await CalculateSeatAndRowNumber(ticketToAddDto);
                 var ticket = await (from show in this.bioscoopDbContext.Shows
-                                    where show.Id == ticketToAddDto.ShowId
+                                    where show.Id == showId
                                     select new Ticket
                                     {
                                         ShowId = showId,
