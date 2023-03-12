@@ -18,5 +18,8 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https:/
 
 builder.Services.AddScoped<ITicketService, TicketService>();
 builder.Services.AddScoped<IMailService, MailService>();
+builder.Services.AddLocalization();
+
+
 
 await builder.Build().RunAsync();

@@ -1,5 +1,6 @@
 ﻿@page "/MovieDetails/{Id:int}"
 @inherits MovieDetailsBase
+@inject IStringLocalizer<Language> _localizer
 
 @if (Movie == null && ErrorMessage == null)
 {
@@ -21,9 +22,9 @@ else
             <p class="mb-4">@Movie.Description</p>
             <p class="mb-4">
                 <b>
-                    Playtime: @Movie.PlayTime minutes 
+                    @_localizer["Playtime:"] @Movie.PlayTime @_localizer["minutes"]
                     <br>
-                    Minimum age: @Movie.MinimumAge 
+                    @_localizer["Minimum age:"] @Movie.MinimumAge
                 </b>
             </p>
         </div>

@@ -1,5 +1,6 @@
 ﻿@page "/ShowDetails/{Id:int}"
 @inherits ShowDetailsBase
+@inject IStringLocalizer<Language> _localizer
 
 @if (Show == null && ErrorMessage == null)
 {
@@ -11,7 +12,7 @@ else if (ErrorMessage != null)
 }
 else
 {
-    <h1 class="mb-5">Show Details</h1>
+    <h1 class="mb-5">@_localizer["Show Details"]</h1>
     <div class="row">
         <div class="col-md-6 mb-4">
             <img class="img-fluid" src="@Show.MovieImageURL">
@@ -21,15 +22,15 @@ else
             <p class="mb-4">@Show.MovieDescription</p>
             <p class="mb-4">
                 <b>
-                    <b>Date: @Show.StartDateTime.ToString("MM-dd-yyyy")</b>
+                    <b>@_localizer["Date:"] @Show.StartDateTime.ToString("MM-dd-yyyy")</b>
                     <br>
-                    <b>Start time: @Show.StartDateTime.ToString("HH:mm")</b>
+                    <b>@_localizer["Start time:"] @Show.StartDateTime.ToString("HH:mm")</b>
                     <br>
-                    <b>Playtime: @Show.MoviePlayTime minutes</b>
+                    <b>@_localizer["Playtime:"] @Show.MoviePlayTime @_localizer["minutes"]</b>
                     <br>
-                    <b>Minimum age: @Show.MovieMinimumAge</b>
+                    <b>@_localizer["Minimum age:"] @Show.MovieMinimumAge</b>
                     <br>
-                    <b>Hall: @Show.RoomName - Wheelchair friendly: @Show.RoomWheelchairFriendly</b>
+                    <b>@_localizer["Hall:"] @Show.RoomName - @_localizer["Wheelchair friendly:"] @Show.RoomWheelchairFriendly</b>
                 </b>
             </p>
             
@@ -39,7 +40,7 @@ else
                         ShowId = Show.Id,
                         Price = 9
                     }))">
-                    <b>Get ticket!</b>
+                    <b>@_localizer["Get ticket!"]</b>
                 </button>
             </div>
         </div>
