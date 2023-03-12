@@ -26,12 +26,12 @@ namespace Bioscoop.Web.Pages
             {
                 try
                 {
-                    Ticket = await TicketService.GetTicket((int)Id);
-                    /*if(Ticket.Secret == true)
+                    Ticket = await TicketService.GetTicket(7);
+                    if (Ticket.Secret == false)
                     {
                         Ticket.Price -= 2.50m;
                         Ticket.MovieTitle = "Secret";
-                    }*/
+                    }
                 }
                 catch (Exception ex)
                 {

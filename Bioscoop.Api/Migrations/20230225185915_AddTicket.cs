@@ -23,7 +23,8 @@ namespace Bioscoop.Api.Migrations
                     ShowId = table.Column<int>(type: "int", nullable: false),
                     RowNumber = table.Column<int>(type: "int", nullable: false),
                     SeatNumber = table.Column<int>(type: "int", nullable: false),
-                    Price = table.Column<decimal>(type: "float", nullable: false)
+                    Price = table.Column<decimal>(type: "float", nullable: false),
+                    Secret = table.Column<bool>(type: "bool", nullable: false),
                 },
                 constraints: table =>
                 {
@@ -39,12 +40,12 @@ namespace Bioscoop.Api.Migrations
 
             migrationBuilder.InsertData(
                 table: "Tickets",
-                columns: new[] { "Id", "Code", "Price", "RowNumber", "SeatNumber", "ShowId" },
+                columns: new[] { "Id", "Code", "Price", "RowNumber", "SeatNumber", "ShowId", "Secret" },
                 values: new object[,]
                 {
-                    { 1, 1, 9.0, 1, 1, 1 },
-                    { 2, 2, 9.0, 1, 2, 1 },
-                    { 3, 3, 9.0, 1, 3, 1 }
+                    { 1, 1, 9.0, 1, 1, 1, false },
+                    { 2, 2, 9.0, 1, 2, 1, true },
+                    { 3, 3, 9.0, 1, 3, 1, false }
                 });
         }
 
