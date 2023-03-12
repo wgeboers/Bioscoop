@@ -11,9 +11,9 @@ namespace Bioscoop.Web.Pages
 
         [Inject]
         public IShowService ShowService { get; set; }
-        public ITicketService TicketService { get; set; }
+        //public ITicketService TicketService { get; set; }
         public ShowDto Show { get; set; }
-        public IEnumerable<TicketDto> Tickets { get; set; }
+        //public IEnumerable<TicketDto> Tickets { get; set; }
         public string ErrorMessage { get; set; }
 
         protected override async Task OnInitializedAsync()
@@ -21,7 +21,7 @@ namespace Bioscoop.Web.Pages
             try
             {
                 Show = await ShowService.GetShow(Id);
-                Tickets = await TicketService.GetTicketsByShow(Id);
+                //Tickets = await TicketService.GetTicketsByShow(Id);
             }
             catch (Exception ex)
             {

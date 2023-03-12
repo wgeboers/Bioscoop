@@ -11,6 +11,8 @@ else if (ErrorMessage != null)
 }
 else
 {
+    @inject NavigationManager navigationManager;
+
     <h1 class="mb-5">Show Details</h1>
     <div class="row">
         <div class="col-md-6 mb-4">
@@ -35,11 +37,14 @@ else
             
             <div> <!-- Button to get a ticket -->
                 <button class="btn btn-success"
-                    @onclick ="() => (AddTicket_ForShow(new TicketToAddDto{
+                    @onclick="@(()=>navigationManager.NavigateTo("/TicketShop/"+@Show.Id))">
+                    <b>Get ticket!</b>
+
+                   @* @onclick ="() => (AddTicket_ForShow(new TicketToAddDto{
                         ShowId = Show.Id,
                         Price = 9
                     }))">
-                    <b>Get ticket!</b>
+                    <b>Get ticket!</b>*@
                 </button>
             </div>
         </div>

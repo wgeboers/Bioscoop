@@ -15,52 +15,57 @@ else
     var seats = Show.RoomSeats;
     var seatsPerRow = seats / rows;
 
-    <div class="seat-container">
-        <ul class="showcase">
-            <li>
-                <div class="seat"></div>
-                <small>N/A</small>
-            </li>
-            <li>
-                <div class="seat selected"></div>
-                <small>Selected</small>
-            </li>
-            <li>
-                <div class="seat occupied"></div>
-                <small>Occupied</small>
-            </li>
-        </ul>
+    <div class="ticket-shop">
+        <div class="seat-container">
+            <ul class="showcase">
+                <li>
+                    <div class="seat"></div>
+                    <small>N/A</small>
+                </li>
+                <li>
+                    <div class="seat selected"></div>
+                    <small>Selected</small>
+                </li>
+                <li>
+                    <div class="seat occupied"></div>
+                    <small>Occupied</small>
+                </li>
+            </ul>
 
-        <div class="container">
-            <div class="screen"></div>
+            <div class="container">
+                <div class="screen"></div>
 
-            @for (int r = 1; r <= rows; r++)
-            {
-                <div class="row">
-                    @for (int s= 1; s <= seatsPerRow; s++)
-                    {
-                        <div class="seat"></div>
-
-                        @*foreach (var ticket in Tickets)
+                @for (int r = 1; r <= rows; r++)
+                {
+                    <div class="row">
+                        @r
+                        @for (int s = 1; s <= seatsPerRow; s++)
                         {
-                            if (r != ticket.RowNumber && s != ticket.SeatNumber)
-                            {
-                                <div class="seat"></div>
-                            }
-                            else
-                            {
-                                <div class="seat occupied"></div>
-                            }
-                        }*@
-                    }
-                </div>
-            }
+                            <div class="seat">@s</div>
+
+                            @*foreach (var ticket in Tickets)
+                {
+                if (r != ticket.RowNumber && s != ticket.SeatNumber)
+                {
+                <div class="seat"></div>
+                }
+                else
+                {
+                <div class="seat occupied"></div>
+                }
+                }*@
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="info-container">
+            <img class="img-thumbnail" src="@Show.MovieImageURL">
+            <h5>@Show.MovieTitle</h5>
         </div>
     </div>
 }
-
-
-
 
 @code {
     

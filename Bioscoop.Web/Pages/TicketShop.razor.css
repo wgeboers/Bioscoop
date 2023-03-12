@@ -1,31 +1,20 @@
-﻿body {
-    font-family: "Montserrat", sans-serif;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #242333;
-    color: #fff;
-    margin: 0;
-}
-
-* {
-    font-family: "Montserrat", sans-serif !important;
-    box-sizing: border-box;
-}
-
-p {
+﻿p {
     color: white;
 }
 
-.seat-container {
+.ticket-shop {
+    display: flex;
+    flex-direction: row;
     background-color: #242333;
-    margin: 20px 0px;
+    justify-content: center;
+}
+
+.seat-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column
+    flex-direction: column;
+    width: 100%;
 }
 
     .seat-container select {
@@ -49,12 +38,16 @@ p {
 }
 
 .seat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #444451;
-    height: 12px;
-    width: 15px;
+    height: 25px;
+    width: 25px;
     margin: 3px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    color: #242333;
 }
 
 .selected {
@@ -108,6 +101,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #444451;
 }
 
 .screen {
@@ -116,19 +110,20 @@ p {
     width: 70%;
     margin: 15px 0;
     transform: rotateX(-45deg);
-    box-shadow: 0 3px 10px rgba(255,255,255,0.7);
+    box-shadow: 0 3px 50px rgba(255,255,255,0.7);
+    margin-bottom: 100px;
 }
 
-p.text {
-    margin: 40px 0;
+.info-container {
+    color: white;
+    margin: 20px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-    p.text span {
-        color: #0081cb;
-        font-weight: 600;
-        box-sizing: content-box;
+    .info-container img {
+        height: 50%;
     }
-
-.credits a {
-    color: #fff;
-}
