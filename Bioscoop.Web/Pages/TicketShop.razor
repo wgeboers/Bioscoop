@@ -1,5 +1,7 @@
 ﻿@page "/TicketShop/{Id:int}"
 @inherits TicketShopBase
+@using Microsoft.JSInterop
+@inject IJSRuntime JsRuntime
 
 @if (Show == null && ErrorMessage == null)
 {
@@ -20,15 +22,15 @@ else
             <ul class="showcase">
                 <li>
                     <div class="seat"></div>
-                    <small>N/A</small>
+                    <small>Beschikbaar</small>
                 </li>
                 <li>
                     <div class="seat selected"></div>
-                    <small>Selected</small>
+                    <small>Geselecteerd</small>
                 </li>
                 <li>
                     <div class="seat occupied"></div>
-                    <small>Occupied</small>
+                    <small>Bezet</small>
                 </li>
             </ul>
 
@@ -54,11 +56,15 @@ else
                     </div>
                 }
             </div>
+            <p class="text">
+                You have selected <span id="count">0</span> seats for the total price of Rs. <span id="total">0</span>
+            </p>
         </div>
 
         <div class="info-container">
             <img class="img-thumbnail" src="@Show.MovieImageURL">
             <h5>@Show.MovieTitle</h5>
+
             <form class="ticket-form">
                 <div class="filter-item">
                     <select name="ticketTypeFilter" class="form-select" @bind="ticketTypeFilter">
@@ -91,4 +97,11 @@ else
 @code {
     private string ticketTypeFilter = string.Empty;
     private string popcornFilter = string.Empty;
+
+    IJSObjectReference module;
+
+    async Task test()
+    {
+        module = await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./TicketShop.razor.js");
+    }
 }

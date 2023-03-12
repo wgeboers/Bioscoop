@@ -23,6 +23,7 @@ namespace Bioscoop.Web.Pages
         public IEnumerable<TicketDto> Tickets { get; set; }
         public string ErrorMessage { get; set; }
 
+
         protected override async Task OnInitializedAsync()
         {
             try
