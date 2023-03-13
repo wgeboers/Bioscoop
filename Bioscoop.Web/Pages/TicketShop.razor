@@ -1,7 +1,5 @@
 ﻿@page "/TicketShop/{Id:int}"
 @inherits TicketShopBase
-@using Microsoft.JSInterop
-@inject IJSRuntime JsRuntime
 
 @if (Show == null && ErrorMessage == null)
 {
@@ -39,57 +37,94 @@ else
 
                 @for (int r = 1; r <= rows; r++)
                 {
-                    <div class="row">
-                        @r
-                        @for (int s = 1; s <= seatsPerRow; s++)
+                    @for (int s = 1; s <= seatsPerRow; s++)
+                    {
+                        bool trueInList = Tickets.Any(t => t.RowNumber == r && t.SeatNumber == s);
+                        bool selectedInList = SelectedSeats.Any(t => t.rownr == r && t.seatnr == s);
+                        if (trueInList)
                         {
-                            bool trueInList = Tickets.Any(t => t.RowNumber == r && t.SeatNumber == s);
-                            if (trueInList)
-                            {
-                                <div class="seat occupied">@s</div>
-                            }
-                            else
-                            {
-                                <div class="seat">@s</div>
-                            }
+                            Seat seat = new Seat(s, r, "occupied");
+                            Seats.Add(seat);
                         }
-                    </div>
+                        else if (selectedInList)
+                        {
+                            Seat seat = new Seat(s, r, "selected");
+                            Seats.Add(seat);
+                        }
+                        else
+                        {
+                            Seat seat = new Seat(s, r, "available");
+                            Seats.Add(seat);
+                        }
+                    }
+                }
+
+                @for (int r = 1; r <= rows; r++)
+                {
+                    bool trueInRow = Seats.Any(s => s.rownr == r);
+                    if (trueInRow)
+                    {
+                        <div class="row">
+                            @r
+                            @foreach (Seat seat in Seats)
+                            {
+                                if(seat.rownr == r)
+                                {
+                                    if (seat.type == "occupied")
+                                    {
+                                        <div class="seat occupied">@seat.seatnr</div>
+                                    }
+                                    else if (seat.type == "selected")
+                                    {
+                                        <div class="seat selected" @onclick="() => DeselectChair(seat.seatnr, seat.rownr)">@seat.seatnr</div>
+                                    }
+                                    else
+                                    {
+                                        <div class="seat" @onclick="() => AssignChairRow(seat.seatnr, seat.rownr)">@seat.seatnr</div>
+                                    }
+                                }
+                            }
+                        </div>
+                    }
                 }
             </div>
-            <p class="text">
-                You have selected <span id="count">0</span> seats for the total price of Rs. <span id="total">0</span>
-            </p>
         </div>
 
         <div class="info-container">
             <img class="img-thumbnail" src="@Show.MovieImageURL">
             <h5>@Show.MovieTitle</h5>
 
-            <form class="ticket-form">
-                <div class="filter-item">
-                    <select name="ticketTypeFilter" class="form-select" @bind="ticketTypeFilter">
-                        <option value="" disabled selected>Kaartje</option>
-                        <option value="Normaal">Normaal € 8,50</option>
-                        <option value="Kinder">Kind tot en met 11 jaar € 7,00</option>
-                        <option value="Studenten">Studenten € 7,00</option>
-                        <option value="65+">65+ € 7,00</option>
-                    </select>
-                </div>
-                <div class="filter-item">
-                    <select name="popcornFilter" class="form-select" @bind="popcornFilter">
-                        <option value="" disabled selected>Popcorn-arrangement</option>
-                        <option value="Ja">Ja € 3,00</option>
-                        <option value="Nee">Nee</option>
-                    </select>
-                </div>
-                <button type="button" class="button"
-                    @onclick ="() => (AddTicket_ForShow(new TicketToAddDto{
+            @foreach (Seat seat in SelectedSeats)
+            {
+                <p>Row: @seat.rownr</p>
+                <p>Seat: @seat.seatnr</p>
+
+                <form class="ticket-form">
+                    <div class="filter-item">
+                        <select name="ticketTypeFilter" class="form-select" @bind="ticketTypeFilter">
+                            <option value="" disabled selected>Kaartje</option>
+                            <option value="Normaal">Normaal € 8,50</option>
+                            <option value="Kinder">Kind tot en met 11 jaar € 7,00</option>
+                            <option value="Studenten">Studenten € 7,00</option>
+                            <option value="65+">65+ € 7,00</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <select name="popcornFilter" class="form-select" @bind="popcornFilter">
+                            <option value="" disabled selected>Popcorn-arrangement</option>
+                            <option value="Ja">Ja € 3,00</option>
+                            <option value="Nee">Nee</option>
+                        </select>
+                    </div>
+                    <button type="button" class="button"
+                    @onclick="() => (AddTicket_ForShow(new TicketToAddDto{
                         ShowId = Show.Id,
                         Price = 9
                     }))">
-                    Bestellen
-                </button>
-            </form>
+                        Bestellen
+                    </button>
+                </form>
+            }
         </div>
     </div>
 }
@@ -98,10 +133,25 @@ else
     private string ticketTypeFilter = string.Empty;
     private string popcornFilter = string.Empty;
 
-    IJSObjectReference module;
+    int chair { get; set; }
+    int row { get; set; }
 
-    async Task test()
+    void AssignChairRow(int chairNr, int rowNr)
     {
-        module = await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./TicketShop.razor.js");
+        chair = chairNr;
+        row = rowNr;
+
+        Seat seat = new Seat(chairNr, rowNr, "selected");
+        SelectedSeats.Add(seat);
+
+        Seats.Clear();
+    }
+
+    void DeselectChair(int chairNr, int rowNr)
+    {
+        var itemToRemove = SelectedSeats.Single(s => s.seatnr == chairNr && s.rownr == rowNr);
+        SelectedSeats.Remove(itemToRemove);
+
+        Seats.Clear();
     }
 }
