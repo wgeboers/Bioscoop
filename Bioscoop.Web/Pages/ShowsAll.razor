@@ -17,6 +17,12 @@ else
         <b>Shows today</b>
     </button>
     </a>
+    <button class="btn btn-success"
+        @onclick = "() => (AddSecretTicket_ForShow(new TicketToAddDto {
+            Price = 9
+        }))"> 
+        <b>Go to a secret show!</b>
+        </button>
 
     // sort list on StartDateTime
     var showListSorted = Shows.OrderBy(x => x.StartDateTime);
