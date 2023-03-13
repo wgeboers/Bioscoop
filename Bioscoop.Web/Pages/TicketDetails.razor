@@ -9,6 +9,7 @@
 
 @inject Microsoft.JSInterop.IJSRuntime JS
 @inject IJSRuntime JSRuntime;
+@inject IStringLocalizer<Language> _localizer
 @inject NavigationManager NavManager;
 
 @page "/TicketDetails"
@@ -21,7 +22,7 @@
 }
 else if (Ticket == null && ErrorMessage == null)
 {
-    <h3>Loading ticket details</h3>
+    <h3>@_localizer["Loading ticket details"]</h3>
 }
 else if (ErrorMessage != null)
 {
@@ -30,17 +31,17 @@ else if (ErrorMessage != null)
 }
 else
 {
-    <h3>Succes, ticket found:</h3>
+    <h3>@_localizer["Succes, ticket found:"]</h3>
 
     <table class="table">
         <thead>
             <tr>
-                <th>Time</th>
-                <th>Movie</th>
-                <th>Price</th>
-                <td>Room</td>
-                <th>Row</th>
-                <th>Seat</th>
+                <th>@_localizer["Time"]</th>
+                <th>@_localizer["Movie"]</th>
+                <th>@_localizer["Price"]</th>
+                <td>@_localizer["Room"]</td>
+                <th>@_localizer["Row"]</th>
+                <th>@_localizer["Seat"]</th>
             </tr>
         </thead>
         <tbody>

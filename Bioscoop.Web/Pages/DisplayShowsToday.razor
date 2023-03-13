@@ -1,4 +1,5 @@
 ﻿@inherits DisplayShowsTodayBase
+@inject IStringLocalizer<Language> _localizer
 
 @foreach (var show in Shows)
 {
@@ -11,13 +12,13 @@
                         @show.MovieTitle
                     </h5>
                     <p class="card-text">
-                        <b>Date: @show.StartDateTime.ToString("dd-MM-yyyy")</b>
+                        <b>@_localizer["Date:"] @show.StartDateTime.ToString("dd-MM-yyyy")</b>
                         <br>
-                        <b>Start time: @show.StartDateTime.ToString("HH:mm")</b>
+                        <b>@_localizer["Start time:"] @show.StartDateTime.ToString("HH:mm")</b>
                         <br>
-                        <b>Playtime: @show.MoviePlayTime minutes</b>
+                        <b>@_localizer["Playtime:"] @show.MoviePlayTime minutes</b>
                         <br>
-                        <b>Hall: @show.RoomName - Wheelchair friendly: @show.RoomWheelchairFriendly</b>
+                        <b>@_localizer["Hall:"] @show.RoomName - @_localizer["Wheelchair friendly:"] @show.RoomWheelchairFriendly</b>
 
                     </p>
                 </div>
