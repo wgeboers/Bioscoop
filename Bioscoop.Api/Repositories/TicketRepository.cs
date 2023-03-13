@@ -44,6 +44,7 @@ namespace Bioscoop.Api.Repositories
                               RowNumber = ticket.RowNumber,
                               SeatNumber = ticket.SeatNumber,
                               Price = ticket.Price,
+                              PaymentID= ticket.PaymentID,
                           }).ToListAsync();
         }
 
@@ -158,6 +159,20 @@ namespace Bioscoop.Api.Repositories
             }
 
             return ticket;
+        }
+
+        public async Task UpdateTicketPayment(int id, string paymentID)
+        {
+            if (id != null && paymentID != null)
+            {
+                var existingTicket = this.bioscoopDbContext.Tickets.Find(id);
+
+
+                existingTicket.PaymentID = paymentID;    
+                await this.bioscoopDbContext.SaveChangesAsync();
+                
+                
+            }
         }
     }
 }
