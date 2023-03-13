@@ -33,8 +33,6 @@ namespace Bioscoop.Api.Services
                  Description = "Payment for movie ticket",
                  RedirectUrl = "https://localhost:7235/TicketDetails/" + ticket.Id,
                  CancelUrl = "https://localhost:7235/TicketDetails?message=Cancelled",
-                 //Method = Mollie.Api.Models.Payment.PaymentMethod.Ideal // instead of "Ideal"
-                 //Method = Mollie.Api.Models.Payment.PaymentMethod.CreditCard
                  Methods = new List<string>() {
                      PaymentMethod.Ideal,
                      PaymentMethod.CreditCard
@@ -51,27 +49,11 @@ namespace Bioscoop.Api.Services
                 Status = paymentResponse.Status,
                 PaymentLink = paymentLink,
                 PaymentID= paymentResponse.Id,
-            };
-
-           /* PaymentLinkRequest paymentLinkRequest = new PaymentLinkRequest()
-            {
-                Description = "Test",
-                Amount = new Amount(Currency.EUR, 50),                
-                RedirectUrl = "https://www.google.nl",
-                ExpiresAt = DateTime.Now.AddDays(1)
-            };
-            PaymentLinkClient client = new PaymentLinkClient("test_eFqumDpmpUyVvxytTq937e3sW7h8ak");
-            var response = await client.CreatePaymentLinkAsync(paymentLinkRequest);
-            var links = response.Links;
-            var paymentLink = links.PaymentLink;
-            var paymentLinkHref = paymentLink.Href;
-            */
-            
+            };            
         }
 
         public async Task<PaymentDto> GetPaymentInfo(string paymentID)
         {
-            //PaymentLinkResponse result = await _linkClient.GetPaymentLinkAsync("BqqtLBNRDf");
             PaymentResponse result;
             try
             {

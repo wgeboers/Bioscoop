@@ -111,7 +111,6 @@ else
         {
             showMessage = " ";
         }
-        //string? showMessage;
 
         var uri = NavManager.ToAbsoluteUri(NavManager.Uri);
         if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("message", out var message))
