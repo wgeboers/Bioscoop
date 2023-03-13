@@ -197,7 +197,7 @@ namespace Bioscoop.Api.Repositories
         {
             var shows = await this.bioscoopDbContext.Shows.ToListAsync();
             int? amount = null;
-            int? showId = null;
+            int showId = -1;
 
             foreach (var show in shows)
             {
@@ -212,7 +212,7 @@ namespace Bioscoop.Api.Repositories
                     showId = show.Id;
                 }
             }
-            return (int)showId;
+            return showId;
         }
     }
 }
