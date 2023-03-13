@@ -32,7 +32,7 @@ namespace Bioscoop.Api.Services
                  Amount = new Amount(Currency.EUR, amount),
                  Description = "Payment for movie ticket",
                  RedirectUrl = "https://localhost:7235/TicketDetails/" + ticket.Id,
-                 CancelUrl = "https://localhost:7235/TicketDetails?message=Something went wrong, please try again.",
+                 CancelUrl = "https://localhost:7235/TicketDetails?message=Cancelled",
                  //Method = Mollie.Api.Models.Payment.PaymentMethod.Ideal // instead of "Ideal"
                  //Method = Mollie.Api.Models.Payment.PaymentMethod.CreditCard
                  Methods = new List<string>() {

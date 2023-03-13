@@ -154,7 +154,8 @@ else
 @functions {
     async void PayTicket(decimal amount, TicketDto ticket)
     {
-        PaymentService.MakePayment(amount, ticket);
+        Payment = await PaymentService.MakePayment(amount, ticket);
+        JSRuntime.InvokeVoidAsync("open", Payment.PaymentLink, "_self");
     }
 
     void ExportToPdf(bool mail = false)
