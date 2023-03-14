@@ -26,7 +26,7 @@ else
         <div class="filter-item">
             <input type="text" class="form-control"
                 @bind="titleFilter"
-                placeholder="Titel" />
+                   placeholder=@_localizer["Title"] />
         </div>
         <div class="filter-item">
             <select name="genreFilter" class="form-select" @bind="genreFilter">
@@ -39,7 +39,7 @@ else
         </div>
         <div class="filter-item">
             <select name="ageFilter" class="form-select" @bind="ageFilter">
-                <option value="" disabled selected>Kijkwijzer</option>
+                <option value="" disabled selected>@_localizer["Min age"]</option>
                 @foreach (var age in Ages.OrderBy(a => a))
                 {
                     <option value="@age">@age</option>

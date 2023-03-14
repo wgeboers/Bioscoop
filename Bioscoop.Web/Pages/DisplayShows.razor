@@ -20,11 +20,11 @@
                         <br>
                         <b>@_localizer["Minimum age:"] @show.MovieMinimumAge</b>
                         <br>
-                        <b>@_localizer["Playtime:"] @show.MoviePlayTime minutes</b>
+                        <b>@_localizer["Playtime:"] @show.MoviePlayTime @_localizer["minutes"]</b>
                         <br>
-                        <b>@_localizer["Hall:"] @show.RoomName - @_localizer["Wheelchair friendly:"] @show.RoomWheelchairFriendly</b>
+                        <b>@_localizer["Hall:"] @show.RoomName - @_localizer["Wheelchair friendly:"] @if (@show.RoomWheelchairFriendly == true) {<div style="display:inline"> @_localizer["Yes"]</div>} else {<div style="display:inline">@_localizer["No"]</div>} </b>
                         <br>
-                        <b>@_localizer["Special:"] @show.MovieSpecial</b>
+                        <b>@_localizer["Special:"] @if (@show.MovieSpecial == true) {<div style="display:inline"> @_localizer["Yes"]</div>} else {<div style="display:inline">@_localizer["No"]</div>}</b>
                     </p>
                 </div>
             </div>

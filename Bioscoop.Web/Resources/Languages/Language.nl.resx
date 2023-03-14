@@ -117,6 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Clear" xml:space="preserve">
+    <value>Reset</value>
+    <comment>Clear</comment>
+  </data>
   <data name="Date:" xml:space="preserve">
     <value>Datum:</value>
     <comment>Date:</comment>
@@ -141,6 +145,10 @@
     <value>Mail kaartje</value>
     <comment>Mail ticket</comment>
   </data>
+  <data name="Min age" xml:space="preserve">
+    <value>Kijkwijzer</value>
+    <comment>Min age</comment>
+  </data>
   <data name="Minimum age:" xml:space="preserve">
     <value>Minimale leeftijd:</value>
     <comment>Minimum age</comment>
@@ -153,9 +161,21 @@
     <value>Film</value>
     <comment>Movie</comment>
   </data>
+  <data name="Movie details" xml:space="preserve">
+    <value>Film details</value>
+    <comment>Movie details</comment>
+  </data>
   <data name="Movies" xml:space="preserve">
     <value>Films</value>
     <comment>Movies</comment>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value> Nee</value>
+    <comment>No</comment>
+  </data>
+  <data name="Pay Ticket" xml:space="preserve">
+    <value>Betaal kaartje</value>
+    <comment>Pay Ticket</comment>
   </data>
   <data name="Playtime:" xml:space="preserve">
     <value>Speelduur:</value>
@@ -181,12 +201,20 @@
     <value>Zoeken</value>
     <comment>Search</comment>
   </data>
+  <data name="Search on ticket code:" xml:space="preserve">
+    <value>Zoek op kaart code:</value>
+    <comment>Search on ticket code:</comment>
+  </data>
+  <data name="Search ticket" xml:space="preserve">
+    <value>Zoek kaartje</value>
+    <comment>Search ticket</comment>
+  </data>
   <data name="Seat" xml:space="preserve">
     <value>Stoel</value>
     <comment>Seat</comment>
   </data>
   <data name="Show Details" xml:space="preserve">
-    <value>Voorstellings Details</value>
+    <value>Voorstellings details</value>
     <comment>Show Details</comment>
   </data>
   <data name="Shows" xml:space="preserve">
@@ -225,8 +253,16 @@
     <value>Tijd</value>
     <comment>Time</comment>
   </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titel</value>
+    <comment>Title</comment>
+  </data>
   <data name="Wheelchair friendly:" xml:space="preserve">
     <value>Rolstoel vriendelijk:</value>
     <comment>Wheelchair friendly:</comment>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value> Ja</value>
+    <comment>Yes</comment>
   </data>
 </root>

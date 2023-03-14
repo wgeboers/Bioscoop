@@ -12,6 +12,9 @@ else if (ErrorMessage != null)
 }
 else
 {
+    @code {
+    private string selectedCulture = System.Threading.Thread.CurrentThread.CurrentCulture.Name;}
+
     <h1 class="mb-5">@_localizer["Show Details"]</h1>
     <div class="row">
         <div class="col-md-6 mb-4">
@@ -19,7 +22,16 @@ else
         </div>
         <div class="col-md-6">
             <h2>@Show.MovieTitle</h2>
-            <p class="mb-4">@Show.MovieDescription</p>
+            <p class="mb-4">
+                @if (selectedCulture == "nl-NL")
+                {
+                <p class="mb-4">@Show.MovieDescription_nl</p>
+                }
+                else
+                {
+                <p class="mb-4">@Show.MovieDescription_en</p>
+                }
+            </p>
             <p class="mb-4">
                 <b>
                     <b>@_localizer["Date:"] @Show.StartDateTime.ToString("MM-dd-yyyy")</b>
@@ -30,7 +42,7 @@ else
                     <br>
                     <b>@_localizer["Minimum age:"] @Show.MovieMinimumAge</b>
                     <br>
-                    <b>@_localizer["Hall:"] @Show.RoomName - @_localizer["Wheelchair friendly:"] @Show.RoomWheelchairFriendly</b>
+                    <b>@_localizer["Hall:"] @Show.RoomName - @_localizer["Wheelchair friendly:"] @if (@Show.RoomWheelchairFriendly == true) {<div style="display:inline"> @_localizer["Yes"]</div>} else {<div style="display:inline">@_localizer["No"]</div>}</b>
                 </b>
             </p>
             

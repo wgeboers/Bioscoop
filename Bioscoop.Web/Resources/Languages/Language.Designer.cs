@@ -61,6 +61,15 @@ namespace Bioscoop.Web.Resources.Languages {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Clear.
+        /// </summary>
+        public static string Clear {
+            get {
+                return ResourceManager.GetString("Clear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Date:.
         /// </summary>
         public static string Date_ {
@@ -115,6 +124,15 @@ namespace Bioscoop.Web.Resources.Languages {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Min age.
+        /// </summary>
+        public static string Min_age {
+            get {
+                return ResourceManager.GetString("Min age", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Minimum age:.
         /// </summary>
         public static string Minimum_age_ {
@@ -142,11 +160,38 @@ namespace Bioscoop.Web.Resources.Languages {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Movie details.
+        /// </summary>
+        public static string Movie_details {
+            get {
+                return ResourceManager.GetString("Movie details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Movies.
         /// </summary>
         public static string Movies {
             get {
                 return ResourceManager.GetString("Movies", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No.
+        /// </summary>
+        public static string No {
+            get {
+                return ResourceManager.GetString("No", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pay Ticket.
+        /// </summary>
+        public static string Pay_Ticket {
+            get {
+                return ResourceManager.GetString("Pay Ticket", resourceCulture);
             }
         }
         
@@ -205,6 +250,24 @@ namespace Bioscoop.Web.Resources.Languages {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Search on ticket code:.
+        /// </summary>
+        public static string Search_on_ticket_code_ {
+            get {
+                return ResourceManager.GetString("Search on ticket code:", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search ticket.
+        /// </summary>
+        public static string Search_ticket {
+            get {
+                return ResourceManager.GetString("Search ticket", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Seat.
         /// </summary>
         public static string Seat {
@@ -214,7 +277,7 @@ namespace Bioscoop.Web.Resources.Languages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Show Details.
+        ///   Looks up a localized string similar to Show details.
         /// </summary>
         public static string Show_Details {
             get {
@@ -304,11 +367,29 @@ namespace Bioscoop.Web.Resources.Languages {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Title.
+        /// </summary>
+        public static string Title {
+            get {
+                return ResourceManager.GetString("Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Wheelchair friendly:.
         /// </summary>
         public static string Wheelchair_friendly_ {
             get {
                 return ResourceManager.GetString("Wheelchair friendly:", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yes.
+        /// </summary>
+        public static string Yes {
+            get {
+                return ResourceManager.GetString("Yes", resourceCulture);
             }
         }
     }

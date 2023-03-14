@@ -59,7 +59,7 @@ else
     {
         <div class="row">
             <div class="col-md-2">
-                <button class="btn btn-primary" @onclick="(() => ExportToPdf())">Print ticket</button>
+                <button class="btn btn-primary" @onclick="(() => ExportToPdf())">@_localizer["Print ticket"]</button>
             </div>
         </div>
         <hr/>
@@ -78,7 +78,7 @@ else
         </EditForm>
     } else
     {
-        <input type="submit" class="btn-primary" value="Pay Ticket" @onclick="(() => PayTicket(Ticket.Price, Ticket))" />
+        <input type="submit" class="btn-primary" value=@_localizer["Pay Ticket"] @onclick="(() => PayTicket(Ticket.Price, Ticket))" />
     }
 
     
@@ -95,9 +95,9 @@ else
 
 @*Search box for ticket*@
 <hr/>
-<h4>Search on ticket-Code:</h4>
+<h4>@_localizer["Search on ticket code:"]</h4>
 <input type="number" @bind-value="@ticketID" />
-<button @onclick="(() => openPage(ticketID))">Search</button>
+<button @onclick="(() => openPage(ticketID))">@_localizer["Search"]</button>
 
 @code {
     public string ticketDetails;
