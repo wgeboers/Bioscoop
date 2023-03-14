@@ -39,7 +39,7 @@ else
         </div>
         <div class="filter-item">
             <select name="ageFilter" class="form-select" @bind="ageFilter">
-                <option value="" disabled selected>@_localizer["Min age"]</option>
+                <option value="" disabled selected>@_localizer["Kijkwijzer"]</option>
                 @foreach (var age in Ages.OrderBy(a => a))
                 {
                     <option value="@age">@age</option>
