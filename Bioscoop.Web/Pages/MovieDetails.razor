@@ -1,5 +1,6 @@
 ﻿@page "/MovieDetails/{Id:int}"
-@inherits Bioscoop.Web.Pages.MovieDetailsBase
+@inherits MovieDetailsBase
+@inject IStringLocalizer<Language> _localizer
 
 @if (Movie == null && ErrorMessage == null)
 {
@@ -20,12 +21,11 @@ else
             <h2>@Movie.Title</h2>
             <p class="mb-4">@Movie.Description</p>
             <p class="mb-4">
-	            <b>
-		            Playtime: @Movie.PlayTime minutes 
-		            <br>
-		            Minimum age: @Movie.MinimumAge 
-	            </b>
-
+                <b>
+                    @_localizer["Playtime:"] @Movie.PlayTime @_localizer["minutes"]
+                    <br>
+                    @_localizer["Minimum age:"] @Movie.MinimumAge
+                </b>
             </p>
         </div>
     </div>

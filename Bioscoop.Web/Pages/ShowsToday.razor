@@ -1,5 +1,7 @@
 ﻿@page "/"
-@inherits Bioscoop.Web.Pages.ShowsTodayBase
+@inject IStringLocalizer<Language> _localizer
+@inherits ShowsTodayBase
+@inject IStringLocalizer<Language> _localizer
 
 @if (Shows == null && ErrorMessage == null)
 {
@@ -11,10 +13,10 @@ else if (ErrorMessage != null)
 }
 else
 { // button to ShowsAll page
-    <h1 class="mb-5">Shows today</h1>
+    <h1 class="mb-5">@_localizer["Shows today"]</h1>
     <a href="/ShowsAll">
         <button class="btn btn-success">
-            <b>Shows this week</b>
+            <b>@_localizer["Shows this week"]</b>
         </button>
     </a>
 

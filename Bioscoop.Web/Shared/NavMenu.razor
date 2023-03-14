@@ -1,4 +1,8 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@inject IStringLocalizer<Language> _localizer
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">Bioscoop</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
@@ -11,13 +15,23 @@
     <nav class="flex-column">
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Shows
+                <span class="oi oi-home" aria-hidden="true"></span> @_localizer["Shows"]
             </NavLink>
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="/Movies">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Movies
+                <span class="oi oi-list-rich" aria-hidden="true"></span> @_localizer["Movies"]
             </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/TicketDetails">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> @_localizer["Search ticket"]
+            </NavLink>
+        </div>
+        <div class="fa-bottom">
+            <a class="fa fa-facebook" href="https://www.facebook.com/" target="_blank"></a>
+            <a class="fa fa-twitter" href="https://www.twitter.com/" target="_blank"></a>
+            <a class="fa fa-instagram" href="https://www.instagram.com/" target="_blank"></a>
         </div>
     </nav>
 </div>

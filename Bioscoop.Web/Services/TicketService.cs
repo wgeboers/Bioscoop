@@ -42,6 +42,35 @@ namespace Bioscoop.Web.Services.Contracts
             }
         }
 
+        public async Task<TicketDto> GetTicketByCode(int id)
+        {
+            try
+            {
+                var response = await httpClient.GetAsync($"api/Ticket/code/{id}");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
+                    {
+                        return default(TicketDto);
+                    }
+
+                    return await response.Content.ReadFromJsonAsync<TicketDto>();
+                }
+                else
+                {
+                    var message = await response.Content.ReadAsStringAsync();
+                    throw new Exception($"Http status:{response.StatusCode} Message -{message}");
+                }
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
         public async Task<TicketDto> AddTicket(TicketToAddDto ticketToAddDto)
         {
             try

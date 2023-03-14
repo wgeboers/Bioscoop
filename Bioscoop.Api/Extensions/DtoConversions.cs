@@ -167,6 +167,7 @@ namespace Bioscoop.Api.Extensions
                 RowNumber = ticket.RowNumber,
                 SeatNumber = ticket.SeatNumber,
                 Price = ticket.Price,
+                PaymentID = ticket.PaymentID
                 SpecialsPrice = option.Price,
             };
         }

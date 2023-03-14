@@ -1,5 +1,6 @@
 ﻿@page "/Movies"
-@inherits Bioscoop.Web.Pages.MoviesBase
+@inherits MoviesBase
+@inject IStringLocalizer<Language> _localizer
 
 @if(Movies == null)
 {
@@ -7,7 +8,7 @@
 }
 else
 {
-    <h1 class="mb-5">Movies</h1>
+    <h1 class="mb-5">@_localizer["Movies"]</h1>
 
     var movieCount = Movies.Count();
 
