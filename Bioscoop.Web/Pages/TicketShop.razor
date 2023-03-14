@@ -35,6 +35,14 @@ else
             <div class="container">
                 <div class="screen"></div>
 
+                <ul class="icons">
+                    <img src="Icons/box-arrow-left.svg" class="inoutIcon" />
+                    <img src="Icons/box-arrow-right.svg" class="inoutIcon"/>
+                </ul>
+
+                
+                @*<img src="Icons/wheelchair-solid.svg"/>*@
+
                 @for (int r = 1; r <= rows; r++)
                 {
                     @for (int s = 1; s <= seatsPerRow; s++)
@@ -92,49 +100,50 @@ else
 
         <div class="info-container">
             <img class="img-thumbnail" src="@Show.MovieImageURL">
-            <h5>@Show.MovieTitle</h5>
-
-            @foreach (Seat seat in SelectedSeats)
+            <p>@Show.MovieTitle</p>
+            @if(Show.RoomWheelchairFriendly)
             {
-                <p>Row: @seat.rownr</p>
-                <p>Seat: @seat.seatnr</p>
+                <p>Roelstoel toegankelijk</p>
+            }
 
-                <form class="ticket-form">
-                    <div class="filter-item">
-                        <select name="ticketTypeFilter" class="form-select" @bind="ticketTypeFilter">
-                            <option value="" disabled selected>Kaartje</option>
-                            <option value="Normaal">Normaal € 8,50</option>
-                            <option value="Kinder">Kind tot en met 11 jaar € 7,00</option>
-                            <option value="Studenten">Studenten € 7,00</option>
-                            <option value="65+">65+ € 7,00</option>
-                        </select>
-                    </div>
-                    <div class="filter-item">
-                        <select name="popcornFilter" class="form-select" @bind="popcornFilter">
-                            <option value="" disabled selected>Popcorn-arrangement</option>
-                            <option value="Ja">Ja € 3,00</option>
-                            <option value="Nee">Nee</option>
-                        </select>
-                    </div>
-                    <button type="button" class="button"
+            <form class="ticket-form">
+                <div class="filter-item">
+                    <select name="ticketTypeFilter" class="form-select filter-item" @onchange="@OnTicketSelect">
+                        <option value="" disabled selected>Kaartje</option>
+                        <option value="Normaal">Normaal € 8,50</option>
+                        <option value="Kind">Kind tot en met 11 jaar € 7,00</option>
+                        <option value="Student">Studenten € 7,00</option>
+                        <option value="65+">65+ € 7,00</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <select name="popcornFilter" class="form-select filter-item" @onchange="@OnPopcornSelect">
+                        <option value="" disabled selected>Popcorn-arrangement</option>
+                        <option value="Ja">Ja € 3,00</option>
+                        <option value="Nee">Nee</option>
+                    </select>
+                </div>
+                <button type="button" class="button"
                     @onclick="() => (AddTicket_ForShow(new TicketToAddDto{
                         ShowId = Show.Id,
-                        Price = 9
+                        RowNumber = row,
+                        SeatNumber = chair,
+                        Price = FinalPrice()
                     }))">
-                        Bestellen
-                    </button>
-                </form>
-            }
+                    Bestellen
+                </button>
+            </form>
         </div>
     </div>
 }
 
 @code {
-    private string ticketTypeFilter = string.Empty;
-    private string popcornFilter = string.Empty;
+    private bool shouldRender = true;
 
     int chair { get; set; }
     int row { get; set; }
+    decimal ticketPrice { get; set; }
+    decimal popcornPrice { get; set; }
 
     void AssignChairRow(int chairNr, int rowNr)
     {
@@ -145,6 +154,7 @@ else
         SelectedSeats.Add(seat);
 
         Seats.Clear();
+        shouldRender = true;
     }
 
     void DeselectChair(int chairNr, int rowNr)
@@ -153,5 +163,51 @@ else
         SelectedSeats.Remove(itemToRemove);
 
         Seats.Clear();
+        shouldRender = true;
+    }
+
+    void OnTicketSelect(ChangeEventArgs e)
+    {
+        shouldRender = false;
+        var ticketType = e.Value.ToString();
+
+        if (ticketType == "Normaal")
+        {
+            ticketPrice = (decimal)8.50;
+        }
+        else if (ticketType == "Kind")
+        {
+            ticketPrice = (decimal)7.00;
+        }
+        else if (ticketType == "Student")
+        {
+            ticketPrice = (decimal)7.00;
+        }
+        else
+        {
+            ticketPrice = (decimal)7.00;
+        }
+    }
+
+    void OnPopcornSelect(ChangeEventArgs e)
+    {
+        shouldRender = false;
+        var popcornArrangement = e.Value.ToString();
+
+        if (popcornArrangement == "Ja")
+        {
+            popcornPrice = (decimal)3.00;
+        }
+        else
+        {
+            popcornPrice = (decimal)0.00;
+        }
+    }
+
+    decimal FinalPrice() => ticketPrice + popcornPrice;
+
+    protected override bool ShouldRender()
+    {
+        return shouldRender;
     }
 }

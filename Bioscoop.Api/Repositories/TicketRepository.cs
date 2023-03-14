@@ -123,10 +123,9 @@ namespace Bioscoop.Api.Repositories
 
         public async Task<Ticket> AddTicket(TicketToAddDto ticketToAddDto)
         {
-            if (await TicketExists(ticketToAddDto.ShowId, ticketToAddDto.RowNumber, ticketToAddDto.SeatNumber) == false)
+            if (ticketToAddDto.SeatNumber != null)
             {
                 var code = await TicketCodeGenerator();
-                var seatAndRowNumber = await CalculateSeatAndRowNumber(ticketToAddDto);
                 var ticket = await (from show in this.bioscoopDbContext.Shows
                                     where show.Id == ticketToAddDto.ShowId
                                     select new Ticket
@@ -143,8 +142,33 @@ namespace Bioscoop.Api.Repositories
                     await this.bioscoopDbContext.SaveChangesAsync();
                     return result.Entity;
                 }
+                return null;
             }
-            return null;
+            else
+            {
+                if (await TicketExists(ticketToAddDto.ShowId, ticketToAddDto.RowNumber, ticketToAddDto.SeatNumber) == false)
+                {
+                    var code = await TicketCodeGenerator();
+                    var seatAndRowNumber = await CalculateSeatAndRowNumber(ticketToAddDto);
+                    var ticket = await (from show in this.bioscoopDbContext.Shows
+                                        where show.Id == ticketToAddDto.ShowId
+                                        select new Ticket
+                                        {
+                                            ShowId = show.Id,
+                                            Code = code,
+                                            RowNumber = ticketToAddDto.RowNumber,
+                                            SeatNumber = ticketToAddDto.SeatNumber,
+                                            Price = ticketToAddDto.Price,
+                                        }).SingleOrDefaultAsync();
+                    if (ticket != null)
+                    {
+                        var result = await this.bioscoopDbContext.Tickets.AddAsync(ticket);
+                        await this.bioscoopDbContext.SaveChangesAsync();
+                        return result.Entity;
+                    }
+                }
+                return null;
+            }
         }
 
         public async Task<Ticket> DeleteTicket(int id)
