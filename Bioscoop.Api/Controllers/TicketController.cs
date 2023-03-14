@@ -247,5 +247,20 @@ namespace Bioscoop.Api.Controllers
                                     "Error retrieving data from the database");
             }
         }
+
+        [HttpPut("{id:int}")]
+        public async Task<bool> UpdateTicketPaymentID(int id, string paymentID)
+        {
+            try
+            {
+                await this.ticketRepository.UpdateTicketPayment(id, paymentID);
+                return true;
+            }
+            catch (Exception)
+            {
+
+                return false;
+            }
+        }
     }
 }

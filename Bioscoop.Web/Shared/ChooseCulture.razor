@@ -1,0 +1,45 @@
+﻿@inject NavigationManager NavigationManager
+@inject IConfiguration Configuration
+@using System.Globalization;
+@using System.Threading;
+
+@if (selectedCulture == "nl-NL")
+    {
+    <button class="btn btn-outline-primary" @onclick="RequestCultureChange">English</button>
+    }
+else
+    {
+    <button class="btn btn-outline-primary" @onclick="RequestCultureChange">Nederlands</button>
+    }
+
+@code {
+    private string selectedCulture = System.Threading.Thread.CurrentThread.CurrentCulture.Name;
+
+    private void RequestCultureChange()
+    {
+        if (selectedCulture == "nl-NL")
+        {
+            var cultureInfo = new CultureInfo("en-EN");
+
+            CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
+            CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
+
+            selectedCulture = "en-EN";
+
+            NavigationManager.NavigateTo("/reload");
+            NavigationManager.NavigateTo("/");
+        } 
+        else
+        {
+            var cultureInfo = new CultureInfo("nl-NL");
+
+            CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
+            CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
+
+            selectedCulture = "nl-NL";
+
+            NavigationManager.NavigateTo("/reload");
+            NavigationManager.NavigateTo("/");
+        }
+    }
+}

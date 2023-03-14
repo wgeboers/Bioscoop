@@ -14,9 +14,13 @@ builder.Services.AddScoped<IMovieService, MovieService>();
 builder.Services.AddScoped<IShowService, ShowService>();
 builder.Services.AddScoped<ITicketService, TicketService>();
 
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7027/") });
+//builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7027/") });
 
 builder.Services.AddScoped<ITicketService, TicketService>();
 builder.Services.AddScoped<IMailService, MailService>();
+builder.Services.AddLocalization();
+
+
+builder.Services.AddScoped<IPaymentService, PaymentService>();
 
 await builder.Build().RunAsync();

@@ -5,49 +5,43 @@
 @using Syncfusion.Pdf.Graphics;
 @using System.Text.Json;
 @using System.IO;
+@using Microsoft.AspNetCore.WebUtilities;
 
 @inject Microsoft.JSInterop.IJSRuntime JS
 @inject IJSRuntime JSRuntime;
+@inject IStringLocalizer<Language> _localizer
+@inject NavigationManager NavManager;
 
 @page "/TicketDetails"
 @page "/TicketDetails/{Id:int?}"
 @inherits TicketDetailsBase
 
-@if (Id == 0){
-    <h3>Ticket not found.</h3>
-    @*Search box for ticket
-    <hr />
-    <h4>Search on ticket-ID:</h4>
-    <input type="text" @bind-value="@ticketID" />
-    <button @onclick="(() => openPage(ticketID))">Search</button>
-    *@
-
-}
-else if (Id == -1)
+@if (showMessage != null)
 {
-    <h3>Ticket mailed.</h3>   
+    <h3>@showMessage</h3>
 }
 else if (Ticket == null && ErrorMessage == null)
 {
-    <h3>Loading ticket details</h3>
+    <h3>@_localizer["Loading ticket details"]</h3>
 }
 else if (ErrorMessage != null)
 {
     <h3 class="text-danger">@ErrorMessage</h3>
+    <h3 class="text-danger">@*@ErrorMessagePayment*@</h3>
 }
 else
 {
-    <h3>Succes, ticket found:</h3>
+    <h3>@_localizer["Succes, ticket found:"]</h3>
 
     <table class="table">
         <thead>
             <tr>
-                <th>Time</th>
-                <th>Movie</th>
-                <th>Price</th>
-                <td>Room</td>
-                <th>Row</th>
-                <th>Seat</th>
+                <th>@_localizer["Time"]</th>
+                <th>@_localizer["Movie"]</th>
+                <th>@_localizer["Price"]</th>
+                <td>@_localizer["Room"]</td>
+                <th>@_localizer["Row"]</th>
+                <th>@_localizer["Seat"]</th>
             </tr>
         </thead>
         <tbody>
@@ -61,13 +55,15 @@ else
                 </tr>    
         </tbody>
     </table>
-             <div class="row">
-                 <div class="col-md-2">
-                     <button class="btn btn-primary" @onclick="(() => ExportToPdf())">Print ticket</button>
-                 </div>
-             </div>
-             <hr/>
-             <EditForm Model="@Mailadres">
+    @if (Payment != null && Payment.Status == "paid")
+    {
+        <div class="row">
+            <div class="col-md-2">
+                <button class="btn btn-primary" @onclick="(() => ExportToPdf())">Print ticket</button>
+            </div>
+        </div>
+        <hr/>
+        <EditForm Model="@Mailadres">
                 <DataAnnotationsValidator />
                 <ValidationSummary /> 
                 <div class="col-md-3">
@@ -79,10 +75,13 @@ else
                  </div>
                  <br/>
                 <input type="submit" class="btn-primary" value="Mail ticket" @onclick="(() => ExportToPdf(true))" />
-             </EditForm>
+        </EditForm>
+    } else
+    {
+        <input type="submit" class="btn-primary" value="Pay Ticket" @onclick="(() => PayTicket(Ticket.Price, Ticket))" />
+    }
 
-
-
+    
 
     @*Format ticket for generating pdf*@
     ticketDetails = Ticket.ShowStartDateTime + "\n"
@@ -96,8 +95,8 @@ else
 
 @*Search box for ticket*@
 <hr/>
-<h4>Search on ticket-ID:</h4>
-<input type="text" @bind-value="@ticketID" />
+<h4>Search on ticket-Code:</h4>
+<input type="number" @bind-value="@ticketID" />
 <button @onclick="(() => openPage(ticketID))">Search</button>
 
 @code {
@@ -108,17 +107,57 @@ else
 
     protected override void OnInitialized()
     {
-        Id = Id ?? 0; 
+        if (Id == null)
+        {
+            showMessage = " ";
+        }
+
+        var uri = NavManager.ToAbsoluteUri(NavManager.Uri);
+        if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("message", out var message))
+        {
+            showMessage = Convert.ToString(message);
+        }
     }
 
-    public void openPage(string ticketID)
+    public async Task openPage(string ticketID)
     {
-        string url = "/TicketDetails/" + ticketID;
+        TicketDto ticketdto = default(TicketDto);
+
+        try 
+        {
+
+            ticketdto = await TicketService.GetTicketByCode(int.Parse(ticketID));
+
+        } 
+        catch (Exception ex)
+        {
+
+            JSRuntime.InvokeVoidAsync("open", "/TicketDetails?message=Ticket not found, please try again.", "_self");
+
+        }
+
+        string url = "/TicketDetails/" + ticketdto.Id;
         JSRuntime.InvokeVoidAsync("open", url, "_self");
+    }
+
+    public void showMessageOnPage(string message)
+    {
+        JSRuntime.InvokeVoidAsync("open", $"/TicketDetails?message={message}", "_self");
+    }
+
+    public string getPaymentLink(string paymentID)
+    {
+        return " ";
     }
 }
 
 @functions {
+    async void PayTicket(decimal amount, TicketDto ticket)
+    {
+        Payment = await PaymentService.MakePayment(amount, ticket);
+        JSRuntime.InvokeVoidAsync("open", Payment.PaymentLink, "_self");
+    }
+
     void ExportToPdf(bool mail = false)
     {
         int paragraphAfterSpacing = 8;
@@ -154,7 +193,7 @@ else
                 memoryStream.ToArray(),
                 "Dear costumer, <br/><br/> Enjoy the Movie!<br/><br/> Greetings, Bioscoop"
                 ));
-            openPage("-1");
+            showMessageOnPage("E-mail sent, please check your inbox.");
         }
         else if (mail == false)
         {
