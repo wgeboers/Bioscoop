@@ -9,5 +9,7 @@
         public int SeatNumber { get; set; }
         public decimal Price { get; set; }
         public string? PaymentID { get; set; }
+        public bool Popcorn { get; set; }
+        public required string Special { get; set; }
     }
 }
