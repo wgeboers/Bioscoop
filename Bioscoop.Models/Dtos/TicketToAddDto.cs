@@ -12,6 +12,7 @@ namespace Bioscoop.Models.Dtos
         public int RowNumber { get; set; }
         public int SeatNumber { get; set; }
         public decimal Price { get; set; }
-        
+        public string Special { get; set; }
+        public decimal SpecialsPrice { get; set; }
     }
 }

@@ -118,14 +118,14 @@ namespace Bioscoop.Api.Extensions
                                                                IEnumerable<Show> shows,
                                                                IEnumerable<Movie> movies,
                                                                IEnumerable<Room> rooms,
-                                                               SpecialsPrice option)
+                                                               SpecialsPrice specialsPrice)
         {
             
             return (from ticket in tickets
                     join show in shows on ticket.ShowId equals show.Id
                     join movie in movies on show.MovieId equals movie.Id
                     join room in rooms on show.RoomId equals room.Id
-                    //join option in option
+                    //join specialsPrice in specialsPrice
                     select new TicketDto
                     {
                         Id = ticket.Id,
@@ -141,7 +141,8 @@ namespace Bioscoop.Api.Extensions
                         RowNumber = ticket.RowNumber,
                         SeatNumber = ticket.SeatNumber,
                         Price = ticket.Price,
-                        SpecialsPrice = option.Price,
+                        Special = specialsPrice.Name,
+                        SpecialsPrice = specialsPrice.Price,
                             
                     }).ToList();
         }
@@ -150,7 +151,7 @@ namespace Bioscoop.Api.Extensions
                                                   Show show,
                                                   Movie movie,
                                                   Room room,
-                                                  SpecialsPrice price) => new TicketDto
+                                                  SpecialsPrice specialsPrice) => new TicketDto
                                                   {
                                                       Id = ticket.Id,
                                                       Code = ticket.Code,
@@ -166,7 +167,9 @@ namespace Bioscoop.Api.Extensions
                                                       SeatNumber = ticket.SeatNumber,
                                                       Price = ticket.Price,
                                                       PaymentID = ticket.PaymentID,
-                                                      SpecialsPrice = SpecialsPrice.Price,
+                                                      Special = specialsPrice.Name,
+                                                      SpecialsPrice = specialsPrice.Price,
+
                                                   };
     }
 }

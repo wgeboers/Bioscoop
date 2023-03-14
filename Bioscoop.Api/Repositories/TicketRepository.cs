@@ -27,9 +27,10 @@ namespace Bioscoop.Api.Repositories
             return ticket;
 
         }
-        public async Task<SpecialsPrice> GetSpecialsPrice(int id)
+       
+        public  async Task<SpecialsPrice> GetSpecialsPrice()
         {
-            var specialsPrice = await bioscoopDbContext.SpecialsPrice.FindAsync(id);
+            var specialsPrice = await bioscoopDbContext.SpecialsPrice.FindAsync();
             return specialsPrice;
         }
 

@@ -23,5 +23,6 @@ namespace Bioscoop.Models.Dtos
         public decimal Price { get; set; }
         public string? PaymentID { get; set; }
         public decimal SpecialsPrice { get; set; }
+        public string Special { get; set; }
     }
 }

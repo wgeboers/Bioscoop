@@ -9,6 +9,6 @@
         public int SeatNumber { get; set; }
         public decimal Price { get; set; }
         public string? PaymentID { get; set; }
-        public SpecialsPrice? SpecialsPrice { get; set; }
+        public decimal SpecialsPrice { get; set; }
     }
 }
