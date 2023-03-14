@@ -34,6 +34,8 @@ namespace Bioscoop.Api.Repositories
                                                                      {
                                                                          Title = movieToAddDto.Title,
                                                                          Description = movieToAddDto.Description,
+                                                                         Description_en = movieToAddDto.Description_en,
+                                                                         Description_nl = movieToAddDto.Description_nl,
                                                                          Genre = movieToAddDto.Genre,
                                                                          ImageURL = movieToAddDto.ImageURL,
                                                                          PlayTime = movieToAddDto.PlayTime,

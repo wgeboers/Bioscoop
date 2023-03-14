@@ -24,6 +24,8 @@ namespace Bioscoop.Test.Api.Movie
                         Id = 1,
                         Title = "Shrek",
                         Description = "Groen ventje",
+                        Description_en = "Groen ventje",
+                        Description_nl = "Groen ventje",
                         Genre = "Comedy",
                         ImageURL = "/Images/Shrek.jpg",
                         PlayTime = 95,

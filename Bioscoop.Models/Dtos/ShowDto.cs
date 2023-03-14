@@ -12,6 +12,8 @@ namespace Bioscoop.Models.Dtos
         public int MovieId { get; set; }
         public required string MovieTitle { get; set; }
         public required string MovieDescription { get; set; }
+        public required string MovieDescription_en { get; set; }
+        public required string MovieDescription_nl { get; set; }
         public required string MovieGenre { get; set; }
         public required string MovieImageURL { get; set; }
         public int MoviePlayTime { get; set; }
