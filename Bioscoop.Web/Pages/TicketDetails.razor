@@ -78,11 +78,11 @@ else
                  </div>        
                  </div>
                  <br/>
-                <input type="submit" class="btn-primary" value="Mail ticket" @onclick="(() => ExportToPdf(true))" />
+            <input type="submit" class="btn btn-primary" value=@_localizer["Mail ticket"] @onclick="(() => ExportToPdf(true))" />
         </EditForm>
     } else
     {
-        <input type="submit" class="btn-primary" value=@_localizer["Pay Ticket"] @onclick="(() => PayTicket(Ticket.Price, Ticket))" />
+        <input type="submit" class="btn btn-primary" value=@_localizer["Pay Ticket"] @onclick="(() => PayTicket(Ticket.Price, Ticket))" />
     }
 
     
@@ -90,12 +90,12 @@ else
     @*Format ticket for generating pdf*@
     ticketDetails = Ticket.ShowStartDateTime + "\n"
                         + Ticket.MovieTitle + "\n"
-                        + "Price: " + Ticket.Price + "\n"
+                        + @_localizer["Price:"] + Ticket.Price + "\n"
                         + "Popcorn-arrangement: " + Ticket.Popcorn + "\n"
                         + "Special: " + Ticket.Special + "\n"
                         + Ticket.RoomName + "\n"
-                        + "Row: " + Ticket.RowNumber + "\n"
-                        + "Seat: " + Ticket.SeatNumber + "\n"
+                        + @_localizer["Row:"] + Ticket.RowNumber + "\n"
+                        + @_localizer["Seat:"] + Ticket.SeatNumber + "\n"
                         + "Code: " + Ticket.Code + "\n";
 }
 
@@ -103,7 +103,7 @@ else
 <hr/>
 <h4>@_localizer["Search on ticket code:"]</h4>
 <input type="number" @bind-value="@ticketID" />
-<button @onclick="(() => openPage(ticketID))">@_localizer["Search"]</button>
+<button class="btn-primary" @onclick="(() => openPage(ticketID))">@_localizer["Search"]</button>
 
 @code {
     public string ticketDetails;

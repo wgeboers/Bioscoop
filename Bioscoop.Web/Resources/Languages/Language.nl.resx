@@ -117,6 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Available" xml:space="preserve">
+    <value>Beschikbaar</value>
+    <comment>Available</comment>
+  </data>
+  <data name="Child arrangement" xml:space="preserve">
+    <value>Kinderarrangement</value>
+    <comment>Child arrangement</comment>
+  </data>
+  <data name="Child up to 11 years" xml:space="preserve">
+    <value>Kind tot en met 11 jaar</value>
+    <comment>Child up to 11 years</comment>
+  </data>
   <data name="Clear" xml:space="preserve">
     <value>Reset</value>
     <comment>Clear</comment>
@@ -173,6 +185,18 @@
     <value> Nee</value>
     <comment>No</comment>
   </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Normaal</value>
+    <comment>Normal</comment>
+  </data>
+  <data name="Occupied" xml:space="preserve">
+    <value>Bezet</value>
+    <comment>Occupied</comment>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Bestellen</value>
+    <comment>Order</comment>
+  </data>
   <data name="Pay Ticket" xml:space="preserve">
     <value>Betaal kaartje</value>
     <comment>Pay Ticket</comment>
@@ -181,13 +205,29 @@
     <value>Speelduur:</value>
     <comment>Playtime</comment>
   </data>
+  <data name="Please select a seat and fill in all fields" xml:space="preserve">
+    <value>Graag een stoel selecteren en alle velden invullen</value>
+    <comment>Please select a seat and fill in all fields</comment>
+  </data>
   <data name="Price" xml:space="preserve">
     <value>Prijs</value>
     <comment>Price</comment>
   </data>
+  <data name="Price:" xml:space="preserve">
+    <value>Prijs: </value>
+    <comment>Price:</comment>
+  </data>
   <data name="Print ticket" xml:space="preserve">
     <value>Kaartje afdrukken</value>
     <comment>Print ticket</comment>
+  </data>
+  <data name="Reception with drink, access to VIP lounge, VIP seats." xml:space="preserve">
+    <value>Ontvangst met drankje, toegang viplounge, vip-zitplaatsen.</value>
+    <comment>Reception with drink, access to VIP lounge, VIP seats.</comment>
+  </data>
+  <data name="Reception with popcorn, gift related to the chosen film." xml:space="preserve">
+    <value>Ontvangst met popcorn, cadeautje mbt de gekozen film.</value>
+    <comment>Reception with popcorn, gift related to the chosen film.</comment>
   </data>
   <data name="Room" xml:space="preserve">
     <value>Zaal</value>
@@ -196,6 +236,10 @@
   <data name="Row" xml:space="preserve">
     <value>Rij</value>
     <comment>Row</comment>
+  </data>
+  <data name="Row:" xml:space="preserve">
+    <value>Rij: </value>
+    <comment>Row:</comment>
   </data>
   <data name="Search" xml:space="preserve">
     <value>Zoeken</value>
@@ -212,6 +256,14 @@
   <data name="Seat" xml:space="preserve">
     <value>Stoel</value>
     <comment>Seat</comment>
+  </data>
+  <data name="Seat:" xml:space="preserve">
+    <value>Stoel: </value>
+    <comment>Seat:</comment>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Geselecteerd</value>
+    <comment>Selected</comment>
   </data>
   <data name="Show Details" xml:space="preserve">
     <value>Voorstellings details</value>
@@ -237,9 +289,17 @@
     <value>Start tijd:</value>
     <comment>Start time:</comment>
   </data>
+  <data name="Students" xml:space="preserve">
+    <value>Studenten</value>
+    <comment>Students</comment>
+  </data>
   <data name="Succes, ticket found:" xml:space="preserve">
     <value>Gelukt, kaartje gevonden:</value>
     <comment>Succes, ticket found:</comment>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>Kaartje</value>
+    <comment>Ticket</comment>
   </data>
   <data name="Ticket mailed." xml:space="preserve">
     <value>Kaartje gemailed.</value>
@@ -257,6 +317,10 @@
     <value>Titel</value>
     <comment>Title</comment>
   </data>
+  <data name="Wheelchair accessible" xml:space="preserve">
+    <value>Rolstoel toegankelijk</value>
+    <comment>Wheelchair accessible</comment>
+  </data>
   <data name="Wheelchair friendly:" xml:space="preserve">
     <value>Rolstoel vriendelijk:</value>
     <comment>Wheelchair friendly:</comment>
@@ -264,5 +328,9 @@
   <data name="Yes" xml:space="preserve">
     <value> Ja</value>
     <comment>Yes</comment>
+  </data>
+  <data name="You can select 1 seat" xml:space="preserve">
+    <value>U kunt 1 stoel selecteren</value>
+    <comment>You can select 1 seat</comment>
   </data>
 </root>
