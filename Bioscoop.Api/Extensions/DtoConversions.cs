@@ -118,7 +118,7 @@ namespace Bioscoop.Api.Extensions
                                                                IEnumerable<Show> shows,
                                                                IEnumerable<Movie> movies,
                                                                IEnumerable<Room> rooms,
-                                                               PopPrice option)
+                                                               SpecialsPrice option)
         {
             
             return (from ticket in tickets
@@ -150,7 +150,7 @@ namespace Bioscoop.Api.Extensions
                                                   Show show,
                                                   Movie movie,
                                                   Room room,
-                                                  PopPrice option)
+                                                  SpecialsPrice option)
         {
             return new TicketDto
             {

@@ -2,7 +2,7 @@
 {
     public class Ticket
     {
-        public decimal PopPrice;
+        public decimal SpecialsPrice;
         public int Id { get; set; }
         public int Code { get; set; }
         public int ShowId { get; set; }
