@@ -7,6 +7,7 @@
     flex-direction: row;
     background-color: #242333;
     justify-content: center;
+    border-radius: 25px;
 }
 
 .seat-container {
@@ -222,4 +223,8 @@ select {
     padding: 5px 10px;
     width: 70%;
     margin-bottom: 50px;
+}
+
+.message {
+    color: red;
 }

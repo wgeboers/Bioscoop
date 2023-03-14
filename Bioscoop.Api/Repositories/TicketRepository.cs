@@ -45,6 +45,8 @@ namespace Bioscoop.Api.Repositories
                               SeatNumber = ticket.SeatNumber,
                               Price = ticket.Price,
                               PaymentID= ticket.PaymentID,
+                              Popcorn = ticket.Popcorn,
+                              Special = ticket.Special,
                           }).ToListAsync();
         }
 
@@ -69,6 +71,8 @@ namespace Bioscoop.Api.Repositories
                               RowNumber = ticket.RowNumber,
                               SeatNumber = ticket.SeatNumber,
                               Price = ticket.Price,
+                              Popcorn = ticket.Popcorn,
+                              Special = ticket.Special,
                           }).ToListAsync();    
         }
 
@@ -136,6 +140,8 @@ namespace Bioscoop.Api.Repositories
                                         RowNumber = ticketToAddDto.RowNumber,
                                         SeatNumber = ticketToAddDto.SeatNumber,
                                         Price = ticketToAddDto.Price,
+                                        Popcorn = ticketToAddDto.Popcorn,
+                                        Special = ticketToAddDto.Special,
                                     }).SingleOrDefaultAsync();
                 if (ticket != null)
                 {
@@ -160,6 +166,8 @@ namespace Bioscoop.Api.Repositories
                                             RowNumber = ticketToAddDto.RowNumber,
                                             SeatNumber = ticketToAddDto.SeatNumber,
                                             Price = ticketToAddDto.Price,
+                                            Popcorn = ticketToAddDto.Popcorn,
+                                            Special = ticketToAddDto.Special,
                                         }).SingleOrDefaultAsync();
                     if (ticket != null)
                     {

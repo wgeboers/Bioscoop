@@ -39,6 +39,8 @@ else
                 <th>@_localizer["Time"]</th>
                 <th>@_localizer["Movie"]</th>
                 <th>@_localizer["Price"]</th>
+                <th>Popcorn-arrangement</th>
+                <th>Special</th>
                 <td>@_localizer["Room"]</td>
                 <th>@_localizer["Row"]</th>
                 <th>@_localizer["Seat"]</th>
@@ -49,6 +51,8 @@ else
                 <td>@Ticket.ShowStartDateTime</td>
                 <td>@Ticket.MovieTitle</td>
                 <td>@Ticket.Price</td>
+                <td>@Ticket.Popcorn</td>
+                <td>@Ticket.Special</td>
                 <td>@Ticket.RoomName</td>
                 <td>@Ticket.RowNumber</td>
                 <td>@Ticket.SeatNumber</td>
@@ -87,6 +91,8 @@ else
     ticketDetails = Ticket.ShowStartDateTime + "\n"
                         + Ticket.MovieTitle + "\n"
                         + "Price: " + Ticket.Price + "\n"
+                        + "Popcorn-arrangement: " + Ticket.Popcorn + "\n"
+                        + "Special: " + Ticket.Special + "\n"
                         + Ticket.RoomName + "\n"
                         + "Row: " + Ticket.RowNumber + "\n"
                         + "Seat: " + Ticket.SeatNumber + "\n"

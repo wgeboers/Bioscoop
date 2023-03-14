@@ -4,6 +4,7 @@ using Bioscoop.Api.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bioscoop.Api.Migrations
 {
     [DbContext(typeof(BioscoopDbContext))]
-    partial class BioscoopDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230314175718_fillDB")]
+    partial class fillDB
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -224,7 +227,7 @@ namespace Bioscoop.Api.Migrations
                             Id = 1,
                             MovieId = 3,
                             RoomId = 2,
-                            StartDateTime = new DateTime(2023, 3, 10, 16, 4, 35, 456, DateTimeKind.Local).AddTicks(3219),
+                            StartDateTime = new DateTime(2023, 3, 14, 18, 57, 18, 338, DateTimeKind.Local).AddTicks(7665),
                             Type = "2D"
                         },
                         new
@@ -232,7 +235,7 @@ namespace Bioscoop.Api.Migrations
                             Id = 2,
                             MovieId = 3,
                             RoomId = 2,
-                            StartDateTime = new DateTime(2023, 3, 10, 16, 4, 35, 456, DateTimeKind.Local).AddTicks(3292),
+                            StartDateTime = new DateTime(2023, 3, 14, 18, 57, 18, 338, DateTimeKind.Local).AddTicks(7710),
                             Type = "3D"
                         },
                         new
@@ -240,7 +243,7 @@ namespace Bioscoop.Api.Migrations
                             Id = 3,
                             MovieId = 3,
                             RoomId = 2,
-                            StartDateTime = new DateTime(2023, 3, 10, 16, 4, 35, 456, DateTimeKind.Local).AddTicks(3310),
+                            StartDateTime = new DateTime(2023, 3, 14, 18, 57, 18, 338, DateTimeKind.Local).AddTicks(7718),
                             Type = "3D-HFR"
                         },
                         new
@@ -248,7 +251,7 @@ namespace Bioscoop.Api.Migrations
                             Id = 4,
                             MovieId = 3,
                             RoomId = 2,
-                            StartDateTime = new DateTime(2023, 3, 10, 16, 4, 35, 456, DateTimeKind.Local).AddTicks(3328),
+                            StartDateTime = new DateTime(2023, 3, 14, 18, 57, 18, 338, DateTimeKind.Local).AddTicks(7725),
                             Type = "IMAX"
                         },
                         new
@@ -256,7 +259,7 @@ namespace Bioscoop.Api.Migrations
                             Id = 5,
                             MovieId = 3,
                             RoomId = 2,
-                            StartDateTime = new DateTime(2023, 3, 10, 16, 4, 35, 456, DateTimeKind.Local).AddTicks(3344),
+                            StartDateTime = new DateTime(2023, 3, 14, 18, 57, 18, 338, DateTimeKind.Local).AddTicks(7732),
                             Type = "2D"
                         });
                 });
@@ -272,9 +275,6 @@ namespace Bioscoop.Api.Migrations
                     b.Property<int>("Code")
                         .HasColumnType("int");
 
-                    b.Property<string>("PaymentID")
-                        .HasColumnType("nvarchar(max)");
-                        
                     b.Property<bool>("Popcorn")
                         .HasColumnType("bit");
 
@@ -303,7 +303,6 @@ namespace Bioscoop.Api.Migrations
                         {
                             Id = 1,
                             Code = 1,
-                            PaymentID = "1",
                             Popcorn = false,
                             Price = 9.00m,
                             RowNumber = 1,
@@ -315,7 +314,6 @@ namespace Bioscoop.Api.Migrations
                         {
                             Id = 2,
                             Code = 2,
-                            PaymentID = "2",
                             Popcorn = true,
                             Price = 9.00m,
                             RowNumber = 1,
@@ -327,7 +325,6 @@ namespace Bioscoop.Api.Migrations
                         {
                             Id = 3,
                             Code = 3,
-                            PaymentID = "3",
                             Popcorn = true,
                             Price = 8.50m,
                             RowNumber = 1,

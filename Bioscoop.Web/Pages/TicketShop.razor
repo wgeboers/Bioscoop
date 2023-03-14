@@ -40,9 +40,6 @@ else
                     <img src="Icons/box-arrow-right.svg" class="inoutIcon"/>
                 </ul>
 
-                
-                @*<img src="Icons/wheelchair-solid.svg"/>*@
-
                 @for (int r = 1; r <= rows; r++)
                 {
                     @for (int s = 1; s <= seatsPerRow; s++)
@@ -123,13 +120,22 @@ else
                         <option value="Nee">Nee</option>
                     </select>
                 </div>
+                <div class="filter-item">
+                    <select name="specialFilter" class="form-select filter-item" @onchange="@OnSpecialSelect">
+                        <option value="" disabled selected>Special-arrangement</option>
+                        <option value="Vip">VIP-arrangement € 4,00</option>
+                        <option value="Kid">Kinderarrangement € 4,00</option>
+                        <option value="Nee">Nee</option>
+                    </select>
+                </div>
+                <b>VIP-arrangement</b>
+                <p>Ontvangst met drankje, toegang viplounge, vip-seats.</p>
+                <b>kinderarrangement</b>
+                <p>Ontvangst met popcorn, cadeautje mbt de gekozen film.</p>
+                <br>
+                <p class="message">@message</p>
                 <button type="button" class="button"
-                    @onclick="() => (AddTicket_ForShow(new TicketToAddDto{
-                        ShowId = Show.Id,
-                        RowNumber = row,
-                        SeatNumber = chair,
-                        Price = FinalPrice()
-                    }))">
+                    @onclick="() => FormValidation()">
                     Bestellen
                 </button>
             </form>
@@ -144,17 +150,33 @@ else
     int row { get; set; }
     decimal ticketPrice { get; set; }
     decimal popcornPrice { get; set; }
+    decimal specialPrice { get; set; }
+
+    bool ?popcorn { get; set; }
+    string ?special { get; set; }
+    string ?message { get; set; }
 
     void AssignChairRow(int chairNr, int rowNr)
     {
-        chair = chairNr;
-        row = rowNr;
+        if (chair == 0)
+        {
+            chair = chairNr;
+            row = rowNr;
 
-        Seat seat = new Seat(chairNr, rowNr, "selected");
-        SelectedSeats.Add(seat);
+            Seat seat = new Seat(chairNr, rowNr, "selected");
+            SelectedSeats.Add(seat);
 
-        Seats.Clear();
-        shouldRender = true;
+            Seats.Clear();
+            shouldRender = true;
+        }
+        else
+        {
+            message = "U kunt 1 stoel selecteren";
+
+            Seats.Clear();
+            shouldRender = true;
+        }
+
     }
 
     void DeselectChair(int chairNr, int rowNr)
@@ -197,14 +219,63 @@ else
         if (popcornArrangement == "Ja")
         {
             popcornPrice = (decimal)3.00;
+            popcorn = true;
         }
         else
         {
             popcornPrice = (decimal)0.00;
+            popcorn = false;
         }
     }
 
-    decimal FinalPrice() => ticketPrice + popcornPrice;
+    void OnSpecialSelect(ChangeEventArgs e)
+    {
+        shouldRender = false;
+        var specialArrangement = e.Value.ToString();
+
+        if (specialArrangement == "Vip")
+        {
+            specialPrice = (decimal)4.00;
+            special = "VIP-arrangement";
+        }
+        else if (specialArrangement == "Kid")
+        {
+            specialPrice = (decimal)4.00;
+            special = "Kinderarrangement";
+        }
+        else
+        {
+            specialPrice = (decimal)0.00;
+            special = "Nee";
+        }
+    }
+
+    protected async Task FormValidation()
+    {
+        shouldRender = true;
+
+        if (chair == 0 || ticketPrice == 0 || popcorn == null || special == null)
+        {
+            message = "Graag een stoel selecteren en alle velden invullen";
+        }
+        else
+        {
+            await AddTicket_ForShow(new TicketToAddDto
+                {
+                    ShowId = Show.Id,
+                    RowNumber = row,
+                    SeatNumber = chair,
+                    Price = FinalPrice(),
+                    Popcorn = popcorn.HasValue,
+                    Special = special
+                }
+            );
+        }
+
+        Seats.Clear();
+    }
+
+    decimal FinalPrice() => ticketPrice + popcornPrice + specialPrice;
 
     protected override bool ShouldRender()
     {
