@@ -188,7 +188,7 @@ namespace Bioscoop.Api.Data
                 RowNumber = 1,
                 SeatNumber = 1,
                 Price = 9.00m,
-                PaymentID = "1"
+                PaymentID = "1",
                 Popcorn = false,
                 Special = "VIP-arrangement"
             });
@@ -201,7 +201,7 @@ namespace Bioscoop.Api.Data
                 RowNumber = 1,
                 SeatNumber = 2,
                 Price = 9.00m,
-                PaymentID = "2"
+                PaymentID = "2",
                 Popcorn = true,
                 Special = ""
             });
@@ -214,7 +214,7 @@ namespace Bioscoop.Api.Data
                 RowNumber = 1,
                 SeatNumber = 3,
                 Price = 8.50m,
-                PaymentID = "3"
+                PaymentID = "3",
                 Popcorn = true,
                 Special = "Kinderarrangement"
             });

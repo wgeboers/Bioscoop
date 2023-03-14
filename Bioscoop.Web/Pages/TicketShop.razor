@@ -184,6 +184,9 @@ else
         var itemToRemove = SelectedSeats.Single(s => s.seatnr == chairNr && s.rownr == rowNr);
         SelectedSeats.Remove(itemToRemove);
 
+        chair = 0;
+        row = 0;
+
         Seats.Clear();
         shouldRender = true;
     }
