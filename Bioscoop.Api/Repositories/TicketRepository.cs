@@ -54,7 +54,8 @@ namespace Bioscoop.Api.Repositories
                               RowNumber = ticket.RowNumber,
                               SeatNumber = ticket.SeatNumber,
                               Price = ticket.Price,
-                              PaymentID= ticket.PaymentID,
+                              PaymentID = ticket.PaymentID,
+                              SpecialsPrice = ticket.SpecialsPrice,
                           }).ToListAsync();
         }
 
@@ -192,5 +193,7 @@ namespace Bioscoop.Api.Repositories
                 
             }
         }
+
+        
     }
 }
