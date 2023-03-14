@@ -141,7 +141,7 @@ namespace Bioscoop.Api.Extensions
                         RowNumber = ticket.RowNumber,
                         SeatNumber = ticket.SeatNumber,
                         Price = ticket.Price,
-                        PopPrice = option.Price,
+                        SpecialsPrice = option.Price,
                             
                     }).ToList();
         }
@@ -167,7 +167,7 @@ namespace Bioscoop.Api.Extensions
                 RowNumber = ticket.RowNumber,
                 SeatNumber = ticket.SeatNumber,
                 Price = ticket.Price,
-                PopPrice = option.Price,
+                SpecialsPrice = option.Price,
             };
         }
     }

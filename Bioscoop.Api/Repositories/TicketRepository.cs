@@ -3,6 +3,7 @@ using Bioscoop.Api.Entities;
 using Bioscoop.Api.Repositories.Contracts;
 using Bioscoop.Models.Dtos;
 using Microsoft.EntityFrameworkCore;
+using Nest;
 using System.Collections.Generic;
 
 namespace Bioscoop.Api.Repositories
@@ -26,9 +27,9 @@ namespace Bioscoop.Api.Repositories
             return ticket;
 
         }
-        public async Task<SpecialsPrice> GetSpecialsPrice()
+        public async Task<SpecialsPrice> GetSpecialsPrice(int id)
         {
-            var specialsPrice = await bioscoopDbContext.SpecialsPrice.FirstOrDefaultAsync(x => x.Id == 1);
+            var specialsPrice = await bioscoopDbContext.SpecialsPrice.FindAsync(id);
             return specialsPrice;
         }
 

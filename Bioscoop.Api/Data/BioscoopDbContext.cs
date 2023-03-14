@@ -215,10 +215,38 @@ namespace Bioscoop.Api.Data
             modelBuilder.Entity<SpecialsPrice>().HasData(new SpecialsPrice
             {
                 Id = 1,
-                Price = 4.00m
+                Name = "Ladies night",
+                Price = 6.00m
             });
 
-            
+            modelBuilder.Entity<SpecialsPrice>().HasData(new SpecialsPrice
+            {
+                Id = 2,
+                Name = "Moviemarathon",
+                Price = 12.00m
+            });
+
+            modelBuilder.Entity<SpecialsPrice>().HasData(new SpecialsPrice
+            {
+                Id = 3,
+                Name = "Premiere",
+                Price = 10.00m
+            });
+
+            modelBuilder.Entity<SpecialsPrice>().HasData(new SpecialsPrice
+            {
+                Id = 4,
+                Name = "50+ movie",
+                Price = 5.00m
+            });
+
+            modelBuilder.Entity<SpecialsPrice>().HasData(new SpecialsPrice
+            {
+                Id = 5,
+                Name = "Horror night",
+                Price = 4.50m
+            });
+
         }
 
         public DbSet<Movie> Movies { get; set;}
