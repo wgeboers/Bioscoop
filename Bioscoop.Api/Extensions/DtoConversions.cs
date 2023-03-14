@@ -150,26 +150,23 @@ namespace Bioscoop.Api.Extensions
                                                   Show show,
                                                   Movie movie,
                                                   Room room,
-                                                  SpecialsPrice option)
-        {
-            return new TicketDto
-            {
-                Id = ticket.Id,
-                Code = ticket.Code,
-                ShowId = ticket.ShowId,
-                ShowStartDateTime = show.StartDateTime,
-                ShowType = show.Type,
-                MovieId = show.MovieId,
-                MovieTitle = movie.Title,
-                MoviePlayTime = movie.PlayTime,
-                RoomId = show.RoomId,
-                RoomName = room.Name,
-                RowNumber = ticket.RowNumber,
-                SeatNumber = ticket.SeatNumber,
-                Price = ticket.Price,
-                PaymentID = ticket.PaymentID
-                SpecialsPrice = option.Price,
-            };
-        }
+                                                  SpecialsPrice price) => new TicketDto
+                                                  {
+                                                      Id = ticket.Id,
+                                                      Code = ticket.Code,
+                                                      ShowId = ticket.ShowId,
+                                                      ShowStartDateTime = show.StartDateTime,
+                                                      ShowType = show.Type,
+                                                      MovieId = show.MovieId,
+                                                      MovieTitle = movie.Title,
+                                                      MoviePlayTime = movie.PlayTime,
+                                                      RoomId = show.RoomId,
+                                                      RoomName = room.Name,
+                                                      RowNumber = ticket.RowNumber,
+                                                      SeatNumber = ticket.SeatNumber,
+                                                      Price = ticket.Price,
+                                                      PaymentID = ticket.PaymentID,
+                                                      SpecialsPrice = SpecialsPrice.Price,
+                                                  };
     }
 }

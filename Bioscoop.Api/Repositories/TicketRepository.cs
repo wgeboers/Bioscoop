@@ -80,6 +80,7 @@ namespace Bioscoop.Api.Repositories
                               RowNumber = ticket.RowNumber,
                               SeatNumber = ticket.SeatNumber,
                               Price = ticket.Price,
+                              SpecialsPrice = ticket.SpecialsPrice,
                           }).ToListAsync();
             
         }
@@ -151,7 +152,7 @@ namespace Bioscoop.Api.Repositories
                                         RowNumber = ticketToAddDto.RowNumber,
                                         SeatNumber = ticketToAddDto.SeatNumber,
                                         Price = ticketToAddDto.Price,
-                                        SpecialsPrice = ticketToAddDto.SpecialsPrice
+                                        SpecialsPrice = ticketToAddDto.SpecialsPrice,
                                     }).SingleOrDefaultAsync();
                 if (ticket != null)
                 {
