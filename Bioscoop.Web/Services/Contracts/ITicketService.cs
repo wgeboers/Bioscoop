@@ -8,5 +8,6 @@ namespace Bioscoop.Web.Services.Contracts
         Task<TicketDto> AddTicket(TicketToAddDto ticketToAddDto);
         Task<IEnumerable<TicketDto>> GetTicketsByShow(int id);
         Task<TicketDto> GetTicketByCode(int id);
+        Task<TicketDto> AddSecretTicket(TicketToAddDto ticketToAddDto);
     }
 }

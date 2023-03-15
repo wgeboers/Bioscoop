@@ -228,6 +228,46 @@ namespace Bioscoop.Api.Controllers
             }
         }
 
+        [HttpPost("secret")]
+        public async Task<ActionResult<TicketDto>> PostSecretTicket([FromBody] TicketToAddDto ticketToAddDto)
+        {
+            try
+            {
+                var newTicket = await this.ticketRepository.AddSecretTicket(ticketToAddDto);
+                if (newTicket == null)
+                {
+                    return NoContent();
+                }
+
+                var show = await showRepository.GetShow(newTicket.ShowId);
+                if (show == null)
+                {
+                    throw new Exception($"Something went wrong when attempting to retrieve show (showId:({newTicket.ShowId})");
+                }
+
+                var movie = await movieRepository.GetMovie(show.MovieId);
+                if (movie == null)
+                {
+                    throw new Exception($"Something went wrong when attempting to retrieve movie (movieId:({show.MovieId})");
+                }
+
+                var room = await roomRepository.GetRoom(show.RoomId);
+                if (room == null)
+                {
+                    throw new Exception($"Something went wrong when attempting to retrieve room (roomId:({show.RoomId})");
+                }
+
+                var newTicketDto = newTicket.ConvertToDto(show, movie, room);
+
+                return CreatedAtAction(nameof(GetTicket), new { id = newTicketDto.Id }, newTicketDto);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error retrieving data from the database");
+            }
+        }
+
         [HttpDelete("{id:int}")]
         public async Task<ActionResult<Ticket>> DeleteTicket(int id)
         {

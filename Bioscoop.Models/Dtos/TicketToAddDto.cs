@@ -14,5 +14,6 @@ namespace Bioscoop.Models.Dtos
         public decimal Price { get; set; }
         public bool Popcorn { get; set; }
         public required string Special { get; set; }
+        public bool? Secret { get; set; }
     }
 }

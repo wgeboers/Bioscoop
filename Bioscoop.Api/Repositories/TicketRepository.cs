@@ -3,6 +3,7 @@ using Bioscoop.Api.Entities;
 using Bioscoop.Api.Repositories.Contracts;
 using Bioscoop.Models.Dtos;
 using Microsoft.EntityFrameworkCore;
+using Mollie.Api.Models;
 using System.Collections.Generic;
 
 namespace Bioscoop.Api.Repositories
@@ -47,6 +48,7 @@ namespace Bioscoop.Api.Repositories
                               PaymentID= ticket.PaymentID,
                               Popcorn = ticket.Popcorn,
                               Special = ticket.Special,
+                              Secret = ticket.Secret,
                           }).ToListAsync();
         }
 
@@ -73,6 +75,7 @@ namespace Bioscoop.Api.Repositories
                               Price = ticket.Price,
                               Popcorn = ticket.Popcorn,
                               Special = ticket.Special,
+                              Secret = ticket.Secret,
                           }).ToListAsync();    
         }
 
@@ -142,6 +145,7 @@ namespace Bioscoop.Api.Repositories
                                         Price = ticketToAddDto.Price,
                                         Popcorn = ticketToAddDto.Popcorn,
                                         Special = ticketToAddDto.Special,
+                                        Secret = ticketToAddDto.Secret,
                                     }).SingleOrDefaultAsync();
                 if (ticket != null)
                 {
@@ -168,6 +172,7 @@ namespace Bioscoop.Api.Repositories
                                             Price = ticketToAddDto.Price,
                                             Popcorn = ticketToAddDto.Popcorn,
                                             Special = ticketToAddDto.Special,
+                                            Secret = ticketToAddDto.Secret,
                                         }).SingleOrDefaultAsync();
                     if (ticket != null)
                     {
@@ -178,6 +183,64 @@ namespace Bioscoop.Api.Repositories
                 }
                 return null;
             }
+        }
+
+        public async Task<Ticket> AddSecretTicket(TicketToAddDto ticketToAddDto)
+        {
+            int showId = await CheckLowestSeats();
+
+            var currentShow = bioscoopDbContext.Shows.FirstOrDefault(x => x.Id == showId);
+            var room = bioscoopDbContext.Rooms.FirstOrDefault(x => x.Id == currentShow.RoomId);
+            var rows = room.Rows;
+            var seats = room.Seats;
+            var seatsPerRow = seats / rows;
+            var tickets = bioscoopDbContext.Tickets.Where(x => x.ShowId == showId);
+
+            var availableRow = 0;
+            var availableSeat = 0;
+
+            for(int r = 1; r <= rows; r++)
+                {
+                for(int s = 1; s <= seatsPerRow; s++)
+                    {
+                        bool trueInList = tickets.Any(t => t.RowNumber == r && t.SeatNumber == s);
+                        if (trueInList == false)
+                        {
+                            availableRow = r;
+                            availableSeat = s;
+                            break;
+                        }
+                    }
+                break;
+                }
+
+
+            if (await TicketExists(showId, availableRow, availableSeat) == false)
+            {
+                var code = await TicketCodeGenerator();
+
+                var ticket = await (from show in this.bioscoopDbContext.Shows
+                                    where show.Id == showId
+                                    select new Ticket
+                                    {
+                                        ShowId = showId,
+                                        Code = code,
+                                        RowNumber = availableRow,
+                                        SeatNumber = availableSeat,
+                                        Price = ticketToAddDto.Price,
+                                        Popcorn = ticketToAddDto.Popcorn,
+                                        Special = ticketToAddDto.Special,
+                                        Secret = true
+                                    }).SingleOrDefaultAsync();
+                if (ticket != null)
+                {
+                    var result = await this.bioscoopDbContext.Tickets.AddAsync(ticket);
+                    await this.bioscoopDbContext.SaveChangesAsync();
+                    return result.Entity;
+                }
+            }
+
+            return null;
         }
 
         public async Task<Ticket> DeleteTicket(int id)
@@ -205,6 +268,44 @@ namespace Bioscoop.Api.Repositories
                 
                 
             }
+        }
+
+        public async Task<int> CheckLowestSeats()
+        {
+            var allShows = bioscoopDbContext.Shows.ToList();
+            var allTickets = bioscoopDbContext.Tickets.ToList();
+            var amount = 1000;
+            var showId = -1;
+
+            foreach (var show in allShows)
+            {
+                var newAmount = allTickets.Count(x => x.ShowId == show.Id);
+                if (newAmount < amount)
+                {
+                    amount = newAmount;
+                    showId = show.Id;
+                }
+            }
+
+            //var shows = await this.bioscoopDbContext.Shows.ToListAsync();
+            //int? amount = null;
+            //int showId = -1;
+
+            //foreach (var show in shows)
+            //{
+            //    int? newAmount = GetTicketsByShowId(show.Id).Result.Count();
+            //    if (newAmount == null || newAmount == 0)
+            //    {
+            //        return show.Id;
+            //    }
+            //    else if (newAmount < amount)
+            //    {
+            //        amount = newAmount;
+            //        showId = show.Id;
+            //    }
+            //}
+
+            return showId;
         }
     }
 }

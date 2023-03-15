@@ -24,5 +24,6 @@ namespace Bioscoop.Models.Dtos
         public string? PaymentID { get; set; }
         public bool Popcorn { get; set; }
         public required string Special { get; set; }
+        public bool? Secret { get; set; }
     }
 }

@@ -14,6 +14,8 @@ else
 {
     <h1 class="mb-3">@_localizer["Shows this week"]</h1>
 
+    var special = "Nee";
+
     // button to ShowsToday page
     <div class="container">
         <a href="/">
@@ -21,6 +23,14 @@ else
                 <b>@_localizer["Shows today"]</b>
             </button>
         </a>
+        <button class="button"
+            @onclick="() => (AddSecretTicket_ForShow(new TicketToAddDto {
+            Price = 9, 
+            Popcorn = false, 
+            Special = special
+            }))">
+            <b>@_localizer["Go to a secret show!"]</b>
+        </button>
     </div>
     
     var showListSorted = Shows.OrderBy(x => x.StartDateTime);

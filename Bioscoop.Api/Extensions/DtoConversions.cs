@@ -19,7 +19,7 @@ namespace Bioscoop.Api.Extensions
                         ImageURL = movie.ImageURL,
                         PlayTime = movie.PlayTime,
                         MinimumAge = movie.MinimumAge,
-                        special = movie.special
+                        special = movie.special,
                     }).ToList();
         }
 
@@ -147,7 +147,8 @@ namespace Bioscoop.Api.Extensions
                         SeatNumber = ticket.SeatNumber,
                         Price = ticket.Price,
                         Popcorn = ticket.Popcorn,
-                        Special = ticket.Special
+                        Special = ticket.Special,
+                        Secret = ticket.Secret,
                     }).ToList();
         }
 
@@ -173,7 +174,8 @@ namespace Bioscoop.Api.Extensions
                 Price = ticket.Price,
                 PaymentID = ticket.PaymentID,
                 Popcorn = ticket.Popcorn,
-                Special = ticket.Special
+                Special = ticket.Special,
+                Secret = ticket.Secret,
             };
         }
     }
