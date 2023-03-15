@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Available" xml:space="preserve">
+    <value>Available</value>
+    <comment>Available</comment>
+  </data>
+  <data name="Child arrangement" xml:space="preserve">
+    <value>Child arrangement</value>
+    <comment>Child arrangement</comment>
+  </data>
+  <data name="Child up to 11 years" xml:space="preserve">
+    <value>Child up to 11 years</value>
+    <comment>Child up to 11 years</comment>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+    <comment>Clear</comment>
+  </data>
+  <data name="Date:" xml:space="preserve">
+    <value>Date:</value>
+    <comment>Date:</comment>
+  </data>
+  <data name="Genre:" xml:space="preserve">
+    <value>Genre:</value>
+    <comment>Genre:</comment>
+  </data>
+  <data name="Get ticket!" xml:space="preserve">
+    <value>Get ticket!</value>
+    <comment>Get ticket!</comment>
+  </data>
+  <data name="Hall:" xml:space="preserve">
+    <value>Hall:</value>
+    <comment>Hall:</comment>
+  </data>
+  <data name="Loading ticket details" xml:space="preserve">
+    <value>Loading ticket details</value>
+    <comment>Loading ticket details</comment>
+  </data>
+  <data name="Mail ticket" xml:space="preserve">
+    <value>Mail ticket</value>
+    <comment>Mail ticket</comment>
+  </data>
+  <data name="Min age" xml:space="preserve">
+    <value>Min age</value>
+    <comment>Min age</comment>
+  </data>
+  <data name="Minimum age:" xml:space="preserve">
+    <value>Minimum age:</value>
+    <comment>Minimum age</comment>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minutes</value>
+    <comment>minutes</comment>
+  </data>
+  <data name="Movie" xml:space="preserve">
+    <value>Movie</value>
+    <comment>Movie</comment>
+  </data>
+  <data name="Movie details" xml:space="preserve">
+    <value>Movie details</value>
+    <comment>Movie details</comment>
+  </data>
+  <data name="Movies" xml:space="preserve">
+    <value>Movies</value>
+    <comment>Movies</comment>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+    <comment>No</comment>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Normal</value>
+    <comment>Normal</comment>
+  </data>
+  <data name="Occupied" xml:space="preserve">
+    <value>Occupied</value>
+    <comment>Occupied</comment>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Order</value>
+    <comment>Order</comment>
+  </data>
+  <data name="Pay Ticket" xml:space="preserve">
+    <value>Pay Ticket</value>
+    <comment>Pay Ticket</comment>
+  </data>
+  <data name="Playtime:" xml:space="preserve">
+    <value>Playtime:</value>
+    <comment>Playtime</comment>
+  </data>
+  <data name="Please select a seat and fill in all fields" xml:space="preserve">
+    <value>Please select a seat and fill in all fields</value>
+    <comment>Please select a seat and fill in all fields</comment>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Price</value>
+    <comment>Price</comment>
+  </data>
+  <data name="Price:" xml:space="preserve">
+    <value>Price: </value>
+    <comment>Price:</comment>
+  </data>
+  <data name="Print ticket" xml:space="preserve">
+    <value>Print ticket</value>
+    <comment>Print ticket</comment>
+  </data>
+  <data name="Reception with drink, access to VIP lounge, VIP seats." xml:space="preserve">
+    <value>Reception with drink, access to VIP lounge, VIP seats.</value>
+    <comment>Reception with drink, access to VIP lounge, VIP seats.</comment>
+  </data>
+  <data name="Reception with popcorn, gift related to the chosen film." xml:space="preserve">
+    <value>Reception with popcorn, gift related to the chosen film.</value>
+    <comment>Reception with popcorn, gift related to the chosen film.</comment>
+  </data>
+  <data name="Room" xml:space="preserve">
+    <value>Room</value>
+    <comment>Room</comment>
+  </data>
+  <data name="Row" xml:space="preserve">
+    <value>Row</value>
+    <comment>Row</comment>
+  </data>
+  <data name="Row:" xml:space="preserve">
+    <value>Row: </value>
+    <comment>Row:</comment>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+    <comment>Search</comment>
+  </data>
+  <data name="Search on ticket code:" xml:space="preserve">
+    <value>Search on ticket code:</value>
+    <comment>Search on ticket code:</comment>
+  </data>
+  <data name="Search ticket" xml:space="preserve">
+    <value>Search ticket</value>
+    <comment>Search ticket</comment>
+  </data>
+  <data name="Seat" xml:space="preserve">
+    <value>Seat</value>
+    <comment>Seat</comment>
+  </data>
+  <data name="Seat:" xml:space="preserve">
+    <value>Seat: </value>
+    <comment>Seat:</comment>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Selected</value>
+    <comment>Selected</comment>
+  </data>
+  <data name="Show Details" xml:space="preserve">
+    <value>Show details</value>
+    <comment>Show Details</comment>
+  </data>
+  <data name="Shows" xml:space="preserve">
+    <value>Shows</value>
+    <comment>Shows</comment>
+  </data>
+  <data name="Shows this week" xml:space="preserve">
+    <value>Shows this week</value>
+    <comment>Shows this week</comment>
+  </data>
+  <data name="Shows today" xml:space="preserve">
+    <value>Shows today</value>
+    <comment>Shows today</comment>
+  </data>
+  <data name="Special:" xml:space="preserve">
+    <value>Special:</value>
+    <comment>Special:</comment>
+  </data>
+  <data name="Start time:" xml:space="preserve">
+    <value>Start time:</value>
+    <comment>Start time:</comment>
+  </data>
+  <data name="Students" xml:space="preserve">
+    <value>Students</value>
+    <comment>Students</comment>
+  </data>
+  <data name="Succes, ticket found:" xml:space="preserve">
+    <value>Succes, ticket found:</value>
+    <comment>Succes, ticket found:</comment>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>Ticket</value>
+    <comment>Ticket</comment>
+  </data>
+  <data name="Ticket mailed." xml:space="preserve">
+    <value>Ticket mailed.</value>
+    <comment>Ticket mailed.</comment>
+  </data>
+  <data name="Ticket not found." xml:space="preserve">
+    <value>Ticket not found.</value>
+    <comment>Ticket not found.</comment>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+    <comment>Time</comment>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+    <comment>Title</comment>
+  </data>
+  <data name="Wheelchair accessible" xml:space="preserve">
+    <value>Wheelchair accessible</value>
+    <comment>Wheelchair accessible</comment>
+  </data>
+  <data name="Wheelchair friendly:" xml:space="preserve">
+    <value>Wheelchair friendly:</value>
+    <comment>Wheelchair friendly:</comment>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="You can select 1 seat" xml:space="preserve">
+    <value>You can select 1 seat</value>
+    <comment>You can select 1 seat</comment>
+  </data>
+</root>

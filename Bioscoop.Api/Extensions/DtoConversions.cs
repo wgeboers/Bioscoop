@@ -13,6 +13,8 @@ namespace Bioscoop.Api.Extensions
                         Id = movie.Id,
                         Title = movie.Title,
                         Description = movie.Description,
+                        Description_en = movie.Description_en,
+                        Description_nl = movie.Description_nl,
                         Genre = movie.Genre,
                         ImageURL = movie.ImageURL,
                         PlayTime = movie.PlayTime,
@@ -28,6 +30,8 @@ namespace Bioscoop.Api.Extensions
                 Id = movie.Id,
                 Title = movie.Title,
                 Description = movie.Description,
+                Description_en = movie.Description_en,
+                Description_nl = movie.Description_nl,
                 Genre = movie.Genre,
                 ImageURL = movie.ImageURL,
                 PlayTime = movie.PlayTime,
@@ -74,6 +78,8 @@ namespace Bioscoop.Api.Extensions
                         MovieId = show.MovieId,
                         MovieTitle = movie.Title,
                         MovieDescription = movie.Description,
+                        MovieDescription_en = movie.Description_en,
+                        MovieDescription_nl = movie.Description_nl,
                         MovieGenre = movie.Genre,
                         MovieImageURL = movie.ImageURL,
                         MoviePlayTime = movie.PlayTime,
@@ -99,6 +105,8 @@ namespace Bioscoop.Api.Extensions
                 MovieId = show.MovieId,
                 MovieTitle = movie.Title,
                 MovieDescription = movie.Description,
+                MovieDescription_en = movie.Description_en,
+                MovieDescription_nl = movie.Description_nl,
                 MovieGenre = movie.Genre,
                 MovieImageURL = movie.ImageURL,
                 MoviePlayTime = movie.PlayTime,
@@ -138,6 +146,8 @@ namespace Bioscoop.Api.Extensions
                         RowNumber = ticket.RowNumber,
                         SeatNumber = ticket.SeatNumber,
                         Price = ticket.Price,
+                        Popcorn = ticket.Popcorn,
+                        Special = ticket.Special,
                         Secret = (bool)ticket.Secret
                     }).ToList();
         }
@@ -162,7 +172,10 @@ namespace Bioscoop.Api.Extensions
                 RowNumber = ticket.RowNumber,
                 SeatNumber = ticket.SeatNumber,
                 Price = ticket.Price,
-                Secret = (bool)ticket.Secret
+                Secret = (bool)ticket.Secret,
+                PaymentID = ticket.PaymentID,
+                Popcorn = ticket.Popcorn,
+                Special = ticket.Special
             };
         }
     }

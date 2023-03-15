@@ -1,5 +1,7 @@
 ﻿@page "/"
+@inject IStringLocalizer<Language> _localizer
 @inherits ShowsTodayBase
+@inject IStringLocalizer<Language> _localizer
 
 @if (Shows == null && ErrorMessage == null)
 {
@@ -10,13 +12,17 @@ else if (ErrorMessage != null)
     <h3 class="text-danger">@ErrorMessage</h3>
 }
 else
-{ // button to ShowsAll page
-    <h1 class="mb-5">Shows today</h1>
-    <a href="/ShowsAll">
-        <button class="btn btn-success">
-            <b>Shows this week</b>
-        </button>
-    </a>
+{ 
+    <h1 class="mb-5">@_localizer["Shows today"]</h1>
+
+    // button to ShowsAll page
+    <div class="container">
+        <a href="/ShowsAll">
+            <button class="button">
+                <b>@_localizer["Shows this week"]</b>
+            </button>
+        </a>
+    </div>
 
     // filter for shows of today
     var startOfDay = DateTime.Now.Date;
@@ -38,7 +44,7 @@ else
 
     @if (showCount > 0)
     {
-        const int showsPerRow = 4;
+        const int showsPerRow = 5;
         var showRowList = new List<ShowDto>();
 
         @for (int i = 0; i < showCount; i++)

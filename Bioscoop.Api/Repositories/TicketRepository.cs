@@ -44,6 +44,9 @@ namespace Bioscoop.Api.Repositories
                               RowNumber = ticket.RowNumber,
                               SeatNumber = ticket.SeatNumber,
                               Price = ticket.Price,
+                              PaymentID= ticket.PaymentID,
+                              Popcorn = ticket.Popcorn,
+                              Special = ticket.Special,
                           }).ToListAsync();
         }
 
@@ -68,6 +71,8 @@ namespace Bioscoop.Api.Repositories
                               RowNumber = ticket.RowNumber,
                               SeatNumber = ticket.SeatNumber,
                               Price = ticket.Price,
+                              Popcorn = ticket.Popcorn,
+                              Special = ticket.Special,
                               Secret = ticket.Secret,
                           }).ToListAsync();    
         }
@@ -125,10 +130,9 @@ namespace Bioscoop.Api.Repositories
 
         public async Task<Ticket> AddTicket(TicketToAddDto ticketToAddDto)
         {
-            if (await TicketExists(ticketToAddDto.ShowId, ticketToAddDto.RowNumber, ticketToAddDto.SeatNumber) == false)
+            if (ticketToAddDto.SeatNumber != null)
             {
                 var code = await TicketCodeGenerator();
-                var seatAndRowNumber = await CalculateSeatAndRowNumber(ticketToAddDto);
                 var ticket = await (from show in this.bioscoopDbContext.Shows
                                     where show.Id == ticketToAddDto.ShowId
                                     select new Ticket
@@ -138,7 +142,8 @@ namespace Bioscoop.Api.Repositories
                                         RowNumber = ticketToAddDto.RowNumber,
                                         SeatNumber = ticketToAddDto.SeatNumber,
                                         Price = ticketToAddDto.Price,
-                                        Secret = false,
+                                        Popcorn = ticketToAddDto.Popcorn,
+                                        Special = ticketToAddDto.Special,
                                     }).SingleOrDefaultAsync();
                 if (ticket != null)
                 {
@@ -146,8 +151,35 @@ namespace Bioscoop.Api.Repositories
                     await this.bioscoopDbContext.SaveChangesAsync();
                     return result.Entity;
                 }
+                return null;
             }
-            return null;
+            else
+            {
+                if (await TicketExists(ticketToAddDto.ShowId, ticketToAddDto.RowNumber, ticketToAddDto.SeatNumber) == false)
+                {
+                    var code = await TicketCodeGenerator();
+                    var seatAndRowNumber = await CalculateSeatAndRowNumber(ticketToAddDto);
+                    var ticket = await (from show in this.bioscoopDbContext.Shows
+                                        where show.Id == ticketToAddDto.ShowId
+                                        select new Ticket
+                                        {
+                                            ShowId = show.Id,
+                                            Code = code,
+                                            RowNumber = ticketToAddDto.RowNumber,
+                                            SeatNumber = ticketToAddDto.SeatNumber,
+                                            Price = ticketToAddDto.Price,
+                                            Popcorn = ticketToAddDto.Popcorn,
+                                            Special = ticketToAddDto.Special,
+                                        }).SingleOrDefaultAsync();
+                    if (ticket != null)
+                    {
+                        var result = await this.bioscoopDbContext.Tickets.AddAsync(ticket);
+                        await this.bioscoopDbContext.SaveChangesAsync();
+                        return result.Entity;
+                    }
+                }
+                return null;
+            }
         }
 
         public async Task<Ticket> AddSecretTicket(TicketToAddDto ticketToAddDto)
@@ -191,6 +223,20 @@ namespace Bioscoop.Api.Repositories
             }
 
             return ticket;
+        }
+
+        public async Task UpdateTicketPayment(int id, string paymentID)
+        {
+            if (id != null && paymentID != null)
+            {
+                var existingTicket = this.bioscoopDbContext.Tickets.Find(id);
+
+
+                existingTicket.PaymentID = paymentID;    
+                await this.bioscoopDbContext.SaveChangesAsync();
+                
+                
+            }
         }
 
         public async Task<int> CheckLowestSeats()

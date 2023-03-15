@@ -1,0 +1,15 @@
+﻿button {
+    margin: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    appearance: none;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-color: rgb(74, 89, 137);
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: rgb(53, 64, 100);
+    }

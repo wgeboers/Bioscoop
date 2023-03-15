@@ -1,0 +1,288 @@
+﻿@page "/TicketShop/{Id:int}"
+@inherits TicketShopBase
+@inject IStringLocalizer<Language> _localizer
+
+@if (Show == null && ErrorMessage == null)
+{
+    <DisplaySpinner />
+}
+else if (ErrorMessage != null)
+{
+    <h3 class="text-danger">@ErrorMessage</h3>
+}
+else
+{
+    var rows = Show.RoomRows;
+    var seats = Show.RoomSeats;
+    var seatsPerRow = seats / rows;
+
+    <div class="ticket-shop">
+        <div class="seat-container">
+            <ul class="showcase">
+                <li>
+                    <div class="seat"></div>
+                    <small>@_localizer["Available"]</small>
+                </li>
+                <li>
+                    <div class="seat selected"></div>
+                    <small>@_localizer["Selected"]</small>
+                </li>
+                <li>
+                    <div class="seat occupied"></div>
+                    <small>@_localizer["Occupied"]</small>
+                </li>
+            </ul>
+
+            <div class="container">
+                <div class="screen"></div>
+
+                <ul class="icons">
+                    <img src="Icons/box-arrow-left.svg" class="inoutIcon" />
+                    <img src="Icons/box-arrow-right.svg" class="inoutIcon"/>
+                </ul>
+
+                @for (int r = 1; r <= rows; r++)
+                {
+                    @for (int s = 1; s <= seatsPerRow; s++)
+                    {
+                        bool trueInList = Tickets.Any(t => t.RowNumber == r && t.SeatNumber == s);
+                        bool selectedInList = SelectedSeats.Any(t => t.rownr == r && t.seatnr == s);
+                        if (trueInList)
+                        {
+                            Seat seat = new Seat(s, r, "occupied");
+                            Seats.Add(seat);
+                        }
+                        else if (selectedInList)
+                        {
+                            Seat seat = new Seat(s, r, "selected");
+                            Seats.Add(seat);
+                        }
+                        else
+                        {
+                            Seat seat = new Seat(s, r, "available");
+                            Seats.Add(seat);
+                        }
+                    }
+                }
+
+                @for (int r = 1; r <= rows; r++)
+                {
+                    bool trueInRow = Seats.Any(s => s.rownr == r);
+                    if (trueInRow)
+                    {
+                        <div class="row">
+                            @r
+                            @foreach (Seat seat in Seats)
+                            {
+                                if(seat.rownr == r)
+                                {
+                                    if (seat.type == "occupied")
+                                    {
+                                        <div class="seat occupied">@seat.seatnr</div>
+                                    }
+                                    else if (seat.type == "selected")
+                                    {
+                                        <div class="seat selected" @onclick="() => DeselectChair(seat.seatnr, seat.rownr)">@seat.seatnr</div>
+                                    }
+                                    else
+                                    {
+                                        <div class="seat" @onclick="() => AssignChairRow(seat.seatnr, seat.rownr)">@seat.seatnr</div>
+                                    }
+                                }
+                            }
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+
+        <div class="info-container">
+            <img class="img-thumbnail poster" src="@Show.MovieImageURL">
+            <p>@Show.MovieTitle</p>
+            @if(Show.RoomWheelchairFriendly)
+            {
+                <p>@_localizer["Wheelchair accessible"]</p>
+            }
+
+            <form class="ticket-form">
+                <div class="filter-item">
+                    <select name="ticketTypeFilter" class="form-select filter-item" @onchange="@OnTicketSelect">
+                        <option value="" disabled selected>@_localizer["Ticket"]</option>
+                        <option value="Normaal">@_localizer["Normal"] € 8,50</option>
+                        <option value="Kind">@_localizer["Child up to 11 years"] € 7,00</option>
+                        <option value="Student">@_localizer["Students"]Studenten € 7,00</option>
+                        <option value="65+">65+ € 7,00</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <select name="popcornFilter" class="form-select filter-item" @onchange="@OnPopcornSelect">
+                        <option value="" disabled selected>Popcorn-arrangement</option>
+                        <option value="Ja">@_localizer["Yes"] € 3,00</option>
+                        <option value="Nee">@_localizer["No"]</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <select name="specialFilter" class="form-select filter-item" @onchange="@OnSpecialSelect">
+                        <option value="" disabled selected>Special-arrangement</option>
+                        <option value="Vip">VIP-arrangement € 4,00</option>
+                        <option value="Kid">@_localizer["Child arrangement"] € 4,00</option>
+                        <option value="Nee">@_localizer["No"]</option>
+                    </select>
+                </div>
+                <b>VIP-arrangement</b>
+                <p>@_localizer["Reception with drink, access to VIP lounge, VIP seats."]</p>
+                <b>@_localizer["Child arrangement"]</b>
+                <p>@_localizer["Reception with popcorn, gift related to the chosen film."]</p>
+                <br>
+                <p class="message">@message</p>
+                <button type="button" class="button"
+                    @onclick="() => FormValidation()">
+                    @_localizer["Order"]
+                </button>
+            </form>
+        </div>
+    </div>
+}
+
+@code {
+    private bool shouldRender = true;
+
+    int chair { get; set; }
+    int row { get; set; }
+    decimal ticketPrice { get; set; }
+    decimal popcornPrice { get; set; }
+    decimal specialPrice { get; set; }
+
+    bool ?popcorn { get; set; }
+    string ?special { get; set; }
+    string ?message { get; set; }
+
+    void AssignChairRow(int chairNr, int rowNr)
+    {
+        if (chair == 0)
+        {
+            chair = chairNr;
+            row = rowNr;
+
+            Seat seat = new Seat(chairNr, rowNr, "selected");
+            SelectedSeats.Add(seat);
+
+            Seats.Clear();
+            shouldRender = true;
+        }
+        else
+        {
+            message = @_localizer["You can select 1 seat"];
+
+            Seats.Clear();
+            shouldRender = true;
+        }
+
+    }
+
+    void DeselectChair(int chairNr, int rowNr)
+    {
+        var itemToRemove = SelectedSeats.Single(s => s.seatnr == chairNr && s.rownr == rowNr);
+        SelectedSeats.Remove(itemToRemove);
+
+        chair = 0;
+        row = 0;
+
+        Seats.Clear();
+        shouldRender = true;
+    }
+
+    void OnTicketSelect(ChangeEventArgs e)
+    {
+        shouldRender = false;
+        var ticketType = e.Value.ToString();
+
+        if (ticketType == "Normaal")
+        {
+            ticketPrice = (decimal)8.50;
+        }
+        else if (ticketType == "Kind")
+        {
+            ticketPrice = (decimal)7.00;
+        }
+        else if (ticketType == "Student")
+        {
+            ticketPrice = (decimal)7.00;
+        }
+        else
+        {
+            ticketPrice = (decimal)7.00;
+        }
+    }
+
+    void OnPopcornSelect(ChangeEventArgs e)
+    {
+        shouldRender = false;
+        var popcornArrangement = e.Value.ToString();
+
+        if (popcornArrangement == "Ja")
+        {
+            popcornPrice = (decimal)3.00;
+            popcorn = true;
+        }
+        else
+        {
+            popcornPrice = (decimal)0.00;
+            popcorn = false;
+        }
+    }
+
+    void OnSpecialSelect(ChangeEventArgs e)
+    {
+        shouldRender = false;
+        var specialArrangement = e.Value.ToString();
+
+        if (specialArrangement == "Vip")
+        {
+            specialPrice = (decimal)4.00;
+            special = "VIP-arrangement";
+        }
+        else if (specialArrangement == "Kid")
+        {
+            specialPrice = (decimal)4.00;
+            special = "Kinderarrangement";
+        }
+        else
+        {
+            specialPrice = (decimal)0.00;
+            special = "Nee";
+        }
+    }
+
+    protected async Task FormValidation()
+    {
+        shouldRender = true;
+
+        if (chair == 0 || ticketPrice == 0 || popcorn == null || special == null)
+        {
+            message = @_localizer["Please select a seat and fill in all fields"];
+        }
+        else
+        {
+            await AddTicket_ForShow(new TicketToAddDto
+                {
+                    ShowId = Show.Id,
+                    RowNumber = row,
+                    SeatNumber = chair,
+                    Price = FinalPrice(),
+                    Popcorn = popcorn.HasValue,
+                    Special = special
+                }
+            );
+        }
+
+        Seats.Clear();
+    }
+
+    decimal FinalPrice() => ticketPrice + popcornPrice + specialPrice;
+
+    protected override bool ShouldRender()
+    {
+        return shouldRender;
+    }
+}

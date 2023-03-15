@@ -1,30 +1,23 @@
 ﻿@inherits DisplayShowsBase
+@inject IStringLocalizer<Language> _localizer
 
 @foreach (var show in Shows)
 {
-    <div class=" col-md-3 mb-2">
+    <div class="fullCard">
         <a href="/ShowDetails/@show.Id">
             <div class="card">
                 <img class="img-thumbnail" src="@show.MovieImageURL">
                 <div class="card-body">
-                    <h5 class="card-title mb-3">
-                        @show.MovieTitle
-                    </h5>
-                    <p class="card-text">
-                        <b>Date: @show.StartDateTime.ToString("dd-MM-yyyy")</b>
-                        <br>
-                        <b>Start time: @show.StartDateTime.ToString("HH:mm")</b>
-                        <br>
-                        <b>Genre: @show.MovieGenre</b>
-                        <br>
-                        <b>Age: @show.MovieMinimumAge</b>
-                        <br>
-                        <b>Playtime: @show.MoviePlayTime minutes</b>
-                        <br>
-                        <b>Hall: @show.RoomName - Wheelchair friendly: @show.RoomWheelchairFriendly</b>
-                        <br>
-                        <b>Special: @show.MovieSpecial</b>
-                    </p>
+                    <div class="container">
+                        <h5 class="card-title">
+                            <b>@show.MovieTitle</b>
+                        </h5>
+                        <div class="date">
+                            <p>@show.StartDateTime.ToString("dd-MM-yyyy")</p>
+                            <p>@show.StartDateTime.ToString("HH:mm")</p>
+                        </div>
+                        <p>@_localizer["Hall:"] @show.RoomName - @_localizer["Wheelchair friendly:"] @show.RoomWheelchairFriendly</p>
+                    </div>
                 </div>
             </div>
         </a>

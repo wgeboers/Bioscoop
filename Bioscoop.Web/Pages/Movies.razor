@@ -1,5 +1,6 @@
 ﻿@page "/Movies"
 @inherits MoviesBase
+@inject IStringLocalizer<Language> _localizer
 
 @if(Movies == null)
 {
@@ -7,13 +8,13 @@
 }
 else
 {
-    <h1 class="mb-5">Movies</h1>
+    <h1 class="mb-3">@_localizer["Movies"]</h1>
 
     var movieCount = Movies.Count();
 
     @if (movieCount > 0)
     {
-        const int moviesPerRow = 4;
+        const int moviesPerRow = 5;
         var movieRowList = new List<MovieDto>();
 
         @for (int i = 0; i < movieCount; i++)

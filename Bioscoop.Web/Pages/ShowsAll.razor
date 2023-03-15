@@ -1,5 +1,6 @@
 ﻿@page "/ShowsAll"
 @inherits ShowsAllBase
+@inject IStringLocalizer<Language> _localizer
 
 @if (Shows == null && ErrorMessage == null)
 {
@@ -11,17 +12,17 @@ else if (ErrorMessage != null)
 }
 else
 { // button to ShowsToday page
-    <h1 class="mb-5">Shows this week</h1>
+    <h1 class="mb-3">@_localizer["Shows this week"]</h1>
     <a href="/">
     <button class="btn btn-success">
-        <b>Shows today</b>
+        <b>@_localizer["Shows today"]</b>
     </button>
     </a>
     <button class="btn btn-success"
         @onclick = "() => (AddSecretTicket_ForShow(new TicketToAddDto {
             Price = 9
         }))"> 
-        <b>Go to a secret show!</b>
+        <b>@_localizer["Go to a secret show!"]</b>
         </button>
 
     // sort list on StartDateTime
@@ -31,7 +32,7 @@ else
         <div class="filter-item">
             <input type="text" class="form-control"
                 @bind="titleFilter"
-                placeholder="Titel" />
+                   placeholder=@_localizer["Title"] />
         </div>
         <div class="filter-item">
             <select name="genreFilter" class="form-select" @bind="genreFilter">
@@ -44,7 +45,7 @@ else
         </div>
         <div class="filter-item">
             <select name="ageFilter" class="form-select" @bind="ageFilter">
-                <option value="" disabled selected>Kijkwijzer</option>
+                <option value="" disabled selected>@_localizer["Kijkwijzer"]</option>
                 @foreach (var age in Ages.OrderBy(a => a))
                 {
                     <option value="@age">@age</option>
@@ -76,7 +77,7 @@ else
 
     @if (showCount > 0)
     {
-        const int showsPerRow = 4;
+        const int showsPerRow = 5;
         var showRowList = new List<ShowDto>();
 
         @for (int i = 0; i < showCount; i++)
@@ -89,6 +90,7 @@ else
             </div>
         }
     }
+    
 }
 
 @code {
