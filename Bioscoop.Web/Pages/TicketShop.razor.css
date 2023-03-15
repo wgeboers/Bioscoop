@@ -130,7 +130,7 @@
 
 .ticket-form{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 select {
@@ -149,7 +149,7 @@ select {
     }
 
 .button {
-    margin-top: 25px;
+    margin-top: 20px;
     width: 100%;
     align-items: center;
     appearance: none;
@@ -227,4 +227,9 @@ select {
 
 .message {
     color: red;
+}
+
+.poster {
+    height: auto;
+    width: 50%;
 }

@@ -3,19 +3,18 @@
 
 @foreach (var movie in Movies)
 {
-    <div class="col-md-3 mb-2">
+    <div class="fullCard">
         <a href="/MovieDetails/@movie.Id">
             <div class="card">
                 <img class="img-thumbnail" src="@movie.ImageURL">
                 <div class="card-body">
                     <h5 class="card-title mb-3">
-                        @movie.Title
+                        <b>@movie.Title</b>
                     </h5>
-                    <p class="card-text">
-                        <b>@_localizer["Playtime:"] @movie.PlayTime @_localizer["minutes"]</b>
-                        <br>
-                        <b>@_localizer["Minimum age:"] @movie.MinimumAge</b>
-                    </p>
+                    <div class="card-text">
+                        <p>@_localizer["Playtime:"] @movie.PlayTime @_localizer["minutes"]</p>
+                        <p>@_localizer["Minimum age:"] @movie.MinimumAge</p>
+                    </div>
                 </div>
             </div>
         </a>

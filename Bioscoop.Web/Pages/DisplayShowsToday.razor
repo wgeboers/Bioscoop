@@ -3,25 +3,22 @@
 
 @foreach (var show in Shows)
 {
-    <div class=" col-md-3 mb-2">
+    <div class="fullCard">
         <a href="/ShowDetails/@show.Id">
             <div class="card">
                 <img class="img-thumbnail" src="@show.MovieImageURL">
                 <div class="card-body">
-                    <h5 class="card-title mb-3">
-                        @show.MovieTitle
-                    </h5>
-                    <p class="card-text">
-                        <b>@_localizer["Date:"] @show.StartDateTime.ToString("dd-MM-yyyy")</b>
-                        <br>
-                        <b>@_localizer["Start time:"] @show.StartDateTime.ToString("HH:mm")</b>
-                        <br>
-                        <b>@_localizer["Playtime:"] @show.MoviePlayTime @_localizer["minutes"]</b>
-                        <br>
-                        <b>@_localizer["Hall:"] @show.RoomName - @_localizer["Wheelchair friendly:"] @if (@show.RoomWheelchairFriendly == true) {<div style="display:inline"> @_localizer["Yes"]</div>} else {<div style="display:inline">@_localizer["No"]</div>}</b>
-                        <br>
-                        <b>@_localizer["Special:"] @if (@show.MovieSpecial == true) {<div style="display:inline"> @_localizer["Yes"]</div>} else {<div style="display:inline">@_localizer["No"]</div>}</b>
-                    </p>
+                    <div class="container">
+                        <h5 class="card-title">
+                            <b>@show.MovieTitle</b>
+                        </h5>
+                        <div class="date">
+                            <p>@show.StartDateTime.ToString("dd-MM-yyyy")</p>
+                            <p>@show.StartDateTime.ToString("HH:mm")</p>
+                        </div>
+                        <p>@_localizer["Playtime:"] @show.MoviePlayTime minutes</p>
+                        <p>@_localizer["Hall:"] @show.RoomName - @_localizer["Wheelchair friendly:"] @show.RoomWheelchairFriendly</p>
+                    </div>
                 </div>
             </div>
         </a>

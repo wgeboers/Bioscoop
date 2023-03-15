@@ -11,15 +11,18 @@ else if (ErrorMessage != null)
     <h3 class="text-danger">@ErrorMessage</h3>
 }
 else
-{ // button to ShowsToday page
-    <h1 class="mb-5">@_localizer["Shows this week"]</h1>
-    <a href="/">
-        <button class="btn btn-success">
-                <b>@_localizer["Shows today"]</b>
-        </button>
-    </a>
+{
+    <h1 class="mb-3">@_localizer["Shows this week"]</h1>
 
-    // sort list on StartDateTime
+    // button to ShowsToday page
+    <div class="container">
+        <a href="/">
+            <button class="button">
+                <b>@_localizer["Shows today"]</b>
+            </button>
+        </a>
+    </div>
+    
     var showListSorted = Shows.OrderBy(x => x.StartDateTime);
 
     <form class="filter-form">
@@ -71,7 +74,7 @@ else
 
     @if (showCount > 0)
     {
-        const int showsPerRow = 4;
+        const int showsPerRow = 5;
         var showRowList = new List<ShowDto>();
 
         @for (int i = 0; i < showCount; i++)
@@ -84,6 +87,7 @@ else
             </div>
         }
     }
+    
 }
 
 @code {

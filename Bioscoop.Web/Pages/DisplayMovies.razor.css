@@ -7,9 +7,19 @@
         transition: box-shadow 0.3s ease-in-out;
     }
 
+h5 {
+    font-size: 16px;
+}
+
+.fullCard {
+    height: auto;
+    width: 300px;
+}
+
 .card {
     transition: box-shadow 0.3s ease-in-out;
     overflow: hidden;
+    color: black;
 }
 
 a:hover img {
