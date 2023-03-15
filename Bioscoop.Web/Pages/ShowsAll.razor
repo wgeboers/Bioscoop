@@ -18,12 +18,12 @@ else
         <b>@_localizer["Shows today"]</b>
     </button>
     </a>
-    <button class="btn btn-success"
+    @*<button class="btn btn-success"
         @onclick = "() => (AddSecretTicket_ForShow(new TicketToAddDto {
-            Price = 9
+            Price = 9,
         }))"> 
         <b>@_localizer["Go to a secret show!"]</b>
-        </button>
+        </button>*@
 
     // sort list on StartDateTime
     var showListSorted = Shows.OrderBy(x => x.StartDateTime);

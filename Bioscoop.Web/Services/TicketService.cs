@@ -71,7 +71,7 @@ namespace Bioscoop.Web.Services.Contracts
             }
         }
 
-        public async Task<IEnumerable<TicketDto>> GetTicketsByShow(int id)
+        public async Task<TicketDto> AddTicket(TicketToAddDto ticketToAddDto)
         {
             try
             {
@@ -131,7 +131,7 @@ namespace Bioscoop.Web.Services.Contracts
             }
         }
 
-        public async Task<IEnumerable<TicketDto>> GetTickets(int ticketId)
+        public async Task<IEnumerable<TicketDto>> GetTicketsByShow(int id)
         {
             try
             {

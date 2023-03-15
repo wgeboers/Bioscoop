@@ -201,6 +201,7 @@ namespace Bioscoop.Api.Repositories
                                         SeatNumber = ticketToAddDto.SeatNumber,
                                         Price = ticketToAddDto.Price,
                                         Secret = true,
+                                        Special = ""
                                     }).SingleOrDefaultAsync();
                 if (ticket != null)
                 {
