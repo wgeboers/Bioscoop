@@ -44,7 +44,9 @@ else
                     <br>
                     <b>@_localizer["Minimum age:"] @Show.MovieMinimumAge</b>
                     <br>
-                    <b>@_localizer["Hall:"] @Show.RoomName - @_localizer["Wheelchair friendly:"] @if (@Show.RoomWheelchairFriendly == true)
+                    <b>@_localizer["Hall:"] @Show.RoomName</b>
+                    <br>
+                    <b>@_localizer["Wheelchair friendly:"] @if (@Show.RoomWheelchairFriendly == true)
                         {
                             <div style="display:inline"> @_localizer["Yes"]</div>
                         }
@@ -52,7 +54,7 @@ else
                         {
                             <div style="display:inline">@_localizer["No"]</div>
                         }</b>
-                </b>
+                    </b>
             </p>
             
             <div> <!-- Button to get a ticket -->

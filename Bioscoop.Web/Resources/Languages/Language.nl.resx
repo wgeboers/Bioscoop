@@ -145,6 +145,10 @@
     <value>Koop kaartje!</value>
     <comment>Get ticket!</comment>
   </data>
+  <data name="Go to a secret show!" xml:space="preserve">
+    <value>Ga naar een geheime voorstelling!</value>
+    <comment>Go to a secret show!</comment>
+  </data>
   <data name="Hall:" xml:space="preserve">
     <value>Zaal:</value>
     <comment>Hall:</comment>

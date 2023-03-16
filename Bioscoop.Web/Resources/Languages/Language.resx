@@ -145,6 +145,10 @@
     <value>Get ticket!</value>
     <comment>Get ticket!</comment>
   </data>
+  <data name="Go to a secret show!" xml:space="preserve">
+    <value>Go to a secret show!</value>
+    <comment>Go to a secret show!</comment>
+  </data>
   <data name="Hall:" xml:space="preserve">
     <value>Hall:</value>
     <comment>Hall:</comment>

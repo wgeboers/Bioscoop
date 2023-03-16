@@ -124,6 +124,15 @@ namespace Bioscoop.Web.Resources.Languages {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Go to a secret show!.
+        /// </summary>
+        public static string Go_to_a_secret_show_ {
+            get {
+                return ResourceManager.GetString("Go to a secret show!", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Hall:.
         /// </summary>
         public static string Hall_ {

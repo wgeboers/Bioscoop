@@ -17,7 +17,17 @@
                             <p>@show.StartDateTime.ToString("HH:mm")</p>
                         </div>
                         <p>@_localizer["Playtime:"] @show.MoviePlayTime minutes</p>
-                        <p>@_localizer["Hall:"] @show.RoomName - @_localizer["Wheelchair friendly:"] @show.RoomWheelchairFriendly</p>
+                        <p>@_localizer["Hall:"] @show.RoomName</p>
+                        <p>
+                            @_localizer["Wheelchair friendly:"] @if (show.RoomWheelchairFriendly == true)
+                            {
+                                <div style="display:inline"> @_localizer["Yes"]</div>
+                            }
+                            else
+                            {
+                                <div style="display:inline">@_localizer["No"]</div>
+                            }
+                        </p>
                     </div>
                 </div>
             </div>
