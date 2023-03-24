@@ -47,10 +47,10 @@ namespace Bioscoop.Web.Pages
             try
             {
                 var ticketDto = await TicketService.AddSecretTicket(ticketToAddDto);
-                var PaymentID = paymentDto.PaymentID;
-
+                var paymentId = paymentDto.PaymentID;
                 
-                NavigationManager.NavigateTo($"api/Payment/getpaymentlink");
+
+                NavigationManager.NavigateTo($"api/Payment/getpaymentlink/{paymentId}");
             }
             catch (Exception)
             {
