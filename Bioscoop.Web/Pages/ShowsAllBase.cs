@@ -24,19 +24,37 @@ namespace Bioscoop.Web.Pages
             Ages = Shows.Select(x => x.MovieMinimumAge).Distinct();
         }
 
-        protected async Task AddSecretTicket_ForShow(TicketToAddDto ticketToAddDto)
+        /*protected async Task AddSecretTicket_ForShow(TicketToAddDto ticketToAddDto)
         {
             try
             {
                 var ticketDto = await TicketService.AddSecretTicket(ticketToAddDto);
                 var ticketid = ticketDto.Id;
 
-                NavigationManager.NavigateTo($"/TicketDetails/{ticketid}");
+                
+                NavigationManager.NavigateTo($"api/Payment/getpaymentlink");
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
+                throw;
+            }
+        }*/
+
+        protected async Task AddSecretTicket_ForShow(PaymentDto paymentDto, TicketToAddDto ticketToAddDto)
+        {
+            try
+            {
+                var ticketDto = await TicketService.AddSecretTicket(ticketToAddDto);
+                var PaymentID = paymentDto.PaymentID;
+
+                NavigationManager.NavigateTo($"api/Payment/getpaymentlink");
+            }
+            catch (Exception)
+            {
+
+                throw;
             }
         }
     }
