@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bioscoop.Api.Migrations
 {
     [DbContext(typeof(BioscoopDbContext))]
-    [Migration("20230314150813_AddedTranslation")]
-    partial class AddedTranslation
+    [Migration("20230326185615_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -243,41 +243,401 @@ namespace Bioscoop.Api.Migrations
                         new
                         {
                             Id = 1,
-                            MovieId = 3,
-                            RoomId = 2,
-                            StartDateTime = new DateTime(2023, 3, 14, 16, 8, 13, 207, DateTimeKind.Local).AddTicks(8552),
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 27, 12, 0, 0, 0, DateTimeKind.Local),
                             Type = "2D"
                         },
                         new
                         {
                             Id = 2,
-                            MovieId = 3,
-                            RoomId = 2,
-                            StartDateTime = new DateTime(2023, 3, 14, 16, 8, 13, 207, DateTimeKind.Local).AddTicks(8625),
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 27, 16, 0, 0, 0, DateTimeKind.Local),
                             Type = "3D"
                         },
                         new
                         {
                             Id = 3,
-                            MovieId = 3,
-                            RoomId = 2,
-                            StartDateTime = new DateTime(2023, 3, 14, 16, 8, 13, 207, DateTimeKind.Local).AddTicks(8638),
-                            Type = "3D-HFR"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            MovieId = 3,
-                            RoomId = 2,
-                            StartDateTime = new DateTime(2023, 3, 14, 16, 8, 13, 207, DateTimeKind.Local).AddTicks(8651),
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 27, 20, 0, 0, 0, DateTimeKind.Local),
                             Type = "IMAX"
                         },
                         new
                         {
-                            Id = 5,
-                            MovieId = 3,
+                            Id = 4,
+                            MovieId = 2,
                             RoomId = 2,
-                            StartDateTime = new DateTime(2023, 3, 14, 16, 8, 13, 207, DateTimeKind.Local).AddTicks(8663),
+                            StartDateTime = new DateTime(2023, 3, 27, 13, 0, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 3, 27, 17, 0, 0, 0, DateTimeKind.Local),
+                            Type = "3D-HFR"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 3, 27, 20, 0, 0, 0, DateTimeKind.Local),
+                            Type = "IMAX"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 27, 14, 0, 0, 0, DateTimeKind.Local),
+                            Type = "IMAX"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 27, 18, 0, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 27, 22, 0, 0, 0, DateTimeKind.Local),
+                            Type = "3D"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 27, 15, 0, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 27, 19, 0, 0, 0, DateTimeKind.Local),
+                            Type = "IMAX"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 27, 23, 0, 0, 0, DateTimeKind.Local),
+                            Type = "3D"
+                        },
+                        new
+                        {
+                            Id = 13,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 27, 11, 30, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 14,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 27, 15, 30, 0, 0, DateTimeKind.Local),
+                            Type = "3D"
+                        },
+                        new
+                        {
+                            Id = 15,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 27, 19, 30, 0, 0, DateTimeKind.Local),
+                            Type = "3D-HFR"
+                        },
+                        new
+                        {
+                            Id = 16,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 28, 12, 0, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 17,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 3, 28, 16, 0, 0, 0, DateTimeKind.Local),
+                            Type = "IMAX"
+                        },
+                        new
+                        {
+                            Id = 18,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 28, 20, 0, 0, 0, DateTimeKind.Local),
+                            Type = "3D"
+                        },
+                        new
+                        {
+                            Id = 19,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 28, 13, 0, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 20,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 28, 17, 0, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 21,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 29, 20, 0, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 22,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 3, 29, 14, 0, 0, 0, DateTimeKind.Local),
+                            Type = "3D"
+                        },
+                        new
+                        {
+                            Id = 23,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 29, 18, 0, 0, 0, DateTimeKind.Local),
+                            Type = "IMAX"
+                        },
+                        new
+                        {
+                            Id = 24,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 29, 22, 0, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 25,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 29, 15, 0, 0, 0, DateTimeKind.Local),
+                            Type = "3D-HFR"
+                        },
+                        new
+                        {
+                            Id = 26,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 30, 19, 0, 0, 0, DateTimeKind.Local),
+                            Type = "3D"
+                        },
+                        new
+                        {
+                            Id = 27,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 3, 30, 23, 0, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 28,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 30, 11, 30, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 29,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 30, 15, 30, 0, 0, DateTimeKind.Local),
+                            Type = "IMAX"
+                        },
+                        new
+                        {
+                            Id = 30,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 30, 19, 30, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 31,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 31, 19, 0, 0, 0, DateTimeKind.Local),
+                            Type = "3D"
+                        },
+                        new
+                        {
+                            Id = 32,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 3, 31, 23, 0, 0, 0, DateTimeKind.Local),
+                            Type = "3D-HFR"
+                        },
+                        new
+                        {
+                            Id = 33,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 31, 11, 30, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 34,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 31, 15, 30, 0, 0, DateTimeKind.Local),
+                            Type = "IMAX"
+                        },
+                        new
+                        {
+                            Id = 35,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 31, 19, 30, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 36,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 4, 1, 19, 0, 0, 0, DateTimeKind.Local),
+                            Type = "3D"
+                        },
+                        new
+                        {
+                            Id = 37,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 4, 1, 23, 0, 0, 0, DateTimeKind.Local),
+                            Type = "3D-HFR"
+                        },
+                        new
+                        {
+                            Id = 38,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 4, 1, 11, 30, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 39,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 4, 1, 15, 30, 0, 0, DateTimeKind.Local),
+                            Type = "IMAX"
+                        },
+                        new
+                        {
+                            Id = 40,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 4, 1, 19, 30, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 41,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 26, 19, 0, 0, 0, DateTimeKind.Local),
+                            Type = "3D"
+                        },
+                        new
+                        {
+                            Id = 42,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 3, 26, 23, 0, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 43,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 26, 11, 30, 0, 0, DateTimeKind.Local),
+                            Type = "3D-HFR"
+                        },
+                        new
+                        {
+                            Id = 44,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 26, 15, 30, 0, 0, DateTimeKind.Local),
+                            Type = "IMAX"
+                        },
+                        new
+                        {
+                            Id = 45,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 26, 19, 30, 0, 0, DateTimeKind.Local),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 46,
+                            MovieId = 1,
+                            RoomId = 1,
+                            StartDateTime = new DateTime(2023, 3, 26, 20, 56, 15, 536, DateTimeKind.Local).AddTicks(8274),
+                            Type = "3D"
+                        },
+                        new
+                        {
+                            Id = 47,
+                            MovieId = 2,
+                            RoomId = 2,
+                            StartDateTime = new DateTime(2023, 3, 26, 20, 56, 15, 536, DateTimeKind.Local).AddTicks(8327),
+                            Type = "2D"
+                        },
+                        new
+                        {
+                            Id = 48,
+                            MovieId = 3,
+                            RoomId = 3,
+                            StartDateTime = new DateTime(2023, 3, 26, 20, 56, 15, 536, DateTimeKind.Local).AddTicks(8334),
+                            Type = "3D-HFR"
+                        },
+                        new
+                        {
+                            Id = 49,
+                            MovieId = 4,
+                            RoomId = 4,
+                            StartDateTime = new DateTime(2023, 3, 26, 20, 56, 15, 536, DateTimeKind.Local).AddTicks(8341),
+                            Type = "IMAX"
+                        },
+                        new
+                        {
+                            Id = 50,
+                            MovieId = 5,
+                            RoomId = 5,
+                            StartDateTime = new DateTime(2023, 3, 26, 20, 56, 15, 536, DateTimeKind.Local).AddTicks(8348),
                             Type = "2D"
                         });
                 });
@@ -296,6 +656,9 @@ namespace Bioscoop.Api.Migrations
                     b.Property<string>("PaymentID")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("Popcorn")
+                        .HasColumnType("bit");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
@@ -305,8 +668,15 @@ namespace Bioscoop.Api.Migrations
                     b.Property<int>("SeatNumber")
                         .HasColumnType("int");
 
+                    b.Property<bool?>("Secret")
+                        .HasColumnType("bit");
+
                     b.Property<int>("ShowId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Special")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -318,30 +688,36 @@ namespace Bioscoop.Api.Migrations
                             Id = 1,
                             Code = 1,
                             PaymentID = "1",
+                            Popcorn = false,
                             Price = 9.00m,
                             RowNumber = 1,
                             SeatNumber = 1,
-                            ShowId = 1
+                            ShowId = 1,
+                            Special = "VIP-arrangement"
                         },
                         new
                         {
                             Id = 2,
                             Code = 2,
                             PaymentID = "2",
+                            Popcorn = true,
                             Price = 9.00m,
                             RowNumber = 1,
                             SeatNumber = 2,
-                            ShowId = 1
+                            ShowId = 1,
+                            Special = ""
                         },
                         new
                         {
                             Id = 3,
                             Code = 3,
                             PaymentID = "3",
+                            Popcorn = true,
                             Price = 8.50m,
                             RowNumber = 1,
                             SeatNumber = 3,
-                            ShowId = 1
+                            ShowId = 1,
+                            Special = "Kinderarrangement"
                         });
                 });
 #pragma warning restore 612, 618

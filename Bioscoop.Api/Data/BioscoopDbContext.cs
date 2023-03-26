@@ -234,6 +234,17 @@ namespace Bioscoop.Api.Data
             { Id = 44, MovieId = 4, RoomId = 4, StartDateTime = today.NextDayAt(DayOfWeek.Sunday, 15, 30), Type = "IMAX" });
             modelBuilder.Entity<Show>().HasData(new Show
             { Id = 45, MovieId = 5, RoomId = 5, StartDateTime = today.NextDayAt(DayOfWeek.Sunday, 19, 30), Type = "2D" });
+            modelBuilder.Entity<Show>().HasData(new Show
+            { Id = 46, MovieId = 1, RoomId = 1, StartDateTime = DateTime.Now, Type = "3D" });
+            modelBuilder.Entity<Show>().HasData(new Show
+            { Id = 47, MovieId = 2, RoomId = 2, StartDateTime = DateTime.Now, Type = "2D" });
+            modelBuilder.Entity<Show>().HasData(new Show
+            { Id = 48, MovieId = 3, RoomId = 3, StartDateTime = DateTime.Now, Type = "3D-HFR" });
+            modelBuilder.Entity<Show>().HasData(new Show
+            { Id = 49, MovieId = 4, RoomId = 4, StartDateTime = DateTime.Now, Type = "IMAX" });
+            modelBuilder.Entity<Show>().HasData(new Show
+            { Id = 50, MovieId = 5, RoomId = 5, StartDateTime = DateTime.Now, Type = "2D" });
+
 
             //Add Tickets
             modelBuilder.Entity<Ticket>().HasData(new Ticket

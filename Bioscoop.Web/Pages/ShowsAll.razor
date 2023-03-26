@@ -32,8 +32,6 @@ else
             <b>@_localizer["Go to a secret show!"]</b>
         </button>
     </div>
-    
-    var showListSorted = Shows.OrderBy(x => x.StartDateTime);
 
     <form class="filter-form">
         <div class="filter-item">
@@ -79,6 +77,21 @@ else
             @_localizer["Clear"]
         </button>
     </form>
+
+    // filter for shows of today
+    var startOfDay = DateTime.Now.Date;
+    var endOfWeek = DateTime.Now.Date.AddDays(8).AddTicks(-1);
+    var showListWeek = new List<ShowDto>();
+
+    @foreach (var show in Shows)
+    {
+        @if (show.StartDateTime < endOfWeek && show.StartDateTime > startOfDay)
+        {
+            showListWeek.Add(show);
+        }
+    }
+
+    var showListSorted = showListWeek.OrderBy(x => x.StartDateTime);
 
     var showCount = Shows.Count();
 
