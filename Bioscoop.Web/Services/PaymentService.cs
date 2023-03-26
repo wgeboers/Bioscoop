@@ -14,6 +14,11 @@ namespace Bioscoop.Web.Services
             this.httpClient = httpClient;
         }
 
+        internal static string GetPaymentLink(object paymentID)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<PaymentDto> GetPaymentLink(string paymentID)
         {
             try

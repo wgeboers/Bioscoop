@@ -1,6 +1,9 @@
 ﻿using Bioscoop.Models.Dtos;
+using Bioscoop.Models.Models;
+using Bioscoop.Web.Services;
 using Bioscoop.Web.Services.Contracts;
 using Microsoft.AspNetCore.Components;
+using Microsoft.JSInterop;
 
 namespace Bioscoop.Web.Pages
 {
@@ -12,9 +15,13 @@ namespace Bioscoop.Web.Pages
         public ITicketService TicketService { get; set; }
         [Inject]
         public NavigationManager NavigationManager { get; set; }
+        [Inject]
+        public IPaymentService PaymentService { get; set; }
         public IEnumerable<ShowDto> Shows { get; set; }
         public IEnumerable<string> Genres { get; set; }
         public IEnumerable<int> Ages { get; set; }
+        public PaymentDto Payment { get; set; }
+        public TicketDto Ticket { get; set; }
         public string ErrorMessage { get; set; }
 
         protected override async Task OnInitializedAsync()

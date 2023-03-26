@@ -1,6 +1,15 @@
-﻿@page "/ShowsAll"
+﻿@using System.Text.Json;
+@using System.IO;
+@using Bioscoop.Web.Services;
+@using Microsoft.AspNetCore.WebUtilities;
+
+
+@page "/ShowsAll"
 @inherits ShowsAllBase
+@inject Microsoft.JSInterop.IJSRuntime JS
+@inject IJSRuntime JSRuntime;
 @inject IStringLocalizer<Language> _localizer
+@inject NavigationManager NavManager;
 
 @if (Shows == null && ErrorMessage == null)
 {
@@ -29,7 +38,13 @@ else
             Popcorn = false, 
             Special = special
             }))">
+
             <b>@_localizer["Go to a secret show!"]</b>
+        </button>
+
+        <button class="button"
+         @onclick="(() => PayTicket(Ticket.Price, Ticket))">
+         <b>@_localizer["Pay Ticket"]</b>
         </button>
     </div>
     
@@ -250,5 +265,13 @@ else
         ageFilter = string.Empty;
         specialFilter = string.Empty;
         navigationManager.NavigateTo("/ShowsAll", true);
+    }
+
+}
+@functions {
+    async void PayTicket(decimal amount, TicketDto ticket)
+    {
+        Payment = await PaymentService.MakePayment(amount, ticket);
+        JSRuntime.InvokeVoidAsync("open", Payment.PaymentLink, "_self");
     }
 }
