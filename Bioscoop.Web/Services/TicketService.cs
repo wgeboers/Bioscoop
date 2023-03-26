@@ -3,7 +3,7 @@ using System.Net.Http.Json;
 
 namespace Bioscoop.Web.Services.Contracts
 {
-    public class TicketService : ITicketService 
+    public class TicketService : ITicketService
     {
         private readonly HttpClient httpClient;
 
